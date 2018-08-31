@@ -36,6 +36,11 @@ gulp.task('browserSync', function() {
   })
 })
 
+function reload(done) {
+  browserSync.reload();
+  done();
+}
+
 gulp.task('clean', function () {
     return gulp.src(dst, {read: false})
         .pipe(plumber())
@@ -63,7 +68,8 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(plumber())
           .pipe(handlebars(page, options))
           .pipe(rename(fileName + ".html"))
-          .pipe(gulp.dest(dst));
+          .pipe(gulp.dest(dst))
+          .pipe(browserSync.stream());
   }
   done();
 
@@ -71,21 +77,39 @@ gulp.task('buildFromTemplates', function(done) {
 
 
 
-gulp.task('move', function(){
-  return gulp.src('./src/*', '!src/scss/')
-    .pipe(plumber())
-    .pipe(gulp.dest(dst))
+
+
+
+
+// gulp.task('watch', function (){
+//   gulp.watch([fHtml, fScss, fJs, fJson, fMd], gulp.series( 'clean', 'sass', 'buildFromTemplates', browserSync.reload, 'watch'));
+//  });
+
+
+// var watcher = gulp.watch([fHtml, fScss, fJs, fJson, fMd] /* You can also pass options and/or a task function here */);
+// watcher.on('all', function(event, path, stats) {
+//   console.log('File ' + path + ' was ' + event + ', running tasks...');
+//   gulp.series( 'clean', 'sass', 'buildFromTemplates', browserSync.reload);
+// });
+
+
+gulp.task('build',
+  gulp.series('clean', 'sass', 'buildFromTemplates',
+  function(done) {
+      done();
+  }
+));
+
+
+gulp.task('watch', function () {
+  gulp.watch([[fHtml, fScss, fJs, fJson, fMd]
+  ], gulp.series('build'));
 });
 
 
 
-gulp.task('watch', function (){
-  gulp.watch([fHtml, fScss, fJs, fJson, fMd], gulp.series( 'clean', 'sass', 'buildFromTemplates', browserSync.reload, 'watch'));
- });
-
-
 gulp.task('default',
-  gulp.series('clean', 'sass', 'buildFromTemplates', gulp.parallel('browserSync', 'watch'),
+  gulp.series('build', gulp.parallel('browserSync','watch'),
   function(done) {
       done();
   }
