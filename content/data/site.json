@@ -1,0 +1,30 @@
+{
+  "siteName": "Site",
+  "logo": "test.png",
+  "url": "test.png",
+  "pages": [
+    {
+      "name": "index",
+      "template": "basic",
+      "title": "A page 222",
+      "content":
+      [
+        {
+          "file": "page"
+        }
+      ]
+    },
+    {
+      "name": "page2",
+      "template": "basic",
+      "title": "B page",
+      "content":
+      [
+        {
+          "file": "page"
+        }
+      ]
+    }
+
+  ]
+  }
