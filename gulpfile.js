@@ -85,7 +85,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(rename(fileName + ".html"))
           .pipe(useref())
           .pipe(gulp.dest(dst))
-          .pipe(browserSync.stream());
+          //.pipe(browserSync.stream());
   }
   done();
 });
