@@ -1,30 +1,58 @@
 {
-  "siteName": "Site",
-  "logo": "test.png",
-  "url": "test.png",
+  "siteName": "Nieuwe Maritime Geschiedenis van Nederland",
   "pages": [
     {
-      "name": "index",
       "template": "basic",
-      "title": "A page 222",
-      "content":
-      [
-        {
-          "file": "page"
-        }
-      ]
+      "name": "index",
+      "title": "Nieuwe Maritime Geschiedenis van Nederland",
+      "content": "text"
     },
     {
-      "name": "page2",
+      "template": "inleiding",
+      "name": "deel1",
+      "title": "Inleiding",
+      "content": "text"
+    },
+    {
       "template": "basic",
-      "title": "B page",
-      "content":
-      [
-        {
-          "file": "page"
-        }
-      ]
+      "name": "binnenvaart-1200-1600",
+      "title": "Binnenvaart",
+      "part": "1",
+      "chapter": "1",
+      "content": "text"
+    },
+    {
+      "template": "basic",
+      "name": "koopvaardij-1200-1600",
+      "title": "Koopvaardij",
+      "part": "1",
+      "chapter": "2",
+      "content": "text"
+    },
+    {
+      "template": "basic",
+      "name": "marine-1200-1600",
+      "title": "Marine",
+      "part": "1",
+      "chapter": "3",
+      "content": "text"
+    },
+    {
+      "template": "basic",
+      "name": "visserij-1200-1600",
+      "title": "Visserij",
+      "part": "1",
+      "chapter": "4",
+      "content": "text"
+    },
+    {
+      "template": "basic",
+      "name": "cultuurhistorisch-katern-1200-1600",
+      "title": "Cultuurhistorisch katern",
+      "part": "1",
+      "chapter": "5",
+      "content": "text"
     }
 
   ]
-  }
+}
