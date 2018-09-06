@@ -1,5 +1,11 @@
 <nav>
 {{#each pages}}
-  <a href="{{name}}.html">{{title}}</a>
+  {{#if isChapterPage}}
+    <br><strong>Deel {{part}}</strong>
+    <a href="{{name}}.html">{{title}}</a>
+  {{else}}
+    <a href="{{name}}.html">{{title}}</a>
+  {{/if}}
+
 {{/each}}
 </nav>
