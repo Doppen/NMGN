@@ -1,5 +1,5 @@
 {
-  "name": "Gulp build",
+  "name": "nmgn-build",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -9,7 +9,7 @@
   "author": "Bas Doppen",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "github:gulpjs/gulp#4.0"
+    "gulp": "^4.0.0"
   },
   "dependencies": {
     "browser-sync": "^2.24.7",

@@ -8,6 +8,7 @@ var clean = require('gulp-clean');
 var rename = require('gulp-rename');
 var handlebars = require('gulp-compile-handlebars');
 var useref = require('gulp-useref');
+var replace = require('gulp-replace');
 
 var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
@@ -83,6 +84,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(plumber())
           .pipe(handlebars(page, options))
           .pipe(rename(fileName + ".html"))
+          .pipe(replace('src="d1h1-web-resources/image/', 'src="images/'))
           .pipe(useref())
           .pipe(gulp.dest(dst))
           //.pipe(browserSync.stream());
@@ -91,12 +93,17 @@ gulp.task('buildFromTemplates', function(done) {
 });
 
 
+gulp.task('copyImg', function(){
+  return gulp.src(fImages)
+    .pipe(plumber())
+    .pipe(gulp.dest(dst+'images'))
+});
 
 
 
 
 gulp.task('build',
-  gulp.series('clean', 'sass', 'buildFromTemplates',
+  gulp.series('clean', 'sass', 'buildFromTemplates', 'copyImg',
   function(done) {
       done();
   }
