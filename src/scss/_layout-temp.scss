@@ -36,3 +36,52 @@ nav {
   display: flex;
   flex-direction: column;
 }
+
+table {
+}
+
+td {
+  padding: 0 .5em;
+}
+
+.Bijschrift {
+  font-size: .8em;
+  color: #afafaf;
+}
+
+.txt {
+  display: block;
+  max-width: 600px;
+}
+
+.txt p {
+  -webkit-hyphens: auto;
+-moz-hyphens: auto;
+-ms-hyphens: auto;
+hyphens: auto;
+}
+
+.Basic-Graphics-Frame {
+
+}
+
+.Basic-Graphics-Frame img{
+  width: 50px;
+  height: auto;
+
+}
+
+.Superscript{
+  display: inline-block;
+
+}
+.Superscript a{
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;align-items: center;
+  border-radius: 50%;
+  border: 1px solid #cbcbcb;
+  color: #cbcbcb;
+  text-decoration: none;
+}

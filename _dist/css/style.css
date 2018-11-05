@@ -1,6 +1,8 @@
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-size: 18px;
+  line-height: 140%; }
 
 .temp-layout {
   display: flex;
@@ -29,3 +31,38 @@ body {
 nav {
   display: flex;
   flex-direction: column; }
+
+td {
+  padding: 0 .5em; }
+
+.Bijschrift {
+  font-size: .8em;
+  color: #afafaf; }
+
+.txt {
+  display: block;
+  max-width: 600px; }
+
+.txt p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; }
+
+.Basic-Graphics-Frame img {
+  width: 50px;
+  height: auto; }
+
+.Superscript {
+  display: inline-block; }
+
+.Superscript a {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #cbcbcb;
+  color: #cbcbcb;
+  text-decoration: none; }
