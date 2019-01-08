@@ -1,0 +1,73 @@
+$wizardItemColor: $colorSecundairy;
+$wizardIconHeight: 50px;
+$wizardLineHeight: 5px;
+$wizardLinePadding: ($wizardLineHeight + $wizardIconHeight)/2;
+$wizardLineMargin: 0 - $wizardLinePadding;
+
+
+.wizard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:flex-start;
+  width: 100%;
+  padding-top: $wizardLinePadding;
+}
+
+.wizard__step{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  width: 100%;
+  max-width: 150px;
+  cursor: pointer;
+}
+
+.wizard__line {
+  background-color: $wizardItemColor;
+  height: $wizardLineHeight;
+  width: 100%;
+  margin-bottom: $wizardLineMargin;
+}
+
+.wizard__step:first-child .wizard__line{
+  width: 50%;
+  margin-left:50%;
+}
+
+.wizard__step:last-child .wizard__line{
+  width: 50%;
+  margin-right: 50%;
+}
+
+
+.wizard__step-number-dot {
+  border-radius: 50%;
+  border: #{$wizardLineHeight} solid #{$wizardItemColor};
+  background: #fff;
+  width: $wizardIconHeight;
+  height: $wizardIconHeight;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $wizardItemColor;
+
+}
+.wizard__text {
+  width: 100%;
+  text-align: center;
+  font-size: $txtSmall;
+}
+
+.wizard__step--current  .wizard__step-number-dot{
+  color: $colorTxt;
+  font-weight: 700;
+  border-color: $colorTxt;
+
+}
+
+.wizard__step--done .wizard__step-number-dot{
+  background-color: $wizardItemColor;
+  color: rgba(255, 255, 255, 0.4);
+}

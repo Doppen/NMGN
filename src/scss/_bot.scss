@@ -1,0 +1,72 @@
+// #ddf279
+// #03dbe8
+
+#bot {
+  width: 100vw;
+  height: 100vh;
+}
+
+#faceStroke {
+  stroke: #03dbe8;
+  fill: none;
+  stroke-width: 3px;
+}
+
+#backCircle01{
+}
+
+#backCircle02 {
+  fill:#ffffff;
+}
+
+#backCircle03{
+  stroke: #ddf279;
+  fill: none;
+  stroke-width: 6px;
+}
+
+#backCircle04 {
+  stroke: #03dbe8;
+  fill: none;
+  stroke-width: 10px;
+
+}
+#backCircle05{
+  stroke: #ddf279;
+  fill: none;
+  stroke-width: 6px;
+}
+
+#backCircle06 {
+  stroke: #03dbe8;
+  fill: none;
+  stroke-width: 10px;
+
+}#backCircle07{
+  stroke: #ddf279;
+  fill: none;
+  stroke-width: 20px;
+}
+
+
+#theFace {
+  transform: translate(-200px, -200px) ;
+  width: 300px;
+  height: 300px;
+}
+
+#botFaceBG{
+  fill:#ffffff;
+}
+
+.lines {
+  stroke-width: 1px;
+  fill: none;
+  stroke: #03dbe8;
+}
+
+#maskCircle {
+  stroke: #03dbe8;
+  fill: #ddf279;
+  stroke-width: 2px;
+}

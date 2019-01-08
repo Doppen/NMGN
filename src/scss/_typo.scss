@@ -1,0 +1,67 @@
+//@import url('https://fonts.googleapis.com/css?family=Nunito:300,300i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,700');
+//@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,700');
+@import url('https://fonts.googleapis.com/css?family=Andada');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	//font-family: 'Andada', serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 150%;
+	font-style: normal;
+	color: $colorTxt;
+}
+
+
+
+h1 {
+	font-size: 1.8rem;
+	line-height: 130%;
+	font-weight: 700;
+	font-family: 'Andada', serif;
+}
+
+h2 {
+	font-size: 1.3rem;
+	line-height: 130%;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 1rem;
+	line-height: 130%;
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 1rem;
+	line-height: 130%;
+	font-weight: 700;
+	display: inline;
+}
+
+@media (min-width: 600px) {
+	body {
+		line-height: 150%;
+	}
+
+
+	h1, h2, h3, h4 {
+		line-height: 150%;
+	}
+}
+
+h1, h2, h3, h4 {
+  margin-top: 0;
+  margin-bottom: .3em;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+strong {
+	font-weight: 700;
+}

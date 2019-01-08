@@ -1,0 +1,194 @@
+// Segment
+.hc-formSegment {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 1px solid $colorGreyLightElement;
+  padding-top: $basicPadding;
+}
+
+.hc-formSegment-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $basicPadding;
+}
+
+.hc-formSegment-items {
+  width: 100%;
+}
+
+
+
+// form element
+.hc-form-item{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hc-form-item-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.hc-form-item-element-container {
+  flex: 5
+}
+
+.hc-form-item-element-extra {
+  flex: 1;
+  font-size: $txtSmall;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hc-form-item-element {
+
+}
+
+
+
+.hc-form-split {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.hc-form-split > *{
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.hc-input-row {
+  display: flex;
+  flex-direction:row;
+}
+
+.hc-form-validation {
+  @extend %smallGrey;
+  width: 3em;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  .hc-formSegment {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hc-formSegment-info {
+    width: 25%;
+  }
+
+  .hc-formSegment-items {
+    width: 75%;
+    width: calc(75% -  #{$basicPadding});
+  }
+
+  .hc-form-split {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hc-formSegment-info {
+    width: 33%;
+  }
+
+  .hc-formSegment-items {
+    width: 66%;
+    width: calc(66% -  #{$basicPadding});
+  }
+}
+
+
+
+
+.hc-formSegment-description {
+  @extend %smallGrey;
+}
+
+.hc-forms-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+
+.hc-form label {
+  @extend %label;
+  display: block;
+}
+
+%basicFormItem {
+  width: 100%;
+  max-width: 400px;
+  padding: .5rem;
+  background-color: $colorFormElements;
+  border: 1px solid darken( $colorFormElements, 4% );
+  border-radius: $basicBorderRadius;
+  font-size: 1rem;
+  font-weight: 300;
+  color: $colorTxt
+}
+
+
+.hc-form input {
+  @extend %basicFormItem;
+}
+
+.hc-form select {
+  @extend %basicFormItem;
+  height: 40px;
+}
+
+.hc-form option {
+  @extend %basicFormItem;
+}
+
+
+::placeholder {
+  font-style: italic;
+  @extend %smallGrey;
+}
+
+.hc-input-big {
+  padding: 1rem !important;
+}
+
+
+// messages
+.hc-succes input, .hc-succes select{
+	border-right: 7px solid $colorSucces;
+}
+
+.hc-danger input, .hc-danger select {
+	border-right: 7px solid $colorDanger;
+}
+
+.hc-warning input, .hc-warning select{
+	border-right: 7px solid $colorWarning;
+}
+
+.hc-succes .hc-message{
+	color: darken( $colorSucces, 20%);
+}
+
+.hc-danger  .hc-message {
+	color: darken( $colorDanger, 20%);
+}
+
+.hc-warning  .hc-message{
+	color: darken( $colorWarning, 20%);
+}

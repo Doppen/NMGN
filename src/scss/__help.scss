@@ -1,0 +1,14 @@
+@import 'normalise';
+
+//vars in styles
+width: calc(66% - #{$hucBarWidth});
+
+// reuse markup
+@extend %smallGrey;
+
+
+darken( $base-color, 10% )
+lighten( $base-color, 10% )
+
+@media (min-width: 600px) {
+}

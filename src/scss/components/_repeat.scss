@@ -1,0 +1,31 @@
+.hc-multiple-valueList {
+
+}
+
+.hc-multiple-valueList li{
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hc-multiple-val {
+
+}
+
+.hc-repeat-list {
+  font-size: $txtSmall;
+}
+
+.hc-repeat-list .hc-form-item-row {
+  border-bottom: 1px solid $colorGreyLightElement;
+  padding: .4em 0;
+
+}
+
+.hc-add-another-button {
+  align-self: flex-end;
+  margin-bottom: -1em;
+  transform: scale(0.8, 0.8);
+}

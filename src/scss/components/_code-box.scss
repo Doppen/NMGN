@@ -1,0 +1,12 @@
+code {
+  width: 100%;
+}
+
+pre {
+	white-space: pre-wrap;
+  background-color: $colorGreyLightBg;
+  padding: 1rem;
+  font-size: .7em;
+  width: 100%;
+  overflow-x: scroll;
+}

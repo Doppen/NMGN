@@ -1,0 +1,37 @@
+body {
+
+}
+
+.focus-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+//
+
+.main {
+  height: calc(100vh - 6rem);
+  background-color: #32302d;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.focus-message {
+  max-width: 900px;
+  padding: 2rem;
+  font-size: calc(18px + 3.0vw);
+  line-height: 110%
+}
+
+.bottom {
+}
+
+.extra {
+  background-color: #47bba5;
+  padding: 2rem;
+}
