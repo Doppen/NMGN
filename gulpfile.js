@@ -1,6 +1,9 @@
 // npm i
 // npm audit fix --force
 
+
+// gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data.json -b
+
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var plumber = require('gulp-plumber');
@@ -9,6 +12,7 @@ var rename = require('gulp-rename');
 var handlebars = require('gulp-compile-handlebars');
 var useref = require('gulp-useref');
 var replace = require('gulp-replace');
+var exec = require('child_process').exec;
 
 var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
@@ -45,6 +49,21 @@ function reload(done) {
   browserSync.reload();
   done();
 }
+
+gulp.task('cleanJson', function () {
+    return gulp.src(['content/data-links.json'], {read: false, allowEmpty: true})
+        .pipe(plumber())
+        .pipe(clean())
+});
+
+gulp.task('getJ', gulp.series('cleanJson', function (cb) {
+  exec('gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data-links.json -b', function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);
+  });
+}))
+
 
 gulp.task('clean', function () {
     return gulp.src(dst, {read: false})
