@@ -50,6 +50,8 @@ function reload(done) {
   done();
 }
 
+
+// clear Json files en get new data from google docs
 gulp.task('cleanJson', function () {
     return gulp.src(['content/data-links.json'], {read: false, allowEmpty: true})
         .pipe(plumber())
