@@ -2,7 +2,8 @@
 // npm audit fix --force
 
 // npm install -g google-spreadsheet-to-json
-// gulp getJ
+// gulp getj
+// gulp nav
 
 // gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data.json -b
 

@@ -6,7 +6,8 @@
         "chapter": 1,
         "template": "basic",
         "name": "index",
-        "content": "d1h1"
+        "content": "d1h1",
+        "ischapterpage": 1
     },
     {
         "title": "Binnenvaart",
@@ -54,7 +55,8 @@
         "chapter": 1,
         "template": "basic",
         "name": "inleiding",
-        "content": "d1h1"
+        "content": "d1h1",
+        "ischapterpage": 1
     },
     {
         "title": "Koopvaardij binnen Europa",
@@ -97,12 +99,21 @@
         "content": "d1h1"
     },
     {
+        "title": "Cultuurhistorisch katern",
+        "part": 2,
+        "chapter": 7,
+        "template": "basic",
+        "name": 0,
+        "content": "d1h1"
+    },
+    {
         "title": "Inleiding",
         "part": 3,
         "chapter": 1,
         "template": "basic",
         "name": 1,
-        "content": "d1h1"
+        "content": "d1h1",
+        "ischapterpage": 1
     },
     {
         "title": "Koopvaardij binnen Europa",
@@ -145,12 +156,21 @@
         "content": "d1h1"
     },
     {
+        "title": "Cultuurhistorisch katern",
+        "part": 3,
+        "chapter": 7,
+        "template": "basic",
+        "name": 13,
+        "content": "d1h1"
+    },
+    {
         "title": "Inleiding",
         "part": 4,
         "chapter": 1,
         "template": "basic",
         "name": 7,
-        "content": "d1h1"
+        "content": "d1h1",
+        "ischapterpage": 1
     },
     {
         "title": "Koopvaardij binnen Europa",
@@ -190,6 +210,14 @@
         "chapter": 6,
         "template": "basic",
         "name": 12,
+        "content": "d1h1"
+    },
+    {
+        "title": "Cultuurhistorisch katern",
+        "part": 4,
+        "chapter": 7,
+        "template": "basic",
+        "name": 14,
         "content": "d1h1"
     }
 ]
