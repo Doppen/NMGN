@@ -17,6 +17,7 @@ var useref = require('gulp-useref');
 var replace = require('gulp-replace');
 var exec = require('child_process').exec;
 var each = require('gulp-each');
+var dom  = require('gulp-dom');
 
 var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
@@ -154,6 +155,11 @@ gulp.task('buildFromTemplates', function(done) {
 
               callback(null, newContent);
           }))
+          .pipe(dom(function(){
+            this.querySelectorAll('.Author-s-')[0].remove();
+            this.querySelectorAll('.Kop1--chapter-')[0].remove();
+
+        }))
           .pipe(useref())
           .pipe(gulp.dest(dst))
   }
