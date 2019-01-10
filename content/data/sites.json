@@ -1,0 +1,195 @@
+[
+    {
+        "title": "Maritieme cultuur in de middeleeuwen",
+        "author": "Remmelt Daalder",
+        "part": 1,
+        "chapter": 1,
+        "template": "basic",
+        "name": "index",
+        "content": "d1h1"
+    },
+    {
+        "title": "Binnenvaart",
+        "part": 1,
+        "chapter": 2,
+        "template": "basic",
+        "name": "binnenvaart-1200-1600",
+        "content": "d1h1"
+    },
+    {
+        "title": "Koopvaardij",
+        "part": 1,
+        "chapter": 3,
+        "template": "basic",
+        "name": "koopvaardij-1200-1600",
+        "content": "d1h1"
+    },
+    {
+        "title": "Marine",
+        "part": 1,
+        "chapter": 4,
+        "template": "basic",
+        "name": "marine-1200-1600",
+        "content": "d1h1"
+    },
+    {
+        "title": "Visserij",
+        "part": 1,
+        "chapter": 5,
+        "template": "basic",
+        "name": "visserij-1200-1600",
+        "content": "d1h1"
+    },
+    {
+        "title": "Cultuurhistorisch katern",
+        "part": 1,
+        "chapter": 6,
+        "template": "basic",
+        "name": "cultuurhistorisch-katern-1200-1600",
+        "content": "d1h1"
+    },
+    {
+        "title": "Inleiding",
+        "part": 2,
+        "chapter": 1,
+        "template": "basic",
+        "name": "inleiding",
+        "content": "d1h1"
+    },
+    {
+        "title": "Koopvaardij binnen Europa",
+        "part": 2,
+        "chapter": 2,
+        "template": "basic",
+        "name": "Koopvaardij-binnen-Europa",
+        "content": "d1h1"
+    },
+    {
+        "title": "Koopvaardij buiten Europa",
+        "part": 2,
+        "chapter": 3,
+        "template": "basic",
+        "name": "Koopvaardij-buiten-Europa",
+        "content": "d1h1"
+    },
+    {
+        "title": "Marine",
+        "part": 2,
+        "chapter": 4,
+        "template": "basic",
+        "name": "Marine",
+        "content": "d1h1"
+    },
+    {
+        "title": "Visserij",
+        "part": 2,
+        "chapter": 5,
+        "template": "basic",
+        "name": "Visserij",
+        "content": "d1h1"
+    },
+    {
+        "title": "Binnenvaart",
+        "part": 2,
+        "chapter": 6,
+        "template": "basic",
+        "name": "Binnenvaart",
+        "content": "d1h1"
+    },
+    {
+        "title": "Inleiding",
+        "part": 3,
+        "chapter": 1,
+        "template": "basic",
+        "name": 1,
+        "content": "d1h1"
+    },
+    {
+        "title": "Koopvaardij binnen Europa",
+        "part": 3,
+        "chapter": 2,
+        "template": "basic",
+        "name": 2,
+        "content": "d1h1"
+    },
+    {
+        "title": "Koopvaardij buiten Europa",
+        "part": 3,
+        "chapter": 3,
+        "template": "basic",
+        "name": 3,
+        "content": "d1h1"
+    },
+    {
+        "title": "Marine",
+        "part": 3,
+        "chapter": 4,
+        "template": "basic",
+        "name": 4,
+        "content": "d1h1"
+    },
+    {
+        "title": "Visserij",
+        "part": 3,
+        "chapter": 5,
+        "template": "basic",
+        "name": 5,
+        "content": "d1h1"
+    },
+    {
+        "title": "Binnenvaart",
+        "part": 3,
+        "chapter": 6,
+        "template": "basic",
+        "name": 6,
+        "content": "d1h1"
+    },
+    {
+        "title": "Inleiding",
+        "part": 4,
+        "chapter": 1,
+        "template": "basic",
+        "name": 7,
+        "content": "d1h1"
+    },
+    {
+        "title": "Koopvaardij binnen Europa",
+        "part": 4,
+        "chapter": 2,
+        "template": "basic",
+        "name": 8,
+        "content": "d1h1"
+    },
+    {
+        "title": "Koopvaardij buiten Europa",
+        "part": 4,
+        "chapter": 3,
+        "template": "basic",
+        "name": 9,
+        "content": "d1h1"
+    },
+    {
+        "title": "Marine",
+        "part": 4,
+        "chapter": 4,
+        "template": "basic",
+        "name": 0,
+        "content": "d1h1"
+    },
+    {
+        "title": "Visserij",
+        "part": 4,
+        "chapter": 5,
+        "template": "basic",
+        "name": 11,
+        "content": "d1h1"
+    },
+    {
+        "title": "Binnenvaart",
+        "part": 4,
+        "chapter": 6,
+        "template": "basic",
+        "name": 12,
+        "content": "d1h1"
+    }
+]

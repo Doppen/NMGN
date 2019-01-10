@@ -1,6 +1,8 @@
 // npm i
 // npm audit fix --force
 
+// npm install -g google-spreadsheet-to-json
+// gulp getJ
 
 // gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data.json -b
 
@@ -34,6 +36,7 @@ var fJson=      ['src/**/*.json', 'content/**/*.json'];
 var fMd=         'content/**/*.md';
 
 
+var siteJson = require('./content/data/sites.json');
 
 
 gulp.task('browserSync', function() {
@@ -54,18 +57,32 @@ function reload(done) {
 
 // clear Json files en get new data from google docs
 gulp.task('cleanJson', function () {
-    return gulp.src(['content/data/links.json'], {read: false, allowEmpty: true})
+    return gulp.src(['content/data/links.json', 'content/data/sites.json', 'content/data/notes.json'], {read: false, allowEmpty: true})
         .pipe(plumber())
         .pipe(clean())
 });
 
-gulp.task('getJ', gulp.series('cleanJson', function (cb) {
-  exec('gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data/links.json -b', function (err, stdout, stderr) {
-    console.log(stdout);
-    console.log(stderr);
-    cb(err);
-  });
+gulp.task('getJSite', function (cb) {
+  exec('gsjson 1YAFTCWGrWyPjclnV16mR-S0-H2531DpOTfjCdESFSRk >> content/data/sites.json -b', function (err, stdout, stderr) { cb(err); });
+})
+
+gulp.task('getJLinks', function (cb) {
+  exec('gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data/links.json -b', function (err, stdout, stderr) { cb(err); });
+})
+
+gulp.task('getJNotes', function (cb) {
+  exec('gsjson 1U2daUDRZfhFHcrVujJxNcqFejs2Ui58zBSi8ThlMw50 >> content/data/notes.json -b', function (err, stdout, stderr) { cb(err); });
+})
+
+gulp.task('getj', gulp.series('cleanJson', 'getJSite', 'getJLinks', 'getJNotes',  function (done) {
+  done();
 }))
+
+// gulp getj
+// links 1tzMeyKmoFMGbehWd1Q0hWbTceVf6IajMGX4r3NUqLA8
+// notes 1U2daUDRZfhFHcrVujJxNcqFejs2Ui58zBSi8ThlMw50
+// site  1YAFTCWGrWyPjclnV16mR-S0-H2531DpOTfjCdESFSRk
+
 
 
 gulp.task('clean', function () {
@@ -75,11 +92,13 @@ gulp.task('clean', function () {
 });
 
 
+
 gulp.task('nav', function(done) {
+  var navItems = {"items" : siteJson}
 
   gulp.src('./src/templates/nav.html')
       .pipe(plumber())
-      .pipe(handlebars(siteJson, options))
+      .pipe(handlebars(navItems, options))
       .pipe(gulp.dest('src/components/'));
   done();
 });
@@ -95,16 +114,20 @@ gulp.task('sass', function(){
 
 
 
-var siteJson = require('./content/data/site.json');
+
 var linksJson = require('./content/data/links.json');
 
 
 gulp.task('buildFromTemplates', function(done) {
+  var page;
+  var fileName;
+  var template;
 
-  for(var i=0; i<siteJson.pages.length; i++) {
-      var page = siteJson.pages[i],
-          fileName = page.name.replace(/ +/g, '-').toLowerCase();
-          template = page.template;
+  for(var i=0; i<siteJson.length; i++) {
+      page = siteJson[i];
+      console.log(page.name);
+      fileName = page.name; //.replace(/ +/g, '-').toLowerCase();
+      template = page.template;
 
       gulp.src('./src/templates/'+template+'.html')
           .pipe(plumber())
