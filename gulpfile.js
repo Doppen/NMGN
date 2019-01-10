@@ -13,6 +13,7 @@ var handlebars = require('gulp-compile-handlebars');
 var useref = require('gulp-useref');
 var replace = require('gulp-replace');
 var exec = require('child_process').exec;
+var each = require('gulp-each');
 
 var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
@@ -32,7 +33,7 @@ var fJs=        'src/js/**/*';
 var fJson=      ['src/**/*.json', 'content/**/*.json'];
 var fMd=         'content/**/*.md';
 
-var siteJson = require('./content/data/site.json');
+
 
 
 gulp.task('browserSync', function() {
@@ -53,13 +54,13 @@ function reload(done) {
 
 // clear Json files en get new data from google docs
 gulp.task('cleanJson', function () {
-    return gulp.src(['content/data-links.json'], {read: false, allowEmpty: true})
+    return gulp.src(['content/data/links.json'], {read: false, allowEmpty: true})
         .pipe(plumber())
         .pipe(clean())
 });
 
 gulp.task('getJ', gulp.series('cleanJson', function (cb) {
-  exec('gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data-links.json -b', function (err, stdout, stderr) {
+  exec('gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data/links.json -b', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     cb(err);
@@ -94,6 +95,10 @@ gulp.task('sass', function(){
 
 
 
+var siteJson = require('./content/data/site.json');
+var linksJson = require('./content/data/links.json');
+
+
 gulp.task('buildFromTemplates', function(done) {
 
   for(var i=0; i<siteJson.pages.length; i++) {
@@ -116,9 +121,18 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('</html>', ''))
           .pipe(replace('<div', '<span'))
           .pipe(replace('</div>', '</span>'))
+          .pipe(each(function(content, file, callback) {
+            var newContent = content;
+            for(var j=0; j<linksJson.length; j++) {
+
+              newContent = newContent.replace(linksJson[j].start, linksJson[j].start+' <a href="'+linksJson[j].url+'">');
+              newContent = newContent.replace(linksJson[j].end, ' </a>'+linksJson[j].end);
+            }
+
+              callback(null, newContent);
+          }))
           .pipe(useref())
           .pipe(gulp.dest(dst))
-          //.pipe(browserSync.stream());
   }
   done();
 });
