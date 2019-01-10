@@ -1,14 +1,16 @@
 [
     {
-        "start": "Kortom, scheepvaarthistorici zijn voornamelijk ",
-        "link": "geïnteresseerd",
-        "end": "in de concrete kanten",
-        "url": "http://www.nu.nl"
+        "words_before_link": "Kortom, scheepvaarthistorici zijn voornamelijk ",
+        "hyperlink_word": "geïnteresseerd",
+        "words_after_link": "in de concrete kanten",
+        "url": "http://www.nu.nl",
+        "chapter": 1
     },
     {
-        "start": "welk doel had de kunstenaar",
-        "link": "en wat vonden tijdgenoten",
-        "end": "ervan? Hoe keken de inwoners",
-        "url": "http://huc.knaw.nl"
+        "words_before_link": "welk doel had de kunstenaar",
+        "hyperlink_word": "en wat vonden tijdgenoten",
+        "words_after_link": "ervan? Hoe keken de inwoners",
+        "url": "http://huc.knaw.nl",
+        "chapter": 1
     }
 ]

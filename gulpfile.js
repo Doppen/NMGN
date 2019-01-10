@@ -68,7 +68,7 @@ gulp.task('getJSite', function (cb) {
 })
 
 gulp.task('getJLinks', function (cb) {
-  exec('gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data/links.json -b', function (err, stdout, stderr) { cb(err); });
+  exec('gsjson 1tzMeyKmoFMGbehWd1Q0hWbTceVf6IajMGX4r3NUqLA8 >> content/data/links.json -b', function (err, stdout, stderr) { cb(err); });
 })
 
 gulp.task('getJNotes', function (cb) {
@@ -126,7 +126,6 @@ gulp.task('buildFromTemplates', function(done) {
 
   for(var i=0; i<siteJson.length; i++) {
       page = siteJson[i];
-      console.log(page.name);
       fileName = page.name; //.replace(/ +/g, '-').toLowerCase();
       template = page.template;
 
@@ -149,8 +148,8 @@ gulp.task('buildFromTemplates', function(done) {
             var newContent = content;
             for(var j=0; j<linksJson.length; j++) {
 
-              newContent = newContent.replace(linksJson[j].start, linksJson[j].start+' <a href="'+linksJson[j].url+'">');
-              newContent = newContent.replace(linksJson[j].end, ' </a>'+linksJson[j].end);
+              newContent = newContent.replace(linksJson[j].words_before_link, linksJson[j].words_before_link+' <a href="'+linksJson[j].url+'">');
+              newContent = newContent.replace(linksJson[j].words_after_link, ' </a>'+linksJson[j].words_after_link);
             }
 
               callback(null, newContent);
