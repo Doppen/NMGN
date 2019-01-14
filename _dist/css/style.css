@@ -139,6 +139,7 @@ td {
   width: 100%;
   background-color: #0d77c9;
   justify-content: space-between;
+  align-items: center;
   font-size: .85rem;
   color: #fff;
   position: relative;
@@ -150,10 +151,14 @@ td {
 @media (min-width: 600px) {
   .pageHeader {
     flex-direction: row;
-    font-size: 1rem; } }
+    font-size: 1rem;
+    height: 50px; } }
 
 .headerItems > * {
-  margin-left: 1rem; }
+  margin-left: .5rem;
+  padding-left: .5rem;
+  height: 100%;
+  border-left: 1px solid rgba(255, 255, 255, 0.2); }
 
 .headerItem:first-child {
   margin-left: 0rem; }
@@ -187,7 +192,8 @@ td {
 .titleHero h1 {
   color: #2effdf;
   font-size: 36px;
-  font-size: 5.4vw; }
+  font-size: 5.4vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); }
 
 .chapterIllustration {
   display: none; }
@@ -213,11 +219,18 @@ td {
 .caption {
   display: block;
   font-size: .85rem;
-  width: 25vw; }
+  width: 25vw;
+  margin-top: 1rem; }
 
 .basicWrapper {
   width: 100%;
   max-width: 1200px; }
+
+.chapterTxtWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .chapterTxt {
   width: 100%;
@@ -230,10 +243,9 @@ td {
 
 @media (min-width: 1000px) {
   .chapterTxtWrap {
-    width: 66vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center; } }
+    width: 66vw; }
+  .chapterTxtWrap .bijschrift {
+    display: none; } }
 
 * {
   box-sizing: border-box; }
