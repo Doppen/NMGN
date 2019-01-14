@@ -1,0 +1,29 @@
+$nootSize: 25px;
+$nootColor: #bebdbd;
+
+.noot {
+	display:inline-block;
+	background-color: #fff;
+	border: 1px solid $nootColor;
+
+	width: $nootSize;
+	height: $nootSize;
+	font-size: .8rem;
+	border-radius: 50%
+
+}
+
+.noot span {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.noot a {
+	color: $nootColor;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transform: translate(-0px,-2px);
+}
