@@ -146,6 +146,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<div', '<span'))
           .pipe(replace('<h2 class="Kop2">', '<h2>'))
           .pipe(replace('</div>', '</span>'))
+          .pipe(replace('||', '<br>'))
           .pipe(each(function(content, file, callback) {
             var newContent = content;
             for(var j=0; j<linksJson.length; j++) {

@@ -1,7 +1,8 @@
 .titleHeroBG {
   width: 100vw;
-  height: 70vh;
+  height: 75vh;
   background-color: $colorNMGNBlue2;
+  background-image: linear-gradient(45deg, $colorNMGNBlue2, $colorNMGNBlue1);
   position: absolute;
   z-index: 0;
   top: -4vh;
@@ -33,7 +34,16 @@
 
 .titleHero h1{
   color: $colorNMGNGreen;
-  font-size: 36px;
-  font-size: 5.4vw;
+  font-size: 1.7rem;
+
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 1000px) {
+  .titleHero h1{
+    font-size: 60px;
+    font-size: calc((100% + 0.25vw) * 5);
+    line-height: 110%;
+  }
+
 }

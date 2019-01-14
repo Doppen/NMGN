@@ -165,8 +165,9 @@ td {
 
 .titleHeroBG {
   width: 100vw;
-  height: 70vh;
+  height: 75vh;
   background-color: #448ccb;
+  background-image: linear-gradient(45deg, #448ccb, #0d77c9);
   position: absolute;
   z-index: 0;
   top: -4vh;
@@ -191,9 +192,14 @@ td {
 
 .titleHero h1 {
   color: #2effdf;
-  font-size: 36px;
-  font-size: 5.4vw;
+  font-size: 1.7rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); }
+
+@media (min-width: 1000px) {
+  .titleHero h1 {
+    font-size: 60px;
+    font-size: calc((100% + 0.25vw) * 5);
+    line-height: 110%; } }
 
 .chapterIllustration {
   display: none; }
@@ -205,14 +211,15 @@ td {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #f0f0f2;
     right: 0;
     top: 0;
     width: 33vw;
     height: 100vh; } }
 
-.illu img {
-  width: 25vw;
+.chapterIllustration img {
+  width: calc(100% - 2rem);
   height: auto;
   display: block; }
 
@@ -223,6 +230,12 @@ td {
   margin-top: 1rem; }
 
 .basicWrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.basicSiteMax {
   width: 100%;
   max-width: 1200px; }
 

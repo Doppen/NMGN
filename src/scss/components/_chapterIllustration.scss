@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #f0f0f2;
     right: 0;
     top: 0;
@@ -18,11 +19,12 @@
   }
 }
 
-.illu img {
-  width: 25vw;
+.chapterIllustration img {
+  width: calc(100% - 2rem);
   height: auto;
   display: block;
 }
+
 
 .caption {
   display: block;
