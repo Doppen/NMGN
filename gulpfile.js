@@ -144,6 +144,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('</body>', ''))
           .pipe(replace('</html>', ''))
           .pipe(replace('<div', '<span'))
+          .pipe(replace('<h2 class="Kop2">', '<h2>'))
           .pipe(replace('</div>', '</span>'))
           .pipe(each(function(content, file, callback) {
             var newContent = content;
@@ -158,6 +159,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(dom(function(){
             this.querySelectorAll('.Author-s-')[0].remove();
             this.querySelectorAll('.Kop1--chapter-')[0].remove();
+            this.querySelectorAll('h2')[0].className.replace(/\bKop2\b/,'');
 
         }))
           .pipe(useref())
