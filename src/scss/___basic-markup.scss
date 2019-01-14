@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+	color: #0087d4;
+
+}
+%smallGrey {
+	font-size: $txtSmall;
+	color: $colorGreyMid;
+}
+
+
+.smallGrey {
+	@extend %smallGrey;
+}
+
+
+%label {
+	@extend %smallGrey;
+  text-transform: uppercase;
+  font-size: .7rem;
+}
+
+.hc-label {
+	@extend %label;
+}
+
+.light-grey-bg {
+	background-color: $colorGreyLightBg;
+}
+
+
+.hc-message {
+	@extend %smallGrey;
+	font-style: italic;
+}
+.hc-message--alert {}
+
+
+// buttons
+button {
+	font-size: $txtSmall;
+	padding: .5rem;
+	border-radius: $basicBorderRadius;
+	background-color: darken( $colorFormElements, 10% );
+	border: none;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+}
+
+.hc-loud {
+	padding: .8rem;
+	font-size: 1rem;
+	background-color: $colorSucces;
+	font-weight: 700;
+}
+
+.hc-small {
+	padding: .5rem;
+	font-size: .8rem;
+}
+
+
+.hc-subtle {
+	background: none;
+	border: none;
+	box-shadow: none;
+	color: $colorLink;
+}
+
+.hc-tooltip {
+	visibility: hidden;
+}
+
+.hc-tooltip-show:hover .hc-tooltip {
+	visibility:visible;
+}
+
+.icon img {
+	height: 1em;
+	width: auto;
+	opacity: .2;
+}

@@ -1,23 +1,26 @@
 {{> html-head}}
-<div class="temp-layout">
+{{> page-header}}
 
-  <div class="temp-content temp-width">
-    <div id="subNavigation"></div>
-    <div>Deel {{part}}</div>
-    <div>Hoofdstuk {{chapter}}</div>
+<div class="titleHero">
+  <div class="basicSideMargin">
+    <div>{{aera}}</div>
+    <div>{{parttitle}}</div>
     <h1>{{title}}</h1>
-    <div class="author">{{author}}</div>
+    <div class="">{{author}}</div>
+  </div>
 
-    <div class="txt">
+</div>
+
+
+
+
+    <div class="">
       {{> (lookup . 'content') }}
     </div>
 
+  <div class="">{{> nav}}</div>
+  <div id="subNavigation"></div>
 
-  </div>
-
-  <div class="temp-nav temp-width">{{> nav}}</div>
-
-</div>
 
 
 {{> html-foot}}

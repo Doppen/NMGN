@@ -126,3 +126,42 @@ td {
   border: 1px solid #cbcbcb;
   color: #cbcbcb;
   text-decoration: none; }
+
+.pageHeader {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #eee;
+  justify-content: space-between;
+  font-size: .85rem; }
+
+@media (min-width: 600px) {
+  .pageHeader {
+    flex-direction: row;
+    font-size: 1rem; } }
+
+.headerItems > * {
+  margin-left: 1rem; }
+
+.headerItem:first-child {
+  margin-left: 0rem; }
+
+.titleHero {
+  width: 100vw;
+  height: 66vh;
+  background-color: #008bd9;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center; }
+
+* {
+  box-sizing: border-box; }
+
+a {
+  color: #0087d4; }
+
+.basicSideMargin {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; }

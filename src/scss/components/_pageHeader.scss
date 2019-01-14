@@ -1,0 +1,25 @@
+.pageHeader {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #eee;
+  justify-content: space-between;
+  font-size: .85rem;
+}
+
+
+@media (min-width: 600px) {
+  .pageHeader {
+    flex-direction: row;
+    font-size: 1rem;
+  }
+
+}
+
+.headerItems > * {
+  margin-left: 1rem;
+}
+
+.headerItem:first-child {
+  margin-left: 0rem;
+}

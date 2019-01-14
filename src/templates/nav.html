@@ -1,7 +1,9 @@
 <nav>
 {{#each items}}
   {{#if ischapterpage}}
-    <br><strong>Deel {{part}}</strong>
+    <br>
+    {{aera}}
+    <br><strong>{{parttitle}}</strong>
     <a href="{{name}}.html">{{title}}</a>
   {{else}}
     <a href="{{name}}.html">{{title}}</a>

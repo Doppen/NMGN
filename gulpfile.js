@@ -189,8 +189,7 @@ gulp.task('build',
 
 
 gulp.task('watch', function () {
-  gulp.watch([[fHtml, fScss, fJs, fJson, fMd]
-  ], gulp.series('build'));
+  gulp.watch([[fHtml, fScss, fJs, fJson, fMd]], gulp.series('build'));
 });
 
 
