@@ -1,0 +1,32 @@
+.chapterIllustration {
+  display: none;
+}
+
+
+@media (min-width: 1000px) {
+  .chapterIllustration {
+    z-index: -1;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f0f0f2;
+    right: 0;
+    top: 0;
+    width: 33vw;
+    height: 100vh;
+  }
+}
+
+.illu img {
+  width: 25vw;
+  height: auto;
+  display: block;
+}
+
+.caption {
+  display: block;
+  font-size: .85rem;
+  width: 25vw;
+
+}

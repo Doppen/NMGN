@@ -1,0 +1,25 @@
+.basicWrapper {
+  width: 100%;
+  max-width: 1200px;
+}
+
+
+.chapterTxt {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+}
+
+.chapterTxt img {
+  width: 75px;
+  height: auto;
+}
+
+@media (min-width: 1000px) {
+  .chapterTxtWrap {
+    width: 66vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

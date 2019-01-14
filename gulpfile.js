@@ -166,6 +166,7 @@ gulp.task('buildFromTemplates', function(done) {
         }))
           .pipe(useref())
           .pipe(gulp.dest(dst))
+          .pipe(browserSync.stream());
   }
   done();
 });
