@@ -6,7 +6,8 @@ var elems = document.querySelectorAll('h2');
 for (var i = 0; i < elems.length; i++) {
     //var hId = elems[i].getAttribute( 'id' );
     var hId = elems[i].innerHTML.replace(/ /g,"_");
-    //replace(/ /g,"_");
+    hId = hId.replace('<span_class="Bold">','');
+    hId = hId.replace('</span>','');
     document.body.innerHTML = document.body.innerHTML.replace('<h2>', '<a id="l'+hId+'"></a><h2 id="'+hId+'" >');
 }
 
@@ -16,7 +17,9 @@ var headerNavigation = '';
 var linkClass = '';
 for (var i = 0; i < elems.length; i++) {
     linkClass = '';
-    var hId = elems[i].getAttribute( 'id' );
+    var hId = elems[i].innerHTML.replace(/ /g,"_");
+    hId = hId.replace('<span_class="Bold">','');
+    hId = hId.replace('</span>','');
     var hTxt = elems[i].innerText;
     var hTag = elems[i].tagName;
 
