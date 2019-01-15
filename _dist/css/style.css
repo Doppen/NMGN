@@ -277,7 +277,9 @@ a {
   width: 25px;
   height: 25px;
   font-size: .8rem;
-  border-radius: 50%; }
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 .3rem; }
 
 .noot span {
   display: flex;
