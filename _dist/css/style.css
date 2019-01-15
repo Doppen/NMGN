@@ -169,7 +169,7 @@ td {
   background-color: #448ccb;
   background-image: linear-gradient(45deg, #448ccb, #0d77c9);
   position: absolute;
-  z-index: 0;
+  z-index: 10;
   top: -4vh;
   left: 0;
   box-sizing: content-box;
@@ -206,16 +206,16 @@ td {
 
 @media (min-width: 1000px) {
   .chapterIllustration {
-    z-index: -1;
+    z-index: 0;
     position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #f0f0f2;
-    right: 0;
+    left: 0;
     top: 0;
-    width: 33vw;
+    width: 33vh;
     height: 100vh; } }
 
 .chapterIllustration img {
@@ -254,11 +254,28 @@ td {
   width: 75px;
   height: auto; }
 
+.chapterNav {
+  display: none; }
+
 @media (min-width: 1000px) {
   .chapterTxtWrap {
-    width: 66vw; }
+    width: 66vh;
+    margin-left: 33vw; }
   .chapterTxtWrap .bijschrift {
-    display: none; } }
+    display: none; }
+  .chapterNav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 66vh;
+    padding: 7rem 1.5rem;
+    left: 0;
+    width: 33vh;
+    background-image: linear-gradient(to bottom, #f0f0f2 90%, rgba(240, 240, 242, 0)); } }
+
+#subNavigation {
+  position: relative;
+  z-index: 500; }
 
 * {
   box-sizing: border-box; }

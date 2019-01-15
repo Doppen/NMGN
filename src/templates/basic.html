@@ -15,12 +15,16 @@
 <div class="titleHeroBG"></div>
 
 <div class="chapterContent">
+  {{> page-illustration}}
   <div class="chapterTxtWrap">
+    <div class="chapterNav">
+      Inhoud
+      <div id="subNavigation"></div>
+    </div>
     <div class="chapterTxt basicSideMargin">
       {{> (lookup . 'content') }}
     </div>
   </div>
-  {{> page-illustration}}
 
 </div>
 

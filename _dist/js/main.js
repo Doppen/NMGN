@@ -36,7 +36,6 @@ var myFunction = function() {
     noteContent = document.getElementById(attribute).innerHTML;
     document.getElementById("chapterIllustration").innerHTML= noteContent;
 
-    //alert(noteContent);
 
 };
 

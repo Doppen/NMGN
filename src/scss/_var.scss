@@ -2,11 +2,9 @@ $colorNMGNBlue1: #0d77c9;
 $colorNMGNBlue2: #448ccb;
 $colorNMGNGreen: #2effdf;
 
-$colorPrimairy: #468dcb;   //468dcb 03dbe8
-$colorSecundairy:#f26c50;  // ddf279;
-$colorTertiary: #56504b;
+
 $colorLink: #0087d4;
-$colorGreyLightBg: #fafafa;
+$colorGreyLightBg: #f0f0f2;
 $colorGreyLightElement: darken( $colorGreyLightBg, 5% );
 $colorGreyMid: #999999;
 $colorGreyDark: #3e3e3e;
@@ -20,6 +18,10 @@ $colorTxt: #3e3e3e;
 $colorTxtGrey: #aaaaaa;
 
 $txtSmall: .9rem;
+
+$sideBarWith: 33vh;
+$txtWith: 66vh;
+$heroHeight: 66vh;
 
 $basicPadding: 1.5rem;
 $basicBorderRadius: 3px;
