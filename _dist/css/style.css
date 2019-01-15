@@ -309,3 +309,9 @@ a {
   height: 100%;
   text-align: center;
   transform: translate(0px, -2px); }
+
+.noteAside {
+  background-color: #b872f4;
+  width: 150px;
+  position: absolute;
+  transform: translate(300px, 0); }
