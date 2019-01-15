@@ -215,7 +215,7 @@ td {
     background-color: #f0f0f2;
     left: 0;
     top: 0;
-    width: 33vh;
+    width: 33vw;
     height: 100vh; } }
 
 .chapterIllustration img {
@@ -226,7 +226,6 @@ td {
 .caption {
   display: block;
   font-size: .85rem;
-  width: 25vw;
   margin-top: 1rem; }
 
 .basicWrapper {
@@ -259,7 +258,7 @@ td {
 
 @media (min-width: 1000px) {
   .chapterTxtWrap {
-    width: 66vh;
+    width: 66vw;
     margin-left: 33vw; }
   .chapterTxtWrap .bijschrift {
     display: none; }
@@ -270,7 +269,7 @@ td {
     top: 66vh;
     padding: 7rem 1.5rem;
     left: 0;
-    width: 33vh;
+    width: 33vw;
     background-image: linear-gradient(to bottom, #f0f0f2 90%, rgba(240, 240, 242, 0)); } }
 
 #subNavigation {
