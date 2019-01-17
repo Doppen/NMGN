@@ -15,12 +15,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgba(#ffbbc8, 0.44);
 }
 
 .chapterTxt {
   width: 100%;
   max-width: $textColWIdth;
   display: block;
+  transform: translate(-100px,0);
 }
 
 .chapterTxt img {

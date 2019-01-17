@@ -33,8 +33,9 @@ $nootColor: #bebdbd;
 
 .noteAside {
 	background-color: #b872f4;
-	width: 150px;
+	width: 200px;
 	position: absolute;
 	transform: translate(#{$textColWIdth / 2},0);
+	display:block;
 
 }
