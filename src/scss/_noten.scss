@@ -13,6 +13,8 @@ $nootColor: #bebdbd;
 	cursor: pointer;
 	margin: 0 .3rem;
 
+
+
 }
 
 .noot span {
@@ -23,11 +25,16 @@ $nootColor: #bebdbd;
 }
 
 .noot a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
 	color: $nootColor;
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	transform: translate(-0px,-2px);
+	//transform: translate(-0px,-2px);
 }
 
 

@@ -167,26 +167,15 @@ gulp.task('buildFromTemplates', function(done) {
       fileName = page.name; //.replace(/ +/g, '-').toLowerCase();
       template = page.template;
 
-      // mammoth.convertToHtml({path: "content/word/"+page.file+".docx", outputDir: "content/html/"})
-      //     .then(function(result){
-      //        console.log("1>"+htmlOut);
-      //         htmlOut = result.value; // The generated HTML
-      //         messages = result.messages; // Any messages, such as warnings during conversion
-      //         console.log("2>"+htmlOut);
-      //
-      //         writeFile('content/html/11_'+fileName+'.html', htmlOut, function (err) {
-      //           if (err) return console.log(err)
-      //           console.log('file is written')
-      //           })
-      //
-      //     })
-      //     .done();
-          //console.log("3>"+htmlOut);
       gulp.src('./src/templates/'+template+'.html')
           .pipe(plumber())
           .pipe(handlebars(page, options))
           .pipe(rename(fileName + ".html"))
-          .pipe(replace('||', '<br>'))
+          .pipe(replace('">[', '">'))
+          .pipe(replace(']</a>', '</a>'))
+          .pipe(replace('<sup><sup>', '<span class="noot">'))
+          .pipe(replace('</sup></sup>', '</span>'))
+          //.pipe(replace('<li id="endnote', '<li id="endnote'))
           .pipe(each(function(content, file, callback) {
             var newContent = content;
             for(var j=0; j<linksJson.length; j++) {
