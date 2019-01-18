@@ -18,6 +18,9 @@ var replace = require('gulp-replace');
 var exec = require('child_process').exec;
 var each = require('gulp-each');
 var dom  = require('gulp-dom');
+var mammoth = require("mammoth");
+var writeFile = require('write-file');
+//var docxHtmlConverter = require('gulp-docx-converter');
 
 var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
@@ -39,6 +42,32 @@ var fMd=         'content/**/*.md';
 
 
 var siteJson = require('./content/data/sites.json');
+
+// Create HTML
+function createHtml(fileName) {
+  mammoth.convertToHtml({path: "content/word/"+fileName+".docx", outputDir: "content/html/"})
+      .then(function(result){
+          htmlOut = result.value; // The generated HTML
+          messages = result.messages; // Any messages, such as warnings during conversion
+          //console.log(htmlOut);
+          fs.writeFileSync('content/html/'+fileName+'.html', htmlOut)
+      })
+}
+
+// gulp convHtml
+gulp.task('convHtml', function (done) {
+  var htmlOut='qqq';
+  var messages;
+  fs = require('fs');
+
+  for(var ii=0; ii<siteJson.length; ii++) {
+      page = siteJson[ii];
+      fileName = page.content;
+      createHtml(fileName);
+      }
+done();
+});
+
 
 
 gulp.task('browserSync', function() {
@@ -76,7 +105,11 @@ gulp.task('getJNotes', function (cb) {
   exec('gsjson 1U2daUDRZfhFHcrVujJxNcqFejs2Ui58zBSi8ThlMw50 >> content/data/notes.json -b', function (err, stdout, stderr) { cb(err); });
 })
 
-gulp.task('getj', gulp.series('cleanJson', 'getJSite', 'getJLinks', 'getJNotes',  function (done) {
+gulp.task('getJImages', function (cb) {
+exec('gsjson 15B_aMTtiGuokP1KP6Iu09RNr4X3ZZQyO-Qp1dq8eg7I >> content/data/images.json -b', function (err, stdout, stderr) { cb(err); });
+})
+
+gulp.task('getj', gulp.series('cleanJson', 'getJSite', 'getJLinks', 'getJNotes', 'getJImages',  function (done) {
   done();
 }))
 
@@ -85,6 +118,8 @@ gulp.task('getj', gulp.series('cleanJson', 'getJSite', 'getJLinks', 'getJNotes',
 // notes  1U2daUDRZfhFHcrVujJxNcqFejs2Ui58zBSi8ThlMw50
 // site   1YAFTCWGrWyPjclnV16mR-S0-H2531DpOTfjCdESFSRk
 // images 15B_aMTtiGuokP1KP6Iu09RNr4X3ZZQyO-Qp1dq8eg7I
+
+// npm mammoth d1h1.docx output.html
 
 
 gulp.task('clean', function () {
@@ -118,48 +153,57 @@ gulp.task('sass', function(){
 
 
 var linksJson = require('./content/data/links.json');
-
+var imagesJson = require('./content/data/images.json');
 
 gulp.task('buildFromTemplates', function(done) {
   var page;
   var fileName;
   var template;
+  var htmlOut = '123';
+  var messages;
 
   for(var i=0; i<siteJson.length; i++) {
       page = siteJson[i];
       fileName = page.name; //.replace(/ +/g, '-').toLowerCase();
       template = page.template;
 
+      // mammoth.convertToHtml({path: "content/word/"+page.file+".docx", outputDir: "content/html/"})
+      //     .then(function(result){
+      //        console.log("1>"+htmlOut);
+      //         htmlOut = result.value; // The generated HTML
+      //         messages = result.messages; // Any messages, such as warnings during conversion
+      //         console.log("2>"+htmlOut);
+      //
+      //         writeFile('content/html/11_'+fileName+'.html', htmlOut, function (err) {
+      //           if (err) return console.log(err)
+      //           console.log('file is written')
+      //           })
+      //
+      //     })
+      //     .done();
+          //console.log("3>"+htmlOut);
       gulp.src('./src/templates/'+template+'.html')
           .pipe(plumber())
           .pipe(handlebars(page, options))
           .pipe(rename(fileName + ".html"))
-          .pipe(replace('src="d1h1-web-resources/image/', 'src="images/'))
-          .pipe(replace('<!DOCTYPE html>', ''))
-          .pipe(replace('<html xmlns="http://www.w3.org/1999/xhtml">', ''))
-          .pipe(replace('<head>', ''))
-          .pipe(replace('</head>', ''))
-          .pipe(replace('<meta charset="utf-8" />', ''))
-          .pipe(replace('<body id="d1h1" lang="nl-NL">', ''))
-          .pipe(replace('</body>', ''))
-          .pipe(replace('</html>', ''))
-          .pipe(replace('<div', '<span'))
-          .pipe(replace('<h2 class="Kop2">', '<h2>'))
-          .pipe(replace('</div>', '</span>'))
           .pipe(replace('||', '<br>'))
           .pipe(each(function(content, file, callback) {
             var newContent = content;
             for(var j=0; j<linksJson.length; j++) {
-
               newContent = newContent.replace(linksJson[j].words_before_link, linksJson[j].words_before_link+' <a href="'+linksJson[j].url+'">');
               newContent = newContent.replace(linksJson[j].words_after_link, ' </a>'+linksJson[j].words_after_link);
+            }
+
+            for(var k=0; k<linksJson.length; k++) {
+              newContent = newContent.replace('[[['+imagesJson[k].filename, '<div class="inlineImage"><img src="images/'+imagesJson[k].filename);
+              newContent = newContent.replace(imagesJson[k].filename+']]]', imagesJson[k].filename+'"><div class="caption">'+imagesJson[k].caption1+'<br>'+imagesJson[k].caption2+'<br>'+imagesJson[k].caption3+'<br>'+imagesJson[k].caption4+'<br>'+'</div></div>');
             }
 
               callback(null, newContent);
           }))
           .pipe(dom(function(){
-            this.querySelectorAll('.Author-s-')[0].remove();
-            this.querySelectorAll('.Kop1--chapter-')[0].remove();
+            //this.querySelectorAll('.Author-s-')[0].remove();
+            //this.querySelectorAll('.Kop1--chapter-')[0].remove();
             //this.querySelectorAll('h2')[0].className.replace(/\bKop2\b/,'');
             //this.querySelectorAll('h2')[0].innerHTML.replace('<span class="Bold">','');
             //this.querySelectorAll('h2')[0].innerHTML.replace('</span>','');
