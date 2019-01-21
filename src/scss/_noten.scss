@@ -64,9 +64,20 @@ $nootColor: #bebdbd;
 	float: right;
 }
 // notes handler
+
+
+@media (min-width: 1000px) {
+	.noteAside {
+		width: $txtWith;
+		right: 0;
+		left: auto;
+	}
+}
+
+
 @media (min-width: 1200px) {
 	.noteAside {
-		width: 200px;
+		width: 150px;
 		background: none;
 		position: absolute;
 		flex-direction: column;
@@ -75,7 +86,7 @@ $nootColor: #bebdbd;
 	}
 
 	.chapterTxt {
-		transform: translate(-100px,0);
+		transform: translate(-50px,0);
 	}
 }
 

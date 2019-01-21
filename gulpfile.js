@@ -190,7 +190,7 @@ gulp.task('buildFromTemplates', function(done) {
             for(var k=0; k<imagesJson.length; k++) {
               //console.log(imagesJson[k].filename);
               newContent = newContent.replace('[[['+imagesJson[k].filename, '<div class="inlineImage" id="'+imagesJson[k].filename+'"><img src="images/'+imagesJson[k].filename);
-              newContent = newContent.replace(imagesJson[k].filename+']]]', imagesJson[k].filename+'"><div class="caption">'+imagesJson[k].caption1+'<br>'+imagesJson[k].caption2+'<br>'+imagesJson[k].caption3+'<br>'+imagesJson[k].caption4+'<br>'+'</div></div>');
+              newContent = newContent.replace(imagesJson[k].filename+']]]', imagesJson[k].filename+'"><div class="caption">'+imagesJson[k].caption1+'<span class="openCaption">[i]</span><div class="moreCaption">'+imagesJson[k].caption2+'<br>'+imagesJson[k].caption3+'<br>'+imagesJson[k].caption4+'<br>'+'</div></div></div>');
             }
 
               callback(null, newContent);

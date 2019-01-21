@@ -226,6 +226,13 @@ td {
   margin-left: -1.5rem;
   margin-right: -1.5rem; }
 
+.moreCaption {
+  display: none; }
+
+.openCaption {
+  float: right;
+  cursor: pointer; }
+
 @media (min-width: 1000px) {
   .chapterIllustration {
     z-index: 0;
@@ -237,7 +244,7 @@ td {
     background-color: #f0f0f2;
     left: 0;
     top: 0;
-    width: 33vw;
+    width: 34vw;
     height: 100vh; }
   .chapterTxt .caption {
     display: none; }
@@ -246,7 +253,11 @@ td {
     height: auto;
     float: left;
     margin-left: -75px;
-    cursor: pointer; } }
+    cursor: pointer; }
+  .moreCaption {
+    display: flex; }
+  .openCaption {
+    display: none; } }
 
 .basicWrapper {
   width: 100vw;
@@ -285,7 +296,7 @@ td {
     top: 66vh;
     padding: 7rem 1.5rem;
     left: 0;
-    width: 33vw;
+    width: 34vw;
     background-image: linear-gradient(to bottom, #f0f0f2 90%, rgba(240, 240, 242, 0)); } }
 
 #subNavigation {
@@ -351,16 +362,22 @@ a {
   height: 1px;
   float: right; }
 
+@media (min-width: 1000px) {
+  .noteAside {
+    width: 66vw;
+    right: 0;
+    left: auto; } }
+
 @media (min-width: 1200px) {
   .noteAside {
-    width: 200px;
+    width: 150px;
     background: none;
     position: absolute;
     flex-direction: column;
     color: #999999;
     line-height: 130%; }
   .chapterTxt {
-    transform: translate(-100px, 0); } }
+    transform: translate(-50px, 0); } }
 
 .notesList {
   margin: 3em 0;
