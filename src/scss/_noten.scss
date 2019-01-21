@@ -39,20 +39,33 @@ $nootColor: #bebdbd;
 
 
 .noteAside {
-	background-color: rgb(188, 189, 244);
-	width: 100vw;
+	background-color: rgb(237, 237, 237);
+	width: 100%;
 	bottom: 0;
 	left: 0;
 	position: fixed;
+
+	font-size: .85rem;
+	padding: .5rem;
+
 }
 
-@media (min-width: 1000px) {
+.locaRight {
+	width: 1px;
+	height: 1px;
+	float: right;
+	background-color: #000;
+}
+// notes handler
+@media (min-width: 1200px) {
 	.noteAside {
-		//background-color: #b872f4;
 		width: 200px;
 		position: absolute;
-		transform: translate(#{$textColWIdth / 2},0);
-		display:block;
-		display: none;
+		display:flex;
+		background: none;
+	}
+
+	.chapterTxt {
+		transform: translate(-100px,0);
 	}
 }

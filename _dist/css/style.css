@@ -285,9 +285,7 @@ td {
     padding: 7rem 1.5rem;
     left: 0;
     width: 33vw;
-    background-image: linear-gradient(to bottom, #f0f0f2 90%, rgba(240, 240, 242, 0)); }
-  .chapterTxt {
-    transform: translate(-100px, 0); } }
+    background-image: linear-gradient(to bottom, #f0f0f2 90%, rgba(240, 240, 242, 0)); } }
 
 #subNavigation {
   position: relative;
@@ -331,16 +329,25 @@ a {
   text-align: center; }
 
 .noteAside {
-  background-color: #bcbdf4;
-  width: 100vw;
+  background-color: #ededed;
+  width: 100%;
   bottom: 0;
   left: 0;
-  position: fixed; }
+  position: fixed;
+  font-size: .85rem;
+  padding: .5rem; }
 
-@media (min-width: 1000px) {
+.locaRight {
+  width: 1px;
+  height: 1px;
+  float: right;
+  background-color: #000; }
+
+@media (min-width: 1200px) {
   .noteAside {
     width: 200px;
     position: absolute;
-    transform: translate(300px, 0);
-    display: block;
-    display: none; } }
+    display: flex;
+    background: none; }
+  .chapterTxt {
+    transform: translate(-100px, 0); } }
