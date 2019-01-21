@@ -39,11 +39,20 @@ $nootColor: #bebdbd;
 
 
 .noteAside {
-	//background-color: #b872f4;
-	width: 200px;
-	position: absolute;
-	transform: translate(#{$textColWIdth / 2},0);
-	display:block;
-	//display: none;
+	background-color: rgb(188, 189, 244);
+	width: 100vw;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+}
 
+@media (min-width: 1000px) {
+	.noteAside {
+		//background-color: #b872f4;
+		width: 200px;
+		position: absolute;
+		transform: translate(#{$textColWIdth / 2},0);
+		display:block;
+		display: none;
+	}
 }

@@ -210,6 +210,22 @@ td {
 .chapterIllustration {
   display: none; }
 
+.chapterIllustration img {
+  width: calc(100% - 2rem);
+  height: auto;
+  display: block; }
+
+.caption {
+  display: block;
+  font-size: .85rem;
+  margin-top: 1rem; }
+
+.chapterTxt img {
+  width: calc(100% + 3rem);
+  height: auto;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem; }
+
 @media (min-width: 1000px) {
   .chapterIllustration {
     z-index: 0;
@@ -222,17 +238,14 @@ td {
     left: 0;
     top: 0;
     width: 33vw;
-    height: 100vh; } }
-
-.chapterIllustration img {
-  width: calc(100% - 2rem);
-  height: auto;
-  display: block; }
-
-.caption {
-  display: block;
-  font-size: .85rem;
-  margin-top: 1rem; }
+    height: 100vh; }
+  .caption {
+    display: none; }
+  .chapterTxt img {
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-left: -75px; } }
 
 .basicWrapper {
   width: 100vw;
@@ -253,12 +266,7 @@ td {
 .chapterTxt {
   width: 100%;
   max-width: 600px;
-  display: block;
-  transform: translate(-100px, 0); }
-
-.chapterTxt img {
-  width: 75px;
-  height: auto; }
+  display: block; }
 
 .chapterNav {
   display: none; }
@@ -277,7 +285,9 @@ td {
     padding: 7rem 1.5rem;
     left: 0;
     width: 33vw;
-    background-image: linear-gradient(to bottom, #f0f0f2 90%, rgba(240, 240, 242, 0)); } }
+    background-image: linear-gradient(to bottom, #f0f0f2 90%, rgba(240, 240, 242, 0)); }
+  .chapterTxt {
+    transform: translate(-100px, 0); } }
 
 #subNavigation {
   position: relative;
@@ -321,7 +331,16 @@ a {
   text-align: center; }
 
 .noteAside {
-  width: 200px;
-  position: absolute;
-  transform: translate(300px, 0);
-  display: block; }
+  background-color: #bcbdf4;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+  position: fixed; }
+
+@media (min-width: 1000px) {
+  .noteAside {
+    width: 200px;
+    position: absolute;
+    transform: translate(300px, 0);
+    display: block;
+    display: none; } }

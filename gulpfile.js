@@ -4,6 +4,7 @@
 // npm install -g google-spreadsheet-to-json
 // gulp getj
 // gulp nav
+// gulp convHtml
 
 // gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data.json -b
 
@@ -88,7 +89,7 @@ function reload(done) {
 
 // clear Json files en get new data from google docs
 gulp.task('cleanJson', function () {
-    return gulp.src(['content/data/links.json', 'content/data/sites.json', 'content/data/notes.json'], {read: false, allowEmpty: true})
+    return gulp.src(['content/data/links.json', 'content/data/sites.json', 'content/data/notes.json', 'content/data/images.json'], {read: false, allowEmpty: true})
         .pipe(plumber())
         .pipe(clean())
 });
@@ -178,12 +179,13 @@ gulp.task('buildFromTemplates', function(done) {
           //.pipe(replace('<li id="endnote', '<li id="endnote'))
           .pipe(each(function(content, file, callback) {
             var newContent = content;
-            for(var j=0; j<linksJson.length; j++) {
-              newContent = newContent.replace(linksJson[j].words_before_link, linksJson[j].words_before_link+' <a href="'+linksJson[j].url+'">');
-              newContent = newContent.replace(linksJson[j].words_after_link, ' </a>'+linksJson[j].words_after_link);
-            }
+            // for(var j=0; j<linksJson.length; j++) {
+            //   newContent = newContent.replace(linksJson[j].words_before_link, linksJson[j].words_before_link+' <a href="'+linksJson[j].url+'">');
+            //   newContent = newContent.replace(linksJson[j].words_after_link, ' </a>'+linksJson[j].words_after_link);
+            // }
 
-            for(var k=0; k<linksJson.length; k++) {
+            for(var k=0; k<imagesJson.length; k++) {
+              //console.log(imagesJson[k].filename);
               newContent = newContent.replace('[[['+imagesJson[k].filename, '<div class="inlineImage"><img src="images/'+imagesJson[k].filename);
               newContent = newContent.replace(imagesJson[k].filename+']]]', imagesJson[k].filename+'"><div class="caption">'+imagesJson[k].caption1+'<br>'+imagesJson[k].caption2+'<br>'+imagesJson[k].caption3+'<br>'+imagesJson[k].caption4+'<br>'+'</div></div>');
             }

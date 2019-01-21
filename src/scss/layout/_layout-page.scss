@@ -1,3 +1,4 @@
+
 .basicWrapper {
   width: 100vw;
   display: flex;
@@ -22,13 +23,9 @@
   width: 100%;
   max-width: $textColWIdth;
   display: block;
-  transform: translate(-100px,0);
 }
 
-.chapterTxt img {
-  width: 75px;
-  height: auto;
-}
+
 
 .chapterNav {
   display: none;
@@ -39,7 +36,6 @@
   .chapterTxtWrap {
     width: $txtWith;
     margin-left: 33vw;
-
   }
 
   .chapterTxtWrap .bijschrift {
@@ -56,6 +52,9 @@
     width: $sideBarWith;
     //background-color: $colorGreyLightBg;
     background-image: linear-gradient(to bottom, #{$colorGreyLightBg} 90%, rgba(240, 240, 242, 0))
+  }
+  .chapterTxt {
+    transform: translate(-100px,0);
   }
 }
 

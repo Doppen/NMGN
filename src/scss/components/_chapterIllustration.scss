@@ -2,6 +2,24 @@
   display: none;
 }
 
+.chapterIllustration img {
+  width: calc(100% - 2rem);
+  height: auto;
+  display: block;
+}
+
+.caption {
+  display: block;
+  font-size: .85rem;
+  margin-top: 1rem;
+}
+
+.chapterTxt img {
+  width: calc(100% + 3rem);
+  height: auto;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem
+}
 
 @media (min-width: 1000px) {
   .chapterIllustration {
@@ -17,16 +35,14 @@
     width: $sideBarWith;
     height: 100vh;
   }
-}
+  .caption {
+    display: none;
+  }
 
-.chapterIllustration img {
-  width: calc(100% - 2rem);
-  height: auto;
-  display: block;
-}
-
-.caption {
-  display: block;
-  font-size: .85rem;
-  margin-top: 1rem;
+  .chapterTxt img {
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-left: -75px;
+  }
 }
