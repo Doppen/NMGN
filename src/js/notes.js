@@ -8,10 +8,11 @@ var loca = document.getElementById("loca").getBoundingClientRect().left;
 // put note in aside
 var handleNote = function() {
     var attribute = this.querySelector("a").getAttribute("id");
-    attribute = attribute.replace("-ref", "")
+    attribute = attribute.replace("-ref", "");
+    var notenumber = attribute.replace("endnote-", "");
     noteContent = document.getElementById(attribute).innerHTML;
     noteContent = noteContent.replace("↑", "")
-    document.getElementById("showNote").innerHTML= noteContent;
+    document.getElementById("showNote").innerHTML= '<div class="noteIndex">'+notenumber+'</div>'+noteContent;
     document.getElementById("showNote").style.display= 'flex';
     //alert(this.offsetTop);
 

@@ -172,6 +172,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(plumber())
           .pipe(handlebars(page, options))
           .pipe(rename(fileName + ".html"))
+          .pipe(replace('|', '<br>'))
           .pipe(replace('">[', '">'))
           .pipe(replace(']</a>', '</a>'))
           .pipe(replace('<sup><sup>', '<span class="noot">'))
@@ -188,7 +189,7 @@ gulp.task('buildFromTemplates', function(done) {
 
             for(var k=0; k<imagesJson.length; k++) {
               //console.log(imagesJson[k].filename);
-              newContent = newContent.replace('[[['+imagesJson[k].filename, '<div class="inlineImage"><img src="images/'+imagesJson[k].filename);
+              newContent = newContent.replace('[[['+imagesJson[k].filename, '<div class="inlineImage" id="'+imagesJson[k].filename+'"><img src="images/'+imagesJson[k].filename);
               newContent = newContent.replace(imagesJson[k].filename+']]]', imagesJson[k].filename+'"><div class="caption">'+imagesJson[k].caption1+'<br>'+imagesJson[k].caption2+'<br>'+imagesJson[k].caption3+'<br>'+imagesJson[k].caption4+'<br>'+'</div></div>');
             }
 
@@ -196,10 +197,7 @@ gulp.task('buildFromTemplates', function(done) {
           }))
           .pipe(dom(function(){
             //this.querySelectorAll('.Author-s-')[0].remove();
-            //this.querySelectorAll('.Kop1--chapter-')[0].remove();
-            //this.querySelectorAll('h2')[0].className.replace(/\bKop2\b/,'');
-            //this.querySelectorAll('h2')[0].innerHTML.replace('<span class="Bold">','');
-            //this.querySelectorAll('h2')[0].innerHTML.replace('</span>','');
+
 
         }))
           .pipe(useref())

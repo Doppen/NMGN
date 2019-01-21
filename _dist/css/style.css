@@ -245,7 +245,8 @@ td {
     width: 50px;
     height: auto;
     float: left;
-    margin-left: -75px; } }
+    margin-left: -75px;
+    cursor: pointer; } }
 
 .basicWrapper {
   width: 100vw;
@@ -341,17 +342,23 @@ a {
   height: auto;
   transition: height .3s; }
 
+.noteIndex {
+  font-weight: bold;
+  margin-right: .5em; }
+
 .locaRight {
   width: 1px;
   height: 1px;
-  float: right;
-  background-color: #000; }
+  float: right; }
 
 @media (min-width: 1200px) {
   .noteAside {
     width: 200px;
     background: none;
-    position: absolute; }
+    position: absolute;
+    flex-direction: column;
+    color: #999999;
+    line-height: 130%; }
   .chapterTxt {
     transform: translate(-100px, 0); } }
 

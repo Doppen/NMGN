@@ -38,10 +38,11 @@ var loca = document.getElementById("loca").getBoundingClientRect().left;
 // put note in aside
 var handleNote = function() {
     var attribute = this.querySelector("a").getAttribute("id");
-    attribute = attribute.replace("-ref", "")
+    attribute = attribute.replace("-ref", "");
+    var notenumber = attribute.replace("endnote-", "");
     noteContent = document.getElementById(attribute).innerHTML;
     noteContent = noteContent.replace("↑", "")
-    document.getElementById("showNote").innerHTML= noteContent;
+    document.getElementById("showNote").innerHTML= '<div class="noteIndex">'+notenumber+'</div>'+noteContent;
     document.getElementById("showNote").style.display= 'flex';
     //alert(this.offsetTop);
 
@@ -59,22 +60,19 @@ for (var i = 0; i < classname.length; i++) {
     classname[i].addEventListener('click', handleNote, false);
 }
 
-// var classname = document.querySelectorAll(".noot");
-//
-// // remove put note in aside
-// var myFunction = function() {
-//     var attribute = this.querySelector("a").getAttribute("id");
-//     attribute = attribute.replace("-ref", "")
-//     noteContent = document.getElementById(attribute).innerHTML;
-//     document.getElementById("showNote").innerHTML= noteContent;
-//     //alert(this.offsetTop);
-//     document.getElementById("showNote").style.top= this.offsetTop;
-//
-//
-// };
-//
-// // remove anchor click
-// for (var i = 0; i < classname.length; i++) {
-//     classname[i].querySelector("a").removeAttribute('href');
-//     classname[i].addEventListener('click', myFunction, false);
-// }
+var classname = document.querySelectorAll(".inlineImage");
+
+// remove put note in aside
+var changeImage = function() {
+    var attribute = this.getAttribute("id");
+    noteContent = document.getElementById(attribute).innerHTML;
+    document.getElementById("chapterIllustration").innerHTML= noteContent;
+
+
+
+};
+
+// remove anchor click
+for (var i = 0; i < classname.length; i++) {
+    classname[i].addEventListener('click', changeImage, false);
+}
