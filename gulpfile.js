@@ -176,6 +176,8 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace(']</a>', '</a>'))
           .pipe(replace('<sup><sup>', '<span class="noot">'))
           .pipe(replace('</sup></sup>', '</span>'))
+          .pipe(replace('<ol><li id="endnote-1">', '<div class="notesList"><h2>Noten</h2><ol><li id="endnote-1">'))
+          //
           //.pipe(replace('<li id="endnote', '<li id="endnote'))
           .pipe(each(function(content, file, callback) {
             var newContent = content;

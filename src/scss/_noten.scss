@@ -47,7 +47,10 @@ $nootColor: #bebdbd;
 
 	font-size: .85rem;
 	padding: .5rem;
-
+	display: none;
+	min-height: 2px;
+	height:auto;
+	transition: height .3s;
 }
 
 .locaRight {
@@ -60,12 +63,16 @@ $nootColor: #bebdbd;
 @media (min-width: 1200px) {
 	.noteAside {
 		width: 200px;
-		position: absolute;
-		display:flex;
 		background: none;
+		position: absolute;
 	}
 
 	.chapterTxt {
 		transform: translate(-100px,0);
 	}
+}
+
+.notesList {
+	margin: 3em 0;
+	font-size: .85rem;
 }

@@ -36,11 +36,13 @@ var loca = document.getElementById("loca").getBoundingClientRect().left;
 
 
 // put note in aside
-var myFunction = function() {
+var handleNote = function() {
     var attribute = this.querySelector("a").getAttribute("id");
     attribute = attribute.replace("-ref", "")
     noteContent = document.getElementById(attribute).innerHTML;
+    noteContent = noteContent.replace("↑", "")
     document.getElementById("showNote").innerHTML= noteContent;
+    document.getElementById("showNote").style.display= 'flex';
     //alert(this.offsetTop);
 
     if (window.matchMedia("(min-width: 1200px)").matches) {
@@ -54,7 +56,7 @@ var myFunction = function() {
 // remove anchor click
 for (var i = 0; i < classname.length; i++) {
     classname[i].querySelector("a").removeAttribute('href');
-    classname[i].addEventListener('click', myFunction, false);
+    classname[i].addEventListener('click', handleNote, false);
 }
 
 // var classname = document.querySelectorAll(".noot");

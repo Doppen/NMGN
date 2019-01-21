@@ -239,7 +239,7 @@ td {
     top: 0;
     width: 33vw;
     height: 100vh; }
-  .caption {
+  .chapterTxt .caption {
     display: none; }
   .chapterTxt img {
     width: 50px;
@@ -335,7 +335,11 @@ a {
   left: 0;
   position: fixed;
   font-size: .85rem;
-  padding: .5rem; }
+  padding: .5rem;
+  display: none;
+  min-height: 2px;
+  height: auto;
+  transition: height .3s; }
 
 .locaRight {
   width: 1px;
@@ -346,8 +350,11 @@ a {
 @media (min-width: 1200px) {
   .noteAside {
     width: 200px;
-    position: absolute;
-    display: flex;
-    background: none; }
+    background: none;
+    position: absolute; }
   .chapterTxt {
     transform: translate(-100px, 0); } }
+
+.notesList {
+  margin: 3em 0;
+  font-size: .85rem; }
