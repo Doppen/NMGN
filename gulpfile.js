@@ -182,7 +182,6 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<p>[[[', '<div class=" ">[[['))
           .pipe(replace(']]]</p>', ']]]</div>'))
           .pipe(replace('<ol><li id="endnote-1">', '<div class="notesList"><h2>Noten</h2><ol><li id="endnote-1">'))
-          //.pipe(replace('undefined', ''))
           .pipe(each(function(content, file, callback) {
             var newContent = content;
             // for(var j=0; j<linksJson.length; j++) {
