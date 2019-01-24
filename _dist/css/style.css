@@ -233,6 +233,10 @@ td {
   float: right;
   cursor: pointer; }
 
+.imgRow {
+  display: flex;
+  flex-direction: column; }
+
 @media (min-width: 1000px) {
   .chapterIllustration {
     z-index: 0;
@@ -249,15 +253,18 @@ td {
   .chapterTxt .caption {
     display: none; }
   .chapterTxt img {
-    width: 50px;
+    width: 150px;
     height: auto;
-    float: left;
-    margin-left: -75px;
-    cursor: pointer; }
+    cursor: pointer;
+    margin-left: 0;
+    margin-right: 0; }
   .moreCaption {
     display: flex; }
   .openCaption {
-    display: none; } }
+    display: none; }
+  .imgRow {
+    display: flex;
+    flex-direction: row; } }
 
 .basicWrapper {
   width: 100vw;

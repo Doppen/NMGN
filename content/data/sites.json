@@ -9,7 +9,8 @@
         "content": "d1h1",
         "ischapterpage": 1,
         "aera": "1200 - 1600",
-        "parttitle": "Opkomst van de rivier- en zeehandel"
+        "parttitle": "Opkomst van de rivier- en zeehandel",
+        "id": "d1h1"
     },
     {
         "title": "Inleiding",
@@ -19,7 +20,8 @@
         "name": "inleiding-1200-1600",
         "content": "d1h1",
         "aera": "1200 - 1600",
-        "parttitle": "Opkomst van de rivier- en zeehandel"
+        "parttitle": "Opkomst van de rivier- en zeehandel",
+        "id": "d1h2"
     },
     {
         "title": "Binnenvaart",
@@ -29,7 +31,8 @@
         "name": "binnenvaart-1200-1600",
         "content": "d1h1",
         "aera": "1200 - 1600",
-        "parttitle": "Opkomst van de rivier- en zeehandel"
+        "parttitle": "Opkomst van de rivier- en zeehandel",
+        "id": "d1h3"
     },
     {
         "title": "Koopvaardij",
@@ -39,7 +42,8 @@
         "name": "koopvaardij-1200-1600",
         "content": "d1h1",
         "aera": "1200 - 1600",
-        "parttitle": "Opkomst van de rivier- en zeehandel"
+        "parttitle": "Opkomst van de rivier- en zeehandel",
+        "id": "d1h4"
     },
     {
         "title": "Marine",
@@ -49,7 +53,8 @@
         "name": "marine-1200-1600",
         "content": "d1h1",
         "aera": "1200 - 1600",
-        "parttitle": "Opkomst van de rivier- en zeehandel"
+        "parttitle": "Opkomst van de rivier- en zeehandel",
+        "id": "d1h5"
     },
     {
         "title": "Visserij",
@@ -59,7 +64,8 @@
         "name": "visserij-1200-1600",
         "content": "d1h1",
         "aera": "1200 - 1600",
-        "parttitle": "Opkomst van de rivier- en zeehandel"
+        "parttitle": "Opkomst van de rivier- en zeehandel",
+        "id": "d1h6"
     },
     {
         "title": "Cultuurhistorisch katern",
@@ -69,7 +75,8 @@
         "name": "cultuurhistorisch-katern-1200-1600",
         "content": "d1h1",
         "aera": "1200 - 1600",
-        "parttitle": "Opkomst van de rivier- en zeehandel"
+        "parttitle": "Opkomst van de rivier- en zeehandel",
+        "id": "d1h7"
     },
     {
         "title": "Inleiding",
@@ -80,7 +87,8 @@
         "content": "d1h1",
         "ischapterpage": 1,
         "aera": "1700 - 1800",
-        "parttitle": "De vaart in en buiten Europa"
+        "parttitle": "De vaart in en buiten Europa",
+        "id": "d2h1"
     },
     {
         "title": "Koopvaardij binnen Europa",
@@ -90,7 +98,8 @@
         "name": "Koopvaardij-binnen-Europa",
         "content": "d1h1",
         "aera": "1700 - 1800",
-        "parttitle": "De vaart in en buiten Europa"
+        "parttitle": "De vaart in en buiten Europa",
+        "id": "d2h2"
     },
     {
         "title": "Koopvaardij buiten Europa",
@@ -100,7 +109,8 @@
         "name": "Koopvaardij-buiten-Europa",
         "content": "d1h1",
         "aera": "1700 - 1800",
-        "parttitle": "De vaart in en buiten Europa"
+        "parttitle": "De vaart in en buiten Europa",
+        "id": "d2h3"
     },
     {
         "title": "Marine",
@@ -110,7 +120,8 @@
         "name": "Marine",
         "content": "d1h1",
         "aera": "1700 - 1800",
-        "parttitle": "De vaart in en buiten Europa"
+        "parttitle": "De vaart in en buiten Europa",
+        "id": "d2h4"
     },
     {
         "title": "Visserij",
@@ -120,7 +131,8 @@
         "name": "Visserij",
         "content": "d1h1",
         "aera": "1700 - 1800",
-        "parttitle": "De vaart in en buiten Europa"
+        "parttitle": "De vaart in en buiten Europa",
+        "id": "d2h5"
     },
     {
         "title": "Binnenvaart",
@@ -130,7 +142,8 @@
         "name": "Binnenvaart",
         "content": "d1h1",
         "aera": "1700 - 1800",
-        "parttitle": "De vaart in en buiten Europa"
+        "parttitle": "De vaart in en buiten Europa",
+        "id": "d2h6"
     },
     {
         "title": "Cultuurhistorisch katern",
@@ -140,7 +153,8 @@
         "name": 0,
         "content": "d1h1",
         "aera": "1700 - 1800",
-        "parttitle": "De vaart in en buiten Europa"
+        "parttitle": "De vaart in en buiten Europa",
+        "id": "d2h7"
     },
     {
         "title": "Inleiding",
@@ -151,7 +165,8 @@
         "content": "d1h1",
         "ischapterpage": 1,
         "aera": "1780 tot circa 1870",
-        "parttitle": "Tijd van de grote zeilvaart"
+        "parttitle": "Tijd van de grote zeilvaart",
+        "id": "d3h1"
     },
     {
         "title": "Koopvaardij binnen Europa",
@@ -161,7 +176,8 @@
         "name": 2,
         "content": "d1h1",
         "aera": "1780 tot circa 1870",
-        "parttitle": "Tijd van de grote zeilvaart"
+        "parttitle": "Tijd van de grote zeilvaart",
+        "id": "d3h2"
     },
     {
         "title": "Koopvaardij buiten Europa",
@@ -171,7 +187,8 @@
         "name": 3,
         "content": "d1h1",
         "aera": "1780 tot circa 1870",
-        "parttitle": "Tijd van de grote zeilvaart"
+        "parttitle": "Tijd van de grote zeilvaart",
+        "id": "d3h3"
     },
     {
         "title": "Marine",
@@ -181,7 +198,8 @@
         "name": 4,
         "content": "d1h1",
         "aera": "1780 tot circa 1870",
-        "parttitle": "Tijd van de grote zeilvaart"
+        "parttitle": "Tijd van de grote zeilvaart",
+        "id": "d3h4"
     },
     {
         "title": "Visserij",
@@ -191,7 +209,8 @@
         "name": 5,
         "content": "d1h1",
         "aera": "1780 tot circa 1870",
-        "parttitle": "Tijd van de grote zeilvaart"
+        "parttitle": "Tijd van de grote zeilvaart",
+        "id": "d3h5"
     },
     {
         "title": "Binnenvaart",
@@ -201,7 +220,8 @@
         "name": 6,
         "content": "d1h1",
         "aera": "1780 tot circa 1870",
-        "parttitle": "Tijd van de grote zeilvaart"
+        "parttitle": "Tijd van de grote zeilvaart",
+        "id": "d3h6"
     },
     {
         "title": "Cultuurhistorisch katern",
@@ -211,7 +231,8 @@
         "name": 13,
         "content": "d1h1",
         "aera": "1780 tot circa 1870",
-        "parttitle": "Tijd van de grote zeilvaart"
+        "parttitle": "Tijd van de grote zeilvaart",
+        "id": "d3h7"
     },
     {
         "title": "Inleiding",
@@ -222,7 +243,8 @@
         "content": "d1h1",
         "ischapterpage": 1,
         "aera": "circa 1870 tot begin 21e eeuw",
-        "parttitle": "Mechanisering en schaalvergroting"
+        "parttitle": "Mechanisering en schaalvergroting",
+        "id": "d4h1"
     },
     {
         "title": "Koopvaardij binnen Europa",
@@ -232,7 +254,8 @@
         "name": 8,
         "content": "d1h1",
         "aera": "circa 1870 tot begin 21e eeuw",
-        "parttitle": "Mechanisering en schaalvergroting"
+        "parttitle": "Mechanisering en schaalvergroting",
+        "id": "d4h2"
     },
     {
         "title": "Koopvaardij buiten Europa",
@@ -242,7 +265,8 @@
         "name": 9,
         "content": "d1h1",
         "aera": "circa 1870 tot begin 21e eeuw",
-        "parttitle": "Mechanisering en schaalvergroting"
+        "parttitle": "Mechanisering en schaalvergroting",
+        "id": "d4h3"
     },
     {
         "title": "Marine",
@@ -252,7 +276,8 @@
         "name": 0,
         "content": "d1h1",
         "aera": "circa 1870 tot begin 21e eeuw",
-        "parttitle": "Mechanisering en schaalvergroting"
+        "parttitle": "Mechanisering en schaalvergroting",
+        "id": "d4h4"
     },
     {
         "title": "Visserij",
@@ -262,7 +287,8 @@
         "name": 11,
         "content": "d1h1",
         "aera": "circa 1870 tot begin 21e eeuw",
-        "parttitle": "Mechanisering en schaalvergroting"
+        "parttitle": "Mechanisering en schaalvergroting",
+        "id": "d4h5"
     },
     {
         "title": "Binnenvaart",
@@ -272,7 +298,8 @@
         "name": 12,
         "content": "d1h1",
         "aera": "circa 1870 tot begin 21e eeuw",
-        "parttitle": "Mechanisering en schaalvergroting"
+        "parttitle": "Mechanisering en schaalvergroting",
+        "id": "d4h6"
     },
     {
         "title": "Cultuurhistorisch katern",
@@ -282,7 +309,8 @@
         "name": 14,
         "content": "d1h1",
         "aera": "circa 1870 tot begin 21e eeuw",
-        "parttitle": "Mechanisering en schaalvergroting"
+        "parttitle": "Mechanisering en schaalvergroting",
+        "id": "d4h7"
     },
     {
         "title": "Over de NMGN",

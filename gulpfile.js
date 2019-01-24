@@ -153,20 +153,22 @@ gulp.task('sass', function(){
 
 
 
-var linksJson = require('./content/data/links.json');
+//var linksJson = require('./content/data/links.json');
+var notesJson = require('./content/data/notes.json');
 var imagesJson = require('./content/data/images.json');
 
 gulp.task('buildFromTemplates', function(done) {
   var page;
   var fileName;
   var template;
-  var htmlOut = '123';
   var messages;
+  var pageId;
 
   for(var i=0; i<siteJson.length; i++) {
       page = siteJson[i];
       fileName = page.name; //.replace(/ +/g, '-').toLowerCase();
       template = page.template;
+      pageId = page.id;
 
       gulp.src('./src/templates/'+template+'.html')
           .pipe(plumber())
@@ -177,9 +179,10 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace(']</a>', '</a>'))
           .pipe(replace('<sup><sup>', '<span class="noot">'))
           .pipe(replace('</sup></sup>', '</span>'))
+          .pipe(replace('<p>[[[', '<div class=" ">[[['))
+          .pipe(replace(']]]</p>', ']]]</div>'))
           .pipe(replace('<ol><li id="endnote-1">', '<div class="notesList"><h2>Noten</h2><ol><li id="endnote-1">'))
-          //
-          //.pipe(replace('<li id="endnote', '<li id="endnote'))
+          //.pipe(replace('undefined', ''))
           .pipe(each(function(content, file, callback) {
             var newContent = content;
             // for(var j=0; j<linksJson.length; j++) {
@@ -196,7 +199,9 @@ gulp.task('buildFromTemplates', function(done) {
               callback(null, newContent);
           }))
           .pipe(dom(function(){
-            //this.querySelectorAll('.Author-s-')[0].remove();
+            for(var l=0; l<notesJson.length; l++) {
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += notesJson[l].worldcat;
+            }
 
 
         }))

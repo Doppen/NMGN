@@ -1,1 +1,59 @@
-[]
+[
+    {
+        "chapter": "d1h1",
+        "note_number": 1,
+        "aditional_note_text": "J. Buisman, Duizend jaar weer, wind en water in de Lage Landen, deel II (Franeker 1995) 117-119.",
+        "worldcat": "test1.nl"
+    },
+    {
+        "chapter": "d1h1",
+        "note_number": 2,
+        "aditional_note_text": "Jezus Sirach 43:25 (Statenvertaling).",
+        "worldcat": "test2.nl"
+    },
+    {
+        "chapter": "d1h1",
+        "note_number": 3,
+        "aditional_note_text": "F. Egmond, Het Visboek. De wereld van Adriaen Coenen (1514-1577) (Zutphen 2005)."
+    },
+    {
+        "chapter": "d1h1",
+        "note_number": 4,
+        "aditional_note_text": "Aangehaald in: L. van de Stadt, Nederland in 7 overstromingen (Zutphen 2013) 13."
+    },
+    {
+        "chapter": "d1h1",
+        "note_number": 5,
+        "aditional_note_text": "Meester van de Heilige Elisabeth-Panelen, De Sint-Elisabethsvloed, ca. 1490-1495. Rijksmuseum Amsterdam."
+    },
+    {
+        "chapter": "d1h1",
+        "note_number": 6,
+        "aditional_note_text": "P.J.E.M. van Dam, De amfibische cultuur. Een visie op watersnoodrampen (Oratie Vrije Universiteit; Amsterdam 2010) 4."
+    },
+    {
+        "chapter": "d1h1",
+        "note_number": 7,
+        "aditional_note_text": "Uit W.P. Gerritsen (inl.) en W. Wilmink (vert.), De reis van Sint Brandaan. Een reisverhaal uit de twaalfde eeuw (Amsterdam 1994) 36-37:",
+        "extra": "‘Brandaan is daarvandaan\nnaar de kust gegaan\nen liet zich een schip bouwen\nwaar hij op kon vertrouwen:\neen vurehouten mast,\neen zeil dat goed gesneden was\nen met touw omboord.\nRondom de romp, zoals het hoort,\nklinknagels van sterk ijzer,\ndus op dezelfde wijze\nals de ark die Noach maakte\ntoen de zondvloed hem genaakte. \nHet anker maakte hij van staal, \ndan ging het schip niet aan de haal’.\n"
+    },
+    {
+        "chapter": "d1h1",
+        "note_number": 8,
+        "aditional_note_text": "W.P. Gerritsen e.a., De wereld van Sint Brandaan (Utrecht 1986) 81."
+    },
+    {
+        "chapter": "d1h1",
+        "note_number": 9,
+        "aditional_note_text": "Ibidem, 74."
+    },
+    {
+        "chapter": "d1h1",
+        "note_number": 10,
+        "aditional_note_text": "M. Carasso-Kok (ed.), Geschiedenis van Amsterdam, deel I (Amsterdam 2004) 133."
+    },
+    {
+        "chapter": "d1h1",
+        "note_number": 11
+    }
+]
