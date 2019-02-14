@@ -194,8 +194,11 @@ gulp.task('buildFromTemplates', function(done) {
 
             for(var k=0; k<imagesJson.length; k++) {
               //replace images
+
+
               newContent = newContent.replace('[[['+imagesJson[k].filename, '<div class="inlineImage" id="'+imagesJson[k].filename+'"><img src="images/'+imagesJson[k].filename);
-              newContent = newContent.replace(imagesJson[k].filename+']]]', imagesJson[k].filename+'"><div class="caption">'+ifEmp(imagesJson[k].caption1, '<br>')+'<span class="openCaption">[i]</span><div class="moreCaption">'+ifEmp(imagesJson[k].caption2, '<br>')+ifEmp(imagesJson[k].caption3, '<br>')+ifEmp(imagesJson[k].caption4, '<br>')+'</div></div></div>');
+              newContent = newContent.replace(imagesJson[k].filename+']]]', imagesJson[k].filename+'">'+'<div class="caption">'+ifEmp(imagesJson[k].caption1, '', '')+'<span class="openCaption">[i]</span>'+'<div class="moreCaption">'+ifEmp(imagesJson[k].caption2, '<br>', '')
++ifEmp(imagesJson[k].caption3, '<br>', '')+ifEmp(imagesJson[k].caption4, '<br>', '')+'</div></div></div>');
             }
 
               callback(null, newContent);
@@ -203,13 +206,12 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(dom(function(){
             // remove <br> in title
             var title = this.getElementsByTagName("title")[0].innerHTML;
-            console.log(title);
             this.getElementsByTagName("title")[0].innerHTML = title.replace('&lt;br&gt;',' ');
 
 
             for(var l=0; l<notesJson.length; l++) {
 
-              // notes
+              // notes to long notes
               this.getElementById('endnote-'+notesJson[l].note_number).innerHTML = notesJson[l].longNote+ifEmp(notesJson[l].extra, '<br>');
               this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcat, '<br><a href="', '">See on worldcat.org</a>');
               this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel2, '<br><a href="', '">See on worldcat.org</a>');
