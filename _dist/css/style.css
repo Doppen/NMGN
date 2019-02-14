@@ -252,6 +252,8 @@ td {
     height: 100vh; }
   .chapterTxt .caption {
     display: none; }
+  .caption {
+    width: 80%; }
   .chapterTxt img {
     width: 150px;
     height: auto;
