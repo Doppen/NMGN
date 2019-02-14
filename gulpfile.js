@@ -179,9 +179,10 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace(']</a>', '</a>'))
           .pipe(replace('<sup>', '<span class="noot">'))
           .pipe(replace('</sup>', '</span>'))
-          .pipe(replace('<p>[[[', '<div class=" ">[[['))
-          .pipe(replace('</span> [[[', '<div class=" ">[[['))
+          .pipe(replace('<p>[[[', '<div class="inlineImgRow">[[['))
+          .pipe(replace('</span> [[[', '<div class="inlineImgRow">[[['))
           .pipe(replace(']]]</p>', ']]]</div>'))
+          .pipe(replace(']]] </p>', ']]]</div>'))
           .pipe(replace('<ol><li id="endnote-1">', '<div class="notesList"><h2>Noten</h2><ol><li id="endnote-1">'))
           .pipe(each(function(content, file, callback) {
             var newContent = content;
@@ -200,9 +201,21 @@ gulp.task('buildFromTemplates', function(done) {
               callback(null, newContent);
           }))
           .pipe(dom(function(){
+            // remove <br> in title
+            var title = this.getElementsByTagName("title")[0].innerHTML;
+            console.log(title);
+            this.getElementsByTagName("title")[0].innerHTML = title.replace('&lt;br&gt;',' | ');
+
+
             for(var l=0; l<notesJson.length; l++) {
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML = notesJson[l].longNote+'<br><a href="'+notesJson[l].worldcat+'">See on worldcat.org</a>';
-              //this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += '<a href="'+notesJson[l].worldcat+'">See on worldcat.org</a><br>';
+              
+              // notes
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML = notesJson[l].longNote+ifEmp(notesJson[l].extra, '<br>');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcat, '<br><a href="', '">See on worldcat.org</a>');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel2, '<br><a href="', '">See on worldcat.org</a>');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel3, '<br><a href="', '">See on worldcat.org</a>');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel4, '<br><a href="', '">See on worldcat.org</a>');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel5, '<br><a href="', '">See on worldcat.org</a>');
             }
 
 
@@ -245,3 +258,12 @@ gulp.task('default',
   }
 
 ));
+
+
+function ifEmp(input, pre, post) {
+  if(input != undefined) {
+    return pre+input+post;
+  }else {
+    return '';
+  }
+}

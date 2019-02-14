@@ -233,7 +233,7 @@ td {
   float: right;
   cursor: pointer; }
 
-.imgRow {
+.inlineImgRow {
   display: flex;
   flex-direction: column; }
 
@@ -262,9 +262,27 @@ td {
     display: flex; }
   .openCaption {
     display: none; }
-  .imgRow {
+  .inlineImgRow {
     display: flex;
-    flex-direction: row; } }
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    width: 100%; }
+    .inlineImgRow img {
+      width: auto;
+      height: 150px;
+      cursor: pointer;
+      margin-left: 0;
+      margin-right: 10px; }
+  .inlineImgRow::after {
+    content: "Klik op afbeelding voor meer info.";
+    display: block;
+    width: 100%;
+    color: #999;
+    font-size: .85rem; } }
 
 .basicWrapper {
   width: 100vw;
@@ -387,8 +405,10 @@ a {
     transform: translate(-50px, 0); } }
 
 .notesList {
-  margin: 3em 0;
+  margin: 3rem 0;
   font-size: .85rem; }
+  .notesList li {
+    margin: 1rem 0; }
 
 .tessst {
   position: absolute;
