@@ -1,12 +1,5 @@
 [
-  {
-      "filename": "1­_Mappa_Mundi.jpg",
-      "caption1": "Mappa Mundi",
-      "caption2": "Op deze grootst bekende middeleeuwse ‘radkaart’ (163 x 137 cm) ligt het oosten boven en Jeruzalem in het midden als centrum van de wereld. Het land is gevuld met fabeldieren en monsters en omgeven door zeeën waarvan de Rode Zee rood is ingekleurd. Het doel van de kaart is de mens te wijzen op zijn christelijke levenswandel en de gevaren die hij tegenkomt als hij daar van afwijkt.",
-      "caption3": "Perkament, de kaart is ondertekend door Richard van Haldingham en Lafford, ca. 1300.",
-      "caption4": "Hereford Cathedral, Hereford."
-  },
-  {
+    {
         "filename": "1­_Mappa_Mundi.jpg",
         "caption1": "Mappa Mundi",
         "caption2": "Op deze grootst bekende middeleeuwse ‘radkaart’ (163 x 137 cm) ligt het oosten boven en Jeruzalem in het midden als centrum van de wereld. Het land is gevuld met fabeldieren en monsters en omgeven door zeeën waarvan de Rode Zee rood is ingekleurd. Het doel van de kaart is de mens te wijzen op zijn christelijke levenswandel en de gevaren die hij tegenkomt als hij daar van afwijkt.",
@@ -147,5 +140,23 @@
         "caption1": "Speelgoedbootje",
         "caption2": "Houtsnijwerk, ca. 1600. Particuliere vondst te Hoorn.",
         "caption3": "Archeologie West-Friesland, Hoorn."
+    },
+    {
+        "caption3": "13e_Medemblik_dertiende_eeuw.jpg"
+    },
+    {
+        "caption3": "13f_Monnikendam_2dehelft13de.jpg"
+    },
+    {
+        "caption3": "13g_Stavoren_2dehelft14eeuw.jpg"
+    },
+    {
+        "caption3": "13h_Veere_vijftiende_eeuw.jpg"
+    },
+    {
+        "caption3": "13i_Vlaardingen_ca.1300.jpg"
+    },
+    {
+        "caption3": "13j_ IJlst_vijftiende_eeuw.jpg"
     }
 ]

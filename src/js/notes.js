@@ -7,6 +7,7 @@ var loca = document.getElementById("loca").getBoundingClientRect().left;
 
 // put note in aside
 var handleNote = function() {
+
     var attribute = this.querySelector("a").getAttribute("id");
     attribute = attribute.replace("-ref", "");
     var notenumber = attribute.replace("endnote-", "");
@@ -17,12 +18,12 @@ var handleNote = function() {
     //alert(this.offsetTop);
 
     if (window.matchMedia("(min-width: 1200px)").matches) {
+      console.log(this.getBoundingClientRect().top+window.pageYOffset-20);
       document.getElementById("showNote").style.top= this.getBoundingClientRect().top+window.pageYOffset-20+'px';
       document.getElementById("showNote").style.left= loca+30+'px';
     }
-
-
 };
+
 
 // remove anchor click
 for (var i = 0; i < classname.length; i++) {

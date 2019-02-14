@@ -177,20 +177,22 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('|', '<br>'))
           .pipe(replace('">[', '">'))
           .pipe(replace(']</a>', '</a>'))
-          .pipe(replace('<sup><sup>', '<span class="noot">'))
-          .pipe(replace('</sup></sup>', '</span>'))
+          .pipe(replace('<sup>', '<span class="noot">'))
+          .pipe(replace('</sup>', '</span>'))
           .pipe(replace('<p>[[[', '<div class=" ">[[['))
+          .pipe(replace('</span> [[[', '<div class=" ">[[['))
           .pipe(replace(']]]</p>', ']]]</div>'))
           .pipe(replace('<ol><li id="endnote-1">', '<div class="notesList"><h2>Noten</h2><ol><li id="endnote-1">'))
           .pipe(each(function(content, file, callback) {
             var newContent = content;
+            //replace links
             // for(var j=0; j<linksJson.length; j++) {
             //   newContent = newContent.replace(linksJson[j].words_before_link, linksJson[j].words_before_link+' <a href="'+linksJson[j].url+'">');
             //   newContent = newContent.replace(linksJson[j].words_after_link, ' </a>'+linksJson[j].words_after_link);
             // }
 
             for(var k=0; k<imagesJson.length; k++) {
-              //console.log(imagesJson[k].filename);
+              //replace images
               newContent = newContent.replace('[[['+imagesJson[k].filename, '<div class="inlineImage" id="'+imagesJson[k].filename+'"><img src="images/'+imagesJson[k].filename);
               newContent = newContent.replace(imagesJson[k].filename+']]]', imagesJson[k].filename+'"><div class="caption">'+imagesJson[k].caption1+'<span class="openCaption">[i]</span><div class="moreCaption">'+imagesJson[k].caption2+'<br>'+imagesJson[k].caption3+'<br>'+imagesJson[k].caption4+'<br>'+'</div></div></div>');
             }
@@ -199,7 +201,8 @@ gulp.task('buildFromTemplates', function(done) {
           }))
           .pipe(dom(function(){
             for(var l=0; l<notesJson.length; l++) {
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += notesJson[l].worldcat;
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML = notesJson[l].longNote+'<br><a href="'+notesJson[l].worldcat+'">See on worldcat.org</a>';
+              //this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += '<a href="'+notesJson[l].worldcat+'">See on worldcat.org</a><br>';
             }
 
 
