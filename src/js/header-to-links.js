@@ -23,7 +23,7 @@ for (var i = 0; i < elems.length; i++) {
     var hTxt = elems[i].innerText;
     var hTag = elems[i].tagName;
 
-    headerNavigation = headerNavigation+'<a href="#l'+hId+'" class="'+linkClass+'">'+hTxt+'</a><br>';
+    headerNavigation = headerNavigation+'<a href="#l'+hId+'" class="'+linkClass+'">'+hTxt+'</a>';
 }
 
 document.getElementById("subNavigation").innerHTML = headerNavigation;

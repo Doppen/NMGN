@@ -1,18 +1,9 @@
 @import 'normalise';
 @import 'var';
 @import 'typo';
-@import 'layout-temp';
 @import 'components/pageHeader';
 @import 'components/title-hero';
 @import 'components/chapterIllustration';
 @import 'layout/_layout-page';
 @import 'basic-markup';
 @import 'noten';
-
-.tessst {
-  position: absolute;
-  top: 1742px;
-  background-color: rgb(241, 22, 173);
-  padding: 2rem;
-  z-index: 10000;
-}

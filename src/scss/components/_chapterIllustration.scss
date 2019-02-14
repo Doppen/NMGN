@@ -44,18 +44,26 @@
     justify-content: center;
     align-items: center;
     background-color: $colorGreyLightBg;
+    border-right: 1px solid #{darken($colorGreyLightBg, 3)};
     left: 0;
     top: 0;
-    width: $sideBarWith;
+    width: calc(#{$sideBarWith} + 1px);
     height: 100vh;
+
+    img {
+      max-height: 60vh;
+      height: 100%;
+      width: auto;
+      max-width: 30vw;
+    }
   }
   .chapterTxt .caption {
     display: none;
   }
 
   .caption {
-    
-    width: 80%;
+    max-width: 440px;
+    width: 100%;
   }
 
   .chapterTxt img {
@@ -79,8 +87,8 @@
     flex-wrap: wrap;
     border-top: 1px solid #ededed;
     border-bottom: 1px solid #ededed;
-    margin: 1rem 0;
-    padding: 1rem 0;
+    margin: 2rem 0;
+    padding: 2rem 0;
     width: 100%;
 
     img {

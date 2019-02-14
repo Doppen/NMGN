@@ -72,67 +72,6 @@ p {
 strong {
   font-weight: 700; }
 
-.temp-layout {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box; }
-
-.temp-nav {
-  box-sizing: border-box; }
-
-.temp-content {
-  box-sizing: border-box; }
-
-.temp-width {
-  padding: 2em;
-  max-width: 700px;
-  width: 100%; }
-
-nav {
-  display: flex;
-  flex-direction: column; }
-
-table {
-  display: none; }
-
-td {
-  padding: 0 .5em; }
-
-.Bijschrift {
-  font-size: .8em;
-  color: #afafaf; }
-
-.txt {
-  display: block;
-  max-width: 600px; }
-
-.txt p {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto; }
-
-.txt img {
-  width: 50px;
-  height: auto; }
-
-.Superscript {
-  display: inline-block; }
-
-.Superscript a {
-  width: 25px;
-  height: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  border: 1px solid #cbcbcb;
-  color: #cbcbcb;
-  text-decoration: none; }
-
 .pageHeader {
   display: flex;
   flex-direction: column;
@@ -173,7 +112,7 @@ td {
   width: 100vw;
   height: 75vh;
   background-color: #448ccb;
-  background-image: linear-gradient(45deg, #448ccb, #0d77c9);
+  background: url("../images/wave.png") 50%, linear-gradient(45deg, #448ccb, #0d77c9);
   position: absolute;
   z-index: 10;
   top: -4vh;
@@ -246,14 +185,21 @@ td {
     justify-content: center;
     align-items: center;
     background-color: #f0f0f2;
+    border-right: 1px solid #e8e8eb;
     left: 0;
     top: 0;
-    width: 34vw;
+    width: calc(34vw + 1px);
     height: 100vh; }
+    .chapterIllustration img {
+      max-height: 60vh;
+      height: 100%;
+      width: auto;
+      max-width: 30vw; }
   .chapterTxt .caption {
     display: none; }
   .caption {
-    width: 80%; }
+    max-width: 440px;
+    width: 100%; }
   .chapterTxt img {
     width: 150px;
     height: auto;
@@ -270,8 +216,8 @@ td {
     flex-wrap: wrap;
     border-top: 1px solid #ededed;
     border-bottom: 1px solid #ededed;
-    margin: 1rem 0;
-    padding: 1rem 0;
+    margin: 2rem 0;
+    padding: 2rem 0;
     width: 100%; }
     .inlineImgRow img {
       width: auto;
@@ -307,8 +253,15 @@ td {
   max-width: 600px;
   display: block; }
 
+.chapterTxt h2 {
+  margin-top: 6rem; }
+
 .chapterNav {
   display: none; }
+
+nav {
+  display: flex;
+  flex-direction: column; }
 
 @media (min-width: 1000px) {
   .chapterTxtWrap {
@@ -319,12 +272,18 @@ td {
   .chapterNav {
     display: flex;
     flex-direction: column;
+    align-items: center;
     position: absolute;
     top: 66vh;
     padding: 7rem 1.5rem;
     left: 0;
     width: 34vw;
-    background-image: linear-gradient(to bottom, #f0f0f2 90%, rgba(240, 240, 242, 0)); } }
+    background-image: linear-gradient(to bottom, #f0f0f2 90%, rgba(240, 240, 242, 0));
+    color: #448ccb; }
+  .chapterNav div {
+    width: 350px; }
+  .chapterNav a {
+    color: #0d77c9; } }
 
 #subNavigation {
   position: relative;
@@ -411,10 +370,3 @@ a {
   font-size: .85rem; }
   .notesList li {
     margin: 1rem 0; }
-
-.tessst {
-  position: absolute;
-  top: 1742px;
-  background-color: #f116ad;
-  padding: 2rem;
-  z-index: 10000; }
