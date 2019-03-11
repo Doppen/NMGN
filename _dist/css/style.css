@@ -137,13 +137,18 @@ strong {
 
 .titleHero h1 {
   color: #2effdf;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   .titleHero h1 {
     font-size: 60px;
-    font-size: calc((100% + 0.25vw) * 5);
+    line-height: 110%; } }
+
+@media (min-width: 1200px) {
+  .titleHero h1 {
+    font-size: 60px;
+    font-size: calc((100% + 0.25vw) * 4);
     line-height: 110%; } }
 
 .chapterIllustration {
@@ -299,6 +304,19 @@ a {
   padding-left: 1.5rem;
   padding-right: 1.5rem; }
 
+.icon {
+  width: .8rem;
+  height: auto;
+  opacity: .4;
+  cursor: pointer; }
+
+.noSmall {
+  display: none; }
+
+@media (min-width: 600px) {
+  .noSmall {
+    display: inline; } }
+
 .noot {
   display: inline-block;
   background-color: #fff;
@@ -327,17 +345,23 @@ a {
   text-align: center; }
 
 .noteAside {
-  background-color: #ededed;
+  background-color: #fff;
+  border-top: 1px solid #d7d7d7;
   width: 100%;
   bottom: 0;
   left: 0;
   position: fixed;
+  flex-direction: column;
   font-size: .85rem;
-  padding: .5rem;
+  padding: 1rem;
   display: none;
   min-height: 2px;
   height: auto;
   transition: height .3s; }
+
+.noteHeader {
+  display: flex;
+  justify-content: space-between; }
 
 .noteIndex {
   font-weight: bold;
@@ -360,8 +384,13 @@ a {
     background: none;
     position: absolute;
     flex-direction: column;
+    justify-content: flex-start;
     color: #999999;
-    line-height: 130%; }
+    line-height: 130%;
+    border-top: none;
+    padding: 0; }
+  .noteHeader {
+    margin-bottom: 1.5rem; }
   .chapterTxt {
     transform: translate(-50px, 0); } }
 

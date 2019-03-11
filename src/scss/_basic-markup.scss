@@ -14,3 +14,21 @@ $basicMargin: 1.5rem;
   padding-left: $basicMargin;
   padding-right: $basicMargin;
 }
+
+
+.icon {
+	width: .8rem;
+	height: auto;
+	opacity: .4;
+	cursor: pointer;
+}
+
+.noSmall {
+	display: none;
+}
+
+@media (min-width: 600px) {
+	.noSmall {
+		display: inline;
+	}
+}

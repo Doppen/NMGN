@@ -34,16 +34,22 @@
 
 .titleHero h1{
   color: $colorNMGNGreen;
-  font-size: 1.7rem;
-
+  font-size: 1.3rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   .titleHero h1{
     font-size: 60px;
-    font-size: calc((100% + 0.25vw) * 5);
     line-height: 110%;
   }
+}
+
+  @media (min-width: 1200px) {
+    .titleHero h1{
+      font-size: 60px;
+      font-size: calc((100% + 0.25vw) * 4);
+      line-height: 110%;
+    }
 
 }

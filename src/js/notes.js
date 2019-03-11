@@ -1,4 +1,5 @@
 var classname = document.querySelectorAll(".noot");
+var closeName = document.querySelectorAll(".handleCloseNote");
 
 
 var loca = document.getElementById("loca").getBoundingClientRect().left;
@@ -12,8 +13,10 @@ var handleNote = function() {
     attribute = attribute.replace("-ref", "");
     var notenumber = attribute.replace("endnote-", "");
     noteContent = document.getElementById(attribute).innerHTML;
-    noteContent = noteContent.replace("↑", "")
-    document.getElementById("showNote").innerHTML= '<div class="noteIndex">'+notenumber+'</div>'+noteContent;
+    noteContent = noteContent.replace("↑", "");
+    document.getElementById("asideNoteNumber").innerHTML= notenumber;
+    document.getElementById("asideNoteContent").innerHTML= noteContent;
+    //
     document.getElementById("showNote").style.display= 'flex';
     //alert(this.offsetTop);
 
@@ -24,9 +27,17 @@ var handleNote = function() {
     }
 };
 
+function closeNote() {
+  document.getElementById("showNote").style.display= 'none';
+}
+
 
 // remove anchor click
 for (var i = 0; i < classname.length; i++) {
     classname[i].querySelector("a").removeAttribute('href');
     classname[i].addEventListener('click', handleNote, false);
+}
+
+for (var i = 0; i < closeName.length; i++) {
+    closeName[i].addEventListener('click', closeNote, false);
 }

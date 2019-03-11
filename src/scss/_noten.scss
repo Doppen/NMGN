@@ -39,18 +39,26 @@ $nootColor: #bebdbd;
 
 
 .noteAside {
-	background-color: rgb(237, 237, 237);
+	background-color: #fff;
+	border-top: 1px solid rgb(215, 215, 215);
 	width: 100%;
 	bottom: 0;
 	left: 0;
 	position: fixed;
 
+	flex-direction: column;
+
 	font-size: .85rem;
-	padding: .5rem;
+	padding: 1rem;
 	display: none;
 	min-height: 2px;
 	height:auto;
 	transition: height .3s;
+}
+
+.noteHeader {
+	display: flex;
+	justify-content: space-between;
 }
 
 .noteIndex {
@@ -68,6 +76,7 @@ $nootColor: #bebdbd;
 
 @media (min-width: 1000px) {
 	.noteAside {
+
 		width: $txtWith;
 		right: 0;
 		left: auto;
@@ -81,8 +90,15 @@ $nootColor: #bebdbd;
 		background: none;
 		position: absolute;
 		flex-direction: column;
+		justify-content: flex-start;
 		color: $colorGreyMid;
 		line-height: 130%;
+		border-top: none;
+		padding: 0;
+
+	}
+	.noteHeader {
+		margin-bottom: 1.5rem;
 	}
 
 	.chapterTxt {
