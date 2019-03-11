@@ -117,9 +117,7 @@ window.addEventListener("scroll", function (event) {
 
 window.onload = function(){
   for (var i = 0; i < imgArr.length; i++) {
-    //console.log(    getOffset(document.getElementById(imgArr[i])).top    );
     imgAndPos.push([imgArr[i], getOffset(document.getElementById(imgArr[i])).top]);
-    //imgAndPos[i][1] = getOffset(document.getElementById(imgArr[i]).top);
   }
   console.log(imgAndPos);
 };
