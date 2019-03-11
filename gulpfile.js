@@ -40,6 +40,7 @@ var fImages=    'src/images/**/*';
 var fJs=        'src/js/**/*';
 var fJson=      ['src/**/*.json', 'content/**/*.json'];
 var fMd=         'content/**/*.md';
+var allImgStr = 'not working';
 
 
 var siteJson = require('./content/data/sites.json');
@@ -186,6 +187,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<ol><li id="endnote-1">', '<div class="notesList"><h2>Noten</h2><ol><li id="endnote-1">'))
           .pipe(each(function(content, file, callback) {
             var newContent = content;
+
             //replace links
             // for(var j=0; j<linksJson.length; j++) {
             //   newContent = newContent.replace(linksJson[j].words_before_link, linksJson[j].words_before_link+' <a href="'+linksJson[j].url+'">');
@@ -196,13 +198,24 @@ gulp.task('buildFromTemplates', function(done) {
               //replace images
 
 
+
               newContent = newContent.replace('[[['+imagesJson[k].filename, '<div class="inlineImage" id="'+imagesJson[k].filename+'"><img src="images/'+imagesJson[k].filename);
               newContent = newContent.replace(imagesJson[k].filename+']]]', imagesJson[k].filename+'">'+'<div class="caption">'+ifEmp(imagesJson[k].caption1, '', '')+'<span class="openCaption">[i]</span>'+'<div class="moreCaption">'+ifEmp(imagesJson[k].caption2, '<br>', '')
 +ifEmp(imagesJson[k].caption3, '<br>', '')+ifEmp(imagesJson[k].caption4, '<br>', '')+'</div></div></div>');
+
+
+              // fill images array for scroll
+              if (imagesJson[k].filename!= undefined) {
+                newContent = newContent.replace('******', "'"+imagesJson[k].filename+"',******")
+              }
+
+
             }
+
 
               callback(null, newContent);
           }))
+          .pipe(replace(',******', ''))
           .pipe(dom(function(){
             // remove <br> in title
             var title = this.getElementsByTagName("title")[0].innerHTML;
@@ -213,11 +226,11 @@ gulp.task('buildFromTemplates', function(done) {
 
               // notes to long notes
               this.getElementById('endnote-'+notesJson[l].note_number).innerHTML = notesJson[l].longNote+ifEmp(notesJson[l].extra, '<br>');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcat, '<br><a href="', '">See on worldcat.org</a>');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel2, '<br><a href="', '">See on worldcat.org</a>');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel3, '<br><a href="', '">See on worldcat.org</a>');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel4, '<br><a href="', '">See on worldcat.org</a>');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel5, '<br><a href="', '">See on worldcat.org</a>');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcat, '<br><a href="', '" target="_blank">See on worldcat.org</a>');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel2, '<br><a href="', '" target="_blank">See on worldcat.org</a>');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel3, '<br><a href="', '" target="_blank">See on worldcat.org</a>');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel4, '<br><a href="', '" target="_blank">See on worldcat.org</a>');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel5, '<br><a href="', '" target="_blank">See on worldcat.org</a>');
             }
 
 

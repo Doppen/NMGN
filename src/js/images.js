@@ -25,6 +25,5 @@ for (var i = 0; i < classnameImg.length; i++) {
 
 var openCaption = function() {
     var captionDiv = this.querySelector(".moreCaption");
-    alert('111');
     captionDiv.style.display = 'flex';
 };
