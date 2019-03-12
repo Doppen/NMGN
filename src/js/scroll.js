@@ -1,17 +1,26 @@
+//viewport dimentions
+var elem = (document.compatMode === "CSS1Compat") ?
+document.documentElement :
+document.body;
+var vpHeight = elem.clientHeight;
+var vpWidth = elem.clientWidth;
+var switchpoint = .33*vpHeight;
+
+
 var imgAndPos = [];
 
+
+// if being scrollt set the right images
 window.addEventListener("scroll", function (event) {
     var scroll = this.scrollY;
     var msg;
     var loopAmount =imgAndPos.length-1
 
     for (var j = 0; j < loopAmount; j++) {
-      if ((scroll >= imgAndPos[j][1]) && (scroll <= imgAndPos[j+1][1])) {
-        msg = '###!';
-        console.log(imgAndPos[j][0]);
+      if ((scroll >= (imgAndPos[j][1]-switchpoint)) && (scroll <= (imgAndPos[j+1][1]-switchpoint))) {
+        handleImage(imgAndPos[j][0]);
       }
     }
-
 });
 //2250
 

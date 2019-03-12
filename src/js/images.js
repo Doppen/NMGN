@@ -17,8 +17,11 @@ for (var i = 0; i < classnameImg.length; i++) {
 }
 
 
-function handleImage (imageName) {
-
+function handleImage(imageId) {
+  var elem = document.getElementById(imageId)
+  var attribute = elem.getAttribute("id");
+  imageDiv = document.getElementById(attribute).innerHTML;
+  document.getElementById("chapterIllustration").innerHTML= imageDiv;
 }
 
 
