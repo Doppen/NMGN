@@ -2,6 +2,16 @@ var imgAndPos = [];
 
 window.addEventListener("scroll", function (event) {
     var scroll = this.scrollY;
+    var msg;
+    var loopAmount =imgAndPos.length-1
+
+    for (var j = 0; j < loopAmount; j++) {
+      if ((scroll >= imgAndPos[j][1]) && (scroll <= imgAndPos[j+1][1])) {
+        msg = '###!';
+        console.log(imgAndPos[j][0]);
+      }
+    }
+
 });
 //2250
 
@@ -12,10 +22,18 @@ window.addEventListener("scroll", function (event) {
 
 
 window.onload = function(){
+  var tempStoreVal = 0;
+  var yPosImage;
+
   for (var i = 0; i < imgArr.length; i++) {
-    imgAndPos.push([imgArr[i], getOffset(document.getElementById(imgArr[i])).top]);
+    yPosImage = getOffset(document.getElementById(imgArr[i])).top;
+    if (yPosImage != tempStoreVal) {
+      imgAndPos.push([imgArr[i], yPosImage]);
+    }
+    tempStoreVal = yPosImage;
   }
-  console.log(imgAndPos);
+  imgAndPos.push(['end', 1000000]);
+  //console.log(imgAndPos);
 };
 
 

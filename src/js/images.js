@@ -27,3 +27,5 @@ var openCaption = function() {
     var captionDiv = this.querySelector(".moreCaption");
     captionDiv.style.display = 'flex';
 };
+
+function classnameCapt() {}
