@@ -17,7 +17,9 @@ for (var i = 0; i < classnameImg.length; i++) {
 }
 
 
+function handleImage (imageName) {
 
+}
 
 
 // open caption
