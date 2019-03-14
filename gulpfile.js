@@ -202,12 +202,19 @@ gulp.task('buildFromTemplates', function(done) {
               //replace images
 
 
+              // before [[[
+              newContent = newContent.replace('[[['+imagesJson[k].filename, '<div class="inlineImage" id="'
+              +imagesJson[k].filename+'"><span><img src="images/'+imagesJson[k].filename);
 
-              newContent = newContent.replace('[[['+imagesJson[k].filename, '<div class="inlineImage" id="'+imagesJson[k].filename+'"><img src="images/'+imagesJson[k].filename);
-              newContent = newContent.replace(imagesJson[k].filename+']]]', imagesJson[k].filename+'">'
-              +'<div class="caption">'+ifEmp(imagesJson[k].title, '', '')
-              +'<span class="openCaption">[i]</span>'+'<div class="moreCaption">'
-              +ifEmp(imagesJson[k].description, '<br>', '')
+              //after ]]]
+              newContent = newContent.replace(imagesJson[k].filename+']]]', imagesJson[k].filename+'" alt="'+
+              ifEmp(imagesJson[k].title, '', '')+ifEmp(imagesJson[k].description, '. ', '')
+              +'"></span>'
+              +'<div class="caption">'
+              +'<div class="captionTitle">'+ifEmp(imagesJson[k].title, '', '')+'</div>'
+              +'<span class="openCaption">[i]</span>'
+              +'<div class="moreCaption">'
+              +ifEmp(imagesJson[k].description, '', '')
               +ifEmp(imagesJson[k].description2, '<br>', '')
               +ifEmp(imagesJson[k].owner, '<br><em>', '</em>')
               +'</div></div></div>');

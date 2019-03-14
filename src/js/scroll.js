@@ -43,6 +43,9 @@ window.onload = function(){
   }
   imgAndPos.push(['end', 1000000]);
   //console.log(imgAndPos);
+
+  // place the first image
+  handleImage(imgAndPos[0][0]);
 };
 
 

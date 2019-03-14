@@ -2,7 +2,38 @@
   display: none;
 }
 
-.chapterIllustration img {
+
+.chapterIllustrationImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  //background-color: rgb(216, 245, 196);
+  width: 100%;
+  flex-basis: 66%;
+}
+
+.chapterIllustrationCaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  //background-color: rgb(221, 200, 158);
+  width: 100%;
+  flex-basis: 33%;
+  border-top: 1px solid #{darken($colorGreyLightBg, 10)};
+  border-bottom: 1px solid #{darken($colorGreyLightBg, 10)};
+  padding: 1rem 0;
+  font-size: .85rem;
+}
+
+.captionTitle {
+  font-weight: 700;
+}
+
+
+
+.chapterIllustrationImage img {
   width: calc(100% - 2rem);
   height: auto;
   display: block;
@@ -41,8 +72,8 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     background-color: $colorGreyLightBg;
     border-right: 1px solid #{darken($colorGreyLightBg, 3)};
     left: 0;
@@ -51,10 +82,7 @@
     height: 100vh;
 
     img {
-      max-height: 60vh;
-      height: 100%;
-      width: auto;
-      max-width: 30vw;
+  
     }
   }
   .chapterTxt .caption {
@@ -76,6 +104,7 @@
 
   .moreCaption {
     display: flex;
+    flex-direction: column;
   }
   .openCaption {
     display: none;
@@ -101,7 +130,7 @@
     }
   }
   .inlineImgRow::after {
-    content: "Klik op afbeelding voor meer info.";
+    content: "";
     display: block;
     width: 100%;
     color: #999;
