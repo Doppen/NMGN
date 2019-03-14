@@ -259,7 +259,7 @@ strong {
   display: block; }
 
 .chapterTxt h2 {
-  margin-top: 6rem; }
+  margin-top: 4rem; }
 
 .chapterNav {
   display: none; }
@@ -318,7 +318,11 @@ a {
     display: inline; } }
 
 .quote {
-  background-color: #d14cab; }
+  margin-left: 1rem;
+  font-family: 'Andada', serif; }
+
+.quote p {
+  margin-bottom: 0rem; }
 
 .ellipsis {
   text-overflow: ellipsis;
@@ -335,7 +339,8 @@ a {
   font-size: .8rem;
   border-radius: 50%;
   cursor: pointer;
-  margin: 0 .3rem; }
+  transform: translate(0, -3px);
+  font-family: 'Roboto', sans-serif; }
 
 .noot span {
   display: flex;

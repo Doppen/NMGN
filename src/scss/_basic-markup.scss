@@ -34,7 +34,12 @@ $basicMargin: 1.5rem;
 }
 
 .quote {
-	background-color: rgb(209, 76, 171);
+	margin-left: 1rem;
+	font-family: 'Andada', serif;
+}
+
+.quote p{
+	margin-bottom: 0rem;
 }
 
 .ellipsis {

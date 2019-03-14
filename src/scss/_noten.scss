@@ -11,10 +11,12 @@ $nootColor: $colorNMGNBlue2; //#bebdbd;
 	font-size: .8rem;
 	border-radius: 50%;
 	cursor: pointer;
-	margin: 0 .3rem;
+	transform: translate(0,-3px);
+	font-family: 'Roboto', sans-serif;
+}
 
-
-
+.noot::before {
+	//content: '&nbsp;';
 }
 
 .noot span {

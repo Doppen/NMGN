@@ -180,7 +180,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace(']</a>', '</a>'))
           .pipe(replace('<sup><sup>', '<sup>'))
           .pipe(replace('</sup></sup>', '</sup>'))
-          .pipe(replace('<sup>', '<span class="noot">'))
+          .pipe(replace('<sup>', '&nbsp;<span class="noot">'))
           .pipe(replace('</sup>', '</span>'))
           .pipe(replace('@i@', '<div class="inlineImgRow">'))
           .pipe(replace('@/i@', '</div>'))
