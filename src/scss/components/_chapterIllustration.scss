@@ -34,9 +34,18 @@
 
 
 .chapterIllustrationImage img {
-  width: calc(100% - 2rem);
-  height: auto;
-  display: block;
+  box-shadow: 4px 4px 5px rgba(144, 144, 144, 0.6);
+  width: 200px;
+}
+
+.imgFillH {
+  height: calc(100% - 1rem) !important;
+  width: auto !important;
+}
+
+.imgFillW {
+  width: calc(100% - 1rem) !important;
+  height: auto !important;
 }
 
 .caption {
@@ -82,7 +91,7 @@
     height: 100vh;
 
     img {
-  
+
     }
   }
   .chapterTxt .caption {

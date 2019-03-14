@@ -17,7 +17,7 @@
   <div class="titleHero basicSideMargin basicSiteMax">
 
 
-      <div>Deel {{part}} <em>{{parttitle}}</em></div> 
+      <div>Deel {{part}} <em>{{parttitle}}</em></div>
       <div>{{aera}}</div>
       <h1>{{title}}</h1>
       <div class="">{{author}}</div>
@@ -46,7 +46,10 @@
 
 
 
-    <div class="footer">{{> nav}}</div>
+    <div class="popNavigation" id="popNavigation">
+      <div class="popNavHeader"><a href="#" onclick="closeNav();return false;"><img src="images/icons/close.svg" class="icon"></a></div>
+      <div class="popNavContent">{{> nav}}</div>
+    </div>
   </div>
 
 </div>

@@ -4,7 +4,7 @@ document.documentElement :
 document.body;
 var vpHeight = elem.clientHeight;
 var vpWidth = elem.clientWidth;
-var switchpoint = .33*vpHeight;
+var switchpoint = .2*vpHeight;
 
 
 var imgAndPos = [];

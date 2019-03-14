@@ -50,12 +50,27 @@ var openCaption = function() {
 function classnameCapt() {}
 
 
+// set dimentions of the image
 function imageDimentions(imagefile) {
   var elem = document.getElementById(imagefile);
-  //console.log(elem);
+
   var elemImage = elem.getElementsByTagName("span")[0].getElementsByTagName("img")[0];
-  console.log(elemImage.naturalWidth);
-  console.log(elemImage.naturalHeight);
+  var imgWidth = elemImage.naturalWidth;
+  var imgHeight =elemImage.naturalHeight;
+
+
+  var placedImg = document.getElementById('chapterIllustrationImage').getElementsByTagName("img")[0];
+
+  if (imgHeight < imgWidth) {
+    console.log('height is short');
+    placedImg.classList.add("imgFillW");
+
+  }
+  else {
+    console.log('width is short');
+
+    placedImg.classList.add("imgFillH");
+  }
 
 
   //return imageId;

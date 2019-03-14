@@ -36,6 +36,7 @@ var dst =       '_dist/';
 var prebuild =  'prebuild';
 var fScss=      'src/scss/**/*.scss';
 var fHtml=      'src/**/*.html';
+var fHtmlNot=   '!src/components/nav.html';
 var fImages=    'src/images/**/*';
 var fJs=        'src/js/**/*';
 var fJson=      ['src/**/*.json', 'content/**/*.json'];
@@ -274,7 +275,7 @@ gulp.task('copyImg', function(){
 
 
 gulp.task('build',
-  gulp.series('clean', 'sass', 'buildFromTemplates', 'copyImg',
+  gulp.series('clean', 'nav', 'sass', 'buildFromTemplates', 'copyImg',
   function(done) {
       done();
   }
@@ -282,7 +283,7 @@ gulp.task('build',
 
 
 gulp.task('watch', function () {
-  gulp.watch([[fHtml, fScss, fJs, fJson, fMd]], gulp.series('build'));
+  gulp.watch([[fHtml, fHtmlNot, fScss, fJs, fJson, fMd]], gulp.series('build'));
 });
 
 

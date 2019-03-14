@@ -178,9 +178,16 @@ strong {
   font-weight: 700; }
 
 .chapterIllustrationImage img {
-  width: calc(100% - 2rem);
-  height: auto;
-  display: block; }
+  box-shadow: 4px 4px 5px rgba(144, 144, 144, 0.6);
+  width: 200px; }
+
+.imgFillH {
+  height: calc(100% - 1rem) !important;
+  width: auto !important; }
+
+.imgFillW {
+  width: calc(100% - 1rem) !important;
+  height: auto !important; }
 
 .caption {
   display: block;
@@ -429,6 +436,50 @@ a {
 
 .notesList {
   margin: 3rem 0;
-  font-size: .85rem; }
+  font-size: .85rem;
+  line-height: 150%; }
   .notesList li {
     margin: 1rem 0; }
+
+.popNavigation {
+  background-color: #2effdf;
+  color: #0d77c9;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start; }
+
+.popNavigation a {
+  color: #0d77c9; }
+
+.popNavHeader {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end; }
+
+.popNavContent {
+  width: 100%; }
+
+.popNavContent > * {
+  display: flex;
+  flex-direction: column;
+  width: calc(25% - 2rem);
+  margin-top: 10vh; }
+
+.popNavContent > *:first-child {
+  display: none; }
+
+@media (min-width: 800px) {
+  .popNavContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; } }
+
+.popNavHeader .icon {
+  width: 2rem; }
