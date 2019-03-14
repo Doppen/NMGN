@@ -178,12 +178,16 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('|', '<br>'))
           .pipe(replace('">[', '">'))
           .pipe(replace(']</a>', '</a>'))
+          .pipe(replace('<sup><sup>', '<sup>'))
+          .pipe(replace('</sup></sup>', '</sup>'))
           .pipe(replace('<sup>', '<span class="noot">'))
           .pipe(replace('</sup>', '</span>'))
-          .pipe(replace('<p>[[[', '<div class="inlineImgRow">[[['))
-          .pipe(replace('</span> [[[', '<div class="inlineImgRow">[[['))
-          .pipe(replace(']]]</p>', ']]]</div>'))
-          .pipe(replace(']]] </p>', ']]]</div>'))
+          .pipe(replace('@i@', '<div class="inlineImgRow">'))
+          .pipe(replace('@/i@', '</div>'))
+          //.pipe(replace(']]]</p>', ']]]</div>'))
+          //.pipe(replace(']]] </p>', ']]]</div>'))
+          .pipe(replace('@q@', '<div class="quote">'))
+          .pipe(replace('@/q@', '</div>'))
           .pipe(replace('<ol><li id="endnote-1">', '<div class="notesList"><h2>Noten</h2><ol><li id="endnote-1">'))
           .pipe(each(function(content, file, callback) {
             var newContent = content;
@@ -200,8 +204,13 @@ gulp.task('buildFromTemplates', function(done) {
 
 
               newContent = newContent.replace('[[['+imagesJson[k].filename, '<div class="inlineImage" id="'+imagesJson[k].filename+'"><img src="images/'+imagesJson[k].filename);
-              newContent = newContent.replace(imagesJson[k].filename+']]]', imagesJson[k].filename+'">'+'<div class="caption">'+ifEmp(imagesJson[k].caption1, '', '')+'<span class="openCaption">[i]</span>'+'<div class="moreCaption">'+ifEmp(imagesJson[k].caption2, '<br>', '')
-+ifEmp(imagesJson[k].caption3, '<br>', '')+ifEmp(imagesJson[k].caption4, '<br>', '')+'</div></div></div>');
+              newContent = newContent.replace(imagesJson[k].filename+']]]', imagesJson[k].filename+'">'
+              +'<div class="caption">'+ifEmp(imagesJson[k].title, '', '')
+              +'<span class="openCaption">[i]</span>'+'<div class="moreCaption">'
+              +ifEmp(imagesJson[k].description, '<br>', '')
+              +ifEmp(imagesJson[k].description2, '<br>', '')
+              +ifEmp(imagesJson[k].owner, '<br><em>', '</em>')
+              +'</div></div></div>');
 
 
               // fill images array for scroll
@@ -225,12 +234,17 @@ gulp.task('buildFromTemplates', function(done) {
             for(var l=0; l<notesJson.length; l++) {
 
               // notes to long notes
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML = notesJson[l].longNote+ifEmp(notesJson[l].extra, '<br>');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcat, '<br><a href="', '" target="_blank">See on worldcat.org</a>');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel2, '<br><a href="', '" target="_blank">See on worldcat.org</a>');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel3, '<br><a href="', '" target="_blank">See on worldcat.org</a>');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel4, '<br><a href="', '" target="_blank">See on worldcat.org</a>');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel5, '<br><a href="', '" target="_blank">See on worldcat.org</a>');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML =  ifEmp(notesJson[l].longNote, '', '');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].autheur1, '', ', ');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie1, '<em>', '</em>, ');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie1extra, '<br>', '');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].extra, '<br>', '');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].url, '<br><div class="ellipsis"><a target="_blank" href="'+notesJson[l].url+'">', '</a></div>');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcat, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel2, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel3, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel4, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel5, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
             }
 
 

@@ -32,3 +32,14 @@ $basicMargin: 1.5rem;
 		display: inline;
 	}
 }
+
+.quote {
+	background-color: rgb(209, 76, 171);
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+	width: 100%;
+}
