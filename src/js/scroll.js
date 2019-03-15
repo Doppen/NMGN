@@ -18,7 +18,10 @@ window.addEventListener("scroll", function (event) {
 
     for (var j = 0; j < loopAmount; j++) {
       if ((scroll >= (imgAndPos[j][1]-switchpoint)) && (scroll <= (imgAndPos[j+1][1]-switchpoint))) {
-        handleImage(imgAndPos[j][0]);
+        if (scrollChange) {
+          handleImage(imgAndPos[j][0]);
+        }
+
       }
     }
 });

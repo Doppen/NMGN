@@ -1,5 +1,6 @@
 var activeImage='';
 var classnameImg = document.querySelectorAll(".inlineImage");
+var scrollChange = true;
 
 // remove put note in aside
 var changeImage = function() {
@@ -11,14 +12,17 @@ var changeImage = function() {
 
 // handle click
 for (var i = 0; i < classnameImg.length; i++) {
-  if (window.matchMedia("(min-width: 1200px)").matches) {
+  if (window.matchMedia("(min-width: 1000px)").matches) {
     classnameImg[i].addEventListener('click', changeImage, false);
+    classnameImg[i].addEventListener('click', imageClickOrganiser, false);
   } else {
     classnameImg[i].addEventListener('click', classnameCapt, false);
   }
 }
 
-
+function imageClickOrganiser() {
+  scrollChange = false;
+}
 
 
 function handleImage(imageId) {
