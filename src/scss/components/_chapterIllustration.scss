@@ -25,6 +25,7 @@
   border-bottom: 1px solid #{darken($colorGreyLightBg, 10)};
   padding: 1rem 0;
   font-size: .85rem;
+  overflow-y: scroll;
 }
 
 .captionTitle {

@@ -72,6 +72,7 @@ for (var i = 0; i < closeName.length; i++) {
     closeName[i].addEventListener('click', closeNote, false);
 }
 
+var activeImage='';
 var classnameImg = document.querySelectorAll(".inlineImage");
 
 // remove put note in aside
@@ -95,11 +96,13 @@ for (var i = 0; i < classnameImg.length; i++) {
 
 
 function handleImage(imageId) {
+  activeImage=imageId;
   // get ID
   var elem = document.getElementById(imageId);
 
   //place image
   var elemImage = elem.getElementsByTagName("span")[0].innerHTML;
+  var elemImage = elemImage.replace("-170", "-600");
   document.getElementById("chapterIllustrationImage").innerHTML= elemImage;
 
   //Place caption
@@ -217,4 +220,16 @@ function closeNav() {
 
 function OpenNav() {
   document.getElementById("popNavigation").style.display= 'flex';
+}
+
+function bigImageViewer() {
+  document.getElementById("bigImageViewer").style.display= 'flex';
+
+  document.getElementById('bigImageViewerFrame').innerHTML = '<img src="images/'+activeImage+'" id="bigImageViewerImage"/>';
+}
+
+
+
+function closeBigImage() {
+  document.getElementById("bigImageViewer").style.display= 'none';
 }

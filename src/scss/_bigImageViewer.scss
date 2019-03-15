@@ -1,0 +1,29 @@
+.bigImageViewer {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 34vw;
+	right: 0;
+	z-index: 900;
+	background-color: rgba(#000000, 0.9);
+
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	overflow: hidden;
+}
+
+#bigImageViewer {}
+
+.bigImageControler {
+	position: fixed;
+	bottom: 0;
+	left: 34vw;
+	right: 0;
+}
+
+.slider {
+	width: 100%;
+}

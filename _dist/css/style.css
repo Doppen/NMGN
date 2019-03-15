@@ -172,7 +172,8 @@ strong {
   border-top: 1px solid #bbd6e8;
   border-bottom: 1px solid #bbd6e8;
   padding: 1rem 0;
-  font-size: .85rem; }
+  font-size: .85rem;
+  overflow-y: scroll; }
 
 .captionTitle {
   font-weight: 700; }
@@ -483,3 +484,26 @@ a {
 
 .popNavHeader .icon {
   width: 2rem; }
+
+.bigImageViewer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 34vw;
+  right: 0;
+  z-index: 900;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+
+.bigImageControler {
+  position: fixed;
+  bottom: 0;
+  left: 34vw;
+  right: 0; }
+
+.slider {
+  width: 100%; }

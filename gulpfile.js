@@ -205,7 +205,7 @@ gulp.task('buildFromTemplates', function(done) {
 
               // before [[[
               newContent = newContent.replace('[[['+imagesJson[k].filename, '<div class="inlineImage" id="'
-              +imagesJson[k].filename+'"><span><img src="images/'+imagesJson[k].filename);
+              +imagesJson[k].filename+'"><span><img src="images/'+imagesJson[k].chapter+'/'+imagesJson[k].chapter+'-170/'+imagesJson[k].filename);
 
               //after ]]]
               newContent = newContent.replace(imagesJson[k].filename+']]]', imagesJson[k].filename+'" alt="'+
