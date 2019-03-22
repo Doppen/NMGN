@@ -25,7 +25,6 @@ window.addEventListener("scroll", function (event) {
       }
     }
 });
-//2250
 
 
 

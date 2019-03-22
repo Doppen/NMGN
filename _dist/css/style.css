@@ -499,7 +499,7 @@ a {
   position: fixed;
   top: 0;
   bottom: 0;
-  left: 34vw;
+  left: 0;
   right: 0;
   z-index: 900;
   background-color: rgba(0, 0, 0, 0.9);
@@ -509,11 +509,12 @@ a {
   align-items: center;
   overflow: hidden; }
 
-.bigImageControler {
+.bigImageHeader {
   position: fixed;
-  bottom: 0;
-  left: 34vw;
-  right: 0; }
+  top: 0;
+  right: 0;
+  padding: .5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.5); }
 
 .slider {
   width: 100%; }
