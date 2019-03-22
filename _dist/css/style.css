@@ -483,7 +483,8 @@ a {
   justify-content: flex-start; }
 
 .popNavigation a {
-  color: #0d77c9; }
+  color: #0d77c9;
+  margin-bottom: .5rem; }
 
 .popNavHeader {
   width: 100%;
@@ -498,7 +499,8 @@ a {
   display: flex;
   flex-direction: column;
   width: calc(25% - 2rem);
-  margin-top: 10vh; }
+  margin-top: 10vh;
+  margin-left: 2rem; }
 
 .popNavContent > *:first-child {
   display: none; }

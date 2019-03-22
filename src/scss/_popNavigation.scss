@@ -15,6 +15,7 @@
 
 .popNavigation a{
 	color:$colorNMGNBlue1;
+	margin-bottom: .5rem;
 
 }
 
@@ -36,6 +37,7 @@
 	flex-direction: column;
 	width: calc(25% - 2rem);
 	margin-top: 10vh;
+	margin-left: 2rem;
 }
 
 .popNavContent > *:first-child{
