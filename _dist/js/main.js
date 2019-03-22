@@ -105,15 +105,16 @@ function handleImage(imageId) {
   var elem = document.getElementById(imageId);
 
   //place image
-  var elemImage = elem.getElementsByTagName("span")[0].innerHTML;
+  var elemImage = elem.getElementsByTagName("img")[0].getAttribute('src');
   var elemImage = elemImage.replace("-170", "-600");
-  document.getElementById("chapterIllustrationImage").innerHTML= elemImage;
+  //document.getElementById("chapterIllustrationImage").innerHTML= elemImage;
+  document.getElementById('chapterIllustrationImage').getElementsByTagName("img")[0].setAttribute('src', elemImage);
 
   //Place caption
   var elemImage = elem.getElementsByClassName("caption")[0].innerHTML;
   document.getElementById("chapterIllustrationCaption").innerHTML= elemImage;
 
-  imageDimentions(imageId);
+  imageDimentions(imageId, 'chapterIllustrationImage');
 
   //var attribute = elem.getAttribute("id");
   //imageDiv = document.getElementById(attribute).innerHTML;
@@ -132,7 +133,8 @@ function classnameCapt() {}
 
 
 // set dimentions of the image
-function imageDimentions(imagefile) {
+function imageDimentions(imagefile, placeId) {
+  console.log(imagefile);
   var elem = document.getElementById(imagefile);
 
   var elemImage = elem.getElementsByTagName("span")[0].getElementsByTagName("img")[0];
@@ -140,16 +142,13 @@ function imageDimentions(imagefile) {
   var imgHeight =elemImage.naturalHeight;
 
 
-  var placedImg = document.getElementById('chapterIllustrationImage').getElementsByTagName("img")[0];
+  var placedImg = document.getElementById(placeId).getElementsByTagName("img")[0];
 
   if (imgHeight < imgWidth) {
-    console.log('height is short');
     placedImg.classList.add("imgFillW");
 
   }
   else {
-    console.log('width is short');
-
     placedImg.classList.add("imgFillH");
   }
 
@@ -232,6 +231,7 @@ function bigImageViewer() {
   document.getElementById("bigImageViewer").style.display= 'flex';
   document.getElementById('zoomFig').style.backgroundImage = 'url(\'images/d1h1/d1h1-big/'+activeImage+'\')';
   document.getElementById('zoomImg').setAttribute('src', 'images/d1h1/d1h1-600/'+activeImage);
+  imageDimentions(activeImage, 'zoomFig');
 }
 
 //id="zoomFig"

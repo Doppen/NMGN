@@ -193,11 +193,11 @@ strong {
   width: 200px; }
 
 .imgFillH {
-  height: calc(100% - 1rem) !important;
+  height: calc(100% - 2rem) !important;
   width: auto !important; }
 
 .imgFillW {
-  width: calc(100% - 1rem) !important;
+  width: calc(100% - 2rem) !important;
   height: auto !important; }
 
 .caption {
@@ -274,14 +274,25 @@ strong {
     color: #999;
     font-size: .85rem; } }
 
+.zoomIcon {
+  margin-top: -2rem; }
+  .zoomIcon a {
+    color: #3e3e3e;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: .5rem; }
+
 figure.zoom {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   position: relative;
-  width: calc(100vw - 2rem);
-  max-width: 1500px;
   overflow: hidden;
   cursor: zoom-in; }
+  figure.zoom .imgFillH {
+    height: calc(100vh - 2rem) !important;
+    width: auto !important; }
+  figure.zoom .imgFillW {
+    width: calc(100vw - 2rem) !important;
+    height: auto !important; }
 
 figure.zoom img:hover {
   opacity: 0; }
@@ -533,7 +544,8 @@ a {
   top: 0;
   right: 0;
   padding: .5rem 1rem;
-  background-color: rgba(255, 255, 255, 0.5); }
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1100; }
 
 .slider {
   width: 100%; }

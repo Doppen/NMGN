@@ -40,12 +40,12 @@
 }
 
 .imgFillH {
-  height: calc(100% - 1rem) !important;
+  height: calc(100% - 2rem) !important;
   width: auto !important;
 }
 
 .imgFillW {
-  width: calc(100% - 1rem) !important;
+  width: calc(100% - 2rem) !important;
   height: auto !important;
 }
 
@@ -145,5 +145,15 @@
     width: 100%;
     color: #999;
     font-size: .85rem;
+  }
+}
+
+.zoomIcon {
+  margin-top: -2rem;
+
+  a {
+    color: $colorTxt;
+    background-color: rgba(#ffffff, 0.7);
+    padding: .5rem;
   }
 }
