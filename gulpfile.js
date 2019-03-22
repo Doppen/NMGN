@@ -37,10 +37,10 @@ var prebuild =  'prebuild';
 var fScss=      'src/scss/**/*.scss';
 var fHtml=      'src/**/*.html';
 var fHtmlNot=   '!src/components/nav.html';
-var fImages=    'src/images/**/*';
+var fImages=    ['src/images/**/*', '!src/images/oud/**/*'];
 var fJs=        'src/js/**/*';
 var fJson=      ['src/**/*.json', 'content/**/*.json'];
-var fMd=         'content/**/*.md';
+var fMd=        'content/**/*.md';
 var allImgStr = 'not working';
 
 
@@ -243,7 +243,7 @@ gulp.task('buildFromTemplates', function(done) {
 
               // notes to long notes
               this.getElementById('endnote-'+notesJson[l].note_number).innerHTML =  ifEmp(notesJson[l].longNote, '', '');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].autheur1, '', ', ');
+              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].auteur1, '', ', ');
               this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie1, '<em>', '</em>, ');
               this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie1extra, '<br>', '');
               this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].extra, '<br>', '');

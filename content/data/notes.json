@@ -22,6 +22,7 @@
         "note_number": 3,
         "longNote": "Jezus Sirach 43:25 (Statenvertaling).",
         "url": "https://www.statenvertaling.net/bijbel/jezu/43.html (28 januari 2019).",
+        "viewDatumUrl": "(28 januari 2019).",
         "worldcat": "https://www.worldcat.org/title/bijbel-dat-is-de-gansche-heilige-schrift-vervattende-al-de-kanonijke-boeken-des-ouden-en-nieuwen-testaments/oclc/978214040&referer=brief_results"
     },
     {
@@ -29,15 +30,15 @@
         "note_number": 4,
         "auteur1": "F. Egmond",
         "publicatie1": "Het Visboek. De wereld van Adriaen Coenen (1514-1577)",
-        "publicatie1extra": "(Zutphen 2005)",
+        "publicatie1extra": "(Zutphen 2005).",
         "worldcat": "https://www.worldcat.org/title/visboek-de-wereld-volgens-adriaen-coenen-1514-1587/oclc/470893260&referer=brief_results"
     },
     {
         "chapter": "d1h1",
         "note_number": 5,
-        "auteur1": "Aangehaald in: L. van de Stadt",
+        "auteur1": "L. van de Stadt",
         "publicatie1": "Nederland in 7 overstromingen",
-        "publicatie1extra": "(Zutphen 2013) 13",
+        "publicatie1extra": "(Zutphen 2013) 13.",
         "worldcat": "https://www.worldcat.org/title/nederland-in-7-overstromingen/oclc/861000673&referer=brief_results"
     },
     {
@@ -56,7 +57,7 @@
     {
         "chapter": "d1h1",
         "note_number": 8,
-        "auteur1": "Uit W.P. Gerritsen (inl.) en W. Wilmink (vert.)",
+        "auteur1": "W.P. Gerritsen (inl.) en W. Wilmink (vert.)",
         "publicatie1": "De reis van Sint Brandaan. Een reisverhaal uit de twaalfde eeuw",
         "publicatie1extra": "(Amsterdam 1994) 36-37:",
         "extra": "‘Brandaan is daarvandaan\nnaar de kust gegaan\nen liet zich een schip bouwen\nwaar hij op kon vertrouwen:\neen vurehouten mast,\neen zeil dat goed gesneden was\nen met touw omboord.\nRondom de romp, zoals het hoort,\nklinknagels van sterk ijzer,\ndus op dezelfde wijze\nals de ark die Noach maakte\ntoen de zondvloed hem genaakte. \nHet anker maakte hij van staal, \ndan ging het schip niet aan de haal’.\n",
@@ -105,14 +106,25 @@
     {
         "chapter": "d1h1",
         "note_number": 14,
-        "longNote": "Sjoerd de Meer, conservator bij het Maritiem Museum Rotterdam, betwijfelt de votieffunctie van het Mataró-model: S. de Meer, ‘The Coca of Mataró, a Medieval Ship Model’ in: E. Guedea e.a. (ed.), Mediterraneum: Splendour of the Medieval Mediterranean, 13th-15th Centuries (Barcelona 2004) 573-579,  The Nao of Mataró  (14 juni 2018); S. de Meer, ‘Mataró-model. Het oudste scheepsmodel geeft geheimen prijs!’, Scheepshistorie. Het schaalmodel als reconstructie 7 (Emmen 2009) 29-50.",
+        "longNote": "Sjoerd de Meer, conservator bij het Maritiem Museum Rotterdam, betwijfelt de votieffunctie van het Mataró-model: ",
+        "auteur1": "S. de Meer",
+        "publicatie1": "‘The Coca of Mataró, a Medieval Ship Model’ in: E. Guedea e.a. (ed.), Mediterraneum: Splendour of the Medieval Mediterranean, 13th-15th Centuries (Barcelona 2004) 573-579",
+        "publicatie2": "‘Mataró-model. Het oudste scheepsmodel geeft geheimen prijs!’, Scheepshistorie. Het schaalmodel als reconstructie 7 (Emmen 2009) 29-50.",
+        "auteur2": "S. de Meer",
+        "url": "https://www.iemed.org/dossiers-en/dossiers-iemed/accio-cultural/mediterraneum-1/documentacio/anau.pdf",
+        "viewDatumUrl": "(14 juni 2018).",
         "worldcat": "https://www.worldcat.org/title/coca-de-mataro-modelo-de-embarcacion-medieval/oclc/887162792&referer=brief_results",
         "worldcatTitel2": "https://www.worldcat.org/title/mataro-model-het-oudste-scheepsmodel-geeft-haat-geheimen-prijs-motorreddingsboot-prins-hendrik-een-stoere-reddingsboot-met-een-mooie-zeg-stoomschip-insulinde-en-de-hoogtijdagen-van-de-vaart-op-de-oost/oclc/654750297&referer=brief_results"
     },
     {
         "chapter": "d1h1",
         "note_number": 15,
-        "longNote": "L. Sicking, Licht op het oudste scheepsmodel. Interdisciplinair onderzoek naar een raadselachtig museumstuk (Amsterdam/Zwolle 2017) 22-24; W. Frijhoff, ‘Votive Boats or Secular Models?: An Approach to the Question of the Figurative Ships in the Dutch Protestant Churches’ in: idem, Embodied Belief: Ten Essays on Religious Culture in Dutch History (Hilversum 2002) 215-234; J.M.G. van der Poel, ‘Scheepsmodellen in Nederlandse kerken’, Uit het Peperhuis (oktober 1974) nr. 3, 2-91.",
+        "auteur1": "L. Sicking",
+        "publicatie1": "Licht op het oudste scheepsmodel. Interdisciplinair onderzoek naar een raadselachtig museumstuk (Amsterdam/Zwolle 2017) 22-24;",
+        "publicatie2": "‘Votive Boats or Secular Models?: An Approach to the Question of the Figurative Ships in the Dutch Protestant Churches’ in: idem, Embodied Belief: Ten Essays on Religious Culture in Dutch History (Hilversum 2002) 215-234;",
+        "auteur2": "W. Frijhoff",
+        "publicatie3": "‘Scheepsmodellen in Nederlandse kerken’, Uit het Peperhuis (oktober 1974) nr. 3, 2-91.",
+        "auteur3": "J.M.G. van der Poel",
         "worldcat": "https://www.worldcat.org/title/licht-op-het-oudste-scheepsmodel-interdisciplinair-onderzoek-naar-een-raadselachtig-museumstuk/oclc/1016458360&referer=brief_results",
         "worldcatTitel2": "https://www.worldcat.org/title/votive-boats-or-secular-models-an-approach-to-the-question-of-the-figurative-ships-in-the-dutch-protestant-churches/oclc/845215658&referer=brief_results",
         "worldcatTitel3": "https://www.worldcat.org/title/scheepsmodellen-in-nederlandse-kerken/oclc/63338006?referer=br&ht=edition"
@@ -120,7 +132,8 @@
     {
         "chapter": "d1h1",
         "note_number": 16,
-        "longNote": "H. Dessens en E. Spits, ‘Kerkmodellen, votiefmodellen en gildemodellen’ in: idem (ed.), Schepen in het klein. Geschiedenis en typologie van het Nederlandse scheepsmodel (Amsterdam/Zutphen 1998) 56-59, 56.",
+        "auteur1": "H. Dessens en E. Spits",
+        "publicatie1": "‘Kerkmodellen, votiefmodellen en gildemodellen’ in: idem (ed.), Schepen in het klein. Geschiedenis en typologie van het Nederlandse scheepsmodel (Amsterdam/Zutphen 1998) 56-59, 56.",
         "worldcat": "https://www.worldcat.org/title/schepen-in-het-klein-geschiedenis-en-typologie-van-het-nederlandse-scheepsmodel/oclc/905443138&referer=brief_results"
     },
     {
@@ -132,64 +145,89 @@
     {
         "chapter": "d1h1",
         "note_number": 18,
-        "longNote": "H. Slechte, ‘Van narrenschip tot begrafenisstoet. Een boeket scheepsmetaforen’ in: S. de Meer e.a. (ed.), Schatkamer. Veertien opstellen over maritiem-historische onderwerpen aangeboden aan Leo M. Akveld (Franeker 2002) 199-218, 199-200.",
+        "auteur1": "H. Slechte",
+        "publicatie1": "‘Van narrenschip tot begrafenisstoet. Een boeket scheepsmetaforen’ in: S. de Meer e.a. (ed.), Schatkamer. Veertien opstellen over maritiem-historische onderwerpen aangeboden aan Leo M. Akveld (Franeker 2002) 199-218, 199-200",
         "worldcat": "https://www.worldcat.org/title/schatkamer-veertien-opstellen-over-maritiem-historische-onderwerpen-aangeboden-aan-leo-m-akveld-bij-zijn-afscheid-van-het-maritiem-museum-rotterdam/oclc/834493825&referer=brief_results"
     },
     {
         "chapter": "d1h1",
         "note_number": 19,
-        "longNote": "F.P. van Oostrom, Het woord van eer. Literatuur aan het Hollandse hof omstreeks 1400 (Amsterdam 1987) 284.",
+        "auteur1": "F.P. van Oostrom",
+        "publicatie1": "Het woord van eer. Literatuur aan het Hollandse hof omstreeks 1400 (Amsterdam 1987) 284.",
         "worldcat": "https://www.worldcat.org/title/woord-van-eer-literatuur-aan-het-hollandse-hof-omstreeks-1400/oclc/246679677&referer=brief_results"
     },
     {
         "chapter": "d1h1",
         "note_number": 20,
-        "longNote": "Gehele tekst in: E.F. Kossmann (ed.), Die Haager Liederhandschrift. Faksimile des Originals mit Einleitung und Transskription (2 delen; ’s-Gravenhage 1940) nr. 98, Haagse liederhandschrift (14 juni 2018).",
+        "longNote": "Gehele tekst in: ",
+        "auteur1": "E.F. Kossmann (ed.)",
+        "publicatie1": "Die Haager Liederhandschrift. Faksimile des Originals mit Einleitung und Transskription (2 delen; ’s-Gravenhage 1940) nr. 98",
+        "url": "https://www.dbnl.org/tekst/_haa002ekos01_01/_haa002ekos01_01_0097.php",
+        "viewDatumUrl": "14 juni 2018).",
         "worldcat": "https://www.worldcat.org/title/die-haager-liederhandschrift/oclc/474932888&referer=brief_results"
     },
     {
         "chapter": "d1h1",
         "note_number": 21,
-        "longNote": "H. Pleij, Het gilde van de Blauwe Schuit. Literatuur, volksfeest en burgermoraal in de late middeleeuwen (fotografische herdruk tweede druk 1983; Amsterdam 2009) gehele tekst van het gedicht op 257-264; D.Th. Enklaar, ‘De Blauwe Schuit’ in: idem, Varende luyden. Studiën over de middeleeuwse groepen van onmaatschappelĳken in de Nederlanden (derde druk; Arnhem 1975) 41-98, 43-98.",
+        "auteur1": "H. Pleij",
+        "publicatie1": "Het gilde van de Blauwe Schuit. Literatuur, volksfeest en burgermoraal in de late middeleeuwen (fotografische herdruk tweede druk 1983; Amsterdam 2009) gehele tekst van het gedicht op 257-264",
+        "publicatie2": "‘De Blauwe Schuit’ in: idem, Varende luyden. Studiën over de middeleeuwse groepen van onmaatschappelĳken in de Nederlanden (derde druk; Arnhem 1975) 41-98, 43-98.",
+        "auteur2": "D.Th. Enklaar",
         "worldcat": "https://www.worldcat.org/title/gilde-van-de-blauwe-schuit-literatuur-volksfeest-en-burgermoraal-in-de-late-middeleeuwen-opnieuw-ingeleid-door-de-auteur/oclc/680615635&referer=brief_results",
         "worldcatTitel2": "https://www.worldcat.org/title/varende-luyden/oclc/918313633&referer=brief_results"
     },
     {
         "chapter": "d1h1",
         "note_number": 22,
-        "longNote": "Zie over dit schilderij de tentoonstellingscatalogus uit 2016: M. Ilsink en J. Koldeweij (ed.), Jheronimus Bosch. Visioenen van een genie (Brussel/’s-Hertogenbosch 2016) 20-23. Zie ook de tekening van Bosch van een ‘helleschip’, een man met een brandend schip vol vreemde figuren om zijn nek, ibidem, 118-119.",
+        "longNote": "Zie over dit schilderij de tentoonstellingscatalogus uit 2016:",
+        "auteur1": "M. Ilsink en J. Koldeweij (ed.)",
+        "publicatie1": "Jheronimus Bosch. Visioenen van een genie (Brussel/’s-Hertogenbosch 2016) 20-23",
+        "publicatie1extra": "Zie ook de tekening van Bosch van een ‘helleschip’, een man met een brandend schip vol vreemde figuren om zijn nek, ibidem, 118-119.",
         "worldcat": "https://www.worldcat.org/title/jheronimus-bosch-visioenen-van-een-genie/oclc/952431633&referer=brief_results"
     },
     {
         "chapter": "d1h1",
         "note_number": 23,
-        "longNote": "Rijksmuseum Amsterdam inv. RP-P-1932-119; J.P. Filedt Kok e.a., Kunst voor de beeldenstorm. Noordnederlandse kunst 1525-1580 (Amsterdam 1986) cat. nr. 40.",
+        "longNote": "Rijksmuseum Amsterdam inv. RP-P-1932-119; ",
+        "auteur1": "J.P. Filedt Kok e.a.",
+        "publicatie1": "Kunst voor de beeldenstorm. Noordnederlandse kunst 1525-1580 (Amsterdam 1986) cat. nr. 40.",
         "worldcat": "https://www.worldcat.org/title/kunst-voor-de-beeldenstorm-noordnederlandse-kunst-1525-1580-2-catalogus/oclc/888815868&referer=brief_results"
     },
     {
         "chapter": "d1h1",
         "note_number": 24,
-        "longNote": "Plato, Staat, boek 6-488; Cicero in De Re Publica, zie H. Slechte, ‘Van narrenschip tot begrafenisstoet. Een boeket scheepsmetaforen’ in: S. de Meer e.a. (ed.), Schatkamer. Veertien opstellen over maritiem-historische onderwerpen aangeboden aan Leo M. Akveld (Franeker 2002) 199-218, 200.",
+        "longNote": "Plato, Staat, boek 6-488; Cicero in De Re Publica, zie H. Slechte, ‘Van narrenschip tot begrafenisstoet. Een boeket scheepsmetaforen’ in: ",
+        "auteur1": "S. de Meer",
+        "publicatie1": "Schatkamer. Veertien opstellen over maritiem-historische onderwerpen aangeboden aan Leo M. Akveld (Franeker 2002) 199-218, 200.",
+        "auteur2": "S. de Meer e.a. (ed.)",
         "worldcat": "https://www.worldcat.org/title/staat/oclc/981163817&referer=brief_results",
         "worldcatTitel2": "https://www.worldcat.org/title/schatkamer-veertien-opstellen-over-maritiem-historische-onderwerpen-aangeboden-aan-leo-m-akveld-bij-zijn-afscheid-van-het-maritiem-museum-rotterdam/oclc/834493825&referer=brief_results"
     },
     {
         "chapter": "d1h1",
         "note_number": 25,
-        "longNote": "D. Erasmus, De lof der zotheid, A.H. Kan (ed.), J.B. Kan (vert.) (dertiende druk; Amsterdam/Antwerpen 1952) 139.",
+        "auteur1": "D. Erasmus",
+        "publicatie1": "De lof der zotheid, A.H. Kan (ed.), J.B. Kan (vert.) (dertiende druk; Amsterdam/Antwerpen 1952) 139.",
         "worldcat": "https://www.worldcat.org/title/lof-der-zotheid/oclc/901657337?referer=di&ht=edition"
     },
     {
         "chapter": "d1h1",
         "note_number": 26,
-        "longNote": "H. Ewe, Schiffe auf Siegeln (Rostock 1972) 152, afb. 102; F. Moll, Das Schiff in der bildenden Kunst vom Altertum bis zum Ausgang des Mittelalters (Bonn 1929) 74 en afb. E IVc.i.",
+        "auteur1": "H. Ewe",
+        "publicatie1": "Schiffe auf Siegeln (Rostock 1972) 152, afb. 102",
+        "publicatie2": "Das Schiff in der bildenden Kunst vom Altertum bis zum Ausgang des Mittelalters (Bonn 1929) 74 en afb. E IVc.i.",
+        "auteur2": "F. Moll",
         "worldcat": "https://www.worldcat.org/title/schiffe-auf-siegeln/oclc/320185651&referer=brief_results",
         "worldcatTitel2": "https://www.worldcat.org/title/das-schiff-in-der-bildenden-kunst-with-a-portfolio-of-plates/oclc/563821670&referer=brief_results"
     },
     {
         "chapter": "d1h1",
         "note_number": 27,
-        "longNote": "Bijvoorbeeld: H. Ewe, Schiffe auf Siegeln (Rostock 1972) en J. Van Beylen, ‘Scheepstypen’ in: G. Asaert e.a. (ed.), Maritieme Geschiedenis der Nederlanden, deel I (Bussum 1976) 108-154.",
+        "longNote": "Bijvoorbeeld: H. Ewe, ",
+        "auteur1": "H. Ewe",
+        "publicatie1": "Schiffe auf Siegeln (Rostock 1972)",
+        "publicatie2": "‘Scheepstypen’ in: G. Asaert e.a. (ed.), Maritieme Geschiedenis der Nederlanden, deel I (Bussum 1976) 108-154.",
+        "auteur2": "J. Van Beylen",
         "worldcat": "https://www.worldcat.org/title/schiffe-auf-siegeln/oclc/320185651&referer=brief_results",
         "worldcatTitel2": "https://www.worldcat.org/title/scheepstypen/oclc/769328738&referer=brief_results",
         "worldcatTitel3": "https://www.worldcat.org/title/maritieme-geschiedenis-der-nederlanden-dl-1-prehistorie/oclc/840702076&referer=brief_results"
@@ -197,32 +235,41 @@
     {
         "chapter": "d1h1",
         "note_number": 28,
-        "longNote": "R. de Bertrand, Histoire de Mardick et de la Flandre maritime (Duinkerken 1852) 103-104, afgebeeld tegenover 101, Histoire de Mardick et de la Flandre maritime (14 juni 2018).",
-        "worldcat": "https://www.worldcat.org/title/histoire-de-mardick-et-de-la-flandre-maritime/oclc/166044140&referer=brief_results"
+        "auteur1": "R. de Bertrand",
+        "publicatie1": "Histoire de Mardick et de la Flandre maritime (Duinkerken 1852) 103-104, afgebeeld tegenover 101",
+        "url": "https://books.google.nl/books?id=ZFZbAAAAQAAJ&printsec=frontcover&hl=fr&source=gbs_ge_summary_r&cad=0%20-%20v=onepage&q&f=false#v=onepage&q&f=false",
+        "viewDatumUrl": "(14 juni 2018)",
+        "worldcat": "https://www.worldcat.org/title/histoire-de-mardick-et-de-la-flandre-maritime/oclc/166044140&referer=brief_results\n"
     },
     {
         "chapter": "d1h1",
         "note_number": 29,
-        "longNote": "H. Ewe, Schiffe auf Siegeln (Rostock 1972) 131, afb. 60.",
-        "worldcat": "https://www.worldcat.org/title/schiffe-auf-siegeln/oclc/320185651&referer=brief_results"
+        "auteur1": "H. Ewe",
+        "publicatie1": "Schiffe auf Siegeln (Rostock 1972) 131, afb. 60.",
+        "worldcat": "https://www.worldcat.org/title/schiffe-auf-siegeln/oclc/320185651&referer=brief_results\n"
     },
     {
         "chapter": "d1h1",
         "note_number": 30,
-        "longNote": "W. van Anrooij, ‘Middeleeuwse sporen van de Haarlemse Damiate-legende’ in: E.K. Grootes (ed.), Haarlems Helicon. Literatuur en toneel te Haarlem vóór 1800 (Hilversum 1993) 11-25, 14-15; J. van Moolenbroek, Nederlandse kruisvaarders naar Damiate aan de Nijl. Acht eeuwen geschiedenis en fantasie in woord en beeld (Hilversum 2016).",
-        "worldcat": "https://www.worldcat.org/title/haarlems-helicon-literatuur-en-toneel-te-haarlem-voor-1800/oclc/231788543&referer=brief_results",
+        "auteur1": "W. van Anrooij",
+        "publicatie1": "‘Middeleeuwse sporen van de Haarlemse Damiate-legende’ in: E.K. Grootes (ed.), Haarlems Helicon. Literatuur en toneel te Haarlem vóór 1800 (Hilversum 1993) 11-25, 14-15",
+        "publicatie2": "Nederlandse kruisvaarders naar Damiate aan de Nijl. Acht eeuwen geschiedenis en fantasie in woord en beeld (Hilversum 2016).",
+        "auteur2": "J. van Moolenbroek",
+        "worldcat": "https://www.worldcat.org/title/haarlems-helicon-literatuur-en-toneel-te-haarlem-voor-1800/oclc/231788543&referer=brief_results\n",
         "worldcatTitel2": "https://www.worldcat.org/title/nederlandse-kruisvaarders-naar-damiate-aan-de-nijl-acht-eeuwen-geschiedenis-en-fantasie-in-woord-en-beeld/oclc/1043351480&referer=brief_results"
     },
     {
         "chapter": "d1h1",
         "note_number": 31,
-        "longNote": "J. van Moolenbroek, Nederlandse kruisvaarders naar Damiate aan de Nijl. Acht eeuwen geschiedenis en fantasie in woord en beeld (Hilversum 2016) 181.",
+        "auteur1": "J. van Moolenbroek",
+        "publicatie1": "Nederlandse kruisvaarders naar Damiate aan de Nijl. Acht eeuwen geschiedenis en fantasie in woord en beeld (Hilversum 2016) 181.",
         "worldcat": "https://www.worldcat.org/title/nederlandse-kruisvaarders-naar-damiate-aan-de-nijl-acht-eeuwen-geschiedenis-en-fantasie-in-woord-en-beeld/oclc/1043351480&referer=brief_results"
     },
     {
         "chapter": "d1h1",
         "note_number": 32,
-        "longNote": "I. Friel, ‘How much did the Sea matter in Medieval England (c.1200-c.1500)?’ in: R. Gorski (ed.), Roles of the Sea in Medieval England (Woodbridge 2012) 167-186, 183.",
+        "auteur1": "I. Friel",
+        "publicatie1": "‘How much did the Sea matter in Medieval England (c.1200-c.1500)?’ in: R. Gorski (ed.), Roles of the Sea in Medieval England (Woodbridge 2012) 167-186, 183.",
         "worldcat": "https://www.worldcat.org/title/roles-of-the-sea-in-medieval-england/oclc/875761488&referer=brief_results"
     }
 ]
