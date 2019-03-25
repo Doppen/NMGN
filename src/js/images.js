@@ -76,10 +76,12 @@ function imageDimentions(imagefile, placeId) {
   var placedImg = document.getElementById(placeId).getElementsByTagName("img")[0];
 
   if (imgHeight < imgWidth) {
+    placedImg.removeAttribute("class");
     placedImg.classList.add("imgFillW");
 
   }
   else {
+    placedImg.removeAttribute("class");
     placedImg.classList.add("imgFillH");
   }
 
