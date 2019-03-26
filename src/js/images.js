@@ -55,7 +55,13 @@ var openCaption = function() {
     captionDiv.style.display = 'flex';
 };
 
+
+
+
 function classnameCapt() {}
+
+
+
 
 
 // set dimentions of the image
@@ -67,14 +73,15 @@ function imageDimentions(imagefile, placeId) {
   var imgWidth = elemImage.naturalWidth;
   var imgHeight =elemImage.naturalHeight;
 
-
   var placedImg = document.getElementById(placeId).getElementsByTagName("img")[0];
 
   if (imgHeight < imgWidth) {
+    placedImg.removeAttribute("class");
     placedImg.classList.add("imgFillW");
 
   }
   else {
+    placedImg.removeAttribute("class");
     placedImg.classList.add("imgFillH");
   }
 
