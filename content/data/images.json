@@ -12,7 +12,7 @@
         "title": "Sint Jonas en de walvis",
         "description": "Glas in lood, kerkraam van de Sint Janskerk in Gouda.",
         "description2": "Dirck Crabeth, voor 1560.",
-        "owner": "Stichting Goudse Sint-Jan, Gouda.",
+        "location": "Stichting Goudse Sint-Jan, Gouda.",
         "chapter": "d1h1"
     },
     {
@@ -28,8 +28,8 @@
         "title": "De Sint Elisabethsvloed",
         "description": "In de nacht van 18 op 19 november 1421 zette de vloed grote delen van Zuid-Holland onder water. Rechts de dijkdoorbraak, links het veilige Dordrecht. Buitenluiken van een altaarstuk, geschonken door de inwoners van Wieldrecht aan de Grote Kerk in Dordrecht.",
         "description2": "Paneel,  Meester van de Elisabeth-panelen.",
-        "location": "Anoniem, ca. 1490-1495.",
-        "owner": "Rijksmuseum, Amsterdam.",
+        "description3": "Anoniem, ca. 1490-1495.",
+        "location": "Rijksmuseum, Amsterdam.",
         "chapter": "d1h1"
     },
     {
@@ -48,7 +48,7 @@
         "filename": "6_Gewelfschildering_Oude_Kerk.jpg",
         "title": "De Heilige Maagd Maria in een schip met het lichaam van Christus op haar schoot",
         "description": "Gewelfschildering, ca. 1500.",
-        "description2": "Oude Kerk, Amsterdam.",
+        "location": "Oude Kerk, Amsterdam.",
         "owner": "Foto Ad van der Zee.",
         "chapter": "d1h1"
     },
@@ -101,8 +101,9 @@
     },
     {
         "filename": "13a_Amsterdam.jpg",
-        "title": "Het belang van de haven en de zeehandel voor het opkomende Amsterdam wordt benadrukt door het opnemen van een schip op het stadszegel, ca. 1400.",
-        "description": "Uit: H. Ewe, Schiffe auf Siegeln (Berlijn 1972).",
+        "title": "Stadszegel van Amsterdam",
+        "description": "Het belang van de haven en de zeehandel voor het opkomende Amsterdam wordt benadrukt door het opnemen van een schip op het stadszegel, ca. 1400.",
+        "description2": "Uit: H. Ewe, Schiffe auf Siegeln (Berlijn 1972).",
         "group": "stadszegel",
         "chapter": "d1h1"
     },
@@ -167,14 +168,14 @@
         "title": "De inname van Damietta (Damiate)",
         "description": "Glas in lood, kerkraam in de St. Janskerk in Gouda.",
         "description2": "Willem Tybaut van Haarlem, 1595-1596.",
-        "owner": "Stichting Goudse Sint-Jan, Gouda.",
+        "location": "Stichting Goudse Sint-Jan, Gouda.",
         "chapter": "d1h1"
     },
     {
         "filename": "15_Speelgoedscheepje_Hoorn.jpg",
         "title": "Speelgoedbootje",
         "description": "Houtsnijwerk, ca. 1600. Particuliere vondst te Hoorn.",
-        "owner": "Archeologie West-Friesland, Hoorn.",
+        "location": "Archeologie West-Friesland, Hoorn.",
         "chapter": "d1h1"
     }
 ]
