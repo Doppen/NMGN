@@ -421,8 +421,9 @@ a {
   text-align: center; }
 
 .noteAside {
-  background-color: #fff;
-  border-top: 1px solid #d7d7d7;
+  background-color: #e7d1d1;
+  background-image: linear-gradient(#eeeeee, #ffffff 30%);
+  border-top: 1px solid #e8e2e2;
   width: 100%;
   bottom: 0;
   left: 0;
@@ -433,7 +434,8 @@ a {
   display: none;
   min-height: 2px;
   height: auto;
-  transition: height .3s; }
+  transition: height .3s;
+  z-index: 100; }
 
 .noteHeader {
   display: flex;
@@ -450,7 +452,7 @@ a {
 
 @media (min-width: 1000px) {
   .noteAside {
-    width: 66vw;
+    width: calc(66vw - 1px);
     right: 0;
     left: auto; } }
 
