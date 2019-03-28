@@ -105,7 +105,7 @@ gulp.task('getJLinks', function (cb) {
 })
 
 gulp.task('getJNotes', function (cb) {
-  exec('gsjson 1U2daUDRZfhFHcrVujJxNcqFejs2Ui58zBSi8ThlMw50 >> content/data/notes.json -b', function (err, stdout, stderr) { cb(err); });
+  exec('gsjson 1Rh6CIMnB9Vs4ot21nZqFSQDMraWf4RLaoXpAM4JvFI4 >> content/data/notes.json -b', function (err, stdout, stderr) { cb(err); });
 })
 
 gulp.task('getJImages', function (cb) {
@@ -119,6 +119,7 @@ gulp.task('getj', gulp.series('cleanJson', 'getJSite', 'getJLinks', 'getJNotes',
 // gulp getj
 // links  1tzMeyKmoFMGbehWd1Q0hWbTceVf6IajMGX4r3NUqLA8
 // notes  1U2daUDRZfhFHcrVujJxNcqFejs2Ui58zBSi8ThlMw50
+// notes  1Rh6CIMnB9Vs4ot21nZqFSQDMraWf4RLaoXpAM4JvFI4  // only longnotes
 // site   1YAFTCWGrWyPjclnV16mR-S0-H2531DpOTfjCdESFSRk
 // images 15B_aMTtiGuokP1KP6Iu09RNr4X3ZZQyO-Qp1dq8eg7I
 
