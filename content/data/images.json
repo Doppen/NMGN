@@ -2,7 +2,7 @@
     {
         "filename": "0_Mappa_Mundi.jpg",
         "title": "Mappa Mundi",
-        "description": "Op deze grootst bekende middeleeuwse ‘radkaart’ (163 x 137 cm) ligt het oosten boven en Jeruzalem in het midden als centrum van de wereld. Het land is gevuld met fabeldieren en monsters en omgeven door zeeën waarvan de Rode Zee rood is ingekleurd. Het doel van de kaart is de mens te wijzen op zijn christelijke levenswandel en de gevaren die hij tegenkomt als hij daar van afwijkt.",
+        "description": "Op deze grootst bekende middeleeuwse ‘radkaart’ (163 x 137 cm) ligt het oosten boven en Jeruzalem in het midden als centrum van de wereld. Het land is gevuld met fabeldieren en monsters en omgeven door zeeën waarvan de Rode Zee rood is ingekleurd. De oceanen rond de aarde zijn slechts summier aangegeven, die maken geen deel uit van de bewoonde wereld.",
         "description2": "Perkament, de kaart is ondertekend door Richard van Haldingham en Lafford, ca. 1300.",
         "location": "Hereford Cathedral, Hereford.",
         "chapter": "d1h1"
@@ -37,9 +37,17 @@
         "chapter": "d1h1"
     },
     {
+        "filename": "extra_Brandaan.jpg",
+        "title": "Sint Brandaan op Walviseiland",
+        "description": "Op de rug van een enorme vis, die hij eerst aanzag voor een eiland draagt Sint Brandaan de mis op. Op de kaart is het eiland in de Atlantische Oceaan aangegeven waarvan Columbus nog vermoedde dat hij het zou tegenkomen op zijn reis naar Indië.",
+        "description2": "Gravure uit een levensbeschrijving van Sint Brandaan, uitgegeven in 1621.",
+        "location": "John Carter Brown Library, Providence, Rhode Island.",
+        "chapter": "d1h1"
+    },
+    {
         "filename": "5_Antependium.jpg",
         "title": "Antependium (altaardoek) van het schippersgilde in Nijmegen",
-        "description": "Centraal is een kogge afgebeeld, geflankeerd door Maria met de naakte Jezus en St. Olof. Het doek hing oorspronkelijk waarschijnlijk voor het altaar van de Olofskapel in de Stevenskerk in Nijmegen.",
+        "description": "Centraal is een kogge afgebeeld, geflankeerd door Maria met Jezus en St. Olof. Het doek hing oorspronkelijk waarschijnlijk voor het altaar van de Olofskapel in de Stevenskerk in Nijmegen.",
         "description2": "Linnen, vierde kwart vijftiende eeuw.",
         "location": "Valkhofmuseum, Nijmegen.",
         "chapter": "d1h1"
@@ -71,7 +79,7 @@
     {
         "filename": "9_Detail_boeier.jpg",
         "title": "Model van een boeier",
-        "description": "Hangend blokmodel in Kerkschip van de St. Bavokerk in Haarlem.",
+        "description": "Hangend blokmodel in Kerkschip van de St. Bavokerk in Haarlem. Het oudste scheepsmodel in een Nederlandse kerk.",
         "description2": "Hout, ca. 1550.",
         "location": "St. Bavokerk, Haarlem.",
         "owner": "Foto J. Vissers.",
@@ -109,63 +117,72 @@
     },
     {
         "filename": "13b_Biervliet_1307.jpg",
-        "title": "Andere stadszegels van Nederlandse havensteden",
-        "description": "Biervliet 1307; Harderwijk tweede helft dertiende eeuw; Kuinre ca. 1400; Medemblik dertiende eeuw; Monnikendam tweede helft dertiende eeuw; Stavoren tweede helft veertiende eeuw; Veere vijftiende eeuw; Vlaardingen ca. 1300; IJlst vijftiende eeuw.",
-        "description2": "Uit: H. Ewe, Schiffe auf Siegeln (Berlijn 1972).",
+        "title": "Andere stadszegels van Nederlandse havensteden: ",
+        "description": "Biervliet 1307.",
+        "description2": "Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972).",
         "group": "stadszegel",
         "chapter": "d1h1"
     },
     {
         "filename": "13c_Harderwijk_2de helft_13_eeuw.jpg",
+        "description": "Harderwijk, tweede helft dertiende eeuw.",
         "group": "stadszegel",
         "chapter": "d1h1"
     },
     {
         "filename": "13d_Kuinre_1400.jpg",
+        "description": "Kuinre ca. 1400.",
         "group": "stadszegel",
         "chapter": "d1h1"
     },
     {
         "filename": "13e_Medemblik_dertiende_eeuw.jpg",
+        "description": "Medemblik dertiende eeuw.",
         "group": "stadszegel",
         "chapter": "d1h1"
     },
     {
         "filename": "13f_Monnikendam_2dehelft13de.jpg",
+        "description": "Monnikendam tweede helft dertiende eeuw.",
         "group": "stadszegel",
         "chapter": "d1h1"
     },
     {
         "filename": "13g_Stavoren_2dehelft14eeuw.jpg",
+        "description": "Stavoren tweede helft veertiende eeuw.",
         "group": "stadszegel",
         "chapter": "d1h1"
     },
     {
         "filename": "13h_Veere_vijftiende_eeuw.jpg",
+        "description": "Veere vijftiende eeuw.",
         "group": "stadszegel",
         "chapter": "d1h1"
     },
     {
         "filename": "13i_Vlaardingen_ca.1300.jpg",
+        "description": "Vlaardingen ca. 1300.",
         "group": "stadszegel",
         "chapter": "d1h1"
     },
     {
         "filename": "13j_ IJlst_vijftiende_eeuw.jpg",
+        "description": "IJlst vijftiende eeuw.",
         "group": "stadszegel",
         "chapter": "d1h1"
     },
     {
         "filename": "14a_Wandtapijt_inname_Damiate.jpg",
-        "title": "De inname van Damietta (Damiate)",
-        "description": "Wandtapijt.",
-        "description2": "Cornelis Claesz. van Wieringen, 1629.",
+        "title": "De inname van Damiate ",
+        "description": "Rechts van de toren het Haarlemse schip dat de ketting voor de haveningang zou hebben doorgezaagd.",
+        "description2": "Wandtapijt.",
+        "description3": "Naar ontwerp van Cornelis Claesz. van Wieringen, 1629.",
         "location": "Stadhuis, Haarlem.",
         "chapter": "d1h1"
     },
     {
         "filename": "14b_Kerkraam_Gouda.jpg",
-        "title": "De inname van Damietta (Damiate)",
+        "title": "De inname van Damiate",
         "description": "Glas in lood, kerkraam in de St. Janskerk in Gouda.",
         "description2": "Willem Tybaut van Haarlem, 1595-1596.",
         "location": "Stichting Goudse Sint-Jan, Gouda.",
