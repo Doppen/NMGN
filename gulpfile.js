@@ -218,6 +218,7 @@ gulp.task('buildFromTemplates', function(done) {
               +'<div class="moreCaption">'
               +ifEmp(imagesJson[k].description, '', '')
               +ifEmp(imagesJson[k].description2, '<br><span>', '</span>')
+              +ifEmp(imagesJson[k].description3, '<span>', '</span>')
               +ifEmp(imagesJson[k].location, '<br>', '')
               +ifEmp(imagesJson[k].owner, '<br><em>', '</em>')
               +'</div></div></div>');
