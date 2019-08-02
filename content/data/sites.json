@@ -17,66 +17,67 @@
         "part": 1,
         "chapter": 1,
         "template": "basic",
-        "name": "inleiding-1200-1600",
+        "name": "inleiding-1100-1600",
         "content": "d1h1",
-        "aera": "1200 - 1600",
+        "aera": "1100 - 1600",
         "parttitle": "Opkomst van de rivier- en zeehandel",
-        "id": "d1h2"
+        "id": "d1h1"
     },
     {
         "title": "Binnenvaart",
         "part": 1,
         "chapter": 2,
         "template": "basic",
-        "name": "binnenvaart-1200-1600",
+        "name": "binnenvaart-1100-1600",
         "content": "d1h1",
-        "aera": "1200 - 1600",
+        "aera": "1100 - 1600",
         "parttitle": "Opkomst van de rivier- en zeehandel",
-        "id": "d1h3"
+        "id": "d1h2"
     },
     {
         "title": "Koopvaardij",
         "part": 1,
         "chapter": 3,
         "template": "basic",
-        "name": "koopvaardij-1200-1600",
+        "name": "koopvaardij-1100-1600",
         "content": "d1h1",
-        "aera": "1200 - 1600",
+        "aera": "1100 - 1600",
         "parttitle": "Opkomst van de rivier- en zeehandel",
-        "id": "d1h4"
-    },
-    {
-        "title": "Marine",
-        "part": 1,
-        "chapter": 4,
-        "template": "basic",
-        "name": "marine-1200-1600",
-        "content": "d1h1",
-        "aera": "1200 - 1600",
-        "parttitle": "Opkomst van de rivier- en zeehandel",
-        "id": "d1h5"
+        "id": "d1h3"
     },
     {
         "title": "Visserij",
         "part": 1,
-        "chapter": 5,
+        "chapter": 4,
         "template": "basic",
-        "name": "visserij-1200-1600",
+        "name": "visserij-1100-1600",
         "content": "d1h1",
-        "aera": "1200 - 1600",
+        "aera": "1100 - 1600",
         "parttitle": "Opkomst van de rivier- en zeehandel",
-        "id": "d1h6"
+        "id": "d1h4"
     },
     {
         "title": "Cultuurhistorisch katern",
         "part": 1,
+        "chapter": 5,
+        "template": "basic",
+        "name": "cultuurhistorisch-katern-1100-1600",
+        "content": "d1h1",
+        "aera": "1100 - 1600",
+        "parttitle": "Opkomst van de rivier- en zeehandel",
+        "id": "d1h5"
+    },
+    {
+        "title": "Maritieme cultuur| in de middeleeuwen",
+        "author": "Remmelt Daalder",
+        "part": 1,
         "chapter": 6,
         "template": "basic",
-        "name": "cultuurhistorisch-katern-1200-1600",
-        "content": "d1h1",
-        "aera": "1200 - 1600",
+        "name": "maritieme-cultuur-middeleeuwen-1100-1600",
+        "content": "d1h6",
+        "aera": "1100 - 1600",
         "parttitle": "Opkomst van de rivier- en zeehandel",
-        "id": "d1h7"
+        "id": "d1h6"
     },
     {
         "title": "Inleiding",

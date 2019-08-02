@@ -45,6 +45,7 @@ var allImgStr = 'not working';
 
 
 var siteJson = require('./content/data/sites.json');
+var chapterId;
 
 // Create HTML
 function createHtml(fileName) {
@@ -237,29 +238,36 @@ gulp.task('buildFromTemplates', function(done) {
           }))
           .pipe(replace(',******', ''))
           .pipe(dom(function(){
-            // remove <br> in title
+            //console.log(this.getElementById("chaperId").innerHTML);
+            //remove <br> in title
             var title = this.getElementsByTagName("title")[0].innerHTML;
             this.getElementsByTagName("title")[0].innerHTML = title.replace('&lt;br&gt;',' ');
 
+            var chapterId = this.getElementById("chaperId").innerHTML;
+
 
             for(var l=0; l<notesJson.length; l++) {
+              if (chapterId == notesJson[l].chapter) {
+                console.log(l+' > '+chapterId+' -- '+notesJson[l].chapter);
 
-              // notes to long notes
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML =  ifEmp(notesJson[l].longNote, '', '');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].auteur1, '', ', ');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie1, '<em>', '</em> ');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie1extra, '<br>', '');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].auteur2, '<br>', ', ');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie2, '<em>', '</em> ');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie2extra, '<br>', '');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].extra, '<br>', '');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].url, '<br><div class="ellipsis"><a target="_blank" href="'+notesJson[l].url+'">', '</a></div>');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].viewDatumUrl, '', '');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcat, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel2, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel3, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel4, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-              this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel5, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+
+                // notes to long notes
+                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML =  ifEmp(notesJson[l].longNote, '', '');
+                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].auteur1, '', ', ');
+                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie1, '<em>', '</em> ');
+                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie1extra, '<br>', '');
+                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].auteur2, '<br>', ', ');
+                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie2, '<em>', '</em> ');
+                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie2extra, '<br>', '');
+                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].extra, '<br>', '');
+                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].url, '<br><div class="ellipsis"><a target="_blank" href="'+notesJson[l].url+'">', '</a></div>');
+                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].viewDatumUrl, '', '');
+                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcat, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel2, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel3, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel4, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel5, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+              }
             }
 
 
