@@ -59,7 +59,7 @@ function createHtml(fileName) {
       .then(function(result){
           htmlOut = result.value; // The generated HTML
           messages = result.messages; // Any messages, such as warnings during conversion
-          console.log(htmlOut);
+          //console.log(htmlOut);
           fs.writeFileSync('content/html/'+fileName+'.html', htmlOut)
       })
 }
@@ -295,11 +295,17 @@ gulp.task('copyImg', function(){
     .pipe(gulp.dest(dst+'images'))
 });
 
+gulp.task('copyJs', function(){
+  return gulp.src('src/js/elasticlunr.min.js')
+      .pipe(plumber())
+      .pipe(gulp.dest(dst+'js'))
+});
+
 
 
 
 gulp.task('build',
-  gulp.series('clean', 'nav', 'sass', 'buildFromTemplates', 'copyImg',
+  gulp.series('clean', 'nav', 'sass', 'buildFromTemplates', 'copyImg', 'copyJs',
   function(done) {
       done();
   }

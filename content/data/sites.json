@@ -317,6 +317,13 @@
         "title": "Over de NMGN",
         "template": "basic",
         "name": "over-de-nmgn",
-        "content": "d1h1"
+        "content": "d1h1",
+        "id": "about"
+    },
+    {
+        "title": "Zoeken",
+        "template": "search",
+        "name": "zoeken",
+        "id": "search"
     }
 ]
