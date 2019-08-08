@@ -298,7 +298,7 @@ gulp.task('build',
 
 
 gulp.task('watch', function () {
-  gulp.watch([[fHtml, fHtmlNot, fScss, fJs, fJson, fMd]], gulp.series('build'));
+  gulp.watch(['src/**/*.html', '!src/components/nav.html', 'src/scss/**/*.scss','src/js/**/*', 'src/**/*.json', 'content/**/*.json'], gulp.series('build')); //, fHtmlNot, fScss, fJs, fJson, fMd
 });
 
 
