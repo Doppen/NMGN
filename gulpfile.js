@@ -248,7 +248,7 @@ gulp.task('buildFromTemplates', function(done) {
 
             for(var l=0; l<notesJson.length; l++) {
               if (chapterId == notesJson[l].chapter) {
-                console.log(l+' > '+chapterId+' -- '+notesJson[l].chapter);
+                //console.log(l+' > '+chapterId+' -- '+notesJson[l].chapter);
 
 
                 // notes to long notes
