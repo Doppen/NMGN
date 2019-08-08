@@ -21,6 +21,7 @@ var each = require('gulp-each');
 var dom  = require('gulp-dom');
 var mammoth = require("mammoth");
 var writeFile = require('write-file');
+const loadJsonFile = require('load-json-file');
 //var docxHtmlConverter = require('gulp-docx-converter');
 
 var browserSync = require('browser-sync').create();
@@ -44,16 +45,21 @@ var fMd=        'content/**/*.md';
 var allImgStr = 'not working';
 
 
-var siteJson = require('./content/data/sites.json');
 var chapterId;
+
+
+
+var siteJson = require('./content/data/sites.json');
+var copyPath = require('./content/data/copyPath.json');
+
 
 // Create HTML
 function createHtml(fileName) {
-  mammoth.convertToHtml({path: "content/word/"+fileName+".docx", outputDir: "content/html/"})
+  mammoth.convertToHtml({path: copyPath.copyDestination+fileName+".docx", outputDir: "content/html/"})
       .then(function(result){
           htmlOut = result.value; // The generated HTML
           messages = result.messages; // Any messages, such as warnings during conversion
-          //console.log(htmlOut);
+          console.log(htmlOut);
           fs.writeFileSync('content/html/'+fileName+'.html', htmlOut)
       })
 }
@@ -71,6 +77,9 @@ gulp.task('convHtml', function (done) {
       }
 done();
 });
+
+
+
 
 
 
