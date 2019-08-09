@@ -21,8 +21,6 @@ var each = require('gulp-each');
 var dom  = require('gulp-dom');
 var mammoth = require("mammoth");
 var writeFile = require('write-file');
-const loadJsonFile = require('load-json-file');
-//var docxHtmlConverter = require('gulp-docx-converter');
 
 var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
@@ -51,6 +49,7 @@ var chapterId;
 
 var siteJson = require('./content/data/sites.json');
 var copyPath = require('./content/data/copyPath.json');
+var stopwords = require('./content/data/stopwoorden.json');
 
 
 // Create HTML
@@ -301,11 +300,67 @@ gulp.task('copyJs', function(){
       .pipe(gulp.dest(dst+'js'))
 });
 
+gulp.task('copyJson', function(){
+  return gulp.src('search_index.js')
+      .pipe(plumber())
+      .pipe(gulp.dest(dst+'js'))
+});
+
+
+
+gulp.task('buildSearchIndex', function (done) {
+  var elasticlunr = require('./src/js/elasticlunr.min.js'),
+      fs = require('fs');
+  // require('./src/js/lunr.stemmer.support.js')(elasticlunr);
+  // require('./src/js/lunr.du.js')(elasticlunr);
+
+  var idx = elasticlunr(function () {
+    //this.use(elasticlunr.du);
+
+    this.setRef('id');
+    this.addField('title');
+    this.addField('tags');
+    this.addField('body');
+  });
+
+  elasticlunr.clearStopWords();
+  var customized_stop_words = stopwords;
+  elasticlunr.addStopWords(customized_stop_words);
+
+  fs.readFile('./example_data.json', function (err, data) {
+    if (err) throw err;
+
+    var raw = JSON.parse(data);
+
+    var siteContent = raw.siteContent.map(function (q) {
+      return {
+        id: q.id,
+        title: q.title,
+        body: q.body,
+        ref: q.ref
+      };
+    });
+
+    siteContent.forEach(function (siteConten) {
+      idx.addDoc(siteConten);
+    });
+
+    fs.writeFile('./search_index.js', "var indexDump = "+JSON.stringify(idx), function (err) {
+      if (err) throw err;
+      console.log('done');
+    });
+  });
+
+
+done();
+});
+
+
 
 
 
 gulp.task('build',
-  gulp.series('clean', 'nav', 'sass', 'buildFromTemplates', 'copyImg', 'copyJs',
+  gulp.series('buildSearchIndex', 'clean', 'nav', 'sass', 'buildFromTemplates', 'copyImg', 'copyJs', 'copyJson',
   function(done) {
       done();
   }
