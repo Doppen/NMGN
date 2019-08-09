@@ -46,21 +46,11 @@ let result = index.search("Columbus");
 console.log(result[0].doc.title);
 console.log(result[0].doc.ref);
 
-  // var index = elasticlunr(function () {});
-  //
-  //
-  // console.log(indexDump);
-  // console.time('load');
-  // window.idx = elasticlunr.Index.load(indexDump);
-  //
-  // let result = index.search("Columbus");
-  // console.log(result[0].doc.title);
-  // console.log(result[0].doc.ref);
 
+var urlParams = new URLSearchParams(window.location.search);
 
-    // indexDump = JSON.parse(indexDump);
-    // console.time('load');
-    // window.idx = elasticlunr.Index.load(indexDump);
+console.log(urlParams.has('post')); // true
+console.log(urlParams.get('q')); // "edit"
 
 
 
