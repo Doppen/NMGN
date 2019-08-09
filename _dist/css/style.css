@@ -356,6 +356,16 @@ nav {
   position: relative;
   z-index: 500; }
 
+.basicPageWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.basicPage {
+  width: 100%;
+  max-width: 650px; }
+
 * {
   box-sizing: border-box; }
 

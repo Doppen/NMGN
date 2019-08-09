@@ -17,10 +17,12 @@
     </div>
 </div>
 
-
-
-
-      <h1>Zoeken</h1>
+<div class="basicPageWrapper">
+  <div class="basicPage">
+    <h1>Zoeken</h1>
+    <div id="results"> </div>
+  </div>
+</div>
 
 
 
@@ -37,20 +39,48 @@
 <script src="js/search_index.js"></script>
 <script src="js/elasticlunr.min.js"></script>
 <script type="text/javascript">
-
-console.log(indexDump);
+  // load the index
+  var index = elasticlunr.Index.load(indexDump);
+  var urlParams = new URLSearchParams(window.location.search);
+  console.log(indexDump);
 
 
 var index = elasticlunr.Index.load(indexDump);
-let result = index.search("Columbus");
-console.log(result[0].doc.title);
-console.log(result[0].doc.ref);
+let results = index.search(urlParams.get('q'));
+console.log(results[0].doc.title);
+console.log(results[0].doc.ref);
 
 
-var urlParams = new URLSearchParams(window.location.search);
 
-console.log(urlParams.has('post')); // true
+
+console.log(urlParams.has('q')); // true
 console.log(urlParams.get('q')); // "edit"
+
+
+
+function ShowResults() {
+  var urlParams = new URLSearchParams(window.location.search);
+  var output = 'Vul zoekwoord in';
+  if (urlParams.has('q')) {
+
+    output = 'Gezocht op: '+urlParams.get('q');
+
+  }
+  output = output+'<br><br>'+getResultsData()
+
+  document.getElementById('results').innerHTML = output;
+}
+ShowResults();
+
+function getResultsData() {
+  var resultList='';
+  var arrayLength = results.length;
+  for (var i = 0; i < arrayLength; i++) {
+    resultList = resultList+'<li><a href="'+results[i].doc.ref+'">'+results[i].doc.title+'</a></li>';
+  }
+  return '<ul>'+resultList+'<ul>';
+
+}
 
 
 
