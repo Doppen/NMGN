@@ -1,0 +1,19 @@
+{
+  ^^^siteContent^^^: [
+{{#each items}}
+  {
+  ^^^id^^^: ^^^{{id}}^^^,
+  ^^^title^^^: ^^^{{title}}^^^,
+  ^^^part^^^: ^^^{{part}}^^^,
+  ^^^body^^^: ^^^{{> (lookup . 'indextcontent') }}^^^,
+  ^^^ref^^^: ^^^{{name}}.html^^^
+},{{/each}}
+{
+  ^^^id^^^: ^^^^^^,
+  ^^^title^^^: ^^^^^^,
+  ^^^part^^^: ^^^^^^,
+  ^^^body^^^: ^^^^^^,
+  ^^^ref^^^: ^^^^^^
+  }
+  ]
+}

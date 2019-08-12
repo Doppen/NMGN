@@ -63,6 +63,18 @@ function createHtml(fileName) {
       })
 }
 
+function createRawtext(fileName) {
+  mammoth.extractRawText({path: copyPath.copyDestination+fileName+".docx", outputDir: "content/rawTxt/"})
+      .then(function(result){
+        htmlOut = result.value; // The generated HTML
+        messages = result.messages; // Any messages, such as warnings during conversion
+        //console.log(htmlOut);
+        fs.writeFileSync('content/html/raw_'+fileName+'.html', htmlOut)
+      })
+
+}
+
+
 // gulp convHtml
 gulp.task('convHtml', function (done) {
   var htmlOut='qqq';
@@ -73,6 +85,7 @@ gulp.task('convHtml', function (done) {
       page = siteJson[ii];
       fileName = page.content;
       createHtml(fileName);
+      createRawtext(fileName);
       }
 done();
 });
@@ -136,13 +149,13 @@ gulp.task('getj', gulp.series('cleanJson', 'getJSite', 'getJLinks', 'getJNotes',
 
 
 gulp.task('clean', function () {
-    return gulp.src(dst, {read: false})
+    return gulp.src(dst, {read: false, allowEmpty: true})
         .pipe(plumber())
         .pipe(clean())
 });
 
 
-
+// create navigation
 gulp.task('nav', function(done) {
   var navItems = {"items" : siteJson}
 
@@ -153,6 +166,26 @@ gulp.task('nav', function(done) {
   done();
 });
 
+
+// create index jeson root file
+gulp.task('BuildIndexFromHTML', function(done) {
+  var indexItems = {"items" : siteJson}
+
+  gulp.src('./src/templates/createIndexJson.html')
+      .pipe(plumber())
+      .pipe(handlebars(indexItems, options))
+      //.pipe(rename('test.html'))
+      .pipe(rename(function (path) {
+        path.basename = "example_data";
+        path.extname = ".json";
+        }))
+        //.pipe(replace('"', '\\"'))
+        .pipe(replace('"', ''))
+        .pipe(replace(/(?:\r\n|\r|\n)/g, ''))
+        .pipe(replace('^^^', '"'))
+      .pipe(gulp.dest('./'));
+  done();
+});
 
 
 gulp.task('sass', function(){
