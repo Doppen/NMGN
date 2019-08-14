@@ -4,6 +4,7 @@
 <div class="basicPageWrapper">
   <div class="basicPage">
     <h1>{{title}}</h1>
+    <input type="text" name="searchTerm" value="columbus" id="searchTerm"><button type="button" name="button" onclick="ShowResults()">Search</button>
     <div id="results"> </div>
   </div>
 </div>
@@ -18,42 +19,34 @@
 <script type="text/javascript">
   // load the index
   var index = elasticlunr.Index.load(indexDump);
-  var urlParams = new URLSearchParams(window.location.search);
-  console.log(indexDump);
-
-
-var index = elasticlunr.Index.load(indexDump);
-let results = index.search(urlParams.get('q'));
-console.log(results[0].doc.title);
-console.log(results[0].doc.ref);
 
 
 
-
-console.log(urlParams.has('q')); // true
-console.log(urlParams.get('q')); // "edit"
 
 
 
 function ShowResults() {
-  var urlParams = new URLSearchParams(window.location.search);
+
+  //var urlParams = new URLSearchParams(window.location.search);
   var output = 'Vul zoekwoord in';
-  if (urlParams.has('q')) {
-
-    output = 'Gezocht op: '+urlParams.get('q');
-
-  }
+  // if (urlParams.has('q')) {
+  //
+  //   output = 'Gezocht op: '+urlParams.get('q');
+  //
+  // }
   output = output+'<br><br>'+getResultsData()
 
   document.getElementById('results').innerHTML = output;
 }
-ShowResults();
 
 function getResultsData() {
+  var searchField = document.getElementById("searchTerm").value;
+  let results = index.search(searchField);
+
   var resultList='';
   var arrayLength = results.length;
   for (var i = 0; i < arrayLength; i++) {
-    resultList = resultList+'<li><a href="'+results[i].doc.ref+'">'+results[i].doc.title+'</a></li>';
+    resultList = resultList+'<li>Deel '+results[i].doc.part+' <a href="'+results[i].doc.ref+'">'+results[i].doc.title+'</a></li>';
   }
   return '<ul>'+resultList+'<ul>';
 

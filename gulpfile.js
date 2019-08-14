@@ -4,6 +4,7 @@
 // npm install -g google-spreadsheet-to-json
 // gulp getj
 // gulp nav
+// gulp BuildIndexFromHTML
 // gulp convHtml
 
 // gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data.json -b
@@ -370,6 +371,7 @@ gulp.task('buildSearchIndex', function (done) {
         id: q.id,
         title: q.title,
         body: q.body,
+        part: q.part,
         ref: q.ref
       };
     });
