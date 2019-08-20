@@ -209,7 +209,7 @@
         "indextcontent": "raw_d1h1"
     },
     {
-        "title": "Marine",
+        "title": "Cultuurhistorisch katern",
         "part": 3,
         "chapter": 4,
         "template": "basic",
@@ -245,7 +245,8 @@
         "indextcontent": "raw_d1h1"
     },
     {
-        "title": "Cultuurhistorisch katern",
+        "title": "Maritieme cultuur in de negentiende eeuw",
+        "author": "Remmelt Daalder",
         "part": 3,
         "chapter": 7,
         "template": "basic",

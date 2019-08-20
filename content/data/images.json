@@ -5,7 +5,7 @@
         "description": "Op deze grootst bekende middeleeuwse ‘radkaart’ (163 x 137 cm) ligt het oosten boven en Jeruzalem in het midden als centrum van de wereld. Het land is gevuld met fabeldieren en monsters en omgeven door zeeën waarvan de Rode Zee rood is ingekleurd. De oceanen rond de aarde zijn slechts summier aangegeven, die maken geen deel uit van de bewoonde wereld.",
         "description2": "Perkament, de kaart is ondertekend door Richard van Haldingham en Lafford, ca. 1300.",
         "location": "Hereford Cathedral, Hereford.",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "2_Sint_Jonas.jpg",
@@ -13,7 +13,7 @@
         "description": "Glas in lood, kerkraam van de Sint Janskerk in Gouda.",
         "description2": "Dirck Crabeth, voor 1560.",
         "location": "Stichting Goudse Sint-Jan, Gouda.",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "3_Visboek.jpg",
@@ -21,7 +21,7 @@
         "description": "Pagina’s uit het Visboek van Adriaen Coenensz. van Schilperoort.",
         "description2": "Handschrift op papier, 1577-1579.",
         "location": "Koninklijke Bibliotheek, Den Haag.",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "4a_Sint_Elisabethvloed.jpg",
@@ -30,11 +30,11 @@
         "description2": "Paneel,  Meester van de Elisabeth-panelen.",
         "description3": "Anoniem, ca. 1490-1495.",
         "location": "Rijksmuseum, Amsterdam.",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "4b_Sint_Elisabethvloed.jpg",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "extra_Brandaan.jpg",
@@ -42,7 +42,7 @@
         "description": "Op de rug van een enorme vis, die hij eerst aanzag voor een eiland draagt Sint Brandaan de mis op. Op de kaart is het eiland in de Atlantische Oceaan aangegeven waarvan Columbus nog vermoedde dat hij het zou tegenkomen op zijn reis naar Indië.",
         "description2": "Gravure uit een levensbeschrijving van Sint Brandaan, uitgegeven in 1621.",
         "location": "John Carter Brown Library, Providence, Rhode Island.",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "5_Antependium.jpg",
@@ -50,7 +50,7 @@
         "description": "Centraal is een kogge afgebeeld, geflankeerd door Maria met Jezus en St. Olof. Het doek hing oorspronkelijk waarschijnlijk voor het altaar van de Olofskapel in de Stevenskerk in Nijmegen.",
         "description2": "Linnen, vierde kwart vijftiende eeuw.",
         "location": "Valkhofmuseum, Nijmegen.",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "6_Gewelfschildering_Oude_Kerk.jpg",
@@ -58,7 +58,7 @@
         "description": "Gewelfschildering, ca. 1500.",
         "location": "Oude Kerk, Amsterdam.",
         "owner": "Foto Ad van der Zee.",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "7_Reliekschrijn.jpg",
@@ -67,14 +67,14 @@
         "description2": "Hans Memling, 1489.",
         "location": "Oud Sint-Janshospitaal, Brugge.",
         "owner": "© Foto Lukas - Art in Flanders VZW (www.lukasweb.be).",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "8_Mataró-model.jpg",
         "title": "Mataró-model",
         "description": "Houten scheepsmodel, begin vijftiende eeuw.",
         "location": "Maritiem Museum, Rotterdam.",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "9_Detail_boeier.jpg",
@@ -83,14 +83,14 @@
         "description2": "Hout, ca. 1550.",
         "location": "St. Bavokerk, Haarlem.",
         "owner": "Foto J. Vissers.",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "10_Blauwe_Schuit.jpg",
         "title": "De Blauwe Schuit",
         "description": "Gravure, Pieter van der Heijden naar Hieronymus Bosch, 1559.",
         "location": "Rijksmuseum, Amsterdam.",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "11_Narrenschip.jpg",
@@ -98,14 +98,14 @@
         "description": "Paneel, Hieronymus Bosch, ca. 1500.",
         "location": "Musée du Louvre, Parijs.",
         "owner": "Foto © Musée du Louvre, Dist. RMN-Grand Palais / Martine Beck-Coppola.",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "12_Reynuit.jpg",
         "title": "Het schip van Sint Reynuit",
         "description": "Gedrukt van een houtsnede, naar Jan Wellens de Cock, ca. 1520-1530.",
         "location": "Rijksmuseum, Amsterdam.",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "13a_Amsterdam.jpg",
@@ -113,7 +113,7 @@
         "description": "Het belang van de haven en de zeehandel voor het opkomende Amsterdam wordt benadrukt door het opnemen van een schip op het stadszegel, ca. 1400.",
         "description2": "Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972).",
         "group": "stadszegel",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "13b_Biervliet_1307.jpg",
@@ -121,55 +121,55 @@
         "description": "Biervliet, 1307.",
         "description2": "Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972).",
         "group": "stadszegel",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "13c_Harderwijk_2de helft_13_eeuw.jpg",
         "description": "Harderwijk, tweede helft dertiende eeuw.",
         "group": "stadszegel",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "13d_Kuinre_1400.jpg",
         "description": "Kuinre, ca. 1400.",
         "group": "stadszegel",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "13e_Medemblik_dertiende_eeuw.jpg",
         "description": "Medemblik, dertiende eeuw.",
         "group": "stadszegel",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "13f_Monnikendam_2dehelft13de.jpg",
         "description": "Monnikendam, tweede helft dertiende eeuw.",
         "group": "stadszegel",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "13g_Stavoren_2dehelft14eeuw.jpg",
         "description": "Stavoren, tweede helft veertiende eeuw.",
         "group": "stadszegel",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "13h_Veere_vijftiende_eeuw.jpg",
         "description": "Veere, vijftiende eeuw.",
         "group": "stadszegel",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "13i_Vlaardingen_ca.1300.jpg",
         "description": "Vlaardingen, ca. 1300.",
         "group": "stadszegel",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "13j_ IJlst_vijftiende_eeuw.jpg",
         "description": "IJlst, vijftiende eeuw.",
         "group": "stadszegel",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "14a_Wandtapijt_inname_Damiate.jpg",
@@ -179,7 +179,7 @@
         "description3": "Naar ontwerp van Cornelis Claesz. van Wieringen, 1629.",
         "location": "Stadhuis, Haarlem.",
         "owner": "Foto’s Ron Brand, fotomontage Anja Brand-Heemskerk.",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "14b_Kerkraam_Gouda.jpg",
@@ -187,13 +187,231 @@
         "description": "Glas in lood, kerkraam in de St. Janskerk in Gouda.",
         "description2": "Willem Tybaut van Haarlem, 1595-1596.",
         "location": "Stichting Goudse Sint-Jan, Gouda.",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
     },
     {
         "filename": "15_Speelgoedscheepje_Hoorn.jpg",
         "title": "Speelgoedbootje",
         "description": "Houtsnijwerk, ca. 1600. Particuliere vondst te Hoorn.",
         "location": "Archeologie West-Friesland, Hoorn.",
-        "chapter": "d1h1"
+        "chapter": "d1h6"
+    },
+    {
+        "filename": "1_ kleur_van_speijk_Daalder_Dubois_HSM.jpg",
+        "title": "Van Speijk op 5 februari 1831",
+        "description": "Jan van Speijk vuurt zijn pistool af in de kruitkamer. Gewapende Belgische opstandelingen zijn al bezig de kanonneerboot in te nemen. Het boek op de werktafel is de biografie van Michiel de Ruyter.",
+        "description2": "Schilderij door Dominicus Franciscus du Bois, 1831.",
+        "location": "Het Scheepvaartmuseum, Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "2_Van_Speijk_bij_graf_De_Ruyter.jpg",
+        "title": "Van Speijk bij graf De Ruyter",
+        "description": "De jonge wees Van Speijk, mijmerend over toekomstige heldendaden op zee, staat bij het praalgraf van zijn voorbeeld admiraal Michiel De Ruyter.",
+        "description2": "Schilderij door Hendrik Breukelaar, 1832.",
+        "location": "Amsterdam Museum.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "3_Schouman_M._Het_bombardement_van_Algiers_1816.jpg",
+        "title": "Het bombardement van Algiers 1816",
+        "description": "Een Engelse-Nederlandse vloot bombardeert de stad Algiers. Daarmee kwam een definitief einde aan de activiteiten van de Barbarijse zeerovers.",
+        "description2": "Schilderij door Martinus Schouman, 1853-1855.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "4_bosboom_Tsaar_Peter.jpg",
+        "title": "Tsaar Peter de Grote op de Oost-Indische werf in Amsterdam",
+        "description": "Peters korte periode als scheepstimmerman bij de VOC kreeg vooral in de negentiende eeuw mythische proporties.",
+        "description2": "Schilderij door Johannes Bosboom, 1866-1871.",
+        "location": "Museum Jan Cunen, Oss.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "5_Israels_Langsmoedersgraf.jpg",
+        "title": "Langs moeders graf",
+        "description": "Een Zandvoortse visser loopt met zijn jonge kinderen langs het graf van zijn overleden vrouw.",
+        "description2": "Schilderij door Jozef Israëls, 1856.",
+        "location": "Stedelijk Museum, Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "6_ Nuijen_W._Schipbreuk.jpg",
+        "title": "Schipbreuk op een rotsachtige kust",
+        "description": "Het schip lijkt reddeloos, de heftig gebarende toeschouwers, maar ook de belichting versterken het gevoel van machteloosheid tegenover de krachten van de natuur.",
+        "description2": "Schilderij door Wijnand Nuijen, 1837.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "7_Eskader_ZKH.jpg",
+        "title": "Het eskader van Prins Hendrik der Nederlanden met slecht weer in het Kanaal, oktober 1843",
+        "description2": "Schilderij door Petrus Schotel, 1843.",
+        "location": "Het Scheepvaartmuseum, Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "8_De Ruyter_standbeeld_(1).jpg",
+        "title": "Standbeeld van Michiel de Ruyter in Vlissingen",
+        "description": "Het gietijzeren standbeeld stond vanaf 1841 op het De Ruyterplein, maar verhuisde in 1894 naar het Keizersbolwerk. De twee bronzen kanonnen, ernaast gezet in 1905, behoorden toe aan de vloot waarmee De Ruyter zijn laatste zeeslag uitvocht. In de Slag van Agosta, op 22 april 1676, raakte hij dodelijk gewond.",
+        "description2": "Standbeeld door Louis de Royer, 1841.",
+        "location": "Gemeentearchief, Vlissingen.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "9_HeemskerckHSM.jpeg",
+        "title": "Jacob van Heemskerck en Willem Barentsz beramen hun tweede tocht naar het Noorden, 1595",
+        "description": "Links van de zittende Heemskerck hangt een ijsberenhuid, een verwijzing naar de eerste expeditie, toen een ijsbeer werd geschoten bij Nova Zembla. Voor de meeste andere andere attributen in het vertrek koos de schilder voorwerpen uit een veel latere periode.",
+        "description2": "Schilderij door Christoffel Bisschop, 1860-1862.",
+        "location": "Het Scheepvaartmuseum, Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "10_Backer_De_Ruyter_als_gezinshoofd.jpg",
+        "title": "Michiel de Ruyter als huisvader",
+        "description": "Zo zag men Michiel de Ruyter het liefst in de negentiende eeuw: een gemoedelijke vaderfiguur, omringd door zijn liefhebbende familie.",
+        "description2": "Prent door Hilmar Johannes Backer, ca. 1845.",
+        "location": "Stadsarchief, Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "11_Meijer_Overmeestering_van_Palembang _14 juni_1821.jpg",
+        "title": "Overmeestering van Palembang door luitenant-generaal De Kock,14 juni 1821",
+        "description": "Nederlandse fregatten dwingen de sultan van Palembang op Sumatra tot overgave.",
+        "description2": "Schilderij door Louis Meijer, 1857.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "12_Koekkoek_Beurtschip_Bestellijst.jpg",
+        "title": "Beurtschip aan lager wal",
+        "description": "Een beurtschip raakt in moeilijkheden na de afvaart. Werklui aan wal snellen toe om te helpen.",
+        "description2": "Schilderij door Hermanus Koekkoek, 1849.",
+        "location": "Het Scheepvaartmuseum, Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "13_Mesdag_atelierRP-F-00-6970.jpg",
+        "title": "Mesdag in zijn atelier",
+        "description": "De schilder Hendrik Willem Mesdag in zijn atelier aan de Laan van Meerdervoort in  Den Haag, tegenwoordig als museum De Mesdag Collectie voor het publiek geopend.",
+        "description2": "Foto door Sigmund Löw, 1903.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "14_PortretbusteKl._B_2667.jpg",
+        "title": "Portretbuste J.C. de Jonge",
+        "description": "Dit portret van de historicus Johannes Cornelis de Jonge (1793-1853) stond oorspronkelijk in deel 5 van zijn werk Geschiedenis van het Nederlandsche zeewezen (tweede druk; Haarlem 1862).",
+        "description2": "Litho door Frederik Hendrik Weissenbruch naar de portretbuste door Eugene Lacombé, 1860.",
+        "location": "Haags Gemeentearchief, Den Haag.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "15_Baai_Matanzasb672.jpg",
+        "title": "De verovering van de Spaanse Zilvervloot in de Baai van Matanzas, 10 september 1628",
+        "description": "Links op de prent de Spaanse schepen, rechts de Hollandse vloot. Links op de voorgrond Nederlandse sloepen.",
+        "description2": "Litho door Petrus Johannes Schotel.",
+        "location": "Marinemuseum, Den Helder.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "16_Czaar Peterhuisje.jpg",
+        "title": "Het Tsaar Peterhuisje in Zaandam",
+        "description": "Het huisje, nu een rijksmonument, dateert van 1632. Vooraanstaande bezoekers, onder wie Napoleon, kerfden hun namen in de wanden van de woning, waar tsaar Peter de Grote in 1697 een week in verbleef.",
+        "location": "Zaans Museum, Zaandam.",
+        "owner": "Foto Gerard Drukker, 2002.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "17_verering_doggersbank.jpg",
+        "title": "Prins Willem beloont schout-bij-nacht Johan Zoutman en de andere Doggerbankhelden met eretekens, 30 november 1781",
+        "description2": "Prent door Reinier Vinkeles naar een tekening van Jacobus Buys, 1788.",
+        "location": "Rijksmuseum Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "18_Van_Speyk_Vuurtoren.jpg",
+        "title": "Vuurtoren J.C.J. van Speijk in Egmond aan Zee",
+        "description": "De vuurtoren werd in 1843 opgericht als monument ter ere van zeeheld Van Speijk.",
+        "description2": "Litho door Paulus Lauters, 1841.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "19_Peter_de_Grote_werf.jpg",
+        "title": "Tsaar Peter de Grote werkend op de werf te Amsterdam, 1697",
+        "description2": "Ets van Reinier Vinkeles naar Christian Bernhard Rode, 1751-1797.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "20_Peter_de_Grote_tekening5.jpg",
+        "title": "Tsaar Peter de Grote bestudeert in zijn huisje in Zaandam een scheepstekening, 1697",
+        "description2": "Litho door Jan van der Veen, naar Lambertus Lingeman, 1853-1861.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "21_Marcus_J.E._Tsaar_Peter_de_Grote.jpg",
+        "title": "Tsaar Peter de Grote en burgemeester Nicolaes Witsen buigen zich over een kaart, 1697",
+        "description2": "Prent door Jacob Ernst Marcus, 1814.",
+        "location": "Prent door Jacob Ernst Marcus, 1814.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "22_De_Haas_J._Nova_Zembla.jpg",
+        "title": "Overwintering op Nova Zembla, 1596-1597",
+        "description": "Deze kinderprent bevat een aantal gedenkwaardige scenes uit de overwintering van Barentsz en Heemsckerck op Nova Zembla.",
+        "description2": "Kleurenlitho door Jan de Haas, 1875-1903.",
+        "location": "Rijksmuseum, Amsterdam",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "23_Apol_L._Panorama_Nova_Zembla.jpg",
+        "title": "Panorama Nova Zembla geschilderd door Louis Apol",
+        "description": "Affiche voor een geschilderd panorama in de Amsterdam Plantage.",
+        "description2": "Kleurenlitho door Bernard Willem Wierink, 1895-1915.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "chapter": "d3h7"
+    },
+    {
+        "chapter": "d3h7"
+    },
+    {
+        "chapter": "d3h7"
+    },
+    {
+        "chapter": "d3h7"
+    },
+    {
+        "chapter": "d3h7"
+    },
+    {
+        "chapter": "d3h7"
+    },
+    {
+        "chapter": "d3h7"
+    },
+    {
+        "chapter": "d3h7"
+    },
+    {
+        "chapter": "d3h7"
+    },
+    {
+        "chapter": "d3h7"
+    },
+    {
+        "chapter": "d3h7"
+    },
+    {
+        "chapter": "d3h7"
+    },
+    {
+        "chapter": "d3h7"
     }
 ]
