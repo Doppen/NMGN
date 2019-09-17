@@ -37,6 +37,7 @@ window.onload = function(){
   var yPosImage;
 
   for (var i = 0; i < imgArr.length; i++) {
+
     yPosImage = getOffset(document.getElementById(imgArr[i])).top;
     if (yPosImage != tempStoreVal) {
       imgAndPos.push([imgArr[i], yPosImage]);
@@ -48,13 +49,14 @@ window.onload = function(){
 
   // place the first image
   handleImage(imgAndPos[0][0]);
+  //handleImage('-170'+imgArr[0]);
 };
-
 
 
 
 // get top value of element
 function getOffset(el) {
+  console.log(el);
   const rect = el.getBoundingClientRect();
   return {
     top: rect.top + window.scrollY

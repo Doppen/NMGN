@@ -100,6 +100,7 @@ function imageClickOrganiser() {
 
 
 function handleImage(imageId) {
+  //console.log(imageId);
   activeImage=imageId;
   // get ID
   var elem = document.getElementById(imageId);
@@ -202,6 +203,7 @@ window.onload = function(){
   var yPosImage;
 
   for (var i = 0; i < imgArr.length; i++) {
+
     yPosImage = getOffset(document.getElementById(imgArr[i])).top;
     if (yPosImage != tempStoreVal) {
       imgAndPos.push([imgArr[i], yPosImage]);
@@ -213,13 +215,14 @@ window.onload = function(){
 
   // place the first image
   handleImage(imgAndPos[0][0]);
+  //handleImage('-170'+imgArr[0]);
 };
-
 
 
 
 // get top value of element
 function getOffset(el) {
+  console.log(el);
   const rect = el.getBoundingClientRect();
   return {
     top: rect.top + window.scrollY
@@ -236,8 +239,8 @@ function OpenNav() {
 
 function bigImageViewer() {
   document.getElementById("bigImageViewer").style.display= 'flex';
-  document.getElementById('zoomFig').style.backgroundImage = 'url(\'images/d1h1/d1h1-big/'+activeImage+'\')';
-  document.getElementById('zoomImg').setAttribute('src', 'images/d1h1/d1h1-600/'+activeImage);
+  document.getElementById('zoomFig').style.backgroundImage = 'url(\'images/d1h6/d1h6-big/'+activeImage+'\')';
+  document.getElementById('zoomImg').setAttribute('src', 'images/d1h6/d1h6-600/'+activeImage);
   imageDimentions(activeImage, 'zoomFig');
 }
 

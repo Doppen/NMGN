@@ -2,9 +2,10 @@
 // npm audit fix --force
 
 // npm install -g google-spreadsheet-to-json
-// gulp getj
-// gulp nav
-// gulp BuildIndexFromHTML
+
+// gulp getj                    update all json files
+// gulp nav                     update page navigation (new titles)
+// gulp BuildIndexFromHTML      update the search index
 // gulp convHtml
 
 // gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data.json -b
@@ -269,7 +270,9 @@ gulp.task('buildFromTemplates', function(done) {
 
               // fill images array for scroll
               if (imagesJson[k].filename!= undefined) {
-                newContent = newContent.replace('******', "'"+imagesJson[k].filename+"',******")
+                if (page.id == imagesJson[k].chapter) {
+                  newContent = newContent.replace('******', "'"+imagesJson[k].filename+"',******")
+                }
               }
 
 
@@ -290,7 +293,7 @@ gulp.task('buildFromTemplates', function(done) {
 
             for(var l=0; l<notesJson.length; l++) {
               if (chapterId == notesJson[l].chapter) {
-                console.log(l+' > '+chapterId+' -- '+notesJson[l].chapter+' ** '+notesJson[l].note_number);
+                //console.log(l+' > '+chapterId+' -- '+notesJson[l].chapter+' ** '+notesJson[l].note_number);
 
 
                 // notes to long notes
