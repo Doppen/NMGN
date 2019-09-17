@@ -64,6 +64,7 @@ function closeNote() {
 
 // remove anchor click
 for (var i = 0; i < classname.length; i++) {
+  console.log(classname[i]); 
     classname[i].querySelector("a").removeAttribute('href');
     classname[i].addEventListener('click', handleNote, false);
 }
@@ -238,9 +239,10 @@ function OpenNav() {
 }
 
 function bigImageViewer() {
+  var chapterId = document.getElementById("chaperId").innerHTML
   document.getElementById("bigImageViewer").style.display= 'flex';
-  document.getElementById('zoomFig').style.backgroundImage = 'url(\'images/d1h6/d1h6-big/'+activeImage+'\')';
-  document.getElementById('zoomImg').setAttribute('src', 'images/d1h6/d1h6-600/'+activeImage);
+  document.getElementById('zoomFig').style.backgroundImage = 'url(\'images/'+chapterId+'/'+chapterId+'-big/'+activeImage+'\')';
+  document.getElementById('zoomImg').setAttribute('src', 'images/'+chapterId+'/'+chapterId+'-600/'+activeImage);
   imageDimentions(activeImage, 'zoomFig');
 }
 

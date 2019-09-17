@@ -23,6 +23,7 @@ var each = require('gulp-each');
 var dom  = require('gulp-dom');
 var mammoth = require("mammoth");
 var writeFile = require('write-file');
+var DomParser = require('dom-parser');
 
 var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
@@ -226,6 +227,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace(']</a>', '</a>'))
           .pipe(replace('<sup><sup>', '<sup>'))
           .pipe(replace('</sup></sup>', '</sup>'))
+          .pipe(replace('<sup> </sup>', ' '))
           .pipe(replace('<sup>', '&nbsp;<span class="noot">'))
           .pipe(replace('</sup>', '</span>'))
           .pipe(replace('@i@', '<div class="inlineImgRow">'))
@@ -267,10 +269,16 @@ gulp.task('buildFromTemplates', function(done) {
               +ifEmp(imagesJson[k].owner, '<br><em>', '</em>')
               +'</div></div></div>');
 
+              // get page ID
+              var d = new DomParser().parseFromString( newContent, "text/xml" );
+              var id = d.getElementById("chaperId").innerHTML;  //chaperId
+              //console.log( id )
+
 
               // fill images array for scroll
               if (imagesJson[k].filename!= undefined) {
-                if (page.id == imagesJson[k].chapter) {
+                //console.log(id +' = '+imagesJson[k].chapter);
+                if (id == imagesJson[k].chapter) {
                   newContent = newContent.replace('******', "'"+imagesJson[k].filename+"',******")
                 }
               }
