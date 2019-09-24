@@ -485,7 +485,8 @@ a {
 .notesList {
   margin: 3rem 0;
   font-size: .85rem;
-  line-height: 150%; }
+  line-height: 150%;
+  width: 650px; }
   .notesList li {
     margin: 1rem 0; }
 
