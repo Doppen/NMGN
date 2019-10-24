@@ -197,7 +197,7 @@
         "chapter": "d1h6"
     },
     {
-        "filename": "1_ kleur_van_speijk_Daalder_Dubois_HSM.jpg",
+        "filename": "1_uitsnkleur_van_speijk_Daalder_Dubois_HSM.jpg",
         "title": "Van Speijk op 5 februari 1831",
         "description": "Jan van Speijk vuurt zijn pistool af in de kruitkamer. Gewapende Belgische opstandelingen zijn al bezig de kanonneerboot in te nemen. Het boek op de werktafel is de biografie van Michiel de Ruyter.",
         "description2": "Schilderij door Dominicus Franciscus du Bois, 1831.",
@@ -207,13 +207,13 @@
     {
         "filename": "2_Van_Speijk_bij_graf_De_Ruyter.jpg",
         "title": "Van Speijk bij graf De Ruyter",
-        "description": "De jonge wees Van Speijk, mijmerend over toekomstige heldendaden op zee, staat bij het praalgraf van zijn voorbeeld admiraal Michiel De Ruyter.",
+        "description": "De jonge wees Van Speijk, mijmerend over toekomstige heldendaden op zee, staat bij het praalgraf van zijn voorbeeld admiraal Michiel de Ruyter.",
         "description2": "Schilderij door Hendrik Breukelaar, 1832.",
         "location": "Amsterdam Museum.",
         "chapter": "d3h7"
     },
     {
-        "filename": "3_Schouman_M._Het_bombardement_van_Algiers_1816.jpg",
+        "filename": "3_Schouman_bombardementSK-A-1395.jpg",
         "title": "Het bombardement van Algiers 1816",
         "description": "Een Engelse-Nederlandse vloot bombardeert de stad Algiers. Daarmee kwam een definitief einde aan de activiteiten van de Barbarijse zeerovers.",
         "description2": "Schilderij door Martinus Schouman, 1853-1855.",
@@ -229,7 +229,7 @@
         "chapter": "d3h7"
     },
     {
-        "filename": "5_Israels_Langsmoedersgraf.jpg",
+        "filename": "5_uitsnIsraels_Langsmoedersgraf.jpg",
         "title": "Langs moeders graf",
         "description": "Een Zandvoortse visser loopt met zijn jonge kinderen langs het graf van zijn overleden vrouw.",
         "description2": "Schilderij door Jozef Israëls, 1856.",
@@ -245,22 +245,23 @@
         "chapter": "d3h7"
     },
     {
-        "filename": "7_Eskader_ZKH.jpg",
+        "filename": "7_uitsnEskader_ZKH.jpg",
         "title": "Het eskader van Prins Hendrik der Nederlanden met slecht weer in het Kanaal, oktober 1843",
         "description2": "Schilderij door Petrus Schotel, 1843.",
         "location": "Het Scheepvaartmuseum, Amsterdam.",
         "chapter": "d3h7"
     },
     {
-        "filename": "8_De Ruyter_standbeeld_(1).jpg",
-        "title": "Standbeeld van Michiel de Ruyter in Vlissingen",
-        "description": "Het gietijzeren standbeeld stond vanaf 1841 op het De Ruyterplein, maar verhuisde in 1894 naar het Keizersbolwerk. De twee bronzen kanonnen, ernaast gezet in 1905, behoorden toe aan de vloot waarmee De Ruyter zijn laatste zeeslag uitvocht. In de Slag van Agosta, op 22 april 1676, raakte hij dodelijk gewond.",
-        "description2": "Standbeeld door Louis de Royer, 1841.",
+        "filename": "8_standbeeldpa4672.jpg",
+        "title": "Standbeeld van Michiel de Ruyter op het Keizersbolwerk in Vlissingen",
+        "description": "Het gietijzeren standbeeld stond vanaf 1841 op het De Ruyterplein, maar verhuisde in 1894 naar het Keizersbolwerk, Boulevard de Ruyter. De twee bronzen kanonnen, ernaast gezet in 1905, behoorden toe aan de vloot waarmee De Ruyter zijn laatste zeeslag uitvocht. In de Slag van Agosta, op 22 april 1676, raakte hij dodelijk gewond. \n\n",
+        "description2": "Standbeeld door Louis Royer, 1841.",
         "location": "Gemeentearchief, Vlissingen.",
+        "owner": "Fotograaf onbekend, ca. 1905-1910.",
         "chapter": "d3h7"
     },
     {
-        "filename": "9_HeemskerckHSM.jpg",
+        "filename": "9_uitsnHeemskerckHSM.jpg",
         "title": "Jacob van Heemskerck en Willem Barentsz beramen hun tweede tocht naar het Noorden, 1595",
         "description": "Links van de zittende Heemskerck hangt een ijsberenhuid, een verwijzing naar de eerste expeditie, toen een ijsbeer werd geschoten bij Nova Zembla. Voor de meeste andere attributen in het vertrek koos de schilder voorwerpen uit een veel latere periode.",
         "description2": "Schilderij door Christoffel Bisschop, 1860-1862.",
@@ -277,7 +278,7 @@
     },
     {
         "filename": "11_Meijer_Overmeestering_van_Palembang _14 juni_1821.jpg",
-        "title": "Overmeestering van Palembang door luitenant-generaal De Kock,14 juni 1821",
+        "title": "Overmeestering van Palembang door luitenant-generaal De Kock, 14 juni 1821",
         "description": "Nederlandse fregatten dwingen de sultan van Palembang op Sumatra tot overgave.",
         "description2": "Schilderij door Louis Meijer, 1857.",
         "location": "Rijksmuseum, Amsterdam.",
@@ -292,7 +293,7 @@
         "chapter": "d3h7"
     },
     {
-        "filename": "13_Mesdag_atelierRP-F-00-6970.jpg",
+        "filename": "13_uitsnMesdag_atelierRP-F-00-6970.jpg",
         "title": "Mesdag in zijn atelier",
         "description": "De schilder Hendrik Willem Mesdag in zijn atelier aan de Laan van Meerdervoort in  Den Haag, tegenwoordig als museum De Mesdag Collectie voor het publiek geopend.",
         "description2": "Foto door Sigmund Löw, 1903.",
@@ -302,7 +303,7 @@
     {
         "filename": "14_PortretbusteKl._B_2667.jpg",
         "title": "Portretbuste J.C. de Jonge",
-        "description": "Dit portret van de historicus Johannes Cornelis de Jonge (1793-1853) stond oorspronkelijk in deel 5 van zijn werk Geschiedenis van het Nederlandsche zeewezen (tweede druk; Haarlem 1862).",
+        "description": "Dit portret van de historicus Johannes Cornelis de Jonge (1793-1853) stond oorspronkelijk in deel 5 van zijn werk <em>Geschiedenis van het Nederlandsche zeewezen</em> (tweede druk; Haarlem 1862).",
         "description2": "Litho door Frederik Hendrik Weissenbruch naar de portretbuste door Eugene Lacombé, 1860.",
         "location": "Haags Gemeentearchief, Den Haag.",
         "chapter": "d3h7"
@@ -310,8 +311,7 @@
     {
         "filename": "15_Baai_Matanzasb672.jpg",
         "title": "De verovering van de Spaanse Zilvervloot in de Baai van Matanzas, 10 september 1628",
-        "description": "Links op de prent de Spaanse schepen, rechts de Hollandse vloot. Links op de voorgrond Nederlandse sloepen.",
-        "description2": "Litho door Petrus Johannes Schotel.",
+        "description2": "Litho door Petrus Johannes Schotel, uit: J.C. de Jonge, <em>Geschiedenis van het Nederlandsche zeewezen</em> (Amsterdam 1850).\n\n\n\n",
         "location": "Marinemuseum, Den Helder.",
         "chapter": "d3h7"
     },
@@ -339,40 +339,58 @@
         "chapter": "d3h7"
     },
     {
-        "filename": "19_Peter_de_Grote_werf.jpg",
-        "title": "Tsaar Peter de Grote werkend op de werf te Amsterdam, 1697",
-        "description2": "Ets door Reinier Vinkeles naar Christian Bernhard Rode, 1751-1797.",
+        "filename": "19_papierenmodelhuisje.jpg",
+        "title": "Papieren model van het huisje van tsaar Peter de Grote \n\n",
+        "description2": "Vervaardigd door François de Richemont, 1814.\n\n",
         "location": "Rijksmuseum, Amsterdam.",
         "chapter": "d3h7"
     },
     {
-        "filename": "20_Peter_de_Grote_tekening5.jpg",
-        "title": "Tsaar Peter de Grote bestudeert in zijn huisje in Zaandam een scheepstekening, 1697",
-        "description2": "Litho door Jan van der Veen, naar Lambertus Lingeman, 1853-1861.",
-        "location": "Rijksmuseum, Amsterdam.",
+        "filename": "20_uitsnfregatIJssela4750_M_clip.jpg",
+        "title": "Het fregat Zr.Ms. <em>IJssel</em> onder noodtuig, tijdens een zware storm, 27 december 1814",
+        "description2": "Schilderij door Johannes Christiaan Schotel, 1814. \n\n",
+        "location": "Het Scheepvaartmuseum, Amsterdam.",
         "chapter": "d3h7"
     },
     {
-        "filename": "21_Marcus_J.E._Tsaar_Peter_de_Grote.jpg",
-        "title": "Tsaar Peter de Grote en burgemeester Nicolaes Witsen buigen zich over een kaart, 1697",
-        "description2": "Prent door Jacob Ernst Marcus, 1814.",
-        "location": "Prent door Jacob Ernst Marcus, 1814.",
-        "chapter": "d3h7"
-    },
-    {
-        "filename": "22_De_Haas_J._Nova_Zembla.jpg",
-        "title": "Overwintering op Nova Zembla, 1596-1597",
-        "description": "Deze kinderprent bevat een aantal gedenkwaardige scenes uit de overwintering van Barentsz en Heemsckerck op Nova Zembla.",
+        "filename": "21_uitsDe_Haas_J._Nova_Zembla.jpg",
+        "title": "Deze kinderprent bevat een aantal gedenkwaardige scènes uit de overwintering van Barentsz en Heemskerck op Nova Zembla.",
         "description2": "Kleurenlitho door Jan de Haas, 1875-1903.",
-        "location": "Rijksmuseum, Amsterdam",
+        "location": "Rijksmuseum, Amsterdam.",
         "chapter": "d3h7"
     },
     {
-        "filename": "23_Apol_L._Panorama_Nova_Zembla.jpg",
+        "filename": "22_poolsch apol auqaa5536_picP.jpg",
+        "title": "De poolschoener <em>Willem Barents</em> in het ijs in de Noordelijke IJszee\n\n",
+        "description2": "Aquarel door Louis Apol, 1880.",
+        "location": "Het Scheepvaartmuseum, Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "23_uitsnkust NZ Apolrb0528_M_clip.jpg",
+        "title": "De kust van Nova Zembla met links de schoener <em>Willem Barents</em> tijdens een tocht in de Noordelijke IJszee\n\n",
+        "description2": "Schilderij door Louis Apol, gebaseerd op zijn panoramaschilderij ‘Nova Zembla’in Amsterdam, 1898.",
+        "location": "Het Scheepvaartmuseum, Amsterdam.",
+        "chapter": "d3h7"
+    },
+    {
+        "filename": "24_modernes0090(02)098_remast_L.jpg",
+        "title": "Een deel van de bemanning aan dek van de schoener <em>Willem Barents</em>",
+        "description2": "Moderne afdruk van een glasnegatief, vervaardigd door Willem Grant, 1879.",
+        "location": "Het Scheepvaartmuseum, Amsterdam."
+    },
+    {
+        "filename": "25_uitsnMesdag20020634_lst_M_clip.jpg",
+        "title": "Klaar voor vertrek",
+        "description": "Twee Scheveningse bomschuiten in de branding, de linker gereed om te vertrekken, de rechter bezig met het lossen van een lading verse vis.",
+        "description3": "Schilderij door Hendrik Willem Mesdag, 1893.",
+        "location": "Het Scheepvaartmuseum, Amsterdam."
+    },
+    {
+        "filename": "26_Apol_L._Panorama_Nova_Zembla.jpg",
         "title": "Panorama Nova Zembla geschilderd door Louis Apol",
         "description": "Affiche voor een geschilderd panorama in de Amsterdam Plantage.",
         "description2": "Kleurenlitho door Bernard Willem Wierink, 1895-1915.",
-        "location": "Rijksmuseum, Amsterdam.",
-        "chapter": "d3h7"
+        "location": "Rijksmuseum, Amsterdam."
     }
 ]
