@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.mgSite{
+  width: 100vw;
+  background-color: #cadbe3;
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+
+.mgWrapper{
+  max-width: 1000px;
+  width: 100%;
+  background-color: rgba(#68a73a, 0.25);
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+.mgImageBar{
+  background-color: rgba(#692e13, 0.46);
+}
+
+
+.mgText{
+  max-width: 650px;
+  background-color: rgba(#3e3458, 0.46);
+
+}

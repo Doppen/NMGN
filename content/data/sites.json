@@ -245,7 +245,7 @@
         "indextcontent": "raw_d1h1"
     },
     {
-        "title": "Maritieme cultuur in de negentiende eeuw",
+        "title": "Maritieme cultuur| in de negentiende eeuw",
         "author": "Remmelt Daalder",
         "part": 3,
         "chapter": 7,
@@ -357,5 +357,22 @@
         "content": "d1h2",
         "id": "search",
         "indextcontent": "raw_d1h2"
+    },
+    {
+        "title": "Maritieme cultuur| in de middeleeuwen",
+        "author": "Remmelt Daalder",
+        "part": 1,
+        "chapter": 1,
+        "template": "chapter",
+        "name": "new",
+        "content": "d1h6",
+        "aera": "1100 - 1600",
+        "parttitle": "Opkomst van de rivier- en zeehandel",
+        "id": "d1h6",
+        "indextcontent": "raw_d1h6"
+    },
+    {
+        "title": "homepage",
+        "template": "home"
     }
 ]
