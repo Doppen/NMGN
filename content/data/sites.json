@@ -373,6 +373,7 @@
     },
     {
         "title": "homepage",
+        "name": "home",
         "template": "home"
     }
 ]

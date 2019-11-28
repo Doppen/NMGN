@@ -232,99 +232,69 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('</sup>', '</span>'))
           .pipe(replace('@i@', '<div class="inlineImgRow">'))
           .pipe(replace('@/i@', '</div>'))
-          //.pipe(replace(']]]</p>', ']]]</div>'))
-          //.pipe(replace(']]] </p>', ']]]</div>'))
           .pipe(replace('@q@', '<div class="quote">'))
           .pipe(replace('@/q@', '</div>'))
           .pipe(replace('<ol><li id="endnote-1">', '<div class="notesList"><h2>Noten</h2><ol><li id="endnote-1">'))
           .pipe(each(function(content, file, callback) {
             var newContent = content;
 
-            //replace links
-            // for(var j=0; j<linksJson.length; j++) {
-            //   newContent = newContent.replace(linksJson[j].words_before_link, linksJson[j].words_before_link+' <a href="'+linksJson[j].url+'">');
-            //   newContent = newContent.replace(linksJson[j].words_after_link, ' </a>'+linksJson[j].words_after_link);
-            // }
+            // Get the ID
+            var d = new DomParser().parseFromString( newContent, "text/xml" );
+            var id = d.getElementById("chaperId").innerHTML;  //chaperId
+            var template = d.getElementById("chaperTemp").innerHTML;
 
-            for(var k=0; k<imagesJson.length; k++) {
-              //replace images
+            // replace the images
+            newContent = handleImages(content, id);
 
+            var domContent = new DomParser().parseFromString( newContent, "text/xml" );
 
-              // before [[[
-              newContent = newContent.replace('[[['+imagesJson[k].filename, '<div class="inlineImage" id="'
-              +imagesJson[k].filename+'"><span><img src="images/'+imagesJson[k].chapter+'/'+imagesJson[k].chapter+'-170/'+imagesJson[k].filename);
-
-              //after ]]]
-              newContent = newContent.replace(imagesJson[k].filename+']]]', imagesJson[k].filename+'" alt="'+
-              ifEmp(imagesJson[k].title, '', '')+ifEmp(imagesJson[k].description, '. ', '')
-              +'"></span>'
-              +'<div class="caption">'
-              +'<div class="captionTitle">'+ifEmp(imagesJson[k].title, '', '')+'</div>'
-              +'<span class="openCaption">[i]</span>'
-              +'<div class="moreCaption">'
-              +ifEmp(imagesJson[k].description, '', '')
-              +ifEmp(imagesJson[k].description2, '<br><span>', '</span>')
-              +ifEmp(imagesJson[k].description3, '<span>', '</span>')
-              +ifEmp(imagesJson[k].location, '<br>', '')
-              +ifEmp(imagesJson[k].owner, '<br><em>', '</em>')
-              +'</div></div></div>');
-
-              // get page ID
-              var d = new DomParser().parseFromString( newContent, "text/xml" );
-              var id = d.getElementById("chaperId").innerHTML;  //chaperId
-              //console.log( id )
-
-
-              // fill images array for scroll
-              if (imagesJson[k].filename!= undefined) {
-                //console.log(id +' = '+imagesJson[k].chapter);
-                if (id == imagesJson[k].chapter) {
-                  newContent = newContent.replace('******', "'"+imagesJson[k].filename+"',******")
-                }
-              }
-
-
+            // replace the notes
+            if (template == 'basic') {
+              domContent = handleNotes(domContent, id);
             }
 
 
-              callback(null, newContent);
+            newContentDef = domContent.rawHTML;
+            callback(null, newContentDef);
           }))
           .pipe(replace(',******', ''))
-          .pipe(dom(function(){
-            //console.log(this.getElementById("chaperId").innerHTML);
-            //remove <br> in title
-            var title = this.getElementsByTagName("title")[0].innerHTML;
-            this.getElementsByTagName("title")[0].innerHTML = title.replace('&lt;br&gt;',' ');
-
-            var chapterId = this.getElementById("chaperId").innerHTML;
-
-
-            for(var l=0; l<notesJson.length; l++) {
-              if (chapterId == notesJson[l].chapter) {
-                //console.log(l+' > '+chapterId+' -- '+notesJson[l].chapter+' ** '+notesJson[l].note_number);
-
-
-                // notes to long notes
-                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML =  ifEmp(notesJson[l].longNote, '', '');
-                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].auteur1, '', ', ');
-                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie1, '<em>', '</em> ');
-                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie1extra, '<br>', '');
-                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].auteur2, '<br>', ', ');
-                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie2, '<em>', '</em> ');
-                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie2extra, '<br>', '');
-                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].extra, '<br>', '');
-                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].url, '<br><div class="ellipsis"><a target="_blank" href="'+notesJson[l].url+'">', '</a></div>');
-                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].viewDatumUrl, '', '');
-                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcat, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel2, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel3, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel4, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-                this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel5, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-              }
-            }
-
-
-        }))
+        //   .pipe(dom(function(){
+        //
+        //     //remove <br> in title
+        //     var title = this.getElementsByTagName("title")[0].innerHTML;
+        //     this.getElementsByTagName("title")[0].innerHTML = title.replace('&lt;br&gt;',' ');
+        //
+        //
+        //     var chapterId = this.getElementById("chaperId").innerHTML;
+        //
+        //
+        //     for(var l=0; l<notesJson.length; l++) {
+        //       if (chapterId == notesJson[l].chapter) {
+        //         //console.log(l+' > '+chapterId+' -- '+notesJson[l].chapter+' ** '+notesJson[l].note_number);
+        //
+        //
+        //         // notes to long notes
+        //         this.getElementById('endnote-'+notesJson[l].note_number).innerHTML =  ifEmp(notesJson[l].longNote, '', '');
+        //         this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].auteur1, '', ', ');
+        //         this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie1, '<em>', '</em> ');
+        //         this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie1extra, '<br>', '');
+        //         this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].auteur2, '<br>', ', ');
+        //         this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie2, '<em>', '</em> ');
+        //         this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie2extra, '<br>', '');
+        //         this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].extra, '<br>', '');
+        //         this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].url, '<br><div class="ellipsis"><a target="_blank" href="'+notesJson[l].url+'">', '</a></div>');
+        //         this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].viewDatumUrl, '', '');
+        //         this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcat, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+        //         this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel2, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+        //         this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel3, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+        //         this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel4, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+        //         this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel5, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+        //       }
+        //     }
+        //
+        //
+        //
+        // }))
           .pipe(useref())
           .pipe(gulp.dest(dst))
           .pipe(browserSync.stream());
@@ -434,4 +404,77 @@ function ifEmp(input, pre, post) {
   }else {
     return '';
   }
+}
+
+
+// image function.
+function handleImages(newContent, id) {
+  var output;
+  for (var k = 0; k < imagesJson.length; k++) {
+
+
+          // before [[[
+          newContent = newContent.replace('[[['+imagesJson[k].filename, '<div class="inlineImage" id="'
+          +imagesJson[k].filename+'"><span><img src="images/'+imagesJson[k].chapter+'/'+imagesJson[k].chapter+'-170/'+imagesJson[k].filename);
+
+          //after ]]]
+          newContent = newContent.replace(imagesJson[k].filename+']]]', imagesJson[k].filename+'" alt="'+
+          ifEmp(imagesJson[k].title, '', '')+ifEmp(imagesJson[k].description, '. ', '')
+          +'"></span>'
+          +'<div class="caption">'
+          +'<div class="captionTitle">'+ifEmp(imagesJson[k].title, '', '')+'</div>'
+          +'<span class="openCaption">[i]</span>'
+          +'<div class="moreCaption">'
+          +ifEmp(imagesJson[k].description, '', '')
+          +ifEmp(imagesJson[k].description2, '<br><span>', '</span>')
+          +ifEmp(imagesJson[k].description3, '<span>', '</span>')
+          +ifEmp(imagesJson[k].location, '<br>', '')
+          +ifEmp(imagesJson[k].owner, '<br><em>', '</em>')
+          +'</div></div></div>');
+
+          // images array
+          if (imagesJson[k].filename!= undefined) {
+            //console.log(id +' = '+imagesJson[k].chapter);
+            if (id == imagesJson[k].chapter) {
+              newContent = newContent.replace('******', "'"+imagesJson[k].filename+"',******")
+            }
+          }
+  }
+  return newContent;
+}
+
+
+function handleNotes(domContent, chapterId) {
+
+      for(var l=0; l<notesJson.length; l++) {
+        //console.log(chapterId +' >> '+ notesJson[l].chapter);
+        if (chapterId == notesJson[l].chapter) {
+          var noteContent;
+
+          // notes to long notes
+          noteContent =  ifEmp(notesJson[l].longNote, '', '');
+          noteContent  += ifEmp(notesJson[l].auteur1, '', ', ');
+          noteContent  += ifEmp(notesJson[l].publicatie1, '<em>', '</em> ');
+          noteContent  += ifEmp(notesJson[l].publicatie1extra, '<br>', '');
+          noteContent  += ifEmp(notesJson[l].auteur2, '<br>', ', ');
+          noteContent  += ifEmp(notesJson[l].publicatie2, '<em>', '</em> ');
+          noteContent  += ifEmp(notesJson[l].publicatie2extra, '<br>', '');
+          noteContent  += ifEmp(notesJson[l].extra, '<br>', '');
+          noteContent  += ifEmp(notesJson[l].url, '<br><div class="ellipsis"><a target="_blank" href="'+notesJson[l].url+'">', '</a></div>');
+          noteContent  += ifEmp(notesJson[l].viewDatumUrl, '', '');
+          noteContent  += ifEmp(notesJson[l].worldcat, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcatTitel2, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcatTitel3, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcatTitel4, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent += ifEmp(notesJson[l].worldcatTitel5, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+
+          domContent.getElementById('endnote-'+notesJson[l].note_number).innerHTML = noteContent;
+
+          //console.log('Inner '+domContent.getElementById('endnote-'+notesJson[l].note_number).innerHTML);
+          console.log('--------');
+          console.log(domContent);
+          console.log('--------');
+        }
+      }
+  return domContent;
 }
