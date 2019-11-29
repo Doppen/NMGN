@@ -246,15 +246,6 @@ gulp.task('buildFromTemplates', function(done) {
             // replace the images
             newContent = handleImages(content, id);
 
-            // var domContent = new DomParser().parseFromString( newContent, "text/xml" );
-            //
-            // // replace the notes
-            // if (template == 'basic') {
-            //   domContent = handleNotes(domContent, id);
-            // }
-            //
-            //
-            // newContentDef = domContent.rawHTML;
             callback(null, newContent);
           }))
           .pipe(replace(',******', ''))
@@ -268,38 +259,10 @@ gulp.task('buildFromTemplates', function(done) {
             var chapterId = this.getElementById("chaperId").innerHTML;
             var chaperTemp = this.getElementById("chaperTemp").innerHTML;
 
+            //handle the notes
             if (chaperTemp == 'basic') {
               domContent = handleNotes(this, chapterId);
             }
-
-
-
-
-            // for(var l=0; l<notesJson.length; l++) {
-            //   if (chapterId == notesJson[l].chapter) {
-            //     //console.log(l+' > '+chapterId+' -- '+notesJson[l].chapter+' ** '+notesJson[l].note_number);
-            //
-            //
-            //     // notes to long notes
-            // //     this.getElementById('endnote-'+notesJson[l].note_number).innerHTML =  ifEmp(notesJson[l].longNote, '', '');
-            // //     this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].auteur1, '', ', ');
-            // //     this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie1, '<em>', '</em> ');
-            // //     this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie1extra, '<br>', '');
-            // //     this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].auteur2, '<br>', ', ');
-            // //     this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie2, '<em>', '</em> ');
-            // //     this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].publicatie2extra, '<br>', '');
-            // //     this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].extra, '<br>', '');
-            // //     this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].url, '<br><div class="ellipsis"><a target="_blank" href="'+notesJson[l].url+'">', '</a></div>');
-            // //     this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].viewDatumUrl, '', '');
-            // //     this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcat, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-            // //     this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel2, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-            // //     this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel3, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-            // //     this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel4, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-            // //     this.getElementById('endnote-'+notesJson[l].note_number).innerHTML += ifEmp(notesJson[l].worldcatTitel5, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-            // //   }
-            // // }
-
-
 
 
         }))
@@ -477,11 +440,6 @@ function handleNotes(domContent, chapterId) {
           noteContent  += ifEmp(notesJson[l].worldcatTitel5, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
 
           domContent.getElementById('endnote-'+notesJson[l].note_number).innerHTML = noteContent;
-
-          //console.log('Inner '+domContent.getElementById('endnote-'+notesJson[l].note_number).innerHTML);
-          // console.log('--------');
-          // console.log(domContent);
-          // console.log('--------');
         }
       }
   return domContent;

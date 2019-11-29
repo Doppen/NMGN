@@ -366,6 +366,51 @@ nav {
   width: 100%;
   max-width: 650px; }
 
+@media (min-width: 800px) {
+  .mgSite {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .mgWrapper {
+    max-width: 1300px;
+    width: calc(100% - 6rem);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center; }
+  .mgFixed {
+    position: fixed;
+    min-height: 100vh;
+    z-index: 0;
+    background-color: rgba(235, 250, 62, 0.22); }
+  .mgBar1 {
+    width: 33%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+  .mgBar2 {
+    width: 67%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .mgImageBar {
+    width: 640px;
+    min-height: 100vh;
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .temp {
+    width: calc(100% - 3rem);
+    height: auto; }
+  .mgText {
+    max-width: 600px;
+    padding-top: 5rem; } }
+
 * {
   box-sizing: border-box; }
 
