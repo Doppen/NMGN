@@ -383,7 +383,8 @@ nav {
     position: fixed;
     min-height: 100vh;
     z-index: 0;
-    background-color: rgba(235, 250, 62, 0.22); }
+    top: 0;
+    left: 0; }
   .mgBar1 {
     width: 33%;
     min-height: 100vh;
@@ -397,15 +398,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center; }
-  .mgImageBar {
-    width: 640px;
-    min-height: 100vh;
-    margin-right: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
+  .gFigureWrap {
+    width: calc(100% - 3rem); }
+  .mgCaption {
+    font-size: .7rem;
+    line-height: 130%; }
   .temp {
-    width: calc(100% - 3rem);
+    width: 100%;
     height: auto; }
   .mgText {
     max-width: 600px;

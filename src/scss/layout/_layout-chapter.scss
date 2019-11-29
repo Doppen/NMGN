@@ -1,6 +1,6 @@
 $wrapWidth: 1300px;
 $textWidth: 600px;
-$midGutter: 60px;
+$midGutter: 0px;
 $imgWidth: $wrapWidth - $textWidth - $midGutter;
 $marging: 3rem;
 $bothMargin: $marging*2;
@@ -22,12 +22,13 @@ $bothMargin: $marging*2;
     justify-content: center;
   }
 
-.mgFixed {
-  position: fixed;
-  min-height: 100vh;
-  z-index:0;
-  background-color: rgba(#ebfa3e, 0.22);
-}
+  .mgFixed {
+    position: fixed;
+    min-height: 100vh;
+    z-index:0;
+    top: 0;
+    left: 0;
+  }
 
   .mgBar1{
     width: 33%;
@@ -46,19 +47,17 @@ $bothMargin: $marging*2;
     justify-content: center;
   }
 
+  .gFigureWrap{
+    width: calc(100% - 3rem);
+  }
 
-
-  .mgImageBar{
-    width: $imgWidth;
-    min-height: 100vh;
-    margin-right: $midGutter;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .mgCaption{
+    font-size: .7rem;
+    line-height: 130%;
   }
 
   .temp{
-    width: calc(100% - 3rem);
+    width: 100%;
     height: auto;
     //max-height: 80vh;
   }
