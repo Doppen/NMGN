@@ -439,6 +439,14 @@ nav {
     color: #fff;
     width: 100%;
     height: 70vh; }
+    .mgHero h1 {
+      color: #2BF6D7;
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 30vh;
+      font-size: 5rem;
+      line-height: 130%; }
   .mgWrapper {
     max-width: 1300px;
     width: calc(100% - 160px); } }
