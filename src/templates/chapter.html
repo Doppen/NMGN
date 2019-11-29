@@ -5,7 +5,7 @@
 
 <!-- underlayer with fixed image bar -->
       <div class="mgWrapper">
-        <div class="mgBar1">
+        <div class="mgBar1 mgFigure helpColor1">
           <div class="mgFigureWrap">
             <img src="images/d3h7/d3h7-600/26_Apol_L._Panorama_Nova_Zembla.jpg" class="temp">
             <div class="mgCaption">
@@ -22,14 +22,32 @@
     </div>
 
 
-  <div class="mgSite">
+  <div class="mgSite mgOverlay">
+    <div class="mgHero">
+      <div class="mgWrapper ">
+        <div class="mgBar1 helpColor1"></div>
+        <div class="mgBar2 helpColor2"></div> <!-- bar2  -->
+      </div> <!-- wrapp  -->
+    </div> <!-- hero  -->
 
+
+
+    <div class="mgGreenBG"></div>
 
 
     <!-- Content -->
-      <div class="mgWrapper">
-        <div class="mgBar1"></div>
-        <div class="mgBar2">
+      <div class="mgWrapper helpColor3 mgContent">
+        <div class="mgBar1 helpColor1">
+          <br><br>
+          Inhoud<br>
+          Stormvloeden<br>
+          De zeereis van Sint Brandaan<br>
+          Nog meer varende heiligen<br>
+          Schip als metafoor<br>
+          Maritieme identiteit<br>
+          Noten<br>
+        </div>
+        <div class="mgBar2 helpColor2 mgTxtBg">
           <div class="mgText"> {{> (lookup . 'content') }} </div>
         </div> <!-- bar2  -->
       </div> <!-- wrapp  -->
