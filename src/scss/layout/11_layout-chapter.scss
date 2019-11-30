@@ -1,0 +1,135 @@
+$wrapWidth: 1300px;
+$textWidth: 600px;
+$midGutter: 80px;
+$imgWidth: $wrapWidth - $textWidth - $midGutter;
+$marging: 80px;
+$bothMargin: $marging*2;
+
+$primColor: #2BF6D7;
+
+@media (min-width: 1000px) {
+  .mgSite{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mgWrapper{
+    max-width: $wrapWidth;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .mgFixed {
+    position: fixed;
+    min-height: 100vh;
+    z-index:0;
+    top: 0;
+    left: 0;
+  }
+
+  .mgOverlay {
+    z-index:100;
+    position: relative;
+  }
+
+  .mgBar1{
+    width: 33%;
+    min-height: 100vh;
+
+    margin-right: $midGutter;
+  }
+
+  .mgBar2{
+    width: 67%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .mgFigure{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .gFigureWrap{
+    width: calc(100% - 3rem);
+  }
+
+  .mgCaption{
+    font-size: .7rem;
+    line-height: 140%;
+    margin: 0 1rem;
+    color: #8e8e8e;
+    text-align: justify;
+    margin-top: 1rem;
+  }
+
+  .temp{
+    width: 100%;
+    height: auto;
+    //max-height: 80vh;
+  }
+
+  .mgTxtBg {
+    background-color: #fff;
+  }
+
+  .mgText{
+    max-width: $textWidth;
+    min-width: 500px;
+    padding-top: 5rem;
+
+  }
+
+  .mgGreenBG{
+    background-color: $primColor;
+    position: absolute;
+    top: 70vh;
+    left: 0;
+    right: 50%;
+    min-height: 30vh;
+    //height: 300px;
+    z-index:50;
+  }
+
+  .mgContent{
+    z-index:150;
+  }
+
+  .inlineImgRow {
+    display: none;
+  }
+
+
+  .mgHero {
+    background-color: #053A51;
+    color: #fff;
+    width: 100%;
+    height: 70vh;
+
+    h1{
+      color: $primColor;
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 30vh;
+      font-size: 5rem;
+      line-height: 130%;
+    }
+  }
+
+  .mgWrapper{
+    max-width: $wrapWidth;
+    width: calc(100% - #{$bothMargin});
+  }
+}

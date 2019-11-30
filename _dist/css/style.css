@@ -366,90 +366,117 @@ nav {
   width: 100%;
   max-width: 650px; }
 
-@media (min-width: 1000px) {
-  .mgSite {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; }
-  .mgWrapper {
-    max-width: 1300px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center; }
-  .mgFixed {
-    position: fixed;
-    min-height: 100vh;
-    z-index: 0;
-    top: 0;
-    left: 0; }
-  .mgOverlay {
-    z-index: 100;
-    position: relative; }
-  .mgBar1 {
-    width: 33%;
-    min-height: 100vh;
-    margin-right: 80px; }
-  .mgBar2 {
-    width: 67%;
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-  .mgFigure {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; }
-  .gFigureWrap {
-    width: calc(100% - 3rem); }
-  .mgCaption {
-    font-size: .7rem;
-    line-height: 140%;
-    margin: 0 1rem;
-    color: #8e8e8e;
-    text-align: justify;
-    margin-top: 1rem; }
-  .temp {
-    width: 100%;
-    height: auto; }
-  .mgTxtBg {
-    background-color: #fff; }
-  .mgText {
-    max-width: 600px;
-    min-width: 500px;
-    padding-top: 5rem; }
-  .mgGreenBG {
-    background-color: #2BF6D7;
-    position: absolute;
-    top: 70vh;
-    left: 0;
-    right: 50%;
-    min-height: 30vh;
-    z-index: 50; }
-  .mgContent {
-    z-index: 150; }
-  .inlineImgRow {
-    display: none; }
-  .mgHero {
-    background-color: #053A51;
-    color: #fff;
-    width: 100%;
-    height: 70vh; }
-    .mgHero h1 {
-      color: #2BF6D7;
-      width: 100%;
-      text-align: center;
-      position: absolute;
-      top: 30vh;
-      font-size: 5rem;
-      line-height: 130%; }
-  .mgWrapper {
-    max-width: 1300px;
-    width: calc(100% - 160px); } }
+.mgSite {
+  position: relative;
+  display: grid;
+  grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(200px, 500px) [gutter] 3rem [c2] minmax(400px, 800px) [cEnd] minmax(3rem, auto) [right1];
+  grid-template-rows: [top1] 40px [hero] 70vh [content] auto [contentListEnd] auto [contendEnd] auto;
+  z-index: 100; }
+
+.mgSiteFixed {
+  position: fixed;
+  display: grid;
+  grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(200px, 500px) [gutter] 3rem [c2] minmax(400px, 800px) [cEnd] minmax(3rem, auto) [right1];
+  grid-template-rows: [t] 100vh [b];
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100vw; }
+
+.mgIllustration {
+  grid-column-start: c1;
+  grid-column-end: gutter;
+  grid-row-start: t;
+  grid-row-end: b;
+  background-color: #2BF6D7; }
+
+.mgHeaderBg {
+  grid-column-start: left1;
+  grid-column-end: right1;
+  grid-row-start: top1;
+  grid-row-end: hero;
+  background-color: #2BF6D7; }
+
+.mgHeader {
+  grid-column-start: c1;
+  grid-column-end: cEnd;
+  grid-row-start: top1;
+  grid-row-end: hero;
+  display: flex;
+  align-items: center; }
+
+.mgHero {
+  grid-column-start: left1;
+  grid-column-end: right1;
+  grid-row-start: hero;
+  grid-row-end: content;
+  background-color: #1a2d44;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.mgHeroInfo {
+  grid-column-start: c1;
+  grid-column-end: gutter;
+  grid-row-start: hero;
+  grid-row-end: content; }
+
+.mgHeroImg {
+  grid-column-start: c2;
+  grid-column-end: cEnd;
+  grid-row-start: hero;
+  grid-row-end: content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; }
+
+.mgContentList {
+  grid-column-start: c1;
+  grid-column-end: gutter;
+  grid-row-start: content;
+  grid-row-end: contentListEnd; }
+
+.mgContent {
+  grid-column-start: c2;
+  grid-column-end: cEnd;
+  grid-row-start: content;
+  grid-row-end: contentEnd;
+  padding-left: 3rem; }
+
+.mgContentListBg {
+  grid-column-start: left1;
+  grid-column-end: c2;
+  grid-row-start: content;
+  grid-row-end: contentListEnd;
+  background-color: #2BF6D7;
+  padding-bottom: 2rem; }
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  line-height: 120%;
+  color: #2BF6D7; }
+
+.mgFigure {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.gFigureWrap {
+  width: calc(100% - 3rem); }
+
+.mgCaption {
+  font-size: .7rem;
+  line-height: 140%;
+  margin: 0 1rem;
+  color: #8e8e8e;
+  text-align: justify;
+  margin-top: 1rem; }
+
+.temp {
+  width: 100%;
+  height: auto; }
 
 * {
   box-sizing: border-box; }
