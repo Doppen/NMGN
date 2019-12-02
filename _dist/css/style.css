@@ -370,7 +370,7 @@ nav {
   position: relative;
   display: grid;
   grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(200px, 500px) [gutter] 3rem [c2] minmax(400px, 800px) [cEnd] minmax(3rem, auto) [right1];
-  grid-template-rows: [top1] 40px [hero] 70vh [content] auto [contentListEnd] auto [contendEnd] auto;
+  grid-template-rows: [top1] 40px [hero] 70vh [content] minmax(30vh, auto) [contentListEnd] auto [contendEnd] auto;
   z-index: 100; }
 
 .mgSiteFixed {
@@ -387,8 +387,7 @@ nav {
   grid-column-start: c1;
   grid-column-end: gutter;
   grid-row-start: t;
-  grid-row-end: b;
-  background-color: #2BF6D7; }
+  grid-row-end: b; }
 
 .mgHeaderBg {
   grid-column-start: left1;

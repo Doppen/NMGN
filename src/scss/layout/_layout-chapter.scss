@@ -1,7 +1,7 @@
 $margin: 3rem;
 $primColor: #2BF6D7;
 $layOutCols: [left1] minmax(#{$margin}, auto) [c1] minmax(200px, 500px) [gutter] #{$margin} [c2] minmax(400px, 800px) [cEnd] minmax(#{$margin}, auto) [right1];
-$layOutRows: [top1] 40px [hero] 70vh [content] auto [contentListEnd] auto [contendEnd] auto;
+$layOutRows: [top1] 40px [hero] 70vh [content] minmax(30vh, auto) [contentListEnd] auto [contendEnd] auto;
 
 .mgSite{
   position: relative;
@@ -27,7 +27,6 @@ $layOutRows: [top1] 40px [hero] 70vh [content] auto [contentListEnd] auto [conte
   grid-column-end: gutter;
   grid-row-start: t;
   grid-row-end: b;
-  background-color: $primColor;
 }
 
 .mgHeaderBg{
