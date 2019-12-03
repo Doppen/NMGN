@@ -21,8 +21,8 @@
   //background-color: rgb(221, 200, 158);
   width: 100%;
   flex-basis: 33%;
-  border-top: 1px solid #{darken($colorGreyLightBg, 10)};
-  border-bottom: 1px solid #{darken($colorGreyLightBg, 10)};
+  // border-top: 1px solid #{darken($colorGreyLightBg, 10)};
+  // border-bottom: 1px solid #{darken($colorGreyLightBg, 10)};
   padding: 1rem 0;
   font-size: .85rem;
   overflow-y: scroll;
@@ -35,7 +35,7 @@
 
 
 .chapterIllustrationImage img {
-  box-shadow: 4px 4px 5px rgba(144, 144, 144, 0.6);
+  //box-shadow: 4px 4px 5px rgba(144, 144, 144, 0.6);
   width: 200px;
 }
 
@@ -124,10 +124,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border-top: 1px solid #ededed;
-    border-bottom: 1px solid #ededed;
+    // border-top: 1px solid #ededed;
+    // border-bottom: 1px solid #ededed;
     margin: 2rem 0;
-    padding: 2rem 0;
+    //padding: 2rem 0;
     width: 100%;
 
     img {

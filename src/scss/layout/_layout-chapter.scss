@@ -2,8 +2,13 @@ $margin: 3rem;
 
 $negativeTop: 3rem;
 
-$layOutCols: [left1] minmax(#{$margin}, auto) [c1] minmax(calc(33% - #{$margin}), 400px) [gutter] #{$margin} [c2] minmax(calc(66% - #{$margin} - #{$margin}), 500px) [cEnd] minmax(#{$margin}, auto) [right1];
+$layOutCols: [left1] minmax(#{$margin}, auto) [c1] minmax(333px, 429px) [gutter] #{$margin} [c2] minmax(666px, 858px) [cEnd] minmax(#{$margin}, auto) [right1];
 $layOutRows:  [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListEnd] auto [contendEnd] auto;
+
+// [c1] minmax(calc(33% - #{$margin}), 400px)
+//[c2] minmax(calc(66% - #{$margin} - #{$margin}), 700px)
+
+
 
 .mgSite{
   position: relative;
@@ -36,7 +41,6 @@ $layOutRows:  [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListE
   grid-column-end: right1;
   grid-row-start: top1;
   grid-row-end: hero;
-  background-color: rgba(#000, 0.3);
 }
 
 .mgHeader{
@@ -44,11 +48,6 @@ $layOutRows:  [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListE
   grid-column-end: cEnd;
   grid-row-start: top1;
   grid-row-end: hero;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: #fff;
 }
 
 .mgHero{
@@ -56,11 +55,6 @@ $layOutRows:  [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListE
   grid-column-end: right1;
   grid-row-start: top1;
   grid-row-end: content;
-  background-color: $secunColor;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .mgHeroInfo{
@@ -68,23 +62,6 @@ $layOutRows:  [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListE
   grid-column-end: c2;
   grid-row-start: hero;
   grid-row-end: content;
-
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-
-  color: #ffffff;
-
-  > * {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .mgHeroInfoDeel {
-    border-right: 1px solid rgba(#ffffff, 0.1);
-  }
 }
 
 .mgHeroImg{
@@ -97,15 +74,6 @@ $layOutRows:  [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListE
   flex-direction: column;
   justify-content: flex-end;
 
-}
-
-.mgHeroImgContent {
-  height: 25%;
-}
-
-.mgHeroImgContent img {
-  height: 100%;
-  width: auto;
 }
 
 .mgContentList{
@@ -122,15 +90,8 @@ $layOutRows:  [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListE
   grid-row-start: content;
   grid-row-end: contentEnd;
 
-  padding-left: $margin;
-  padding-top: 5rem;
-  font-family: 'Merriweather', serif;
+  //background-color: rgba(220, 180, 223, 0.32)
 }
-
-.mgContentTxt{
-  max-width: 575px;
-}
-
 
 
 .mgContentListBg{
@@ -138,52 +99,4 @@ $layOutRows:  [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListE
   grid-column-end: c2;
   grid-row-start: content;
   grid-row-end: contentListEnd;
-
-  background-color: $primColor;
-  background-image: linear-gradient(to bottom, #{$primColor} 75%, #27d5ba);
-  padding-bottom: 2rem;
-  padding-top: 5rem;
-}
-
-.mgContentList{
-  padding-bottom: 4rem;
-  padding-top: 5rem;
-}
-
-
-h1 {
-  text-align: center;
-  font-size: 5rem;
-  line-height: 100%;
-  color: $primColor;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-}
-
-
-.mgFigure{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.gFigureWrap{
-  width: calc(100% - 3rem);
-}
-
-.mgCaption{
-  font-size: .7rem;
-  line-height: 140%;
-  margin: 0 1rem;
-  color: #8e8e8e;
-  text-align: justify;
-  margin-top: 1rem;
-}
-
-.temp{
-  width: 100%;
-  height: auto;
-  //max-height: 80vh;
 }

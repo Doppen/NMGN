@@ -1,0 +1,134 @@
+
+.mgHeaderBg{
+  background-color: rgba(#000, 0.3);
+}
+
+.mgHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+
+.mgIllustration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.mgHero{
+  background-color: $secunColor;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mgHeroInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+
+  color: #ffffff;
+
+  > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mgHeroInfoDeel {
+    border-right: 1px solid rgba(#ffffff, 0.1);
+  }
+}
+
+.mgHeroImg{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.mgHeroImgContent {
+  height: 25%;
+}
+
+.mgHeroImgContent img {
+  height: 100%;
+  width: auto;
+}
+
+
+
+
+.mgContent{
+  padding-left: $margin;
+  padding-top: 5rem;
+  font-family: 'Merriweather', serif;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mgContentTxt{
+  max-width: 575px;
+}
+
+.mgContentTxt .caption {
+  display: none;
+}
+
+
+.mgContentListBg{
+  background-color: $primColor;
+  background-image: linear-gradient(to bottom, #{$primColor} 75%, #27d5ba);
+  padding-bottom: 2rem;
+  padding-top: 5rem;
+}
+
+.mgContentList{
+  padding-bottom: 4rem;
+  padding-top: 5rem;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  line-height: 100%;
+  color: $primColor;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+
+.mgFigure{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.gFigureWrap{
+  width: calc(100% - 3rem);
+}
+
+.mgCaption{
+  font-size: .7rem;
+  line-height: 140%;
+  margin: 0 1rem;
+  color: #8e8e8e;
+  text-align: justify;
+  margin-top: 1rem;
+}
+
+.temp{
+  width: 100%;
+  height: auto;
+  //max-height: 80vh;
+}

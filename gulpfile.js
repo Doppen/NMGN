@@ -260,7 +260,7 @@ gulp.task('buildFromTemplates', function(done) {
             var chaperTemp = this.getElementById("chaperTemp").innerHTML;
 
             //handle the notes
-            if (chaperTemp == 'basic') {
+            if ((chaperTemp == 'basic') || (chaperTemp == 'chapter')) {
               domContent = handleNotes(this, chapterId);
             }
 
