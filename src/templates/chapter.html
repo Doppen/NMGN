@@ -1,5 +1,20 @@
 {{> html-head}}
 
+<script type="text/javascript">
+  var imgArr=[******];
+</script>
+
+<!-- notes -->
+<div class="noteAside" id="showNote">
+  <div class="noteHeader">
+    <div class="noteIndex" id="asideNoteNumber"></div>
+    <div class="noteClose"><img src="images/icons/close.svg" class="icon handleCloseNote"></div>
+  </div>
+  <div class="noteContent" id="asideNoteContent">content</div>
+</div>
+
+
+
 
 <div class="mgSiteFixed">
   <div class="mgIllustration">
@@ -19,55 +34,43 @@
 
 
 <div class="mgSite">
-  <div class="mgHeaderBg"></div>
-  <div class="mgHeader">Nieuwe Maritieme Geschiedenis van Nederland</div>
+
   <div class="mgHero"><h1>Maritieme cultuur<br>in de middeleeuwen</h1></div>
-  <div class="mgHeroInfo">Deel 1</div>
-  <div class="mgHeroImg">Image</div>
+  <div class="mgHeroInfo">
+    <div class="mgHeroInfoDeel">
+      <span><strong>Deel 1</strong> <em>Opkomst van de rivier- en zeehandel</em></span>
+      <span>1100 - 1600</span>
+    </div>
+    <div class="mgHeroInfoMid"></div>
+    <div class="mgHeroInfoMid"></div>
+    <div class="mgHeroInfoAuteur"><span>Door <strong>Remmelt Daalder</strong></span></div>
+
+  </div>
+  <div class="mgHeroImg">
+      <div class="mgHeroImgContent"><img src="images/chapterImages/chapterImageTest.png" alt="Maritieme cultuur in de middeleeuwen"></div>
+  </div>
+  <div class="mgHeaderBg"></div>
+  <div class="mgHeader">
+    {{> page-header}}
+  </div>
+
   <div class="mgContentListBg"></div>
   <div class="mgContentList">
-    <br><br>
-    Inhoud<br>
-    Stormvloeden<br>
-    De zeereis van Sint Brandaan<br>
-    Nog meer varende heiligen<br>
-    Schip als metafoor<br>
-    Maritieme identiteit<br>
-    Noten<br>
+    <em>Inhoud</em>
+    <nav id="subNavigation"></nav>
   </div>
-  <div class="mgContent">{{> (lookup . 'content') }}</div>
+  <div class="mgContent">
+    <div class="mgContentTxt">
+      <div class="locaRight" id="loca"> </div>
+      {{> (lookup . 'content') }}</div>
+    </div>
 
 </div>
 
-
-
-
-
-<!--
-
-
-<img src="images/d3h7/d3h7-600/26_Apol_L._Panorama_Nova_Zembla.jpg" class="temp">
-<div class="mgCaption">
-  <h3>Mappa Mundi</h3>
-    Op deze grootst bekende middeleeuwse ‘radkaart’ (163 x 137 cm) ligt het oosten boven en Jeruzalem in het midden als centrum van de wereld. Het land is gevuld met fabeldieren en monsters en omgeven door zeeën waarvan de Rode Zee rood is ingekleurd. De oceanen rond de aarde zijn slechts summier aangegeven, die maken geen deel uit van de bewoonde wereld.
-    Perkament, de kaart is ondertekend door Richard van Haldingham en Lafford, ca. 1300.<br>
-
-    Hereford Cathedral, Hereford.
+<div class="popNavigation" id="popNavigation">
+  <div class="popNavHeader"><a href="#" onclick="closeNav();return false;"><img src="images/icons/close.svg" class="icon"></a></div>
+  <div class="popNavContent">{{> nav}}</div>
 </div>
-
-
-
-<div class="mgBar1 helpColor1">
-  <br><br>
-  Inhoud<br>
-  Stormvloeden<br>
-  De zeereis van Sint Brandaan<br>
-  Nog meer varende heiligen<br>
-  Schip als metafoor<br>
-  Maritieme identiteit<br>
-  Noten<br>
-</div> -->
-
 
 
 {{> html-foot}}

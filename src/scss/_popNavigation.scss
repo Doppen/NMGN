@@ -1,6 +1,6 @@
 .popNavigation{
-	background-color: $colorNMGNGreen;
-	color:$colorNMGNBlue1;
+	background-color: $primColor;
+	color:$secunColor;
 	position: fixed;
 	top: 0;
 	bottom: 0;
@@ -14,7 +14,7 @@
 }
 
 .popNavigation a{
-	color:$colorNMGNBlue1;
+	color:$secunColor;
 	margin-bottom: .5rem;
 
 }

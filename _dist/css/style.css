@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,700");
 @import url("https://fonts.googleapis.com/css?family=Andada");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,300i|Roboto:300,300i,700&display=swap");
 html,
 body {
   padding: 0;
@@ -346,11 +346,11 @@ nav {
     left: 0;
     width: 34vw;
     background-image: linear-gradient(to bottom, #e1edf5 90%, rgba(240, 240, 242, 0));
-    color: #448ccb; }
+    color: #fff; }
   .chapterNav div {
     width: 350px; }
   .chapterNav a {
-    color: #0d77c9; } }
+    color: #fff; } }
 
 #subNavigation {
   position: relative;
@@ -369,14 +369,14 @@ nav {
 .mgSite {
   position: relative;
   display: grid;
-  grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(200px, 500px) [gutter] 3rem [c2] minmax(400px, 800px) [cEnd] minmax(3rem, auto) [right1];
-  grid-template-rows: [top1] 40px [hero] 70vh [content] minmax(30vh, auto) [contentListEnd] auto [contendEnd] auto;
+  grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(calc(33% - 3rem), 400px) [gutter] 3rem [c2] minmax(calc(66% - 3rem - 3rem), 500px) [cEnd] minmax(3rem, auto) [right1];
+  grid-template-rows: [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListEnd] auto [contendEnd] auto;
   z-index: 100; }
 
 .mgSiteFixed {
   position: fixed;
   display: grid;
-  grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(200px, 500px) [gutter] 3rem [c2] minmax(400px, 800px) [cEnd] minmax(3rem, auto) [right1];
+  grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(calc(33% - 3rem), 400px) [gutter] 3rem [c2] minmax(calc(66% - 3rem - 3rem), 500px) [cEnd] minmax(3rem, auto) [right1];
   grid-template-rows: [t] 100vh [b];
   z-index: 0;
   top: 0;
@@ -394,7 +394,7 @@ nav {
   grid-column-end: right1;
   grid-row-start: top1;
   grid-row-end: hero;
-  background-color: #2BF6D7; }
+  background-color: rgba(0, 0, 0, 0.3); }
 
 .mgHeader {
   grid-column-start: c1;
@@ -402,23 +402,36 @@ nav {
   grid-row-start: top1;
   grid-row-end: hero;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-between;
+  color: #fff; }
 
 .mgHero {
   grid-column-start: left1;
   grid-column-end: right1;
-  grid-row-start: hero;
+  grid-row-start: top1;
   grid-row-end: content;
-  background-color: #1a2d44;
+  background-color: #053A51;
   display: flex;
   justify-content: center;
   align-items: center; }
 
 .mgHeroInfo {
   grid-column-start: c1;
-  grid-column-end: gutter;
+  grid-column-end: c2;
   grid-row-start: hero;
-  grid-row-end: content; }
+  grid-row-end: content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #ffffff; }
+  .mgHeroInfo > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .mgHeroInfo .mgHeroInfoDeel {
+    border-right: 1px solid rgba(255, 255, 255, 0.1); }
 
 .mgHeroImg {
   grid-column-start: c2;
@@ -428,6 +441,13 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: flex-end; }
+
+.mgHeroImgContent {
+  height: 25%; }
+
+.mgHeroImgContent img {
+  height: 100%;
+  width: auto; }
 
 .mgContentList {
   grid-column-start: c1;
@@ -440,7 +460,12 @@ nav {
   grid-column-end: cEnd;
   grid-row-start: content;
   grid-row-end: contentEnd;
-  padding-left: 3rem; }
+  padding-left: 3rem;
+  padding-top: 5rem;
+  font-family: 'Merriweather', serif; }
+
+.mgContentTxt {
+  max-width: 575px; }
 
 .mgContentListBg {
   grid-column-start: left1;
@@ -448,13 +473,21 @@ nav {
   grid-row-start: content;
   grid-row-end: contentListEnd;
   background-color: #2BF6D7;
-  padding-bottom: 2rem; }
+  background-image: linear-gradient(to bottom, #2BF6D7 75%, #27d5ba);
+  padding-bottom: 2rem;
+  padding-top: 5rem; }
+
+.mgContentList {
+  padding-bottom: 4rem;
+  padding-top: 5rem; }
 
 h1 {
   text-align: center;
   font-size: 5rem;
-  line-height: 120%;
-  color: #2BF6D7; }
+  line-height: 100%;
+  color: #2BF6D7;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; }
 
 .mgFigure {
   display: flex;
@@ -602,8 +635,8 @@ a {
     margin: 1rem 0; }
 
 .popNavigation {
-  background-color: #2effdf;
-  color: #0d77c9;
+  background-color: #2BF6D7;
+  color: #053A51;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -615,7 +648,7 @@ a {
   justify-content: flex-start; }
 
 .popNavigation a {
-  color: #0d77c9;
+  color: #053A51;
   margin-bottom: .5rem; }
 
 .popNavHeader {
