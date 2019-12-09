@@ -1,39 +1,21 @@
 $margin: 3rem;
-
 $negativeTop: 3rem;
 
-$layOutCols: [left1] minmax(#{$margin}, auto) [c1] minmax(333px, 429px) [gutter] #{$margin} [c2] minmax(666px, 858px) [cEnd] minmax(#{$margin}, auto) [right1];
-$layOutRows:  [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListEnd] auto [contendEnd] auto;
+$layOutColsBig: [left1] minmax(#{$margin}, auto) [c1] minmax(333px, 429px) [gutter] #{$margin} [c2] minmax(666px, 858px) [cEnd] minmax(#{$margin}, auto) [right1];
+$layOutRowsBig:  [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListEnd] auto [contendEnd] auto;
 
-// [c1] minmax(calc(33% - #{$margin}), 400px)
-//[c2] minmax(calc(66% - #{$margin} - #{$margin}), 700px)
-
-
+$layOutColsSmall: [left1] #{$margin} [c1] auto [cEnd] #{$margin} [right1];
+$layOutRowsSmall: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto;
 
 .mgSite{
   position: relative;
   display: grid;
-  grid-template-columns: $layOutCols;
-  grid-template-rows: $layOutRows;
-  z-index: 100;
+  grid-template-columns: $layOutColsSmall;
+  grid-template-rows: $layOutRowsSmall;
 }
 
 .mgSiteFixed{
-  position: fixed;
-  display: grid;
-  grid-template-columns: $layOutCols;
-  grid-template-rows: [t] 100vh [b];
-  z-index: 0;
-  top: 0;
-  left: 0;
-  width: 100vw;
-}
-
-.mgIllustration {
-  grid-column-start: c1;
-  grid-column-end: gutter;
-  grid-row-start: t;
-  grid-row-end: b;
+  display: none;
 }
 
 .mgHeaderBg{
@@ -54,49 +36,125 @@ $layOutRows:  [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListE
   grid-column-start: left1;
   grid-column-end: right1;
   grid-row-start: top1;
-  grid-row-end: content;
-}
-
-.mgHeroInfo{
-  grid-column-start: c1;
-  grid-column-end: c2;
-  grid-row-start: hero;
-  grid-row-end: content;
-}
-
-.mgHeroImg{
-  grid-column-start: c2;
-  grid-column-end: cEnd;
-  grid-row-start: hero;
-  grid-row-end: content;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-
+  grid-row-end: contentNav;
 }
 
 .mgContentList{
   grid-column-start: c1;
-  grid-column-end: gutter;
-  grid-row-start: content;
-  grid-row-end: contentListEnd;
+  grid-column-end: cEnd;
+  grid-row-start: contentNav;
+  grid-row-end: content;
 }
-
 
 .mgContent{
-  grid-column-start: c2;
+  grid-column-start: c1;
   grid-column-end: cEnd;
   grid-row-start: content;
-  grid-row-end: contentEnd;
-
-  //background-color: rgba(220, 180, 223, 0.32)
 }
 
-
 .mgContentListBg{
-  grid-column-start: left1;
-  grid-column-end: c2;
-  grid-row-start: content;
-  grid-row-end: contentListEnd;
+  display: none;
+}
+
+.mgHeroImg {
+  grid-column-start: cEnd;
+  grid-column-end: right1;
+  grid-row-start: hero;
+  grid-row-end: contentNav;
+}
+
+.mgHeroInfo{
+  grid-column-start: c1;
+  grid-column-end: cEnd;
+  grid-row-start: hero;
+  grid-row-end:contentNav;
+}
+
+@media (min-width: 1000px) {
+  .mgSite{
+    position: relative;
+    display: grid;
+    grid-template-columns: $layOutColsBig;
+    grid-template-rows: $layOutRowsBig;
+    z-index: 100;
+  }
+
+  .mgSiteFixed{
+    position: fixed;
+    display: grid;
+    grid-template-columns: $layOutColsBig;
+    grid-template-rows: [t] 100vh [b];
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+  }
+
+  .mgIllustration {
+    grid-column-start: c1;
+    grid-column-end: gutter;
+    grid-row-start: t;
+    grid-row-end: b;
+  }
+
+  .mgHeaderBg{
+    grid-column-start: left1;
+    grid-column-end: right1;
+    grid-row-start: top1;
+    grid-row-end: hero;
+  }
+
+  .mgHeader{
+    grid-column-start: c1;
+    grid-column-end: cEnd;
+    grid-row-start: top1;
+    grid-row-end: hero;
+  }
+
+  .mgHero{
+    grid-column-start: left1;
+    grid-column-end: right1;
+    grid-row-start: top1;
+    grid-row-end: content;
+  }
+
+  .mgHeroInfo{
+    grid-column-start: c1;
+    grid-column-end: c2;
+    grid-row-start: hero;
+    grid-row-end: content;
+  }
+
+  .mgHeroImg{
+    grid-column-start: c2;
+    grid-column-end: cEnd;
+    grid-row-start: hero;
+    grid-row-end: content;
+  }
+
+  .mgContentList{
+    grid-column-start: c1;
+    grid-column-end: gutter;
+    grid-row-start: content;
+    grid-row-end: contentListEnd;
+  }
+
+
+  .mgContent{
+    grid-column-start: c2;
+    grid-column-end: cEnd;
+    grid-row-start: content;
+    grid-row-end: contentEnd;
+
+    //background-color: rgba(220, 180, 223, 0.32)
+  }
+
+
+  .mgContentListBg{
+    grid-column-start: left1;
+    grid-column-end: c2;
+    grid-row-start: content;
+    grid-row-end: contentListEnd;
+    display: flex;
+  }
 }

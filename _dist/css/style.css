@@ -363,25 +363,11 @@ nav {
 .mgSite {
   position: relative;
   display: grid;
-  grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(333px, 429px) [gutter] 3rem [c2] minmax(666px, 858px) [cEnd] minmax(3rem, auto) [right1];
-  grid-template-rows: [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListEnd] auto [contendEnd] auto;
-  z-index: 100; }
+  grid-template-columns: [left1] 3rem [c1] auto [cEnd] 3rem [right1];
+  grid-template-rows: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto; }
 
 .mgSiteFixed {
-  position: fixed;
-  display: grid;
-  grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(333px, 429px) [gutter] 3rem [c2] minmax(666px, 858px) [cEnd] minmax(3rem, auto) [right1];
-  grid-template-rows: [t] 100vh [b];
-  z-index: 0;
-  top: 0;
-  left: 0;
-  width: 100vw; }
-
-.mgIllustration {
-  grid-column-start: c1;
-  grid-column-end: gutter;
-  grid-row-start: t;
-  grid-row-end: b; }
+  display: none; }
 
 .mgHeaderBg {
   grid-column-start: left1;
@@ -399,40 +385,96 @@ nav {
   grid-column-start: left1;
   grid-column-end: right1;
   grid-row-start: top1;
-  grid-row-end: content; }
-
-.mgHeroInfo {
-  grid-column-start: c1;
-  grid-column-end: c2;
-  grid-row-start: hero;
-  grid-row-end: content; }
-
-.mgHeroImg {
-  grid-column-start: c2;
-  grid-column-end: cEnd;
-  grid-row-start: hero;
-  grid-row-end: content;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end; }
+  grid-row-end: contentNav; }
 
 .mgContentList {
   grid-column-start: c1;
-  grid-column-end: gutter;
-  grid-row-start: content;
-  grid-row-end: contentListEnd; }
+  grid-column-end: cEnd;
+  grid-row-start: contentNav;
+  grid-row-end: content; }
 
 .mgContent {
-  grid-column-start: c2;
+  grid-column-start: c1;
   grid-column-end: cEnd;
-  grid-row-start: content;
-  grid-row-end: contentEnd; }
+  grid-row-start: content; }
 
 .mgContentListBg {
-  grid-column-start: left1;
-  grid-column-end: c2;
-  grid-row-start: content;
-  grid-row-end: contentListEnd; }
+  display: none; }
+
+.mgHeroImg {
+  grid-column-start: cEnd;
+  grid-column-end: right1;
+  grid-row-start: hero;
+  grid-row-end: contentNav; }
+
+.mgHeroInfo {
+  grid-column-start: c1;
+  grid-column-end: cEnd;
+  grid-row-start: hero;
+  grid-row-end: contentNav; }
+
+@media (min-width: 1000px) {
+  .mgSite {
+    position: relative;
+    display: grid;
+    grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(333px, 429px) [gutter] 3rem [c2] minmax(666px, 858px) [cEnd] minmax(3rem, auto) [right1];
+    grid-template-rows: [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListEnd] auto [contendEnd] auto;
+    z-index: 100; }
+  .mgSiteFixed {
+    position: fixed;
+    display: grid;
+    grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(333px, 429px) [gutter] 3rem [c2] minmax(666px, 858px) [cEnd] minmax(3rem, auto) [right1];
+    grid-template-rows: [t] 100vh [b];
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100vw; }
+  .mgIllustration {
+    grid-column-start: c1;
+    grid-column-end: gutter;
+    grid-row-start: t;
+    grid-row-end: b; }
+  .mgHeaderBg {
+    grid-column-start: left1;
+    grid-column-end: right1;
+    grid-row-start: top1;
+    grid-row-end: hero; }
+  .mgHeader {
+    grid-column-start: c1;
+    grid-column-end: cEnd;
+    grid-row-start: top1;
+    grid-row-end: hero; }
+  .mgHero {
+    grid-column-start: left1;
+    grid-column-end: right1;
+    grid-row-start: top1;
+    grid-row-end: content; }
+  .mgHeroInfo {
+    grid-column-start: c1;
+    grid-column-end: c2;
+    grid-row-start: hero;
+    grid-row-end: content; }
+  .mgHeroImg {
+    grid-column-start: c2;
+    grid-column-end: cEnd;
+    grid-row-start: hero;
+    grid-row-end: content; }
+  .mgContentList {
+    grid-column-start: c1;
+    grid-column-end: gutter;
+    grid-row-start: content;
+    grid-row-end: contentListEnd; }
+  .mgContent {
+    grid-column-start: c2;
+    grid-column-end: cEnd;
+    grid-row-start: content;
+    grid-row-end: contentEnd; }
+  .mgContentListBg {
+    grid-column-start: left1;
+    grid-column-end: c2;
+    grid-row-start: content;
+    grid-row-end: contentListEnd;
+    display: flex; } }
 
 .mgHeaderBg {
   background-color: rgba(0, 0, 0, 0.3); }
@@ -476,8 +518,13 @@ nav {
   height: 25%; }
 
 .mgHeroImgContent img {
-  height: 100%;
+  height: 3rem;
   width: auto; }
+
+@media (min-width: 1000px) {
+  .mgHeroImgContent img {
+    height: 100%;
+    width: auto; } }
 
 .mgContent {
   padding-left: 3rem;
@@ -500,8 +547,14 @@ nav {
   padding-top: 5rem; }
 
 .mgContentList {
-  padding-bottom: 4rem;
-  padding-top: 5rem; }
+  padding-bottom: 0rem;
+  padding-top: 2rem;
+  text-align: center; }
+
+@media (min-width: 1000px) {
+  .mgContentList {
+    padding-bottom: 4rem;
+    padding-top: 5rem; } }
 
 h1 {
   text-align: center;

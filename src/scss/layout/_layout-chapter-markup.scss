@@ -57,10 +57,16 @@
 }
 
 .mgHeroImgContent img {
-  height: 100%;
+  height: 3rem;
   width: auto;
 }
 
+@media (min-width: 1000px) {
+  .mgHeroImgContent img {
+    height: 100%;
+    width: auto;
+  }
+}
 
 
 
@@ -90,9 +96,18 @@
   padding-top: 5rem;
 }
 
+
 .mgContentList{
-  padding-bottom: 4rem;
-  padding-top: 5rem;
+  padding-bottom: 0rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .mgContentList{
+    padding-bottom: 4rem;
+    padding-top: 5rem;
+  }
 }
 
 
