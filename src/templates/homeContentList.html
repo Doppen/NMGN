@@ -1,0 +1,19 @@
+<div>
+{{#each items}}
+  {{#if ischapterpage}}
+  </div>
+  <div>
+    <strong>Deel {{part}} <em><br>
+    {{parttitle}}</em></strong>
+    <span>{{aera}}</span><br>
+  {{/if}}
+  <div>
+    <strong>{{title}}</strong><br>
+    {{summary}}<br>
+    {{chapter}}<br>
+    {{image}}
+  </div>
+  <a href="index.html">Ga naar dit hoofdstuk</a>
+
+{{/each}}
+</div>

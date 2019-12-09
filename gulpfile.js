@@ -162,7 +162,7 @@ gulp.task('clean', function () {
 gulp.task('nav', function(done) {
   var navItems = {"items" : siteJson}
 
-  gulp.src('./src/templates/nav.html')
+  gulp.src(['./src/templates/nav.html', './src/templates/homeContentList.html'])
       .pipe(plumber())
       .pipe(handlebars(navItems, options))
       .pipe(gulp.dest('src/components/'));
@@ -355,7 +355,7 @@ gulp.task('build',
 
 
 gulp.task('watch', function () {
-  gulp.watch(['src/**/*.html', '!src/components/nav.html', 'src/scss/**/*.scss','src/js/**/*', 'src/**/*.json', 'content/**/*.json'], gulp.series('build')); //, fHtmlNot, fScss, fJs, fJson, fMd
+  gulp.watch(['src/**/*.html', '!src/components/nav.html', '!src/components/homeContentList.html', 'src/scss/**/*.scss','src/js/**/*', 'src/**/*.json', 'content/**/*.json'], gulp.series('build')); //, fHtmlNot, fScss, fJs, fJson, fMd
 });
 
 

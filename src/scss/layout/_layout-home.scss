@@ -1,0 +1,30 @@
+.mgHero {
+  grid-column-start: left1;
+  grid-column-end: right1;
+  grid-row-start: top1;
+  grid-row-end: content;
+}
+
+.mgHomeIntro {
+  grid-column-start: c2;
+  grid-column-end: cEnd;
+  grid-row-start: hero;
+  grid-row-end: content;
+}
+
+
+
+.mgHomeImage {
+  grid-column-start: c1;
+  grid-column-end: gutter;
+  grid-row-start: hero;
+  grid-row-end: content;
+}
+
+
+.mgChapterList {
+  grid-column-start: c2;
+  grid-column-end: cEnd;
+  grid-row-start: content;
+  grid-row-end: contentEnd;
+}

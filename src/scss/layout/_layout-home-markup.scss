@@ -1,0 +1,25 @@
+.mgHomeImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.mgHomeImage img{
+  width: 66%;
+  height: auto;
+  transform: rotate(-45deg);
+  margin-bottom: -33%;
+}
+
+.mgHomeIntro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.mgLogo{
+  margin-left: -117px;
+  margin-bottom: 2rem;
+}
