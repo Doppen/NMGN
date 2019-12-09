@@ -30,13 +30,22 @@
   margin-bottom: 1rem;
 }
 
+.mgChapterList {
+  padding-top: 5rem;
+}
+
+
 .mgHomeChapter{
-  margin-bottom: 3rem;
+  //margin-bottom: 3rem;
+
+  strong {
+    br {display:none}
+  }
 }
 
 .mgHomeChapterImg{
-  width: 3rem;
+  width: 5rem;
   height: auto;
-  margin-left: -5rem;
-  margin-right: 2rem;
+  margin-left: -5.9rem;
+  transform: translate(-3rem,4rem);
 }
