@@ -17,9 +17,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  color: #fff;
 }
 
 .mgLogo{
   margin-left: -117px;
   margin-bottom: 2rem;
+}
+
+
+.mgHomePart {
+  margin-bottom: 1rem;
+}
+
+.mgHomeChapter{
+  margin-bottom: 3rem;
+}
+
+.mgHomeChapterImg{
+  width: 3rem;
+  height: auto;
+  margin-left: -5rem;
+  margin-right: 2rem;
 }

@@ -1,19 +1,19 @@
-<div>
 {{#each items}}
   {{#if ischapterpage}}
-  </div>
-  <div>
+  <div class="mgHomePart">
     <strong>Deel {{part}} <em><br>
     {{parttitle}}</em></strong>
     <span>{{aera}}</span><br>
-  {{/if}}
-  <div>
-    <strong>{{title}}</strong><br>
-    {{summary}}<br>
-    {{chapter}}<br>
-    {{image}}
   </div>
-  <a href="index.html">Ga naar dit hoofdstuk</a>
+  {{/if}}
+
+
+  <div  class="mgHomeChapter">
+     {{chapter}} <strong>{{title}}</strong><br>
+     <img src="images/chapterImages/{{image}}" class="mgHomeChapterImg">
+    {{summary}}<br>
+     <br>
+    <a href="index.html">Ga naar dit hoofdstuk</a>
+  </div>
 
 {{/each}}
-</div>
