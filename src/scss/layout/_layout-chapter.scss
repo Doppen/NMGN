@@ -1,7 +1,7 @@
 $margin: 3rem;
 $negativeTop: 3rem;
 
-$layOutColsBig: [left1] minmax(#{$margin}, auto) [c1] minmax(333px, 429px) [gutter] #{$margin} [c2] minmax(666px, 858px) [cEnd] minmax(#{$margin}, auto) [right1];
+$layOutColsBig: [left1] minmax(#{$margin}, auto) [c1] minmax(280px, 429px) [gutter] #{$margin} [c2] minmax(561px, 858px) [cEnd] minmax(#{$margin}, auto) [right1];
 $layOutRowsBig:  [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListEnd] auto [contendEnd] auto;
 
 $layOutColsSmall: [left1] #{$margin} [c1] auto [cEnd] #{$margin} [right1];

@@ -417,13 +417,13 @@ nav {
   .mgSite {
     position: relative;
     display: grid;
-    grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(333px, 429px) [gutter] 3rem [c2] minmax(666px, 858px) [cEnd] minmax(3rem, auto) [right1];
+    grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(280px, 429px) [gutter] 3rem [c2] minmax(561px, 858px) [cEnd] minmax(3rem, auto) [right1];
     grid-template-rows: [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListEnd] auto [contendEnd] auto;
     z-index: 100; }
   .mgSiteFixed {
     position: fixed;
     display: grid;
-    grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(333px, 429px) [gutter] 3rem [c2] minmax(666px, 858px) [cEnd] minmax(3rem, auto) [right1];
+    grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(280px, 429px) [gutter] 3rem [c2] minmax(561px, 858px) [cEnd] minmax(3rem, auto) [right1];
     grid-template-rows: [t] 100vh [b];
     z-index: 0;
     top: 0;
@@ -730,7 +730,7 @@ a {
   min-height: 2px;
   height: auto;
   transition: height .3s;
-  z-index: 100; }
+  z-index: 1000; }
 
 .noteHeader {
   display: flex;

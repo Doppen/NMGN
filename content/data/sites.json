@@ -13,7 +13,8 @@
         "id": "d1h6",
         "indextcontent": "raw_d1h6",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": false
     },
     {
         "title": "Inleiding",
@@ -27,7 +28,8 @@
         "id": "d1h1",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Binnenvaart",
@@ -41,7 +43,8 @@
         "id": "d1h2",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Koopvaardij",
@@ -55,7 +58,8 @@
         "id": "d1h3",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Visserij",
@@ -69,7 +73,8 @@
         "id": "d1h4",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Cultuurhistorisch katern",
@@ -83,7 +88,8 @@
         "id": "d1h5",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Maritieme cultuur| in de middeleeuwen",
@@ -98,7 +104,8 @@
         "id": "d1h6",
         "indextcontent": "raw_d1h6",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Inleiding",
@@ -113,7 +120,8 @@
         "id": "d2h1",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Koopvaardij binnen Europa",
@@ -127,7 +135,8 @@
         "id": "d2h2",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Koopvaardij buiten Europa",
@@ -141,7 +150,8 @@
         "id": "d2h3",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Marine",
@@ -155,7 +165,8 @@
         "id": "d2h4",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Visserij",
@@ -169,7 +180,8 @@
         "id": "d2h5",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Binnenvaart",
@@ -183,7 +195,8 @@
         "id": "d2h6",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Cultuurhistorisch katern",
@@ -197,7 +210,8 @@
         "id": "d2h7",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Inleiding",
@@ -212,7 +226,8 @@
         "id": "d3h1",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Koopvaardij binnen Europa",
@@ -226,7 +241,8 @@
         "id": "d3h2",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Koopvaardij buiten Europa",
@@ -240,7 +256,8 @@
         "id": "d3h3",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Cultuurhistorisch katern",
@@ -254,7 +271,8 @@
         "id": "d3h4",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Visserij",
@@ -268,7 +286,8 @@
         "id": "d3h5",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Binnenvaart",
@@ -282,7 +301,8 @@
         "id": "d3h6",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Maritieme cultuur| in de negentiende eeuw",
@@ -297,7 +317,8 @@
         "id": "d3h7",
         "indextcontent": "raw_d3h7",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Inleiding",
@@ -312,7 +333,8 @@
         "id": "d4h1",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Koopvaardij binnen Europa",
@@ -326,7 +348,8 @@
         "id": "d4h2",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Koopvaardij buiten Europa",
@@ -340,7 +363,8 @@
         "id": "d4h3",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Marine",
@@ -354,7 +378,8 @@
         "id": "d4h4",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Visserij",
@@ -368,7 +393,8 @@
         "id": "d4h5",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Binnenvaart",
@@ -382,7 +408,8 @@
         "id": "d4h6",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Cultuurhistorisch katern",
@@ -396,7 +423,8 @@
         "id": "d4h7",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": true
     },
     {
         "title": "Over de NMGN",
@@ -406,7 +434,8 @@
         "id": "about",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": false
     },
     {
         "title": "Zoeken",
@@ -416,7 +445,8 @@
         "id": "search",
         "indextcontent": "raw_d1h2",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": false
     },
     {
         "title": "Maritieme cultuur| in de middeleeuwen",
@@ -431,7 +461,8 @@
         "id": "d1h6",
         "indextcontent": "raw_d1h6",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
-        "image": "chapterImageTest.png"
+        "image": "chapterImageTest.png",
+        "in_navigatie": false
     },
     {
         "title": "homepage",
