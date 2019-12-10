@@ -485,6 +485,9 @@ nav {
   justify-content: space-between;
   color: #fff; }
 
+.mgSite .headerItems a {
+  color: #fff; }
+
 .mgIllustration {
   display: flex;
   flex-direction: column;
@@ -634,10 +637,10 @@ h1 {
   margin-bottom: 2rem; }
 
 .mgHomePart {
+  padding-top: 5rem;
   margin-bottom: 1rem; }
-
-.mgChapterList {
-  padding-top: 5rem; }
+  .mgHomePart h2 {
+    font-size: 2rem; }
 
 .mgHomeChapter strong br {
   display: none; }
