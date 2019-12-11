@@ -52,17 +52,14 @@
     <nav id="subNavigation"></nav>
   </div>
   <div class="mgContent">
-    <div class="mgContentTxt">
+    <div class="mgContentTxt" id="theContent">
       <div class="locaRight" id="loca"> </div>
       {{> (lookup . 'content') }}</div>
     </div>
 
 </div>
 
-<div class="popNavigation" id="popNavigation">
-  <div class="popNavHeader"><a href="#" onclick="closeNav();return false;"><img src="images/icons/close.svg" class="icon"></a></div>
-  <div class="popNavContent">{{> nav}}</div>
-</div>
+{{> popNavigation}}
 
 
 {{> html-foot}}

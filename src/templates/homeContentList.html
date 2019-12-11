@@ -1,5 +1,5 @@
 {{#each items}}
-  {{#if in_navigatie}}
+
 
     {{#if ischapterpage}}
     <div class="mgHomePart">
@@ -9,11 +9,12 @@
     </div>
     {{/if}}
 
+    {{#if in_navigatie}}
     <a href="index.html">
-      <div  class="mgHomeChapter">
+      <div class="mgHomeChapter">
          <img src="images/chapterImages/{{image}}" class="mgHomeChapterImg">{{chapter}} <strong>{{title}}</strong><br>
         {{summary}}<br>
-        Ga naar dit hoofdstuk
+        <em>Ga naar {{title}}</em>
       </div>
     </a>
 

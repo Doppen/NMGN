@@ -1,3 +1,12 @@
+$layOutRowsBig2:  [top1] 3rem [hero] 60vh [content] minmax(50vh, auto) [contentListEnd] auto [contendEnd] auto;
+
+.mgSite2{
+  position: relative;
+  display: grid;
+  grid-template-columns: $layOutColsBig;
+  grid-template-rows: $layOutRowsBig2;
+}
+
 .mgHero {
   grid-column-start: left1;
   grid-column-end: right1;

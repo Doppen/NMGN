@@ -4,6 +4,7 @@ $negativeTop: 3rem;
 $layOutColsBig: [left1] minmax(#{$margin}, auto) [c1] minmax(280px, 429px) [gutter] #{$margin} [c2] minmax(561px, 858px) [cEnd] minmax(#{$margin}, auto) [right1];
 $layOutRowsBig:  [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListEnd] auto [contendEnd] auto;
 
+
 $layOutColsSmall: [left1] #{$margin} [c1] auto [cEnd] #{$margin} [right1];
 $layOutRowsSmall: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto;
 
@@ -38,6 +39,8 @@ $layOutRowsSmall: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto;
   grid-row-start: top1;
   grid-row-end: contentNav;
 }
+
+
 
 .mgContentList{
   grid-column-start: c1;

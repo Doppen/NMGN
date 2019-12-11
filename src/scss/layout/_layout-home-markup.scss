@@ -29,7 +29,7 @@
 .mgHomePart {
   padding-top: 5rem;
   margin-bottom: 1rem;
-  
+
   h2 {
     font-size: 2rem;
   }
@@ -48,9 +48,19 @@
   }
 }
 
+a .mgHomeChapter{
+  color: $colorTxt;
+}
+
+
+
 .mgHomeChapterImg{
   width: 5rem;
   height: auto;
   margin-left: -5.9rem;
   transform: translate(-3rem,4rem);
+}
+
+.mgHomeIntro .mgLogoElement{
+  fill: $primColor;
 }

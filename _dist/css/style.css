@@ -485,7 +485,7 @@ nav {
   justify-content: space-between;
   color: #fff; }
 
-.mgSite .headerItems a {
+.mgSite .headerItems a, .mgSite2 .headerItems a {
   color: #fff; }
 
 .mgIllustration {
@@ -589,6 +589,34 @@ h1 {
   width: 100%;
   height: auto; }
 
+.mgHighlight {
+  background-color: rgba(227, 255, 0, 0.2);
+  border-radius: 2px;
+  padding: 3px 3px; }
+
+.searchform {
+  margin-bottom: 1rem; }
+  .searchform input {
+    padding: .5rem;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    font-size: 1rem;
+    width: 300px;
+    border-radius: 2px 0 0 2px; }
+  .searchform button {
+    padding: .5rem;
+    border: 1px solid #dadada;
+    background-color: #dadada;
+    font-size: 1rem;
+    border-radius: 0 2px 2px 0;
+    margin-left: -5px; }
+
+.mgSite2 {
+  position: relative;
+  display: grid;
+  grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(280px, 429px) [gutter] 3rem [c2] minmax(561px, 858px) [cEnd] minmax(3rem, auto) [right1];
+  grid-template-rows: [top1] 3rem [hero] 60vh [content] minmax(50vh, auto) [contentListEnd] auto [contendEnd] auto; }
+
 .mgHero {
   grid-column-start: left1;
   grid-column-end: right1;
@@ -645,11 +673,39 @@ h1 {
 .mgHomeChapter strong br {
   display: none; }
 
+a .mgHomeChapter {
+  color: #3e3e3e; }
+
 .mgHomeChapterImg {
   width: 5rem;
   height: auto;
   margin-left: -5.9rem;
   transform: translate(-3rem, 4rem); }
+
+.mgHomeIntro .mgLogoElement {
+  fill: #2BF6D7; }
+
+.mgHeaderBgblue {
+  background-color: #053A51;
+  grid-column-start: left1;
+  grid-column-end: right1;
+  grid-row-start: top1;
+  grid-row-end: hero; }
+
+.mgContentPage {
+  grid-column-start: c2;
+  grid-column-end: cEnd;
+  grid-row-start: hero;
+  padding-top: 10rem; }
+  .mgContentPage h1 {
+    font-size: 2rem;
+    text-align: left;
+    color: #3e3e3e; }
+
+.resultItem {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ebebeb; }
 
 * {
   box-sizing: border-box; }
@@ -786,7 +842,11 @@ a {
   z-index: 1000;
   display: none;
   flex-direction: column;
-  justify-content: flex-start; }
+  justify-content: center;
+  align-items: center; }
+
+.popNavigation .mgLogoElement {
+  fill: #053A51; }
 
 .popNavigation a {
   color: #053A51;
@@ -794,12 +854,14 @@ a {
 
 .popNavHeader {
   width: 100%;
+  max-width: 1200px;
   padding: 1rem;
   display: flex;
-  justify-content: flex-end; }
+  justify-content: space-between; }
 
 .popNavContent {
-  width: 100%; }
+  width: 100%;
+  max-width: 1200px; }
 
 .popNavContent > * {
   display: flex;

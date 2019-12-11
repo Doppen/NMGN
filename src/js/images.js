@@ -67,7 +67,7 @@ function classnameCapt() {}
 
 // set dimentions of the image
 function imageDimentions(imagefile, placeId) {
-  console.log(imagefile);
+  //console.log(imagefile);
   var elem = document.getElementById(imagefile);
 
   var elemImage = elem.getElementsByTagName("span")[0].getElementsByTagName("img")[0];

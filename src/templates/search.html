@@ -1,54 +1,80 @@
 {{> html-head}}
-{{> page-header}}
 
-<div class="basicPageWrapper">
-  <div class="basicPage">
+<div class="mgSite">
+
+
+  <div class="mgContentPage">
     <h1>{{title}}</h1>
-    <input type="text" name="searchTerm" value="columbus" id="searchTerm"><button type="button" name="button" onclick="ShowResults()">Search</button>
+    <p></p>
+    <div class="searchform">
+      <input type="text" name="searchTerm"  id="searchTerm">
+      <button type="button" name="button" onclick="ShowResults()">Zoeken</button>
+      </div>
     <div id="results"> </div>
   </div>
+  <div class="mgHeaderBgblue"></div>
+  <div class="mgHeaderBg"></div>
+
+  <div class="mgHeader">
+    {{> page-header-new}}
+  </div>
+
+
+
 </div>
 
+{{> popNavigation}}
 
 
-{{> page-zoom}}
 
-<div id="chaperId" style="display: none;">{{id}}</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script src="js/search_index.js"></script>
 <script src="js/elasticlunr.min.js"></script>
 <script type="text/javascript">
   // load the index
   var index = elasticlunr.Index.load(indexDump);
-
-
-
-
+  var searchField = document.getElementById("searchTerm").value;
 
 
 function ShowResults() {
 
   //var urlParams = new URLSearchParams(window.location.search);
-  var output = 'Vul zoekwoord in';
-  // if (urlParams.has('q')) {
-  //
-  //   output = 'Gezocht op: '+urlParams.get('q');
-  //
-  // }
+  var output = 'Gezocht op "<em>' + searchField+'</em>"';
+
   output = output+'<br><br>'+getResultsData()
 
   document.getElementById('results').innerHTML = output;
 }
 
 function getResultsData() {
-  var searchField = document.getElementById("searchTerm").value;
+
   let results = index.search(searchField);
 
   var resultList='';
   var arrayLength = results.length;
+
+  var part = 0;
   for (var i = 0; i < arrayLength; i++) {
-    resultList = resultList+'<li>Deel '+results[i].doc.part+' <a href="'+results[i].doc.ref+'">'+results[i].doc.title+'</a></li>';
+    if (results[i].doc.part != part) {
+      resultList+= '<div><strong>Deel '+results[i].doc.part+'</strong></div>'
+
+    }
+    resultList += '<div class="resultItem"><a href="'+results[i].doc.ref+'?s='+searchField+'">'+results[i].doc.title+'</a></div>';
+    part = results[i].doc.part ;
   }
-  return '<ul>'+resultList+'<ul>';
+  return resultList;
 
 }
 

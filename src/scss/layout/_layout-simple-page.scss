@@ -1,0 +1,28 @@
+
+.mgHeaderBgblue{
+  background-color: $secunColor;
+  grid-column-start: left1;
+  grid-column-end: right1;
+  grid-row-start: top1;
+  grid-row-end: hero;
+}
+
+.mgContentPage{
+    grid-column-start: c2;
+    grid-column-end: cEnd;
+    grid-row-start: hero;
+    padding-top: 10rem;
+
+    h1 {
+      font-size: 2rem;
+      text-align: left;
+      color: $colorTxt;
+    }
+}
+
+
+.resultItem {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(235, 235, 235);
+}

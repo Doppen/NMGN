@@ -56,7 +56,7 @@ window.onload = function(){
 
 // get top value of element
 function getOffset(el) {
-  console.log(el);
+  //console.log(el);
   const rect = el.getBoundingClientRect();
   return {
     top: rect.top + window.scrollY

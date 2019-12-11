@@ -102,7 +102,7 @@ function closeNote() {
 
 // remove anchor click
 for (var i = 0; i < classname.length; i++) {
-  console.log(classname[i]); 
+  //console.log(classname[i]); 
     classname[i].querySelector("a").removeAttribute('href');
     classname[i].addEventListener('click', handleNote, false);
 }
@@ -180,7 +180,7 @@ function classnameCapt() {}
 
 // set dimentions of the image
 function imageDimentions(imagefile, placeId) {
-  console.log(imagefile);
+  //console.log(imagefile);
   var elem = document.getElementById(imagefile);
 
   var elemImage = elem.getElementsByTagName("span")[0].getElementsByTagName("img")[0];
@@ -261,7 +261,7 @@ window.onload = function(){
 
 // get top value of element
 function getOffset(el) {
-  console.log(el);
+  //console.log(el);
   const rect = el.getBoundingClientRect();
   return {
     top: rect.top + window.scrollY
@@ -299,3 +299,23 @@ function zoom(e) {
   y = offsetY / zoomer.offsetHeight * 100;
   zoomer.style.backgroundPosition = x + '% ' + y + '%';
 }
+
+document.addEventListener("DOMContentLoaded", function(){
+  var q = getUrlParameter('s');
+  if (q != '') {
+    var theContent = document.getElementById('theContent').innerHTML;
+    const regex = new RegExp(q, 'g');
+    theNewContent = theContent.replace(regex, '<span class="mgHighlight">'+q+'</span>');
+    document.getElementById('theContent').innerHTML = theNewContent;
+  }
+
+    console.log(q);
+});
+
+
+function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+};
