@@ -50,7 +50,7 @@
 
 function ShowResults() {
 
-  //var urlParams = new URLSearchParams(window.location.search);
+  searchField = document.getElementById("searchTerm").value;
   var output = 'Gezocht op "<em>' + searchField+'</em>"';
 
   output = output+'<br><br>'+getResultsData()
@@ -59,6 +59,7 @@ function ShowResults() {
 }
 
 function getResultsData() {
+
 
   let results = index.search(searchField);
 

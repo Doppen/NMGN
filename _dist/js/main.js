@@ -277,6 +277,7 @@ function OpenNav() {
 }
 
 function bigImageViewer() {
+  console.log('11');
   var chapterId = document.getElementById("chaperId").innerHTML
   document.getElementById("bigImageViewer").style.display= 'flex';
   document.getElementById('zoomFig').style.backgroundImage = 'url(\'images/'+chapterId+'/'+chapterId+'-big/'+activeImage+'\')';

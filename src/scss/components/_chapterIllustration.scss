@@ -149,11 +149,17 @@
 }
 
 .zoomIcon {
-  margin-top: -2rem;
+  margin-top: -1rem;
+  z-index: 5600;
+  position: relative;
+
+  img {
+    width: 2rem;
+    height: auto;
+  }
 
   a {
     color: $colorTxt;
-    background-color: rgba(#ffffff, 0.7);
     padding: .5rem;
   }
 }

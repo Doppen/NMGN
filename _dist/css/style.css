@@ -266,10 +266,14 @@ strong {
     font-size: .85rem; } }
 
 .zoomIcon {
-  margin-top: -2rem; }
+  margin-top: -1rem;
+  z-index: 5600;
+  position: relative; }
+  .zoomIcon img {
+    width: 2rem;
+    height: auto; }
   .zoomIcon a {
     color: #3e3e3e;
-    background-color: rgba(255, 255, 255, 0.7);
     padding: .5rem; }
 
 figure.zoom {
@@ -487,6 +491,9 @@ nav {
 
 .mgSite .headerItems a, .mgSite2 .headerItems a {
   color: #fff; }
+
+.mgSite .mgContentList a {
+  color: #3e3e3e; }
 
 .mgIllustration {
   display: flex;
