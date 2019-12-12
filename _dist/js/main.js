@@ -143,6 +143,7 @@ function handleImage(imageId) {
   activeImage=imageId;
   // get ID
   var elem = document.getElementById(imageId);
+  //elem.style.border = '3px solid rgb(20, 25, 231)';
 
   //place image
   var elemImage = elem.getElementsByTagName("img")[0].getAttribute('src');
