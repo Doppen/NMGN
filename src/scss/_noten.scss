@@ -81,7 +81,8 @@ $nootColor: $colorNMGNBlue2; //#bebdbd;
 @media (min-width: 1000px) {
 	.noteAside {
 
-		width: calc(#{$txtWith} - 1px);
+		//width: calc(#{$txtWith} - 1px);
+		width: 60vw;
 		right: 0;
 		left: auto;
 	}

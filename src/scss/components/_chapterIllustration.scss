@@ -48,7 +48,9 @@
 
 .imgFillW {
   //width: calc(100% - 2rem) !important;
-  width: 100% !important;
+  width: 25vw !important;
+  max-width: 520px;
+  min-width: 100%;
   height: auto !important;
 }
 

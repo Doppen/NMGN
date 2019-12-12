@@ -195,7 +195,9 @@ strong {
   width: auto !important; }
 
 .imgFillW {
-  width: 100% !important;
+  width: 25vw !important;
+  max-width: 520px;
+  min-width: 100%;
   height: auto !important; }
 
 .caption {
@@ -293,6 +295,7 @@ figure.zoom {
     width: auto !important; }
   figure.zoom .imgFillW {
     width: calc(100vw - 2rem) !important;
+    max-width: none;
     height: auto !important; }
 
 figure.zoom img:hover {
@@ -819,7 +822,7 @@ a {
 
 @media (min-width: 1000px) {
   .noteAside {
-    width: calc(66vw - 1px);
+    width: 60vw;
     right: 0;
     left: auto; } }
 
