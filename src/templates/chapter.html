@@ -26,14 +26,12 @@
 
 
 <div class="mgSite">
-
   <div class="mgHero"><h1>{{title}}</h1></div>
   <div class="mgHeroInfo">
     <div class="mgHeroInfoDeel">
       <span><strong>Deel {{part}}</strong> <em>{{parttitle}}</em></span>
       <span>{{aera}}</span>
     </div>
-    <div class="mgHeroInfoMid"></div>
     <div class="mgHeroInfoMid"></div>
     <div class="mgHeroInfoAuteur"><span>Door <strong>{{author}}</strong></span></div>
 
@@ -56,10 +54,9 @@
       <div class="locaRight" id="loca"> </div>
       {{> (lookup . 'content') }}</div>
     </div>
-
 </div>
 
 
-
+{{> page-zoom}}
 
 {{> html-foot}}

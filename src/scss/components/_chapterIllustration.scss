@@ -40,12 +40,15 @@
 }
 
 .imgFillH {
-  height: calc(60vh - 2rem) !important;
+  //height: calc(60vh - 2rem) !important;
+  height: 60vh;
+  max-height: 500px;
   width: auto !important;
 }
 
 .imgFillW {
-  width: calc(100% - 2rem) !important;
+  //width: calc(100% - 2rem) !important;
+  width: 100% !important;
   height: auto !important;
 }
 
@@ -53,6 +56,7 @@
   display: block;
   font-size: .85rem;
   margin-top: 1rem;
+
 }
 
 .chapterTxt img {
@@ -63,7 +67,8 @@
 }
 
 .moreCaption {
-  //display: none;
+  line-height: 130%;
+  color: rgb(124, 124, 124);
 }
 
 .openCaption {

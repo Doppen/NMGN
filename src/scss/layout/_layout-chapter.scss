@@ -80,6 +80,7 @@ $layOutRowsSmall: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto;
     grid-template-columns: $layOutColsBig;
     grid-template-rows: $layOutRowsBig;
     z-index: 100;
+    pointer-events: none;
   }
 
   .mgSiteFixed{
@@ -148,6 +149,7 @@ $layOutRowsSmall: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto;
     grid-column-end: cEnd;
     grid-row-start: content;
     grid-row-end: contentEnd;
+    pointer-events:all;
 
     //background-color: rgba(220, 180, 223, 0.32)
   }
