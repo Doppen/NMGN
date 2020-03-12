@@ -1,7 +1,7 @@
 {{> html-head}}
 
 <script type="text/javascript">
-  var imgArr=[******];
+  var imgArr = [ ** ** ** ];
 </script>
 
 <!-- notes -->
@@ -14,19 +14,18 @@
 </div>
 
 
-
-
-<div class="mgSiteFixed">
-  <div class="mgIllustration">
-    {{> page-illustration-new}}
+  <div class="mgSiteFixed">
+    <div class="mgIllustration">
+      {{> page-illustration-new}}
     </div>
   </div>
 </div>
 
 
-
 <div class="mgSite">
-  <div class="mgHero"><h1>{{title}}</h1></div>
+  <div class="mgHero">
+    <h1>{{title}}</h1>
+  </div>
   <div class="mgHeroInfo">
     <div class="mgHeroInfoDeel">
       <span><strong>Deel {{part}}</strong> <em>{{parttitle}}</em></span>
@@ -37,7 +36,7 @@
 
   </div>
   <div class="mgHeroImg">
-      <div class="mgHeroImgContent"><img src="images/chapterImages/{{image}}" alt="Maritieme cultuur in de middeleeuwen"></div>
+    <div class="mgHeroImgContent"><img src="images/chapterImages/{{image}}" alt="Maritieme cultuur in de middeleeuwen"></div>
   </div>
   <div class="mgHeaderBg"></div>
   <div class="mgHeader">
@@ -52,8 +51,9 @@
   <div class="mgContent">
     <div class="mgContentTxt" id="theContent">
       <div class="locaRight" id="loca"> </div>
-      {{> (lookup . 'content') }}</div>
+      {{> (lookup . 'content') }}
     </div>
+  </div>
 </div>
 
 
