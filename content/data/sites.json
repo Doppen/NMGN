@@ -5,7 +5,7 @@
         "part": 1,
         "chapter": 1,
         "template": "basic",
-        "name": "index",
+        "name": "index-oud",
         "content": "d1h6",
         "ischapterpage": 1,
         "aera": "1100 - 1600",
@@ -96,7 +96,7 @@
         "author": "Remmelt Daalder",
         "part": 1,
         "chapter": 6,
-        "template": "basic",
+        "template": "chapter",
         "name": "maritieme-cultuur-middeleeuwen-1100-1600",
         "content": "d1h6",
         "aera": "1100 - 1600",
@@ -108,17 +108,18 @@
         "in_navigatie": true
     },
     {
-        "title": "Inleiding",
+        "title": "De wereld op zee| de maritieme cultuur van de Gouden Eeuw",
+        "author": "Michiel van Groesen",
         "part": 2,
         "chapter": 1,
-        "template": "basic",
-        "name": "inleiding",
-        "content": "d1h1",
+        "template": "chapter",
+        "name": "wereld-op-zee",
+        "content": "d2h1",
         "ischapterpage": 1,
         "aera": "1700 - 1800",
         "parttitle": "De vaart in en buiten Europa",
         "id": "d2h1",
-        "indextcontent": "raw_d1h1",
+        "indextcontent": "raw_d2h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
         "image": "chapterImageTest.png",
         "in_navigatie": true
@@ -309,7 +310,7 @@
         "author": "Remmelt Daalder",
         "part": 3,
         "chapter": 7,
-        "template": "basic",
+        "template": "chapter",
         "name": 13,
         "content": "d3h7",
         "aera": "1780 tot circa 1870",
@@ -321,17 +322,18 @@
         "in_navigatie": true
     },
     {
-        "title": "Inleiding",
+        "title": "Bakens uit het veilige verleden| Maritieme cultuuruitingen in de ‘eeuw van uitersten’, een bloemlezing",
+        "author": "Sara Keijzer",
         "part": 4,
         "chapter": 1,
-        "template": "basic",
-        "name": 7,
-        "content": "d1h1",
+        "template": "chapter",
+        "name": "maritieme-cultuuruitingen",
+        "content": "d4h1",
         "ischapterpage": 1,
         "aera": "circa 1870 tot begin 21e eeuw",
         "parttitle": "Mechanisering en schaalvergroting",
         "id": "d4h1",
-        "indextcontent": "raw_d1h1",
+        "indextcontent": "raw_d4h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
         "image": "chapterImageTest.png",
         "in_navigatie": true
@@ -467,6 +469,6 @@
     {
         "title": "homepage",
         "template": "home",
-        "name": "home"
+        "name": "Index"
     }
 ]

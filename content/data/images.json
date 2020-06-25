@@ -395,5 +395,292 @@
         "description2": "Kleurenlitho door Bernard Willem Wierink, 1895-1915.",
         "location": "Rijksmuseum, Amsterdam.",
         "chapter": "d3h7"
+    },
+    {
+        "filename": "1_uitsnedSlag.jpg",
+        "title": "De slag bij Gibraltar, 25 april 1607",
+        "description": "De herinnering aan de slag bij Gibraltar kreeg weer politieke relevantie na de hervatting van de oorlog met Spanje in 1621.",
+        "description2": "Schilderij door Cornelis Claesz. van Wieringen, 1622.",
+        "location": "Het Scheepvaartmuseum, Amsterdam.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "2_uitsVoorstudie.jpg",
+        "title": "Voorstudie van De slag bij Gibraltar, 25 april 1607",
+        "description2": "Schilderij door Cornelis Claesz. van Wieringen, 1622.",
+        "location": "Het Scheepvaartmuseum, Amsterdam.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "3_Walvis.jpg",
+        "title": "Walvis gestrand bij Berckhey, een inmiddels verdwenen dorpje tussen Katwijk en Scheveningen",
+        "description": "Hoewel de wetenschappelijke kennis over de zee in de zeventiende eeuw snel toenam, bleven oude vormen van geloof en bijgeloof nog lange tijd bestaan.",
+        "description2": "Kopergravure door Jacob Matham naar Hendrick Goltzius, 1598.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "4_uitsnGeograaf.jpg",
+        "title": "De geograaf",
+        "description": "Wandkaarten werden in genreschilderijen regelmatig als achtergrondvulling gebruikt, maar gaven tevens blijk van een collectief en wijd verspreid wereldbeeld.",
+        "description2": "Schilderij door Johannes Vermeer, 1668-1669.",
+        "location": "Städel Museum, Frankfurt.",
+        "owner": "Foto © Städel Museum – ARTOTHEK.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "5_Deksel.jpg",
+        "title": "Deksel van het Amsterdamse stadsklavecimbel, beschilderd met een voorstelling van Amsterdam als wereldhaven",
+        "description2": "Schildering door Pieter Isaacz, 1604-1607.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "6_uitsnNY.jpg",
+        "title": "Gezicht op New York (Nieuw Amsterdam)",
+        "description": "De aanduiding van de Engelse naam New York geeft aan dat dit een voorstelling van het stadje op Manhattan is van kort na de geweldloze overname door de Engelsen.",
+        "description2": "Aquarel door Johannes Vingboons, c. 1665.",
+        "location": "Nationaal Archief, Den Haag.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "7a_schip_omhoog.jpg; 7b_optimmeren.jpg; 7c_huis.jpg",
+        "title": "Nova Zembla",
+        "description": "Het schip door het ijs omhoog gezet’; ‘Het optimmeren eene der boten’; ‘Het huis van buiten, vossenvallen en jacht op een beer’.",
+        "description2": "Uit: Gerrit de Veer, <em>Reizen van Willen Barentsz, Jacob van Heemskerck, Jan Cornelisz. Rijp en anderen naar het noorden</em>, S.P. l’Honoré Naber (ed.) (Den Haag 1917). Het origineel is uitgegeven door Cornelis Claesz (Amsterdam 1598).",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "8_dezeuitsreisverslag.jpg",
+        "title": "Reisverslag van Willem IJsbrantsz. Bontekoe",
+        "description": "Het reisverslag van Bontekoes rampzalige reis naar Azië vormde een canonieke tekst tot ver in de negentiende eeuw.",
+        "description2": "Willem IJsbrantsz. Bontekoe,  <em>Journael, ofte gedenckwaerdige beschrijvinghe van Oost-Indische Reyse</em> (Hoorn 1646).",
+        "location": "Maritiem Museum Rotterdam.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "9_thuiskomst.jpg",
+        "title": "Thuiskomst van de Amsterdamse viermaster <em>De Hollandtsche Tuyn</em>",
+        "description": "De Amsterdamse viermaster <em>De Hollandtsche Tuyn</em> en andere schepen na terugkeer uit Brazilië onder bevel van Paulus van Caerden (mei 1605). De compositie is nagenoeg identiek aan het schilderij van de thuiskomst van de <em>Tweede Schipvaert</em>, zes jaar eerder. De overeenkomst zou bewust door Vroom kunnen zijn aangebracht, om te appelleren aan het succes van de voorcompagnieën en de in 1602 opgerichte VOC.",
+        "description2": "Schilderij door Hendrick Cornelisz. Vroom, c. 1605-c. 1640.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "10_terug.jpg",
+        "title": "Terugkomst in Amsterdam van de tweede expeditie naar Oost-Indië, 19 juli 1599",
+        "description2": "Schilderij door Hendrick Cornelisz. Vroom, 1599.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "11_Paskaart.jpg",
+        "title": "Paskaart van de haven van Recife, Pernambuco, in Brazilië ",
+        "description": "De voorstelling van de stad laat elementen zien – met name de grachten in Mauritsstad – die nooit gerealiseerd zouden worden.",
+        "description2": "Stadsplattegrond door Johannes Vingboons, c. 1643.",
+        "location": "Nationaal Archief, Den Haag.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "12_Batavia1669.jpg",
+        "title": "Plattegrond van Batavia",
+        "description": "Deze voorstelling van Batavia kende vele versies en edities, die telkens aan de meest recente stedelijke vernieuwingen waren aangepast.",
+        "description2": "Stadsplattegrond uit Clement de Jonghe, <em>Afbeeldinge van ’t Casteel en de Stadt Batavia</em> (Amsterdam 1669).",
+        "location": "Wikimedia Commons.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "13_Heide.jpg",
+        "title": "De slag bij Ter Heide waarin admiraal Maarten Harpertsz Tromp sneuvelde, 10 augustus 1653",
+        "description2": "Penschilderij door Willem van de Velde de Oude, 1657.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "14_Praalgraf.jpg",
+        "title": "Het praalgraf van Michiel de Ruyter in het koor van de Nieuwe Kerk in Amsterdam",
+        "description2": "Schilderij door Emanuel de Witte, 1683.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "15_Michiel.jpg",
+        "title": "Michiel de Ruyter als luitenant-admiraal",
+        "description": "De afbeelding is geschilderd ter herinnering aan de overwinning in de Vierdaagse Zeeslag in 1666, waarna besloten werd dat identieke portretten van De Ruyter in alle admiraliteitscolleges zouden worden gehangen.",
+        "description2": "Schilderij door Ferdinand Bol, 1667.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "16_Veldewerkt.jpg",
+        "title": "Willem van de Velde aan het werk, gezeten in een galjoot tijdens de zeeslag bij Ter Heide, 1653",
+        "description": "Prent door Willem van de Velde (detail rechterblad), 1653.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "17_Begrafenis.jpg",
+        "title": "Begrafenis van Jacob van Heemskerck in de Oude Kerk te Amsterdam, 1607",
+        "description": "De staatsbegrafenis van Jacob van Heemskerck sprak ruim anderhalve eeuw later nog altijd tot de verbeelding.",
+        "description2": "Prent door Simon Fokke, 1722-1784.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "18_OostelijkHalfrond _MaartenSchuth2016.jpg",
+        "title": "Oostelijk halfrond, vloer van de Burgerzaal, c. 1655, Paleis op de Dam",
+        "description": "De Burgerzaal van het nieuwe stadhuis op de Dam, opgeleverd in 1655, presenteerde Amsterdam als centrum van de wereld. De twee halfronden op de vloer geven een overzicht van de in de kaart gebrachte wereld in het midden van de zeventiende eeuw. De impliciete boodschap van de Burgerzaal was dat de hele wereld binnen het handbereik van de stad was gekomen.",
+        "location": "Koninklijk Paleis, Amsterdam.",
+        "owner": "Foto Maarten Schuth.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "19_WestelijkHalfrond _Maarten Schuth2016.jpg",
+        "title": "Westelijk halfrond, vloer van de Burgerzaal, c. 1655, Paleis op de Dam",
+        "location": "Koninklijk Paleis, Amsterdam.",
+        "owner": "Foto Maarten Schuth.",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "1_nwoliegoed.jpg",
+        "title": "Verkiezingsaffiche van de Anti-Revolutionaire Partij (ARP), 1925",
+        "description": "In oliegoed gestoken en met zijn handen stevig om het stuurwiel van het ‘schip van staat’ geklemd, tuurt ’s lands stuurman Hendrik Colijn vastberaden naar de einder. Colijn leidde als voorman van de Anti-Revolutionaire Partij (ARP) tussen 1925 en 1939 vijf kabinetten.",
+        "description2": "Ontwerp door Hein Kray.",
+        "description3": "Uitgave: Bureau ‘Houten Pomp’, Arnhem.",
+        "location": "Historisch Documentatiecentrum – Vrije Universiteit, Amsterdam.",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "2_Houdt_koers.jpg",
+        "title": "Verkiezingsaffiche van de Vrijzinnige Democratische Bond (VDB), 1922",
+        "description": "Een onbemand schip van staat vaart tussen de dreigende kliffen van ‘Reactie’ en ‘Revolutie’ door.",
+        "description2": "Ontwerp door J.D. Ros.",
+        "description3": "Uitgave: S. Lankhout Den Haag.",
+        "location": "Internationaal Instituut voor Sociale Geschiedenis – KNAW, Amsterdam.",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "3_oliegoed2.jpg",
+        "title": "Schatkistbewaarder Colijn, de nieuwe stuurman",
+        "description": "Het verkiezingsaffiche dat tekenaar Hein Kray in 1925 voor de ARP ontwierp, is een vrijwel exacte kopie van deze tekening, die hij twee jaar eerder maakte van Colijn als minister van Financiën voor het ‘humoristisch-satyriek orgaan’ van de anti-revolutionairen, <em>De Houten Pomp</em> (augustus 1923).",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "4_ARP.jpg",
+        "title": "Verkiezingsaffiche ARP, 1933",
+        "description": "In de stijl van de Nieuwe Zakelijkheid borduurt de ARP voor de Tweede Kamerverkiezingen van 1933 voort op het thema van de sterke stuurman die het schip van staat door roerige tijden loodst. Vanwege muiterij op <em>De Zeven Provinciën</em> staat de kwestie van de gezagshandhaving hoog op de agenda.",
+        "description2": "Ontwerp door Machiel Wilmink.",
+        "description3": "Uitgave: P.J. Mulder & zoon, Leiden.",
+        "location": "Internationaal Instituut voor Sociale Geschiedenis – KNAW, Amsterdam.",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "5_Telegraaf_1933.jpg",
+        "title": "De Commandant van het Schip van Staat",
+        "description": "In <em>De Telegraaf</em> werd Colijn werd op tekeningen van Louis Raemaekers regelmatig in oliegoed of als schipper afgebeeld; zo ook toen de krant na de Troonrede van 19 september 1933 stormweer voorspelde. Pieterse, die in het bijschrift door Colijn gewaarschuwd wordt, is een fictieve kamerbewaarder, met wie hij in de rubriek ‘Spotternij of Sotternij’ regelmatig ‘een gesprek voert’.",
+        "description3": "Illustratie in <em>De Telegraaf</em>, 24 september 1933.",
+        "location": "Politieke prent door Louis Raemaekers.",
+        "owner": "Stichting Louis Raemakers, Roermond.",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "6_Telegraaf_1934.jpg",
+        "title": "Het schip van staat in crisis-orkaan",
+        "description": "De vaderlijke hand van Colijn rust kalm naast de boei van het in nood verkerende ms NEDERLAND ÉÉN, terwijl de ‘Roomschen’ zijn gezag proberen te ondermijnen.",
+        "description3": "Illustratie in <em>De Telegraaf</em>, 29 november 1934.",
+        "location": "Politieke prent door Louis Raemaekers.",
+        "owner": "Stichting Louis Raemakers, Roermond.",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "7a_vissersjongen.jpg",
+        "title": "Vissersjongen uit Egmond en vissersmeisje uit Katwijk, 1937-1938",
+        "description": "Voor de publicatie <em>De Nederlandsche Volkskarakters</em> (Kampen 1938) fotografeerde Willem van Malsen van ieder ‘volkskarakter’ een man en een vrouw. Dit zijn ‘De Noordzeevissers’.",
+        "location": "Nederlands Fotomuseum, Rotterdam.",
+        "owner": "Foto Willem van Malsen.",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "7b_vissersmeisje.jpg",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "8_visser7.jpg",
+        "title": "Scheveningse visser in oliegoed en met zuidwester, 1932",
+        "description": "‘Volkskarakters’ zoals vissers, van wie werd verondersteld dat zij het ware karakter van de natie belichaamden, vormden in de jaren twintig en dertig een populair onderwerp voor schrijvers, kunstenaars en fotografen.",
+        "description2": "Tekening door Willem Hendrik van den Berg.",
+        "description3": "Collectie beheerd door Erven Prof. Willem van den Berg.",
+        "location": "Nederlands Openluchtmuseum, Arnhem.",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "9_Admiraalzeilen.jpg",
+        "title": "Admiraalzeilen door ronde- en platbodemjachten op het Pikmeer bij Grouw, 1953",
+        "description": "Een eskader boeiers passeert het admiraalschip. Het Admiraalzeilen was onderdeel van de eerste reünie van de nog bestaande Friese ronde jachten, die de zeilvereniging ‘Oostergoo’ op verzoek van de commissie ‘Stamboek Friesche ronde jachten’ organiseerde.",
+        "location": "Het Scheepvaartmuseum, collectie ANWB / Waterkampioen, Amsterdam.",
+        "owner": "Foto Guido Louis Walter Oppenheim.",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "10_Maartje.jpg",
+        "title": "Boeier Maartje tijdens het Admiraalzeilen te Grouw, 1953",
+        "description": "Het schip was eigendom van C.J.W. van Waning, een van de initiatiefnemers van de commissie ‘Stamboek Friesche ronde jachten’. De </em>Maartje</em> werd in 1892 als Fries jacht gebouwd door Eeltje Holtrop van der Zee. In 1917 werd het schip door Eeltjes zoon Auke van der Zee omgebouwd tot boeier (met kajuit).",
+        "location": "Fries Scheepvaartmuseum, Sneek.",
+        "owner": "Fotograaf onbekend.",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "11_bouwmal.jpg",
+        "title": "Model van het grootspant van een BM, 1978",
+        "description": "De Friese kapper Hendrik Bulthuis bedacht in de jaren twintig een slimme manier om een zeiljachtje te bouwen. Hij gebruikte de bouwmallen als spanten van het schip. Een methode die zo baanbrekend simpel was, dat iedere amateur voortaan voor scheepsbouwer kon ‘spelen’. Bulthuis noemde het ontwerp van het houten midzwaardjachtje: de Bergumermeerklasse, afgekort BM.",
+        "location": "Het Scheepvaartmuseum, Amsterdam.",
+        "owner": "Foto Bart Lahr.",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "12_vijftien.jpg",
+        "title": "Vijftien BMers vlak na start tijdens een zeilwedstrijd in Akkrum, 1931",
+        "description": "De nummers 16 en 103 zeilen in de richting van de fotograaf, die zich tussen het publiek bevindt. De foto is vermoedelijk gemaakt door een amateurfotograaf met een boxcamera. Net als de watersport, bereikte tijdens het interbellum ook de fotografie de massa.",
+        "location": "Het Scheepvaartmuseum, collectie ANWB / Waterkampioen, Amsterdam.",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "13_BMer21.jpg",
+        "title": "BMer nr 21",
+        "description": "De BMer met nummer 21 zeilt voor de fotograaf langs tijdens de eerste Nationale Zeilwedstrijd van de watersportvereniging ‘De Schinkel’ op de Nieuwe Meer, 1932. Op de afdruk zijn markeringen aangebracht; vermoedelijk om aan te geven in welke uitsnede de foto gepubliceerd diende te worden in de <em>Waterkampioen</em>.",
+        "location": "Het Scheepvaartmuseum, collectie ANWB / Waterkampioen Amsterdam.",
+        "owner": "Fotograaf onbekend.",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "14_Eudia.jpg",
+        "title": "Enkhuizer bol <em>Eudia</em>",
+        "description": "De Enkhuizer bol Eudia op de Loosdrechtse Plassen met op de achtergrond een zestienkwadraat. ‘Oud hout’ en een ‘varende takkenbos’ tezamen op het water. Datering ca. tweede helft jaren vijftig.",
+        "location": "Het Scheepvaartmuseum, collectie ANWB / Waterkampioen Amsterdam.",
+        "owner": "Foto Johannes Gerardus van Agtmaal",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "15_Sternklasse.jpg",
+        "title": "De Sternklasse in actie tijdens de Sneekweek van 1972",
+        "description": "Deze eenheidsklasse werd op initiatief van het Watersportverbond in 1955 door E.G. van de Stadt ontworpen. De Stern was het eerste Nederlandse jachtje van polyester en maakte een stormachtige groei door tot in de jaren zeventig.",
+        "location": "Het Scheepvaartmuseum, Amsterdam.",
+        "owner": "Foto H. de Vra.",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "16_Friso.jpg",
+        "title": "Boeier <em>Jean Bart</em>",
+        "description": "De boeier <em>Jean Bart</em> tijdens het Admiraalzeilen op het Pikmeer bij Grouw. Aan boord de vroegere eigenaar mr. P.A.V. baron van Harinxma thoe Slooten, 1953. In 1954 werd de Jean Bart omgedoopt tot Statenjacht van Friesland en kreeg het de naam <em>Friso</em>.",
+        "description3": "Anoniem.",
+        "location": "Fries Scheepvaartmuseum, Sneek.",
+        "chapter": "d4h8"
+    },
+    {
+        "filename": "17_Sail.jpg",
+        "title": "Vlootschouw van tjalken",
+        "description": "SAIL Amsterdam, 23 augustus 2015.",
+        "owner": "Foto Leo Schuitemaker.",
+        "chapter": "d4h8"
     }
 ]
