@@ -10,13 +10,14 @@
     {{/if}}
 
     {{#if in_navigatie}}
-    <a href="index.html">
-      <div class="mgHomeChapter">
-         <img src="images/chapterImages/{{image}}" class="mgHomeChapterImg">{{chapter}} <strong>{{title}}</strong><br>
-        {{summary}}<br>
-        <em>Ga naar {{title}}</em>
-      </div>
-    </a>
-
+      {{#if homelist}}
+      <a href="{{name}}.html">
+        <div class="mgHomeChapter">
+           <img src="images/chapterImages/{{image}}" class="mgHomeChapterImg">{{chapter}} <strong>{{title}}</strong> <br><em>{{author}}</em><br>
+          {{summary}}<br>
+          <em>Ga naar {{title}}</em>
+        </div>
+      </a>
+    {{/if}}
   {{/if}}
 {{/each}}

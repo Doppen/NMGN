@@ -104,7 +104,7 @@ gulp.task('browserSync', function() {
     server: {
       baseDir: dst
     },
-    browser: ["google chrome"], //, "firefox"
+    browser: ["firefox"], //, "firefox"
   })
 })
 
@@ -347,7 +347,7 @@ done();
 
 
 gulp.task('build',
-  gulp.series('buildSearchIndex', 'clean', 'nav', 'sass', 'buildFromTemplates', 'copyImg', 'copyJs', 'copyJson',
+  gulp.series('clean', 'nav', 'sass', 'buildFromTemplates', 'copyImg', 'copyJs', 'copyJson', //'buildSearchIndex',
   function(done) {
       done();
   }
@@ -438,6 +438,7 @@ function handleNotes(domContent, chapterId) {
           noteContent  += ifEmp(notesJson[l].worldcatTitel3, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
           noteContent  += ifEmp(notesJson[l].worldcatTitel4, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
           noteContent  += ifEmp(notesJson[l].worldcatTitel5, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          console.log(chapterId, 'endnote-'+notesJson[l].note_number);
 
           domContent.getElementById('endnote-'+notesJson[l].note_number).innerHTML = noteContent;
         }
