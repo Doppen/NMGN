@@ -204,7 +204,7 @@
         "content": "d2h7",
         "aera": "1700 - 1800",
         "parttitle": "De vaart in en buiten Europa",
-        "id": "d2h1",
+        "id": "d2h7",
         "indextcontent": "raw_d2h7",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
         "image": "chapterImageTest.png",
@@ -220,7 +220,7 @@
         "content": "d1h1",
         "aera": "1700 - 1800",
         "parttitle": "De vaart in en buiten Europa",
-        "id": "d2h7",
+        "id": "d2h8",
         "indextcontent": "raw_d1h1",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
         "image": "chapterImageTest.png",
@@ -455,7 +455,7 @@
         "homelist": false
     },
     {
-        "title": "Maritieme cultuuruitingen| in de ‘eeuw van uitersten’",
+        "title": "Bakens uit het veilige verleden| Maritieme cultuuruitingen in de ‘eeuw van uitersten’, een bloemlezing",
         "author": "Sara Keijzer",
         "part": 4,
         "chapter": 8,
