@@ -222,7 +222,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(plumber())
           .pipe(handlebars(page, options))
           .pipe(rename(fileName + ".html"))
-          .pipe(replace('|', '<br>'))
+          .pipe(replace('±', '<br>'))
           .pipe(replace('">[', '">'))
           .pipe(replace(']</a>', '</a>'))
           .pipe(replace('<sup><sup>', '<sup>'))
