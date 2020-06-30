@@ -78,7 +78,7 @@ function imageDimentions(imagefile, placeId) {
 
   var placedImg = document.getElementById(placeId).getElementsByTagName("img")[0];
 
-  console.log(imagefile,imgHeight / imgWidth);
+  //console.log(imagefile,imgHeight / imgWidth);
 
   if (dimensionRatio < .7) {
     placedImg.removeAttribute("class");

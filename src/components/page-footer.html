@@ -1,1 +1,26 @@
-<br><br><br><br><br><br><br>
+</div>
+</div>
+
+<footer class="footer">
+  <div class="footerContent">
+    <div><em>Nieuwe</em> <br>
+      <strong>Maritieme Geschiedenis</strong>
+      <br>van <strong>Nederland</strong></div>
+      {{#if homelist}}
+      <div>
+        <strong>Deel {{part}}</strong>
+        <br><em>{{parttitle}}</em><br>
+        {{aera}}<br>
+        ISBN: {{partisbn}}<br>
+      </div>
+      <div><strong>{{title}}</strong> <br>
+        Door <strong>{{author}}</strong><br>
+        Doi: {{doi}}
+      </div>
+        {{else}}
+        <div></div>
+        <div></div>
+        {{/if}}
+
+  </div>
+</footer>

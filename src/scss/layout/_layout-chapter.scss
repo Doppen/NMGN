@@ -10,7 +10,10 @@ $layOutRowsSmall: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto;
 
 .mgSite{
   position: relative;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+
+
   grid-template-columns: $layOutColsSmall;
   grid-template-rows: $layOutRowsSmall;
 }
@@ -27,6 +30,9 @@ $layOutRowsSmall: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto;
 }
 
 .mgHeader{
+  position: absolute;
+  top: 0;
+  right: 0;
   grid-column-start: c1;
   grid-column-end: cEnd;
   grid-row-start: top1;
@@ -109,6 +115,7 @@ $layOutRowsSmall: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto;
   }
 
   .mgHeader{
+    position: relative;
     grid-column-start: c1;
     grid-column-end: cEnd;
     grid-row-start: top1;
