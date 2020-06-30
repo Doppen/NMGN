@@ -187,10 +187,13 @@ function imageDimentions(imagefile, placeId) {
   var elemImage = elem.getElementsByTagName("span")[0].getElementsByTagName("img")[0];
   var imgWidth = elemImage.naturalWidth;
   var imgHeight =elemImage.naturalHeight;
+  var dimensionRatio = imgHeight / imgWidth;
 
   var placedImg = document.getElementById(placeId).getElementsByTagName("img")[0];
 
-  if (imgHeight < imgWidth) {
+  console.log(imagefile,imgHeight / imgWidth);
+
+  if (dimensionRatio < .7) {
     placedImg.removeAttribute("class");
     placedImg.classList.add("imgFillW");
 
@@ -278,7 +281,7 @@ function OpenNav() {
 }
 
 function bigImageViewer() {
-  console.log('11');
+  //console.log('11');
   var chapterId = document.getElementById("chaperId").innerHTML
   document.getElementById("bigImageViewer").style.display= 'flex';
   document.getElementById('zoomFig').style.backgroundImage = 'url(\'images/'+chapterId+'/'+chapterId+'-big/'+activeImage+'\')';

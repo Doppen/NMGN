@@ -2,9 +2,14 @@
 const fs = require('fs');
 const sharp = require('sharp');
 // https://sharp.pixelplumbing.com/api-resize
+var copyPath = require('./content/data/copyPath.json');
 
+//NMGNdocx oldstr.replace("Microsoft", "W3Schools");
 // images
-const inputFolder  = './original-images/';
+
+var imgPath = copyPath.copyDestination.replace("NMGNdocx", "NMGNimages");
+// images
+const inputFolder  = imgPath;
 const outputFolder = './src/images/';
 
   // read folder
@@ -40,7 +45,7 @@ function resizeFiles(folderPath, size, foldername) {
   }
 
   var outFolderSize = outputFolder+foldername+'/'+foldername+'-'+folderExt+'/';
-  console.log(outFolderSize);
+  //console.log(outFolderSize);
 
 
   // create folder
