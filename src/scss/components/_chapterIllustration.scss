@@ -120,8 +120,12 @@
   }
 
   .moreCaption {
-    display: flex;
+    //display: flex;
     flex-direction: column;
+
+    em {
+      display: inline;
+    }
   }
   .openCaption {
     display: none;

@@ -249,8 +249,9 @@ strong {
     margin-left: 0;
     margin-right: 0; }
   .moreCaption {
-    display: flex;
     flex-direction: column; }
+    .moreCaption em {
+      display: inline; }
   .openCaption {
     display: none; }
   .inlineImgRow {

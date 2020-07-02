@@ -40,8 +40,12 @@ const outputFolder = './src/images/';
 
 function resizeFiles(folderPath, size, foldername) {
   var folderExt = size;
+  var action = { width: size };
   if (size == 2000) {
     folderExt = 'big';
+  }
+  if (size == 170) {
+    action = { height: 170 };
   }
 
   var outFolderSize = outputFolder+foldername+'/'+foldername+'-'+folderExt+'/';
@@ -62,7 +66,7 @@ function resizeFiles(folderPath, size, foldername) {
     files.forEach(function (file) {
       if (file.slice(file.length - 4) != '.tif') {
         sharp(folderPath+file)
-          .resize({ width: size })
+          .resize( action )
           .toFile(outFolderSize+file, function(err) {});
       }
 
