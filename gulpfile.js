@@ -7,6 +7,7 @@
 // gulp nav                     update page navigation (new titles)
 // gulp BuildIndexFromHTML      update the search index
 // gulp convHtml
+// node img
 
 // gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data.json -b
 
@@ -438,7 +439,7 @@ function handleNotes(domContent, chapterId) {
           noteContent  += ifEmp(notesJson[l].worldcatTitel3, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
           noteContent  += ifEmp(notesJson[l].worldcatTitel4, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
           noteContent  += ifEmp(notesJson[l].worldcatTitel5, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-          //console.log(chapterId, 'endnote-'+notesJson[l].note_number);
+          console.log(chapterId, 'endnote-'+notesJson[l].note_number);
 
           domContent.getElementById('endnote-'+notesJson[l].note_number).innerHTML = noteContent;
         }
