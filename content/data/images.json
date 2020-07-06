@@ -444,17 +444,27 @@
         "chapter": "d2h7"
     },
     {
-        "filename": "7a_schip_omhoog.jpg; 7b_optimmeren.jpg; 7c_huis.jpg",
+        "filename": "7a_schip_omhoog.jpg",
         "title": "Nova Zembla",
-        "description": "Het schip door het ijs omhoog gezet’; ‘Het optimmeren eene der boten’; ‘Het huis van buiten, vossenvallen en jacht op een beer’.",
+        "description": "‘Het schip door het ijs omhoog gezet’; ‘Het optimmeren eene der boten’; ‘Het huis van buiten, vossenvallen en jacht op een beer’.",
         "description2": "Uit: Gerrit de Veer, <em>Reizen van Willen Barentsz, Jacob van Heemskerck, Jan Cornelisz. Rijp en anderen naar het noorden</em>, S.P. l’Honoré Naber (ed.) (Den Haag 1917). Het origineel is uitgegeven door Cornelis Claesz (Amsterdam 1598).",
         "chapter": "d2h7"
     },
     {
-        "filename": "8_dezeuitsreisverslag.jpg",
+        "filename": "7b_optimmeren.jpg",
+        "title": "Nova Zembla",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "7c_huis.jpg",
+        "title": "Nova Zembla",
+        "chapter": "d2h7"
+    },
+    {
+        "filename": "8_nwreisverslag.jpg",
         "title": "Reisverslag van Willem IJsbrantsz. Bontekoe",
         "description": "Het reisverslag van Bontekoes rampzalige reis naar Azië vormde een canonieke tekst tot ver in de negentiende eeuw.",
-        "description2": "Willem IJsbrantsz. Bontekoe,  <em>Journael, ofte gedenckwaerdige beschrijvinghe van Oost-Indische Reyse</em> (Hoorn 1646).",
+        "description2": "Willem IJsbrantsz. Bontekoe,  <em>Journael, ofte gedenckwaerdige beschrijvinghe van Oost-Indische Reyse</em> (Hoorn 1646). In de uitgave van 1648 werd het reisverhaal van Dirck Albertsz Raven over zijn schipbreuk bij Spitsbergen toegevoegd",
         "location": "Maritiem Museum Rotterdam.",
         "chapter": "d2h7"
     },
@@ -552,7 +562,7 @@
     },
     {
         "filename": "2_Houdt_koers.jpg",
-        "title": "Verkiezingsaffiche van de Vrijzinnige Democratische Bond (VDB), 1922",
+        "title": "Verkiezingsaffiche van de Vrijzinnig-Democratische Bond (VDB), 1922",
         "description": "Een onbemand schip van staat vaart tussen de dreigende kliffen van ‘Reactie’ en ‘Revolutie’ door.",
         "description2": "Ontwerp door J.D. Ros.",
         "description3": "Uitgave: S. Lankhout Den Haag.",
@@ -563,6 +573,8 @@
         "filename": "3_oliegoed2.jpg",
         "title": "Schatkistbewaarder Colijn, de nieuwe stuurman",
         "description": "Het verkiezingsaffiche dat tekenaar Hein Kray in 1925 voor de ARP ontwierp, is een vrijwel exacte kopie van deze tekening, die hij twee jaar eerder maakte van Colijn als minister van Financiën voor het ‘humoristisch-satyriek orgaan’ van de anti-revolutionairen, <em>De Houten Pomp</em> (augustus 1923).",
+        "description2": "Tekening door Hein Kray.",
+        "location": "Collectie beheerd door nazaten Hein Kray [Assen].",
         "chapter": "d4h8"
     },
     {
@@ -577,8 +589,9 @@
     {
         "filename": "5_Telegraaf_1933.jpg",
         "title": "De Commandant van het Schip van Staat",
-        "description": "In <em>De Telegraaf</em> werd Colijn werd op tekeningen van Louis Raemaekers regelmatig in oliegoed of als schipper afgebeeld; zo ook toen de krant na de Troonrede van 19 september 1933 stormweer voorspelde. Pieterse, die in het bijschrift door Colijn gewaarschuwd wordt, is een fictieve kamerbewaarder, met wie hij in de rubriek ‘Spotternij of Sotternij’ regelmatig ‘een gesprek voert’.",
-        "description3": "Illustratie in <em>De Telegraaf</em>, 24 september 1933.",
+        "description": "In <em>De Telegraaf</em> werd Colijn op tekeningen van Louis Raemaekers regelmatig in oliegoed of als schipper afgebeeld; zo ook toen de krant na de Troonrede van 19 september 1933 stormweer voorspelde. Pieterse, die in het bijschrift door Colijn gewaarschuwd wordt, is een fictieve kamerbewaarder, met wie hij in de rubriek ‘Spotternij of Sotternij’ regelmatig ‘een gesprek voert’.",
+        "description2": "Illustratie in <em>De Telegraaf</em>, 24 september 1933.",
+        "description3": "Scan uit <em>Colijn in de caricatuur. 100 uitgezochte caricaturen met een voorwoord van Dr. Colijn zelf</em> (Baarn z.j.) 73.",
         "location": "Politieke prent door Louis Raemaekers.",
         "owner": "Stichting Louis Raemakers, Roermond.",
         "chapter": "d4h8"
@@ -587,7 +600,8 @@
         "filename": "6_Telegraaf_1934.jpg",
         "title": "Het schip van staat in crisis-orkaan",
         "description": "De vaderlijke hand van Colijn rust kalm naast de boei van het in nood verkerende ms NEDERLAND ÉÉN, terwijl de ‘Roomschen’ zijn gezag proberen te ondermijnen.",
-        "description3": "Illustratie in <em>De Telegraaf</em>, 29 november 1934.",
+        "description2": "Illustratie in <em>De Telegraaf</em>, 29 november 1934.",
+        "description3": "Scan uit <em>Colijn in de caricatuur. 100 uitgezochte caricaturen met een voorwoord van Dr. Colijn zelf</em> (Baarn z.j.) 90.",
         "location": "Politieke prent door Louis Raemaekers.",
         "owner": "Stichting Louis Raemakers, Roermond.",
         "chapter": "d4h8"
@@ -605,7 +619,7 @@
         "chapter": "d4h8"
     },
     {
-        "filename": "8_visser7.jpg",
+        "filename": "8_Schvisser.jpg",
         "title": "Scheveningse visser in oliegoed en met zuidwester, 1932",
         "description": "‘Volkskarakters’ zoals vissers, van wie werd verondersteld dat zij het ware karakter van de natie belichaamden, vormden in de jaren twintig en dertig een populair onderwerp voor schrijvers, kunstenaars en fotografen.",
         "description2": "Tekening door Willem Hendrik van den Berg.",
@@ -614,7 +628,7 @@
         "chapter": "d4h8"
     },
     {
-        "filename": "9_Admiraalzeilen.jpg",
+        "filename": "9_Admiraalzeilen_vrij.jpg",
         "title": "Admiraalzeilen door ronde- en platbodemjachten op het Pikmeer bij Grouw, 1953",
         "description": "Een eskader boeiers passeert het admiraalschip. Het Admiraalzeilen was onderdeel van de eerste reünie van de nog bestaande Friese ronde jachten, die de zeilvereniging ‘Oostergoo’ op verzoek van de commissie ‘Stamboek Friesche ronde jachten’ organiseerde.",
         "location": "Het Scheepvaartmuseum, collectie ANWB / Waterkampioen, Amsterdam.",
@@ -623,7 +637,7 @@
     },
     {
         "filename": "10_Maartje.jpg",
-        "title": "Boeier Maartje tijdens het Admiraalzeilen te Grouw, 1953",
+        "title": "Boeier <em>Maartje</em> tijdens het Admiraalzeilen te Grouw, 1953",
         "description": "Het schip was eigendom van C.J.W. van Waning, een van de initiatiefnemers van de commissie ‘Stamboek Friesche ronde jachten’. De </em>Maartje</em> werd in 1892 als Fries jacht gebouwd door Eeltje Holtrop van der Zee. In 1917 werd het schip door Eeltjes zoon Auke van der Zee omgebouwd tot boeier (met kajuit).",
         "location": "Fries Scheepvaartmuseum, Sneek.",
         "owner": "Fotograaf onbekend.",
@@ -638,7 +652,7 @@
         "chapter": "d4h8"
     },
     {
-        "filename": "12_vijftien.jpg",
+        "filename": "12_vijftien_vrij.jpg",
         "title": "Vijftien BMers vlak na start tijdens een zeilwedstrijd in Akkrum, 1931",
         "description": "De nummers 16 en 103 zeilen in de richting van de fotograaf, die zich tussen het publiek bevindt. De foto is vermoedelijk gemaakt door een amateurfotograaf met een boxcamera. Net als de watersport, bereikte tijdens het interbellum ook de fotografie de massa.",
         "location": "Het Scheepvaartmuseum, collectie ANWB / Waterkampioen, Amsterdam.",
@@ -661,7 +675,7 @@
         "chapter": "d4h8"
     },
     {
-        "filename": "15_Sternklasse.jpg",
+        "filename": "15_Sternklasse_vrij.jpg",
         "title": "De Sternklasse in actie tijdens de Sneekweek van 1972",
         "description": "Deze eenheidsklasse werd op initiatief van het Watersportverbond in 1955 door E.G. van de Stadt ontworpen. De Stern was het eerste Nederlandse jachtje van polyester en maakte een stormachtige groei door tot in de jaren zeventig.",
         "location": "Het Scheepvaartmuseum, Amsterdam.",
@@ -672,8 +686,8 @@
         "filename": "16_Friso.jpg",
         "title": "Boeier <em>Jean Bart</em>",
         "description": "De boeier <em>Jean Bart</em> tijdens het Admiraalzeilen op het Pikmeer bij Grouw. Aan boord de vroegere eigenaar mr. P.A.V. baron van Harinxma thoe Slooten, 1953. In 1954 werd de Jean Bart omgedoopt tot Statenjacht van Friesland en kreeg het de naam <em>Friso</em>.",
-        "description3": "Anoniem.",
         "location": "Fries Scheepvaartmuseum, Sneek.",
+        "owner": "Fotograaf onbekend.",
         "chapter": "d4h8"
     },
     {
