@@ -446,18 +446,20 @@
     {
         "filename": "7a_schip_omhoog.jpg",
         "title": "Nova Zembla",
-        "description": "‘Het schip door het ijs omhoog gezet’; ‘Het optimmeren eene der boten’; ‘Het huis van buiten, vossenvallen en jacht op een beer’.",
+        "description": "Het schip door het ijs omhoog gezet",
         "description2": "Uit: Gerrit de Veer, <em>Reizen van Willen Barentsz, Jacob van Heemskerck, Jan Cornelisz. Rijp en anderen naar het noorden</em>, S.P. l’Honoré Naber (ed.) (Den Haag 1917). Het origineel is uitgegeven door Cornelis Claesz (Amsterdam 1598).",
         "chapter": "d2h7"
     },
     {
         "filename": "7b_optimmeren.jpg",
         "title": "Nova Zembla",
+        "description": "Het optimmeren eene der boten",
         "chapter": "d2h7"
     },
     {
         "filename": "7c_huis.jpg",
         "title": "Nova Zembla",
+        "description": "Het huis van buiten, vossenvallen en jacht op een beer",
         "chapter": "d2h7"
     },
     {
@@ -545,7 +547,7 @@
         "chapter": "d2h7"
     },
     {
-        "filename": "19_WestelijkHalfrond _Maarten Schuth2016.jpg",
+        "filename": "19_WestelijkHalfrond _MaartenSchuth2016.jpg",
         "title": "Westelijk halfrond, vloer van de Burgerzaal, c. 1655, Paleis op de Dam",
         "location": "Koninklijk Paleis, Amsterdam.",
         "owner": "Foto Maarten Schuth.",
