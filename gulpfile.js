@@ -443,7 +443,7 @@ function handleNotes(domContent, chapterId) {
           noteContent  += ifEmp(notesJson[l].worldcatTitel7, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
           noteContent  += ifEmp(notesJson[l].worldcatTitel8, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
           noteContent  += ifEmp(notesJson[l].worldcatTitel9, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-          console.log(chapterId, 'endnote-'+notesJson[l].note_number);
+          //console.log(chapterId, 'endnote-'+notesJson[l].note_number);
 
           domContent.getElementById('endnote-'+notesJson[l].note_number).innerHTML = noteContent;
         }
