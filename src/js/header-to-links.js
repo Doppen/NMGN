@@ -1,5 +1,5 @@
 // get all headers 2 and 3.
-var elems = document.querySelectorAll('h2');
+var elems = document.querySelectorAll('h2, h3');
 //console.log(elems);
 
 // adb anchor link to each header
