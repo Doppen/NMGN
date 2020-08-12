@@ -613,14 +613,18 @@
     },
     {
         "filename": "7a_vissersjongen.png",
-        "title": "Vissersjongen uit Egmond en vissersmeisje uit Katwijk, 1937-1938",
+        "title": "Vissersjongen uit Egmond, 1937-1938",
         "description": "Voor de publicatie <em>De Nederlandsche Volkskarakters</em> (Kampen 1938) fotografeerde Willem van Malsen van ieder ‘volkskarakter’ een man en een vrouw. Dit zijn ‘De Noordzeevissers’.",
+        "description2": "Foto door Willem van Malsen.",
         "location": "Nederlands Fotomuseum, Rotterdam.",
-        "owner": "Foto Willem van Malsen.",
         "chapter": "d4h8"
     },
     {
         "filename": "7b_vissersmeisje.png",
+        "title": "Vissersmeisje uit Katwijk, 1937-1938",
+        "description": "Voor de publicatie <em>De Nederlandsche Volkskarakters</em> (Kampen 1938) fotografeerde Willem van Malsen van ieder ‘volkskarakter’ een man en een vrouw. Dit zijn ‘De Noordzeevissers’.",
+        "description2": "Foto door Willem van Malsen.",
+        "location": "Nederlands Fotomuseum, Rotterdam.",
         "chapter": "d4h8"
     },
     {
@@ -636,16 +640,16 @@
         "filename": "9_Admiraalzeilen_vrij.jpg",
         "title": "Admiraalzeilen door ronde- en platbodemjachten op het Pikmeer bij Grouw, 1953",
         "description": "Een eskader boeiers passeert het admiraalschip. Het Admiraalzeilen was onderdeel van de eerste reünie van de nog bestaande Friese ronde jachten, die de zeilvereniging ‘Oostergoo’ op verzoek van de commissie ‘Stamboek Friesche ronde jachten’ organiseerde.",
+        "description2": "Foto door Guido Louis Walter Oppenheim.",
         "location": "Het Scheepvaartmuseum, collectie ANWB / Waterkampioen, Amsterdam.",
-        "owner": "Foto Guido Louis Walter Oppenheim.",
         "chapter": "d4h8"
     },
     {
         "filename": "10_Maartje.jpg",
         "title": "Boeier <em>Maartje</em> tijdens het Admiraalzeilen te Grouw, 1953",
         "description": "Het schip was eigendom van C.J.W. van Waning, een van de initiatiefnemers van de commissie ‘Stamboek Friesche ronde jachten’. De <em>Maartje</em> werd in 1892 als Fries jacht gebouwd door Eeltje Holtrop van der Zee. In 1917 werd het schip door Eeltjes zoon Auke van der Zee omgebouwd tot boeier (met kajuit).",
+        "description2": "Fotograaf onbekend.",
         "location": "Fries Scheepvaartmuseum, Sneek.",
-        "owner": "Fotograaf onbekend.",
         "chapter": "d4h8"
     },
     {
@@ -665,41 +669,41 @@
     },
     {
         "filename": "13_BMer21.jpg",
-        "title": "BMer nr 21",
+        "title": "BMer nr. 21",
         "description": "De BMer met nummer 21 zeilt voor de fotograaf langs tijdens de eerste Nationale Zeilwedstrijd van de watersportvereniging ‘De Schinkel’ op de Nieuwe Meer, 1932. Op de afdruk zijn markeringen aangebracht; vermoedelijk om aan te geven in welke uitsnede de foto gepubliceerd diende te worden in de <em>Waterkampioen</em>.",
+        "description2": "Fotograaf onbekend.",
         "location": "Het Scheepvaartmuseum, collectie ANWB / Waterkampioen Amsterdam.",
-        "owner": "Fotograaf onbekend.",
         "chapter": "d4h8"
     },
     {
         "filename": "14_Eudia.jpg",
         "title": "Enkhuizer bol <em>Eudia</em>",
         "description": "De Enkhuizer bol <em>Eudia</em> op de Loosdrechtse Plassen met op de achtergrond een zestienkwadraat. ‘Oud hout’ en een ‘varende takkenbos’ tezamen op het water. Datering ca. tweede helft jaren vijftig.",
+        "description2": "Foto door Johannes Gerardus van Agtmaal.",
         "location": "Het Scheepvaartmuseum, collectie ANWB / Waterkampioen Amsterdam.",
-        "owner": "Foto Johannes Gerardus van Agtmaal.",
         "chapter": "d4h8"
     },
     {
         "filename": "15_Sternklasse_vrij.jpg",
         "title": "De Sternklasse in actie tijdens de Sneekweek van 1972",
         "description": "Deze eenheidsklasse werd op initiatief van het Watersportverbond in 1955 door E.G. van de Stadt ontworpen. De Stern was het eerste Nederlandse jachtje van polyester en maakte een stormachtige groei door tot in de jaren zeventig.",
+        "description2": "Foto door H. de Vra.",
         "location": "Het Scheepvaartmuseum, Amsterdam.",
-        "owner": "Foto H. de Vra.",
         "chapter": "d4h8"
     },
     {
         "filename": "16_Friso.jpg",
         "title": "Boeier <em>Jean Bart</em>",
         "description": "De boeier <em>Jean Bart</em> tijdens het Admiraalzeilen op het Pikmeer bij Grouw. Aan boord de vroegere eigenaar mr. P.A.V. baron van Harinxma thoe Slooten, 1953. In 1954 werd de <em>Jean Bart</em> omgedoopt tot Statenjacht van Friesland en kreeg het de naam <em>Friso</em>.",
+        "description2": "Fotograaf onbekend.",
         "location": "Fries Scheepvaartmuseum, Sneek.",
-        "owner": "Fotograaf onbekend.",
         "chapter": "d4h8"
     },
     {
         "filename": "17_Sail.jpg",
         "title": "Vlootschouw van tjalken",
         "description": "SAIL Amsterdam, 23 augustus 2015.",
-        "owner": "Foto Leo Schuitemaker.",
+        "description2": "Foto door Leo Schuitemaker.",
         "chapter": "d4h8"
     }
 ]
