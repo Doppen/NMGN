@@ -120,6 +120,7 @@ $layOutRowsSmall: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto;
     grid-column-end: cEnd;
     grid-row-start: top1;
     grid-row-end: hero;
+    pointer-events:all;
   }
 
   .mgHero{
@@ -148,6 +149,7 @@ $layOutRowsSmall: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto;
     grid-column-end: gutter;
     grid-row-start: content;
     grid-row-end: contentListEnd;
+    pointer-events:all;
   }
 
 

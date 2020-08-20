@@ -463,7 +463,8 @@ nav {
     grid-column-start: c1;
     grid-column-end: cEnd;
     grid-row-start: top1;
-    grid-row-end: hero; }
+    grid-row-end: hero;
+    pointer-events: all; }
   .mgHero {
     grid-column-start: left1;
     grid-column-end: right1;
@@ -483,7 +484,8 @@ nav {
     grid-column-start: c1;
     grid-column-end: gutter;
     grid-row-start: content;
-    grid-row-end: contentListEnd; }
+    grid-row-end: contentListEnd;
+    pointer-events: all; }
   .mgContent {
     grid-column-start: c2;
     grid-column-end: cEnd;

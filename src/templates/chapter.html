@@ -14,14 +14,15 @@
 </div>
 
 
-  <div class="mgSiteFixed">
-    <div class="mgIllustration">
-      {{> page-illustration-new}}
-    </div>
+<div class="mgSiteFixed">
+  <div class="mgIllustration">
+    {{> page-illustration-new}}
   </div>
+</div>
 
 
 <div class="mgSite">
+
   <div class="mgHero">
     <h1>{{title}}</h1>
   </div>
@@ -37,10 +38,12 @@
   <div class="mgHeroImg">
     <div class="mgHeroImgContent"><img src="images/chapterImages/{{image}}" alt="Maritieme cultuur in de middeleeuwen"></div>
   </div>
+
   <div class="mgHeaderBg"></div>
   <div class="mgHeader">
     {{> page-header-new}}
   </div>
+
 
   <div class="mgContentListBg"></div>
   <div class="mgContentList">
@@ -53,7 +56,11 @@
       {{> (lookup . 'content') }}
     </div>
   </div>
+
 </div>
+
+
+
 
 
 {{> page-zoom}}
