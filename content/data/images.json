@@ -705,5 +705,525 @@
         "description": "SAIL Amsterdam, 23 augustus 2015.",
         "description2": "Foto door Leo Schuitemaker.",
         "chapter": "d4h8"
+    },
+    {
+        "filename": "1_kustvaart_vermeden.jpg",
+        "title": "De kustvaart vermeden",
+        "description": "Een constante in de Nederlandse geschiedenis is de route die binnen de duinen van Noord-Frankrijk tot aan Denemarken reikte, en waarmee vaart buitenom langs de gevaarlijke lage wal van de Noordzee werd vermeden. Deze route geeft aan het begrip binnenvaart een bijzondere betekenis",
+        "description2": "Cartografie Olav Odé, 2020.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "2_Maquette.jpg",
+        "title": "Maquette van de aanleg van het Kanaal van Corbulo",
+        "description": "Om zijn soldaten bezig te houden, maar ook voor snelle vaart achter de duinen liet de Romeinse veldheer Gnaius Domitius Corbulo kort na het jaar 47 een kanaal graven tussen de benedenloop van de Rijn en de veenstroom de Gantel die op de Maas aansloot. Het kanaal was tenminste 34 kilometer lang en werd in archeologische opgravingen teruggevonden. Deze maquette laat de graafwerkzaamheden zien ter hoogte van de Rietvink in Leidschendam.",
+        "location": "Archeologische Werkgroep Leidschendam-Voorburg.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "3a_rivierlopen_nw_europa.jpg",
+        "title": "Nederland en de bovenlanden",
+        "description": "In de twaalfde eeuw was van Nederland in de huidige betekenis geen sprake. Het bestond bij gratie van de bovenlanden waar zich belangrijke centra van macht en cultuur bevonden. Via de rivierlopen en korte oversteken tussen het stroomgebied van bijvoorbeeld de Lippe, de Eems en de Weser, of de Sambre, de Maas en de zijrivieren van de Seine waren deze centra over water bereikbaar.",
+        "description2": "Cartografie Olav Odé, 2020 met als ondergrond voor Nederland de paleogeografische kaart van P.C. Vos, <em>Origin of the Dutch Coastal Landscape: Long-Term Landscape Evolution of the Netherlands during the Holocene, described and visualized in National, Regional and Local Palaeogeographic Map Series</em> (Groningen 2015) 76, afbeelding 2.11.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "3b_Kaart_maritiem_01.jpg",
+        "title": "Land, water en doorgaande routes",
+        "description": "Modern paleogeografisch onderzoek laat de verdeling land en water in veel beter detail zien dan vroeger mogelijk was. De structuur van het land, de belangrijkste doorgaande routes en centrale plaatsen tekenen zich af tegen de achtergrond van de paleogeografische kaart van rond 800 na het begin van de jaartelling.",
+        "description2": "Cartografie Olav Odé, 2020 naar P.C. Vos, <em>Origin of the Dutch Coastal Landscape: Long-Term Landscape Evolution of the Netherlands during the Holocene, described and visualized in National, Regional and Local Palaeogeographic Map Series</em> (Groningen 2015) 76, afbeelding 2.11.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "4_Ontginningen.jpg",
+        "title": "Ontginningen in zuidelijk en oostelijk Amstelland",
+        "description": "Door detailanalyse van ontginningsvolgorde en ontginningsrichting (de zwarte pijlen) wordt duidelijk waar in het zacht golvende, nog onontgonnen veenlandschap de waterscheidingen tussen de veenrivieren en afwateringen lagen. Anders dan tegenwoordig torenden de veenruggen vele meters boven de zeespiegel uit.",
+        "description2": "Uit: Chr. de Bont, <em>Amsterdamse boeren. Een historische geografie van het gebied tussen de duinen en het Gooi in de middeleeuwen</em> (Hilversum 2015) 239, afbeelding 8.47.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "5_Solleveld.jpg",
+        "title": "Scheepsgraf bij Monster",
+        "description": "In het bootvormige graf op het merovingische grafveld Solleveld zijn de bijgaven ingetekend. De rijen klinknagels duiden op planken die nog in verband zaten.",
+        "description2": "Tekening door Thijs Maarleveld, 2020 naar J.A. Waasdorp en E. Eimermann, <em>Solleveld. Een opgraving naar een Merovingisch grafveld aan de rand van Den Haag</em>(Den Haag 2008) afbeelding 5.25.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "6_Tiel.jpg",
+        "title": "Hier stond het tolhuis te Tiel",
+        "description": "Na het verval van Dorestad had Tiel in 896 van de Lotharingse vorst het tolrecht gekregen. In 1174 werd deze keizerlijke tol naar bovenstrooms verplaatst en werd te Tiel tol geheven ten bate van de graven – vanaf 1339 hertogen – van Gelre.",
+        "description2": "Anonieme pentekening, 1563.",
+        "location": "Gelders Archief, Arnhem.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "7_defMoser.jpg",
+        "title": "Allerheiligenvloed in het Scheldegebied, 1570",
+        "description": "Op 1 november 1570 werden de Nederlandse en Vlaamse Kust geteisterd door een watersnood, de Allerheiligenvloed of Allerzielenvloed. In Friesland en Groningen verdronken zoveel mensen dat men hen niet behoorlijk kon begraven. Langs de Schelde bracht de stormvloed grote ravage aan, zoals Moser hier laat zien. Bij Veere en Middelburg braken de dijken. Reimerswaal werd overspoeld. De polders bij Bergen op Zoom liepen onder water. Het Verdronken Land van Saaftinge werd niet meer op de zee teruggewonnen, zoals dat na de Sint-Clemensvloed van 1334 nog wel was gebeurd.",
+        "description2": "Houtsnede door Hans Moser, ca. 1571.",
+        "location": "Germanisches Nationalmuseum, Neurenberg.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "8_Turfvaartstelsels.jpg",
+        "title": "Turfvaartstelsels in westelijk Noord-Brabant",
+        "description": "In een gebied van nog geen 30 bij 30 kilometer zijn twintig turfvaartstelsels gekarteerd uit de dertiende tot zestiende eeuw. Negentien van deze stelsels waren in 1400  al in gebruik. In totaal gaat het om 300 km hoofdvaart en minstens 260 km zijvaarten. Bij het vervoer op deze vaarten waren tussen 1250 en 1750 duizenden schepen betrokken.",
+        "description2": "Kaart door K.A.H.W. Leenders, 2013, gecorrigeerde versie 2020.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "9_Magerman.jpg",
+        "title": "Spui Magerman bij Nieuwmoer",
+        "description": "Het spui Magerman lag in de Natte- of Elderse Vaart die vanaf 1449 werd aangelegd op basis van een overeenkomst tussen drie moerexploitanten en de grondeigenaar, de abt van Tongerlo. In 1530 werd de kruising van de vaart naar de Kartuizermoeren met de weg van Nieuwmoer naar de Steenpaal op een kaartje geschetst.",
+        "location": "Abdijarchief Tongerlo.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "10_TurfschipDolendo.jpg",
+        "title": "Turfschip van Breda",
+        "description": "Op deze gravure wordt de inname van Breda door het leger van Prins Maurits op 4 maart 1590 als een stripverhaal aanschouwelijk gemaakt. De prent begint met een afbeelding van het scheepje waarin soldaten onder de turf verscholen zaten. Het wordt door mannen die het schip voorttrekken langs het jaagpad de stad ingebracht. Het schip is iets voller van vorm dan vergelijkbare scheepjes die archeologisch onderzocht zijn.",
+        "description2": "Gravure door Bartholomeus Willemsz Dolendo, 1619.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "11_Darinkdelven.jpg",
+        "title": "Darinkdelven",
+        "description": "Afgedekt door overstromingsklei lag er in de zuidelijke delta een enorme hoeveelheid  met zout doordrenkt veen, ‘darink’. Buitendijks werd bij Zierikzee darink gedolven en in schuiten werd geladen (midden). Vervolgens werd het op een schor te drogen gelegd om daarna te worden verbrand (links). Van de brandplek werden zakken met as (‘zel’) naar een iets groter vaartuig gedragen waarmee het naar de zoutketen (rechts) werd vervoerd om te worden gezuiverd, de zoutziederij. Het zelzout leverde veel geld op, maar het darinkdelven veroorzaakte enorme erosie.",
+        "description2": "Anoniem schilderij, ca. 1540.",
+        "location": "Stadhuismuseum, Zierikzee.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "12_Nehalennia.jpg",
+        "title": "Nehalennia- altaar",
+        "description": "In de tweede en derde eeuw wijdden succesvolle zouthandelaren een altaar aan de godin Nehalennia waarvan bij Domburg en Colijnsplaat heiligdommen zijn gevonden. Het zout ging onder meer naar het Rijnland. Dit altaar werd aan de godin (DEAE NEHALENIAE) geschonken door Marcus Exgingius Agricola (M(arcus) EXGINGIVS AGRICOLA), burger van Trier (CIVES TREVER(orum)), handelaar in (zel)zout te Keulen (NEGOTIATOR SALARIVS C(oloniae) C(laudia) A(ra) A(grippinensium)), die zijn belofte graag en welverdiend inlost (V(otum) S(olvit) L(ibens) M(erito)).\n",
+        "description2": "Colijnsplaat, kalksteen, 150-250 na Chr.",
+        "location": "Rijksmuseum van Oudheden, Leiden.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "13_kraan.jpg",
+        "title": "De kraan Zwartenborch in Dordrecht",
+        "description": "Aan de achterzijde van de Wijnstraat was de kraan Zwartenborch met een grote tredmolen in een houten pakhuis ingebouwd. Met de kraan werden vaten wijn gelost en geladen, waarbij zij op de geplaveide kade werden gezet.",
+        "description2": "Anonieme aquarel, begin van de zestiende eeuw.",
+        "location": "Regionaal Archief Dordrecht, Dordrecht.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "14_Deventer5.JPG",
+        "title": "Deventer 5, Ossenwaard, Deventer",
+        "description": "In juli 2015 werd in de Ossenwaard bij Deventer een laatmiddeleeuws scheepje gevonden. Het vlak is ‘gladboordig’ uit meerdere planken als mozaïek samengesteld. Naar de stevens toe buigt het omhoog. De spanten zijn stevige kniestukken. Het breeuwwerk bestaat uit mos, moslat en sintels.",
+        "location": "Archeologie – Gemeente Deventer, Deventer.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "15_defNamen.jpg",
+        "title": "Namen in vogelvlucht vanuit het Noorden",
+        "description": "Maasschepen uit havens zoals Venlo en Roermond voeren de Maas op tot Namen en Dinant, maar ook tot Givet in Noord-Frankrijk. Op dit gezicht op Namen zeilt een lang Maasschip met een groot aangehangen stevenroer met een straffe noordoostenwind tegen stroom de Maas op. De schepen rechts op de Sambre liggen op stroom voor anker. Er zijn immers geen jaagpaarden afgebeeld. Net als het Maasschip hebben deze schepen een enkel fors razeil. Duidelijk zijn de lange stuurriemen die nodig zijn bij het ‘stevelen’ op snel stromende rivieren en die op veel Europese rivieren gebruikt werden. Deze Sambreschepen zijn vermoedelijk zelden naar het laagland doorgevaren. In een van de Albums De Croÿ staat een serie over de Spaanse Nederlanden, gemaakt in opdracht van hertog Karel van Croÿ.",
+        "description2": "Gouache door Adrien de Montigny, ca. 1608.",
+        "location": "Koninklijke Bibliotheek, Brussel.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "16_Land.png",
+        "title": "Het Land van Maas en Waal",
+        "description": "Op kaarten van de rivieren zijn heel wat kleine boten afgebeeld die worden geroeid of gezeild. De afbeeldingen zijn vaak schematisch, zoals op deze kaart uit 1544 van het Land van Maas en Waal. De kaart is waarschijnlijk getekend naar aanleiding van een geschil over het afsluiten van het ‘schutlaken’, een spuikoker, waarlangs de wetering bij Puiflijk een aftakking had, midden op de kaart. De afwatering geschiedde nog geheel volgens natuurlijk verval. Op de Waalbandijk rijdt een zwaarbeladen wagen. Dat was kennelijk toegestaan. Jaagpaarden zullen er ook over gelopen hebben.",
+        "description2": "Tekening in waterverf, 1544.",
+        "location": "Gelders Archief, Arnhem.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "17_Stavoren.jpg",
+        "title": "Boomstamboot Stavoren",
+        "description": "In 1964 werd bij een opgraving in Stavoren een boomstamboot aangetroffen. De context suggereert een datering in de twaalfde eeuw. Anders dan in andere delen van Europa is een boomstamboot met een middeleeuwse datering een hoge uitzondering in Nederland.",
+        "location": "Rijksdienst voor het Cultureel Erfgoed, Amersfoort.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "18_Hellendoorn.jpg",
+        "title": "Bootje Hellendoorn",
+        "description": "In 1980 werd in de oude bedding van de Regge een bootje opgegraven uit de vijftiende of het begin van de zestiende eeuw. Het vlak bestaat uit twee planken waarop een knievormige steven is geplaatst, net als bij een Giethoornse punter. De zijden bestaan ieder uit één plank. Het spinthout is niet overal verwijderd. Het dwarsverband wordt verzekerd door liggers of kespen, afgewisseld met spanten die uit twee op elkaar aansluitende knieën zijn opgebouwd. Dichtbij de steven is een wrang geplaatst.",
+        "location": "Batavialand, Lelystad.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "19_Rotterdam2.jpg",
+        "title": "Rotterdam schip 2",
+        "description": "Bij de aanleg van de Willemspoortunnel werd een aantal schepen opgegraven. Schip 2 werd aangetroffen in de dam in de Rotte en dateert van omstreeks 1270. Het lijkt sterk op het bootje van Hellendoorn, maar heeft twee boordgangen in plaats van één. Opmerkelijk genoeg is het vlak van elzenhout gemaakt.",
+        "location": "Archeologie Rotterdam (BOOR).",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "20_ZuidBeveland.jpg",
+        "title": "Scheepsopgraving op het verdronken land van Zuid-Beveland",
+        "description": "In 1982 werd op de slikken van Krabbendijke bij het verdronken dorp Nieuwlande een platboomd vaartuig vrij gelegd. Het dateert uit het begin van de zestiende  eeuw. Liggers of kespen houden de vlakplanken bijeen, terwijl zij worden afgewisseld door spanten die uit twee op elkaar aansluitende knieën zijn opgebouwd.",
+        "location": "Batavialand, Lelystad.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "21_werkschuit.jpg",
+        "title": "Werkschuit, gevonden in Oostelijk Flevoland",
+        "description": "In 1963 werd deze 15,65 m lange werkschuit opgegraven. Afgezien van twee wrangen bij elke steven zijn alle spanten samengesteld. Kespen zijn er niet. De lassen in de spanten verspringen in een regelmatig patroon van stuurboord naar bakboord.",
+        "location": "Batavialand, Lelystad.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "22_Utrecht.JPG",
+        "title": "Utrecht schip 3",
+        "description": "In het centrum van Utrecht werd in 1974 bij de Waterstraat een platboomde ‘aak’ van 22 m lengte opgegraven. Het schip dateert uit de elfde eeuw. Uit de manier waarop het schip gebroken is valt af te leiden dat de zijden pas met het vlak verbonden zijn nadat de boordplanken aan elkaar waren gezet. Deze ‘modulebouw’ komt vaker voor bij aken op de Europese rivieren.",
+        "location": "Fotodienst Het Utrechts Archief, Utrecht.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "23_uitsnaakOosterhout.png",
+        "title": "Boot van Oosterhout",
+        "description": "In Oosterhout werd in 1993 een vaartuig gevonden waarvan het vlak oploopt en smal toeloopt in een zogenaamde heve, zoals dat ook bij sommige latere schouwen en aken voorkomt. Met een lengte-breedte verhouding van minder dan 1:5 was het een rank scheepje. Het dateert uit het begin van de vijftiende eeuw.",
+        "location": "Batavialand, Lelystad.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "24_Utrecht1.JPG",
+        "title": "Het Utrechtse schip, Utrecht 1",
+        "description": "In 1930 werd aan de Van Hoornekade het ‘Schip van Utrecht’ opgegraven dat in het Centraal Museum staat opgesteld. Het is een merkwaardig vaartuig dat aanleiding heeft gegeven tot veel speculatie, ook al omdat de datering niet onmiddellijk duidelijk was. Het dateert uit de elfde eeuw en heeft een ronde bodem, die uit een enorme eikenstam is gekapt en in vorm gebogen.",
+        "description2": "Foto door E.A. Blitz.",
+        "location": "Het Utrechts Archief, Utrecht.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "25_Utrecht2.JPG",
+        "title": "Utrecht schip 2",
+        "description": "In 1974 werd aan de Waterstraat opnieuw een ‘Utrechts schip’ gevonden, iets kleiner dan het eerste. De kapsporen van het uithollen van de gigantische boomstam zijn op deze uitsnede uit de scheepsbodem goed te zien (alle zichtbare ‘planken’ vormden één geheel).",
+        "description2": "Foto door Thijs Maarleveld.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "26_ZN43.jpg",
+        "title": "Opgraving op kavel ZN43",
+        "description": "In 1979 werd ten westen van Nijkerk in Zuidelijk Flevoland een klein rond schip opgegraven, dat vanwege de bouwwijze ook wel kleine ronde ‘kogge’ wordt genoemd. Het is rond 1420 gebouwd. Anders dan bij het schip van Utrecht bestaat de ronde bodem niet uit één geheel, maar uit symmetrisch opgebouwde gangen. Deze zijn gladboordig aan elkaar gevoegd, net als het vlak van de hiervoor behandelde schuiten. De boorden zijn overnaads gebouwd. Bij wijze van mastspoor zijn in de zijden klossen aangebracht. Er is gesuggereerd dat dit soort ronde scheepjes de taak van de Utrechtse schepen hebben overgenomen.",
+        "location": "Batavialand, Lelystad.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "27_Rotterdam1.jpg",
+        "title": "Rotterdam schip 1",
+        "description": "Bij de aanleg van de Willemspoortunnel werd in de dam van Rotterdam een geheel overnaads gebouwd schip gevonden, geladen met baksteen. Net als de andere daar gevonden schepen dateert het uit de dertiende eeuw.",
+        "location": "Archeologie Rotterdam (BOOR).",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "28_Gorinchem.jpg",
+        "title": "Gezicht op Gorinchem",
+        "description": "Voor het tolhek bij Gorinchem ligt een klein zeeschip. Bovenstrooms varen twee kleine schepen met een spriettuig. Aan weerszijden van het tolhek liggen rivierschepen waarvan het ruim is afgedekt met een kap op een hoge den.",
+        "description2": "Ingekleurde kopergravure, Georg Braun en Franz Hogenberg, <em>Civitates Orbis Terrarum</em> (1576/1577).",
+        "location": "Regionaal Archief, Gorinchem.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "29_Panorama_Köln.jpg",
+        "title": "Gezicht op Keulen",
+        "description": "Keulen was een vervoersknooppunt, waar overgeladen werd tussen de ‘bovenlanders’, schepen die de Midden-Rijn opvoeren, en schepen die de Nederrijn bevoeren, de ‘nederlanders’.",
+        "description2": "Houtsnede door Anton Woensam, <em>Große Ansicht von Köln</em>, 1531.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "30_defMeinerswijk.jpg",
+        "title": "Bovenlander of molendrijver",
+        "description": "In 1973 en 1976 werden bij Krefeld en iets verder stroomafwaarts bij Meinerswijk ten zuiden van Arnhem twee kleine vaartuigen gevonden met zware halfronde kimstukken. Krefeld-Gellep II dateert van rond 1200, Meinerswijk 3 dat hier in reconstructie is afgebeeld, is iets jonger. Aanvankelijk werden deze scheepjes gezien als ‘missing link’ in de ontwikkeling van de bovenlander. Inmiddels wordt ervan uitgegaan dat het om drijvers van drijvende molens gaat.",
+        "description2": "Tekening door Walt de Rijk, 2020.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "31_Capelle.jpg",
+        "title": "Het schip van Capelle in de Langstraat",
+        "description": "De Leidse archeoloog C.J.C. Reuvens en de Rotterdamse scheepsbouwkundige C.J. Glavimans voerden in 1822 de eerste wetenschappelijke scheepsopgraving uit. Het gaat om een zwaargebouwd vaartuig met een volstrekt platte, gladboordige bodem en overnaadse zijden uit de zestiende eeuw. Mogelijk maakte het vaartuig deel uit van een schipbrug.",
+        "description2": "Uit: C.J.C. Reuvens, ‘Capelle in de Langstraat’, <em>Antiquiteiten: een oudheidkundig tijdschrift</em>, II. deel, II. stuk (1823) 233-259.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "32_Espel.jpg",
+        "title": "Overnaads vrachtschip van Espel (NG35)",
+        "description": "Het vrachtschip van Espel werd in 1957 ontdekt en in 1999 nader onderzocht. Het is een schip van 19 m lengte met hoekige kimmen en een gangboord. Het was 4,80 m breed en dateert uit het begin van de vijftiende eeuw.",
+        "location": "Batavialand, Lelystad.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "33_Tuigage.png",
+        "title": "Razeil, spriettuig en roeien",
+        "description": "Met ruime zuidoostenwind zeilt een binnenschip voor een razeil door het Hoornsche Diep naar de stad Groningen. Een ander schip, met ruime wind in een spriettuig verlaat de stad westwaarts via het Hoendiep. Het loopt daarbij in op een iets kleiner vaartuig dat geroeid wordt.",
+        "description2": "Stadsgezicht Groningen.",
+        "description3": "Ingekleurde kopergravure, Georg Braun en Franz Hogenberg, </em>Civitates Orbis Terrarum</em> (1592).",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "34_Wrikken.jpg",
+        "title": "Wrikken, roeien en peddelen",
+        "description": "Middeleeuwse afbeeldingen zijn in technische zin vaak dubbelzinnig, zeker als niet het varen zelf maar het spelevarende gezelschap centraal staat, zoals bij de afbeelding van zomeractiviteiten in een getijdenboek. Technisch is het onduidelijk of de man achterin het bootje zomaar wat bijstuurt, aan weerszijden peddelt of dat het de bedoeling is dat hij het bootje voortwrikt.",
+        "description2": "Simon Bening, Getijdenboek Da Costa, ca. 1515.",
+        "location": "Morgan Library, New York.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "35_Bokkepoot.jpg",
+        "title": "Bokkenpootmast op stadszegel van Kuinre, 1399",
+        "description": "Het stadszegel van Kuinre toont een scheepje met een bokkenpootmast. Dit komt overeen met het dubbele mastspoor dat in een kleine ronde ‘kogge’ werd aangetroffen.",
+        "description2": "Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972).",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "36_Jagen.jpg",
+        "title": "Jagen met een steunzeil",
+        "description": "Op de Maas voeren vrachtschepen die stroomopwaarts gejaagd werden. Hier lopen twee paarden in het zeel. Als de wind gunstig stond zoals hier, werd om het jagen te verlichten een razeil gehesen aan de ver voorop staande mast. Een afhouder gebruikt een vaarboom om vrij te blijven van een ondiepe plek.",
+        "description2": "Ingekleurde tekening, 1561.",
+        "location": "Erfgoedcentrum De Domijnen, Sittard.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "37_Vlotterij.png",
+        "title": "Stevelen en vlotterij",
+        "description": "Vlot van samengebonden naaldhoutstammen met daar op eiken planken. Grenen en vuren stammen drijven, maar eiken doet dat niet. Hout werd in vlotten de rivier af vervoerd. Kleine vlotten kwamen de zijrivieren van de Rijn af en werden bij de samenloop tot grotere vlotten samengebonden om de rivier af te stevelen. De stad links is mogelijk Straatsburg, het hout zou dan de Ill in de Elzas of de Kinzig in het Zwarte Woud af komen.",
+        "description2": "Anonieme tekening, boven-Rijn, ca. 1600.",
+        "location": "Staatliche Kunsthalle, Karlsruhe.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "38_defOOsterhoutmos.png",
+        "title": "Gesinteld mosbreeuwsel",
+        "description": "Gesinteld moswerk is de technische naam voor het afdichten van naden, windscheuren en reparaties met mos, afgedekt door een moslat of sintelroede die werd vastgezet met een groot aantal ijzeren nietplaatjes, sintels. De onderzijde van de boot van Oosterhout laat het goed zien.",
+        "location": "Batavialand, Lelystad",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "39_defSintels.jpg",
+        "title": "Sintels, vormontwikkeling tussen 1000 en 1500",
+        "description": "De vorm van sintels, de nietplaatjes waarmee de moslat of sintelroede werd vastgezet, veranderde met de tijd. De vormontwikkeling geeft daardoor een typologische dateringsmethode. Maar waterdicht is zo’n methode niet. Vóórdat sintels in gebruik kwamen werden de latten met houten ‘prikken’ vastgezet, maar prikken werden ook later wel toegepast, bijvoorbeeld in de boot die bij Nieuwlande op het verdronken land van Zuid-Beveland werd gevonden. IJzer was immers duur.",
+        "description2": "Uit: K. Vlierman, <em>‘…Van Zintelen, van Zintelroeden ende Mossen…’</em> (Lelystad 1996) 58, tabel II.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "40_Veenmos.JPG",
+        "title": "Veenmos",
+        "description": "Veenmos (sphagnum) werd in grote hoeveelheden geoogst en gedroogd om de middeleeuwse schepen te breeuwen. Veenmos heeft wel dertig verschillende varianten die onderling flink verschillen, en ook andere mossoorten werden gebruikt. Zij hadden gemeen dat zij in het Nederlandse veenlandschap in ruime mate voorhanden waren.",
+        "description2": "Foto door Thijs Maarleveld.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "41_Verbinding.jpg",
+        "title": "Verbinding van vlak en zijde bij een rivieraak",
+        "description": "Bij de bouw van middeleeuwse rivieraken werd de zijde in zijn geheel tegen het vlak gezet. Om een stevige verbinding te krijgen werd de rand van de buitenste vlakplanken aan de bovenzijde iets dikker gehouden. De onderkant van het boord steekt iets onder het vlak uit.",
+        "description2": "Tekening door Thijs Maarleveld, 2020 naar K. Vlierman, <em>Kleine bootjes en middeleeuws scheepshout met constructiedetails</em> (Lelystad 1996) 105, nr. 74a.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "42_detailveer-bij-Lent.jpg",
+        "title": "Veer bij Lent",
+        "description": "Het veer bij Lent is maar een klein pontje, of worden de drie vrouwen uit Nijmegen overgezet door een visser? De schipper houdt de boeg of liever de heve van het scheepje met een vaarboom stevig tegen de kant gedrukt zodat de bagage veilig overgegeven kan worden.",
+        "description2": "Stadsgezicht Nijmegen.",
+        "description3": "Ingekleurde kopergravure, Georg Braun en Franz Hogenberg, <em>Civitates Orbis Terrarum</em> (1575).",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "43_netDurer.png",
+        "title": "Binnenschepen aan de kade van Antwerpen, 1520",
+        "description": "Bij een kort bezoek aan Antwerpen legde Albrecht Dürer de binnenschepen bij de Scheldepoort vast. Op de rivier zijn twee zeeschepen te zien.",
+        "description2": "Tekening door Albrecht Dürer, 1520.",
+        "location": "Albertina Museum, Wenen.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "44_Schelle.jpg",
+        "title": "Dorpsbeurs in Schelle, 1614",
+        "description": "Schelle ligt aan de rechteroever van de Schelde ten Zuiden van Antwerpen. Gezien de datering is het opvallend dat de binnenschepen geen zijzwaarden hebben en dat er ook geen gaffelzeilen zijn zoals in de noordelijke Nederlanden inmiddels gebruikelijk was geworden.",
+        "description2": "Schilderij door Jan Breughel de Oudere, 1614.",
+        "location": "Kunsthistorisches Museum, Wenen.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "45_Ursula.jpg",
+        "title": "Aankomst van de heilige Ursula te Keulen",
+        "description": "Dit paneel maakt deel uit van een serie van vijftien die de pelgrimstocht van de heilige Ursula in beeld brengen. De tocht begon in Engeland en na Tiel was Keulen de volgende belangrijke stop. Het schip is weergegeven als een kogge die door twee paarden wordt voortgetrokken. De jaaglijn is bovenaan de mast bevestigd en wordt met een tui voorop gecontroleerd. Het profiel van de stad is realistisch weergegeven. De kraan op het dak van de in aanbouw zijnde kathedraal, die ook op het stadsgezicht van Woensam duidelijk te zien is, springt in het oog.",
+        "location": "Walraff-Richartz Museum, Keulen.",
+        "owner": "Foto Rheinisches Bildarchiv, Keulen.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "46_Roosendaal.jpg",
+        "title": "Het Turfhoofd van Roosendaal",
+        "description": "Binnen het grote ‘Turfhoofd’ eindigt de zuidelijke turfvaart die met de Jan van Nispensvaart verbonden is. Om het hoofd heen liggen twee smalle insteekhavens vanuit het buitenwater van de Roosendaalse Beek. Op de vaart komen de kleine schuiten uit het veen. Op een aankomende schuit is de turf hoog opgestapeld. Een lege schuit wordt van de kant geboomd. Buiten het hoofd varen de zeilschepen waarmee de turf van het hoofd naar de stad worden gebracht. De boom of giek waarop het spriettuig wordt gevoerd en die waarschijnlijk ook bij het laden en lossen werd ingezet heeft landmeter Michielssen die deze tekening in 1676 maakte duidelijk in beeld gebracht. Op het hoofd zelf ligt op het moment van weergave geen turf.",
+        "location": "Archief klooster Catharinadal Oosterhout.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "47_Deventer.jpg",
+        "title": "Sint-Olaf, Olav of Olof",
+        "description": "Olav had als koning van Noorwegen in de elfde eeuw het christendom in de wet verankerd en was daarom heilig verklaard. Met name door noordvaarders werd hij sindsdien als schutspatroon van varenden gezien, net als Sint Clemens en Sint Nicolaas. In de Nederlanden werden door schippersgilden altaren en kapellen aan hem gewijd, of schilderijen in kerken bekostigd, zoals in de Lebuïnuskerk in Deventer.",
+        "description2": "Fresco eind vijftiende eeuw.",
+        "owner": "Foto door Eerde Bruining, 2018.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "48_Nijmegen.PNG",
+        "title": "Stenen huizen achter de Waalkade in Nijmegen",
+        "description": "De rijke schippers van het Sint-Olafsgilde bezaten stenen huizen vlak achter de Waalkade. Daar stond ook het schippersgildehuis.",
+        "description2": "Uit: H. Clevis, ‘Nijmegen: Investigations into the Historical Topography and Development of the Lower Town between 1300 and 1500, Part I, The Archaeological Evidence’, <em>Berichten van de Rijksdienst voor het Oudheidkundig Bodemonderzoek</em> 37 (1987) 275-389, bijlage XIV.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "49_dezeuitsnwapen31.JPG",
+        "title": "Wapen van het Nijmeegse schippersgilde",
+        "description": "Het anker in het wapen van het Nijmeegse schippersgilde is voorzien van een lijn die op het ‘kruis’, de plek waar schacht en armen samenkomen is bevestigd. Zo’n ‘neuringlijn’ dient om het anker uit te breken en is voorzien van een boeitje. Detail van het Antependium (altaardoek) van het schippersgilde van Nijmegen, vierde kwart vijftiende eeuw.",
+        "location": "Museum Het Valkhof, Nijmegen.",
+        "owner": "Foto door Rik Klein Gotink.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "50_Houtsneden.jpg",
+        "title": "Voorschriften van het gilde van Parijs",
+        "description": "Het gilde van de schippers of liever de kooplieden van Parijs was oppermachtig. Het vaardigde voorschriften uit en liet deze bekrachtigen door de koning, waardoor zij golden in heel Frankrijk of in ieder geval het hele bekken van Parijs. De voorschriften zijn steeds opnieuw uitgegeven. De oudst bekende versie dateert van koning Karel VI (1368-1422), de meest bekende werd rond 1500 gedrukt. In de Bibliothèque Nationale in Parijs bevindt zich een in leer gebonden exemplaar met het zegel van Lodewijk XII (1498-1515), waarin de illustraties zijn ingekleurd. De voorschriften beslaan niet minder dan 92 dubbelzijdige folio’s. Alle aspecten van de binnenvaart worden behandeld. Hoe uiteenlopende goederen – hooi, krijt, zout, wijn, bouwhout, brandhout, steenkool – moeten worden gemeten, gepakt en geladen. Wie dat mag uitvoeren. Wat het gezag is van de ‘brugmeesters van Creil, Pontoise, Mantes en Parijs bij het aanwijzen van ligplaatsen. Wat het gezag is van de sluis- of verlaatmeester. De binnenvisserij en het vervoer van viskaren. De jaagpaarden en hun verstrekking. De lengte en kwaliteit van de jaaglijnen. De taak van de vastmaker van jaaglijnen bij de bruggen van Melun, Compiègne of Poissy.",
+        "description2": "Ingekleurde houtsneden, ca. 1500.",
+        "location": "Bibliothèque Nationale de France, Parijs.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "51_Dordrecht.jpg",
+        "title": "Klynschipper gild huys in Dordrecht",
+        "description": "De Riedijk ligt direct achter de Merwekade, een logische locatie voor het gildehuis van de kleinschippers, één van de zes schippersgilden die Dordrecht telde. Er is een roeiboot en een zeilschip met spriettuig en voorzeilen afgebeeld.",
+        "description2": "Gevelsteen, Riedijk 102, Dordrecht.",
+        "location": "Regionaal Archief Dordrecht, Dordrecht.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "52_OlofAmsterdam.jpg",
+        "title": "De Olofspoort en Olofskapel in Amsterdam",
+        "description": "Ook in Amsterdam werd Olav de Heilige door schippers vereerd, onder meer in de Olofskapel aan het begin van de Zeedijk.",
+        "description2": "Vogelvluchtkaart, houtsnede door Cornelis Anthonisz, 1544.",
+        "location": "Stadsarchief, Amsterdam.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "53_gedrZO34.png",
+        "title": "Stookplaats in een binnenvaartkogge",
+        "description": "Met leem gevulde kist, vijftiende eeuw, aangetroffen in de kleine ronde kogge op kavel ZN43. Bij veel scheepsopgravingen zijn stookplaatsen aangetroffen, noodzakelijk om aan boord te kunnen verblijven en eten klaar te maken.",
+        "location": "Batavialand, Lelystad.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "54_kookgerei.jpg",
+        "title": "Kook- en eetgerei uit een binnenvaartkogge",
+        "description": "Het kook- en eetgerei in middeleeuwse binnenvaartschepen vertoont steeds hetzelfde repertoire. De hier getoonde voorwerpen zijn merendeels aangetroffen in de verrassend complete inventaris van de kleine ronde ‘kogge’ op kavel M107 van de Noordoostpolder die in 1944 als eerste schip uit de late veertiende eeuw werd opgegraven.",
+        "location": "Batavialand, Lelystad.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "55_Klepper.jpg",
+        "title": "Melaatsenklepper uit scheepsinventaris",
+        "description": "Melaatsen of leprozen werden vanwege besmettingsgevaar gemeden. Gingen zij toch door de publieke ruimte, dan moesten zij hun aanwezigheid met een klepper van verre laten horen. Er wordt van uitgegaan dat deze klepper niet aan een bemanningslid toebehoorde, maar aan een rijke passagier.",
+        "description2": "Hout, begin vijftiende eeuw.",
+        "location": "Batavialand, Lelystad.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "56_BovenlanderNijmegen.jpg",
+        "title": "Een kleine bovenlander in Nijmegen",
+        "description": "Bovenlanders van de Midden-Rijn voeren meestal tot Keulen, maar kwamen bij gelegenheid ook verder stroomafwaarts. Zo lag deze kleine bovenlander eind zestiende eeuw voor de kraanpoort in Nijmegen, terwijl Nicolaas Witsen het verschijnsel een eeuw later ook nog vermeldde.",
+        "description2": "Stadsgezicht Nijmegen.",
+        "description3": "Ingekleurde kopergravure, Georg Braun en Franz Hogenberg, <em>Civitates Orbis Terrarum</em> (1575).",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "57_uitsnVerlanden.png",
+        "title": "Verlanden van de Hollandse IJssel",
+        "description": "Sedert de afdamming bij het Gein in 1285 vloeide er minder water door de IJssel met verlanding tot gevolg. Niet alleen voor de afwatering, maar ook voor de scheepvaart die bij Gouda op de rivier kwam vormde dit een steeds ernstiger probleem. Blijkens deze kaart uit 1498 – één van de oudste cartografische documenten van Nederland – werd eind vijftiende eeuw een totaalplan met verschillende opties gemaakt om de waterstaatkundige problemen aan te pakken.",
+        "description2": "Plankaart 1498.",
+        "location": "Streekarchief Midden-Holland, Gouda.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "58_uitsnBuitenpostpomp.png",
+        "title": "Uitwateringssluis Buitenpost",
+        "description": "In 1986 werd bij Buitenpost in Friesland, op de rand van het veen en het noordelijke zeekleigebied een vrij kleine uitwateringssluis, zijl of pomp uit de dertiende eeuw opgegraven. De pompkoker tijdens de opgraving.",
+        "location": "Batavialand, Lelystad.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "59_uitBuitenpostbalk.png",
+        "title": "Uitwateringssluis Buitenpost",
+        "description": "In 1986 werd bij Buitenpost in Friesland, op de rand van het veen en het noordelijke zeekleigebied een vrij kleine uitwateringssluis, zijl of pomp uit de dertiende eeuw opgegraven. Detail van de constructie.",
+        "location": "Batavialand, Lelystad.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "60_Romp.jpg",
+        "title": "Romp van de kogge Doel I diep in de bodem",
+        "description": "De romp van het veertiende-eeuwse zeeschip lag ondersteboven in grove zandlagen toen het in 2000 bij het uitgraven van het Deurganckdok, een uitbreiding van de Antwerpse haven, diep onder het oppervlak werd gevonden. Mogelijk heeft men de onttakelde hulk van de kogge als caisson willen gebruiken om een gat in de dijk af te dichten en is het door de bres gespoeld. Bij een andere doorbraak van dezelfde dijk was het Grote Gat van Doel ontstaan, een diep wiel op de plek van de huidige kerncentrale.",
+        "location": "Agentschap Onroerend Erfgoed, Brussel.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "61_Wiel.JPG",
+        "title": "Een wiel bij tolkamer",
+        "description": "Bij dijkvallen of dijkdoorbraken ontstaan door het geweld van het instromende water diepe, enigszins ronde meertjes. Vaak is het later mogelijk geweest om de dijk bij een lagere waterstand te herstellen of is er een nieuwe dijk achterlangs gelegd, een zogenaamde inlaagdijk. Bijna nooit is het slijpgat opgevuld of onherkenbaar geworden. Zo’n meertje of wiel is dus een litteken in het landschap dat door het uitzonderlijk diepe water en het vaak grove zand op de bodem een uitzonderlijke biotoop vormt en bij grondboring of opgraving altijd herkenbaar blijft.",
+        "description2": "Foto door Peter Sigmond, 2020.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "62_Gouwsluis.png",
+        "title": "Gouwsluis in 1561",
+        "description": "Weergegeven is de actuele situatie bij Gouwsluis, waar de Gouwe aansluit op de Oude Rijn, vermoedelijk getekend in verband met bestuurlijke behandeling van plannen tot verandering waarbij scheepvaartbelangen in het geding waren. Als de tekenaar wilde aantonen hoe hinderlijk smal en laag de doorgang was, dan werkt dat ook vijf eeuwen later nog overtuigend. Dit was een van de belangrijkste vaarwegen door Holland. Een jaar later werd de sluis vervangen, maar vrijwel met dezelfde maten. Al vanaf 1284 vormde de sluis een doorn in het oog van de schippers.",
+        "description2": "Aquarel, zogenaamde ‘Augenscheinkarte’ door Jan Daemssoon, 1561.",
+        "location": "Archief van het Hoogheemraadschap van Rijnland, Leiden.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "63_Ieperen.jpg",
+        "title": "Overdrachten bij Ieperen",
+        "description": "Kopie van zestiende-eeuwse vogelvluchtkaart van overdrachten in het kanaal van Nieuwpoort naar Ieperen. Het origineel dat van aanzienlijke afmetingen was werd tot de Eerste Wereldoorlog bewaard in het verloren gegane stadsarchief van Ieperen. De verkleinde kopie werd getekend en gepubliceerd door L. Deschamps de Pas (Deschamps de Pas, 1861). De vier afgebeelde overdrachten hebben ieder een iets andere inrichting om de schepen van het ene pand in het andere te trekken. Terecht achtte Deschamps de Pas de afbeelding relevant om ons een voorstelling te kunnen maken van de overdrachten in de verbinding achter duinen tussen St. Omaars en Brugge, en in het bijzonder van de Auverdrach of Louverdracq bij Watten, die voor het eerst in 1169 wordt genoemd en die zijn bijzondere interesse had.",
+        "location": "Koninklijke Bibliotheek, Den Haag.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "64_uitsnWillem.png",
+        "title": "Willem II en Floris V, graven van Holland",
+        "description": "Van deze houtsculpturen op het Binnenhof bestaan alleen nog deze tekeningen. Willem II (1227-1256) was ambitieus. Door de aanleg van de sluis bij Spaarndam in 1253 en toldwang bij Gouda had hij grote invloed op de belangrijkste vaarroute Noord-Zuid door Holland. Floris V (1254-1296) hield vast aan zijn vaders plannen en wist ze aan het eind van de eeuw te bestendigen.",
+        "description2": "Ingekleurde pentekening door Hendrik van Heesel, 1456.",
+        "location": "Erfgoedbibliotheek Hendrik Conscience, Antwerpen.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "65_Kaart_maritiem_03.jpg",
+        "title": "Oost-West routes",
+        "description": "Peilbeheersing en waterbeheer leidden tot afdammingen die vooral grote gevolgen hadden voor het oost-west verkeer. Het tastte de positie van Dordrecht niet aan, omdat de Maas en de Waal openbleven.",
+        "description2": "Cartografie Olav Odé, 2020.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "66_Kaart_maritiem_02.jpg",
+        "title": "Noord-Zuid route door Holland",
+        "description": "Door de aanleg van de sluis in Spaarndam en toldwang in Gouda werd het Noord-Zuid verkeer van de Utrechtse Vecht naar het westen verlegd.",
+        "description2": "Cartografie Olav Odé, 2020.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "67_uitsnOvertoom.png",
+        "title": "Overtoom op de Leidsche dam, 1556",
+        "description": "Op gezag van Maximiliaan van Oostenrijk was de overtoom over de landscheiding bij Leidschendam op het eind van de 15e eeuw vervangen door een verlaat, een kleine sluis. Dit stond haaks op de eerder gevoerde politiek. Nadat het verlaat in 1492 door ontstemde Gouwenaars vernield was kwam er weer een overtoom te liggen die pas in 1578 definitief door een verlaat vervangen werd.",
+        "description2": "Kaart door Coenraet Oelensz, 1556.",
+        "location": "Stadsarchief, Delft.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "68_dezeSluis-Rijksstudio.jpg",
+        "title": "Gevecht bij de sluis van Vreeswijk, 23 juni 1585",
+        "description": "De oude sluis lag bij de aansluiting van de Vaartse Rijn op de Lek. De sluiskolk was aan de zuidzijde uitgerust met puntdeuren die in de strijd kapot gehakt worden, maar aan de noordzijde met een hefdeur, net als de huidige Beatrixsluizen. Een hefdeur geeft beperkte doorvaarthoogte. De afgebeelde schepen zijn Rijnschepen, te vergelijken met de ‘nederlanders’ bij Woensam.",
+        "description2": "Gravure door Frans Hogenberg, 1585, Serie 9: Nederlandse en Duitse gebeurtenissen, 1583-1587.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d1h2"
+    },
+    {
+        "filename": "69_Kaart_maritiem_04.jpg",
+        "title": "Van bovenland naar bovenland",
+        "description": "De Nederlandse riviervaart is altijd ook transito-vaart geweest. Het is vooral opvallend hoe het bovenland van de Maas via de riviervaart verbonden was met het bovenland van de Schelde, ondanks het belang van de oude landwegen.",
+        "description2": "Cartografie Olav Odé, 2020."
     }
 ]

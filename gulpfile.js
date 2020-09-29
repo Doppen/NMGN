@@ -226,6 +226,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('±', '<br>'))
           .pipe(replace('">[', '">'))
           .pipe(replace(']</a>', '</a>'))
+          .pipe(replace('<sup> <sup>', '<sup>'))
           .pipe(replace('<sup><sup>', '<sup>'))
           .pipe(replace('</sup></sup>', '</sup>'))
           .pipe(replace('<sup> </sup>', ' '))
@@ -255,6 +256,21 @@ gulp.task('buildFromTemplates', function(done) {
             //remove <br> in title
             var title = this.getElementsByTagName("title")[0].innerHTML;
             this.getElementsByTagName("title")[0].innerHTML = title.replace('&lt;br&gt;',' ');
+
+            // remove links in h2
+            var h2 = this.getElementsByTagName("h2");
+            for (var i = 0; i < h2.length; i++) {
+              var firstA = h2[i].getElementsByTagName("a")[1];
+              if(typeof firstA !== "undefined") {
+                firstA.remove();
+              }
+
+              var firstA2 = h2[i].getElementsByTagName("a")[0];
+              if(typeof firstA2 !== "undefined") {
+                firstA2.remove();
+              }
+
+            }
 
 
             var chapterId = this.getElementById("chaperId").innerHTML;

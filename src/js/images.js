@@ -26,7 +26,7 @@ function imageClickOrganiser() {
 
 
 function handleImage(imageId) {
-  //console.log(imageId);
+  console.log(imageId);
   activeImage=imageId;
   // get ID
   var elem = document.getElementById(imageId);
@@ -89,7 +89,6 @@ function imageDimentions(imagefile, placeId) {
     placedImg.removeAttribute("class");
     placedImg.classList.add("imgFillH");
   }
-
 
   //return imageId;
 }

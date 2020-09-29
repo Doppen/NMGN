@@ -72,6 +72,9 @@ p {
 strong {
   font-weight: 700; }
 
+.brand a {
+  color: #fff; }
+
 .pageHeader {
   display: flex;
   flex-direction: column;

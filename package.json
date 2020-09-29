@@ -15,6 +15,7 @@
     "browser-sync": "^2.26.7",
     "dom-parser": "^0.1.6",
     "google-spreadsheet-to-json": "^1.0.0",
+    "gsjson": "^0.1.8",
     "gulp-clean": "^0.4.0",
     "gulp-compile-handlebars": "^0.6.1",
     "gulp-docx-to-html": "^1.0.2",

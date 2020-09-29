@@ -102,7 +102,7 @@ function closeNote() {
 
 // remove anchor click
 for (var i = 0; i < classname.length; i++) {
-  //console.log(classname[i]); 
+  //console.log(i); 
     classname[i].querySelector("a").removeAttribute('href');
     classname[i].addEventListener('click', handleNote, false);
 }
@@ -139,7 +139,7 @@ function imageClickOrganiser() {
 
 
 function handleImage(imageId) {
-  //console.log(imageId);
+  console.log(imageId);
   activeImage=imageId;
   // get ID
   var elem = document.getElementById(imageId);
@@ -203,7 +203,6 @@ function imageDimentions(imagefile, placeId) {
     placedImg.classList.add("imgFillH");
   }
 
-
   //return imageId;
 }
 
@@ -265,7 +264,7 @@ window.onload = function(){
 
 // get top value of element
 function getOffset(el) {
-  //console.log(el);
+  console.log(el);
   const rect = el.getBoundingClientRect();
   return {
     top: rect.top + window.scrollY

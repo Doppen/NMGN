@@ -19,22 +19,23 @@
         "homelist": false
     },
     {
-        "title": "Binnenvaart",
+        "title": "Het land, het water en de binnenvaart",
+        "author": "Thijs J. Maarleveld",
         "part": 1,
         "chapter": 2,
-        "template": "basic",
-        "name": "binnenvaart-1100-1600",
-        "content": "--",
+        "template": "chapter",
+        "name": "land-het-water-de-binnenvaart",
+        "content": "d1h2",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
         "aera": "1100 - 1600",
         "parttitle": "Opkomst van de rivier- en zeehandel",
         "partisbn": 9789052162003,
         "id": "d1h2",
         "doi": "doi:xxxxxx/xxxxxx.xxxxxx",
-        "indextcontent": "raw_--",
-        "image": "chapterImageTest.png",
+        "indextcontent": "raw_d1h2",
+        "image": "d1h2.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": true
     },
     {
         "title": "Koopvaardij",
