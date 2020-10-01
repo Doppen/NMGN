@@ -1,3 +1,9 @@
+WARNING! You must upgrade to the latest version of google-spreadsheet!
+Google's deprecation date for the v3 sheets API is March 3rd 2020
+Bad news - this version of this module will stop working on that date :(
+Good news - the new version of the module uses the newer v4 api :)
+However, there are breaking changes, so please see the docs site
+https://theoephraim.github.io/node-google-spreadsheet
 [
     {
         "words_before_link": "Kortom, scheepvaarthistorici zijn voornamelijk ",
