@@ -181,10 +181,8 @@ strong {
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
-  flex-basis: 33%;
   padding: 1rem 0;
-  font-size: .85rem;
-  overflow-y: scroll; }
+  font-size: .85rem; }
 
 .captionTitle {
   font-weight: 700; }
@@ -227,19 +225,15 @@ strong {
   flex-direction: column; }
 
 @media (min-width: 1000px) {
-  .chapterIllustration {
-    z-index: 0;
-    position: fixed;
+  .mgIllustration {
+    max-height: 100vh; }
+  #chapterIllustration {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: #e1edf5;
-    border-right: 1px solid #d6e6f1;
-    left: 0;
-    top: 0;
-    width: calc(34vw + 1px);
+    justify-content: center;
     height: 100vh; }
+  .chapterIllustrationCaption {
+    overflow-y: scroll; }
   .chapterTxt .caption {
     display: none; }
   .caption {

@@ -20,12 +20,9 @@
   align-items: flex-start;
   //background-color: rgb(221, 200, 158);
   width: 100%;
-  flex-basis: 33%;
-  // border-top: 1px solid #{darken($colorGreyLightBg, 10)};
-  // border-bottom: 1px solid #{darken($colorGreyLightBg, 10)};
+  //flex-basis: 33%;
   padding: 1rem 0;
   font-size: .85rem;
-  overflow-y: scroll;
 }
 
 .captionTitle {
@@ -84,24 +81,34 @@
 }
 
 @media (min-width: 1000px) {
-  .chapterIllustration {
-    z-index: 0;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: $colorGreyLightBg;
-    border-right: 1px solid #{darken($colorGreyLightBg, 3)};
-    left: 0;
-    top: 0;
-    width: calc(#{$sideBarWith} + 1px);
+  .mgIllustration{
+    max-height: 100vh;
+  }
+
+  #chapterIllustration {
+    // z-index: 0;
+    // //position: fixed;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    // align-items: flex-start;
+    // background-color: $colorGreyLightBg;
+    // border-right: 1px solid #{darken($colorGreyLightBg, 3)};
+    // // left: 0;
+    // // top: 0;
+    // width: calc(#{$sideBarWith} + 1px);
     height: 100vh;
 
-    img {
 
-    }
   }
+
+
+  .chapterIllustrationCaption {
+    overflow-y: scroll;
+    //height: auto;
+    //max-height: 30vh;
+  }
+
   .chapterTxt .caption {
     display: none;
   }
