@@ -9,12 +9,12 @@
   "author": "Bas Doppen",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.2"
   },
   "dependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.13",
     "dom-parser": "^0.1.6",
-    "google-spreadsheet-to-json": "^1.0.0",
+    "google-spreadsheet": "^3.0.0",
     "gsjson": "^0.1.8",
     "gulp-clean": "^0.4.0",
     "gulp-compile-handlebars": "^0.6.1",
@@ -22,13 +22,13 @@
     "gulp-dom": "^1.0.0",
     "gulp-each": "^0.5.0",
     "gulp-exec": "^3.0.2",
-    "gulp-plumber": "^1.2.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-rename": "^1.4.0",
     "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^4.1.0",
     "gulp-useref": "^3.1.5",
     "gulp-using": "^0.1.1",
-    "mammoth": "^1.4.7",
+    "mammoth": "^1.4.14",
     "sharp": "^0.25.4",
     "write-file": "^1.0.0"
   }

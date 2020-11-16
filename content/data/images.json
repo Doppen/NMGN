@@ -796,7 +796,7 @@
     },
     {
         "filename": "12_Nehalennia.jpg",
-        "title": "Nehalennia- altaar",
+        "title": "Nehalennia-altaar",
         "description": "In de tweede en derde eeuw wijdden succesvolle zouthandelaren een altaar aan de godin Nehalennia waarvan bij Domburg en Colijnsplaat heiligdommen zijn gevonden. Het zout ging onder meer naar het Rijnland. Dit altaar werd aan de godin (DEAE NEHALENIAE) geschonken door Marcus Exgingius Agricola (M(arcus) EXGINGIVS AGRICOLA), burger van Trier (CIVES TREVER(orum)), handelaar in (zel)zout te Keulen (NEGOTIATOR SALARIVS C(oloniae) C(laudia) A(ra) A(grippinensium)), die zijn belofte graag en welverdiend inlost (V(otum) S(olvit) L(ibens) M(erito)).\n",
         "description2": "Colijnsplaat, kalksteen, 150-250 na Chr.",
         "location": "Rijksmuseum van Oudheden, Leiden.",
@@ -899,8 +899,8 @@
     },
     {
         "filename": "26_ZN43.jpg",
-        "title": "Opgraving op kavel ZN43",
-        "description": "In 1979 werd ten westen van Nijkerk in Zuidelijk Flevoland een klein rond schip opgegraven, dat vanwege de bouwwijze ook wel kleine ronde ‘kogge’ wordt genoemd. Het is rond 1420 gebouwd. Anders dan bij het schip van Utrecht bestaat de ronde bodem niet uit één geheel, maar uit symmetrisch opgebouwde gangen. Deze zijn gladboordig aan elkaar gevoegd, net als het vlak van de hiervoor behandelde schuiten. De boorden zijn overnaads gebouwd. Bij wijze van mastspoor zijn in de zijden klossen aangebracht. Er is gesuggereerd dat dit soort ronde scheepjes de taak van de Utrechtse schepen hebben overgenomen.",
+        "title": "Opgraving Spakenburg II",
+        "description": "In 1979 werd op kavel ZN43 in Zuidelijk Flevoland een klein rond schip opgegraven, dat vanwege de bouwwijze ook wel kleine ronde ‘kogge’ wordt genoemd. Het is rond 1420 gebouwd. Anders dan bij het schip van Utrecht bestaat de ronde bodem niet uit één geheel, maar uit symmetrisch opgebouwde gangen. Deze zijn gladboordig aan elkaar gevoegd, net als het vlak van de hiervoor behandelde schuiten. De boorden zijn overnaads gebouwd. Bij wijze van mastspoor zijn in de zijden klossen aangebracht. Er is gesuggereerd dat dit soort ronde scheepjes de taak van de Utrechtse schepen hebben overgenomen.",
         "location": "Batavialand, Lelystad.",
         "chapter": "d1h2"
     },
@@ -1075,7 +1075,7 @@
     {
         "filename": "49_dezeuitsnwapen31.JPG",
         "title": "Wapen van het Nijmeegse schippersgilde",
-        "description": "Het anker in het wapen van het Nijmeegse schippersgilde is voorzien van een lijn die op het ‘kruis’, de plek waar schacht en armen samenkomen is bevestigd. Zo’n ‘neuringlijn’ dient om het anker uit te breken en is voorzien van een boeitje. Detail van het Antependium (altaardoek) van het schippersgilde van Nijmegen, vierde kwart vijftiende eeuw.",
+        "description": "Het anker in het wapen van het Nijmeegse schippersgilde is voorzien van een lijn die op het ‘kruis’, de plek waar schacht en armen samenkomen is bevestigd. Zo’n ‘neuringlijn’ dient om het anker uit te breken en is voorzien van een boeitje. Detail van het <em>antependium</em> (altaardoek) van het schippersgilde van Nijmegen, vierde kwart vijftiende eeuw.",
         "location": "Museum Het Valkhof, Nijmegen.",
         "owner": "Foto door Rik Klein Gotink.",
         "chapter": "d1h2"
@@ -1182,7 +1182,7 @@
     {
         "filename": "63_Ieperen.jpg",
         "title": "Overdrachten bij Ieperen",
-        "description": "Kopie van zestiende-eeuwse vogelvluchtkaart van overdrachten in het kanaal van Nieuwpoort naar Ieperen. Het origineel dat van aanzienlijke afmetingen was werd tot de Eerste Wereldoorlog bewaard in het verloren gegane stadsarchief van Ieperen. De verkleinde kopie werd getekend en gepubliceerd door L. Deschamps de Pas (Deschamps de Pas, 1861). De vier afgebeelde overdrachten hebben ieder een iets andere inrichting om de schepen van het ene pand in het andere te trekken. Terecht achtte Deschamps de Pas de afbeelding relevant om ons een voorstelling te kunnen maken van de overdrachten in de verbinding achter duinen tussen St. Omaars en Brugge, en in het bijzonder van de Auverdrach of Louverdracq bij Watten, die voor het eerst in 1169 wordt genoemd en die zijn bijzondere interesse had.",
+        "description": "Kopie van zestiende-eeuwse vogelvluchtkaart van overdrachten in het kanaal van Nieuwpoort naar Ieperen. Het origineel dat van aanzienlijke afmetingen was werd tot de Eerste Wereldoorlog bewaard in het verloren gegane stadsarchief van Ieperen. De verkleinde kopie werd getekend en gepubliceerd door L. Deschamps de Pas (<em>Annales du Comité flamand de France</em> (1861) 210-222). De vier afgebeelde overdrachten hebben ieder een iets andere inrichting om de schepen van het ene pand in het andere te trekken. Terecht achtte Deschamps de Pas de afbeelding relevant om ons een voorstelling te kunnen maken van de overdrachten in de verbinding achter duinen tussen St. Omaars en Brugge, en in het bijzonder van de Auverdrach of Louverdracq bij Watten, die voor het eerst in 1169 wordt genoemd en die zijn bijzondere interesse had.",
         "location": "Koninklijke Bibliotheek, Den Haag.",
         "chapter": "d1h2"
     },
@@ -1211,7 +1211,7 @@
     {
         "filename": "67_uitsnOvertoom.png",
         "title": "Overtoom op de Leidsche dam, 1556",
-        "description": "Op gezag van Maximiliaan van Oostenrijk was de overtoom over de landscheiding bij Leidschendam op het eind van de 15e eeuw vervangen door een verlaat, een kleine sluis. Dit stond haaks op de eerder gevoerde politiek. Nadat het verlaat in 1492 door ontstemde Gouwenaars vernield was kwam er weer een overtoom te liggen die pas in 1578 definitief door een verlaat vervangen werd.",
+        "description": "Op gezag van Maximiliaan van Oostenrijk was de overtoom over de landscheiding bij Leidschendam op het einde van de vijftiende eeuw vervangen door een verlaat, een kleine sluis. Dit stond haaks op de eerder gevoerde politiek. Nadat het verlaat in 1492 door ontstemde Gouwenaars vernield was, kwam er weer een overtoom te liggen die pas in 1578 definitief door een verlaat vervangen werd.",
         "description2": "Kaart door Coenraet Oelensz, 1556.",
         "location": "Stadsarchief, Delft.",
         "chapter": "d1h2"
@@ -1230,5 +1230,17 @@
         "description": "De Nederlandse riviervaart is altijd ook transito-vaart geweest. Het is vooral opvallend hoe het bovenland van de Maas via de riviervaart verbonden was met het bovenland van de Schelde, ondanks het belang van de oude landwegen.",
         "description2": "Cartografie Olav Odé, 2020.",
         "chapter": "d1h2"
+    },
+    {
+        "chapter": "d3h6"
+    },
+    {
+        "chapter": "d3h6"
+    },
+    {
+        "chapter": "d3h6"
+    },
+    {
+        "chapter": "d3h6"
     }
 ]
