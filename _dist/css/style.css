@@ -72,6 +72,9 @@ p {
 strong {
   font-weight: 700; }
 
+.notStrong {
+  font-weight: 300; }
+
 .brand a {
   color: #fff; }
 

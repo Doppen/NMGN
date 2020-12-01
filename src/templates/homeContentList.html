@@ -4,19 +4,22 @@
     {{#if ischapterpage}}
     <div class="mgHomePart">
       <strong>Deel {{part}}</strong>
-      <h2>{{parttitle}}</h2>
-      <span>{{aera}}</span>
+      <h2>{{parttitle}} </h2>
+      <span class="notStrong">{{aera}}</span><br>
+
+      <em>Redactie: {{redactie}}</em>
+      <span>ISBN: {{partisbn}}</span>
     </div>
     {{/if}}
 
     {{#if in_navigatie}}
       {{#if homelist}}
-      <a href="{{name}}.html">
-        <div class="mgHomeChapter">
-           <img src="images/chapterImages/{{image}}" class="mgHomeChapterImg">{{chapter}} <strong>{{title}}</strong> <br><em>{{author}}</em><br>
+      <a href="{{name}}.html" alt="Ga naar {{title}}">
+        <article class="mgHomeChapter">
+           <img alt="" src="images/chapterImages/{{image}}" class="mgHomeChapterImg">{{chapter}} <strong>{{title}}</strong> <br><em>{{author}}</em><br>
           {{summary}}<br>
           <em>Ga naar {{title}}</em>
-        </div>
+        </article>
       </a>
     {{/if}}
   {{/if}}

@@ -16,7 +16,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond"
     },
     {
         "title": "Het land, het water en de binnenvaart",
@@ -35,7 +36,8 @@
         "indextcontent": "raw_d1h2",
         "image": "d1h2.png",
         "in_navigatie": true,
-        "homelist": true
+        "homelist": true,
+        "redactie": "Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond"
     },
     {
         "title": "Koopvaardij",
@@ -53,7 +55,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond"
     },
     {
         "title": "Visserij",
@@ -71,7 +74,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond"
     },
     {
         "title": "Cultuurhistorisch katern",
@@ -89,7 +93,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond"
     },
     {
         "title": "Maritieme cultuur± in de middeleeuwen",
@@ -108,7 +113,8 @@
         "indextcontent": "raw_d1h6",
         "image": "d1h6.png",
         "in_navigatie": true,
-        "homelist": true
+        "homelist": true,
+        "redactie": "Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond"
     },
     {
         "title": "Inleiding",
@@ -127,7 +133,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Els M. Jacobs, Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond"
     },
     {
         "title": "Koopvaardij binnen Europa",
@@ -145,7 +152,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Els M. Jacobs, Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond"
     },
     {
         "title": "Koopvaardij buiten Europa",
@@ -163,7 +171,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Els M. Jacobs, Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond"
     },
     {
         "title": "Marine",
@@ -181,7 +190,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Els M. Jacobs, Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond"
     },
     {
         "title": "Visserij",
@@ -199,7 +209,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Els M. Jacobs, Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond"
     },
     {
         "title": "Binnenvaart",
@@ -217,7 +228,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Els M. Jacobs, Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond"
     },
     {
         "title": "De wereld op zee:± De maritieme cultuur van de Gouden Eeuw",
@@ -236,7 +248,8 @@
         "indextcontent": "raw_d2h7",
         "image": "d2h7.png",
         "in_navigatie": true,
-        "homelist": true
+        "homelist": true,
+        "redactie": "Els M. Jacobs, Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond"
     },
     {
         "title": "Cultuurhistorisch katern",
@@ -254,7 +267,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Els M. Jacobs, Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond"
     },
     {
         "title": "Inleiding",
@@ -273,7 +287,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
         "title": "Koopvaardij binnen Europa",
@@ -291,7 +306,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
         "title": "Koopvaardij buiten Europa",
@@ -309,7 +325,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
         "title": "Cultuurhistorisch katern",
@@ -327,7 +344,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
         "title": "Visserij",
@@ -345,7 +363,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
         "title": "Binnenvaart",
@@ -363,7 +382,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
         "title": "Maritieme cultuur± in de negentiende eeuw",
@@ -382,7 +402,8 @@
         "indextcontent": "raw_d3h7",
         "image": "d3h7.png",
         "in_navigatie": true,
-        "homelist": true
+        "homelist": true,
+        "redactie": "Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
         "title": "Inleiding",
@@ -401,7 +422,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Wouter Heijveld, Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
         "title": "Koopvaardij binnen Europa",
@@ -419,7 +441,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Wouter Heijveld, Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
         "title": "Koopvaardij buiten Europa",
@@ -437,7 +460,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Wouter Heijveld, Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
         "title": "Marine",
@@ -455,7 +479,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Wouter Heijveld, Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
         "title": "Visserij",
@@ -473,7 +498,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Wouter Heijveld, Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
         "title": "Binnenvaart",
@@ -491,7 +517,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Wouter Heijveld, Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
         "title": "Cultuurhistorisch katern",
@@ -509,7 +536,8 @@
         "indextcontent": "raw_--",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false
+        "homelist": false,
+        "redactie": "Wouter Heijveld, Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
         "title": "Bakens uit het veilige verleden:± Maritieme cultuuruitingen± in de ‘eeuw van uitersten’",
@@ -528,11 +556,12 @@
         "indextcontent": "raw_d4h8",
         "image": "d4h8.png",
         "in_navigatie": true,
-        "homelist": true
+        "homelist": true,
+        "redactie": "Wouter Heijveld, Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
         "title": "Over de NMGN",
-        "template": "basic",
+        "template": "other",
         "name": "over-de-nmgn",
         "content": "--",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",

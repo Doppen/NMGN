@@ -7,7 +7,9 @@
     {{parttitle}}</em></strong>
     <span>{{aera}}</span><br>
   {{/if}}
-  <a href="index.html">{{title}}</a>
+  {{#if homelist}}
+  <a href="{{name}}.html" alt="Ga naar {{title}}">{{title}}</a>
+  {{/if}}
 
 {{/each}}
 </div>
