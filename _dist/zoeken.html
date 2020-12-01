@@ -10,7 +10,7 @@
       Beste bezoeker, deze website maakt gebruik van javascript. U heeft javascript uitstaan. Hierdoor kan het zijn dat de site niet optimaal werkt.
     </noscript>
 
-<div class="mgSite">
+<div class="mgSite mgSearch">
 
 
   <div class="mgContentPage">
@@ -151,19 +151,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <script src="js/search_index.js"></script>
 <script src="js/elasticlunr.min.js"></script>
 <script type="text/javascript">
@@ -193,10 +180,10 @@ function getResultsData() {
   var part = 0;
   for (var i = 0; i < arrayLength; i++) {
     if (results[i].doc.part != part) {
-      resultList+= '<div><strong>Deel '+results[i].doc.part+'</strong></div>'
+      //resultList+= '<div><strong>Deel '+results[i].doc.part+'</strong></div>'
 
     }
-    resultList += '<div class="resultItem"><a href="'+results[i].doc.ref+'?s='+searchField+'">'+results[i].doc.title+'</a></div>';
+    resultList += '<div class="resultItem"><a href="'+results[i].doc.ref+'?s='+searchField+'">'+results[i].doc.title+'</a><br>Deel '+results[i].doc.part+'</div>';
     part = results[i].doc.part ;
   }
   return resultList;

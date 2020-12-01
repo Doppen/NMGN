@@ -586,6 +586,7 @@
     {
         "title": "homepage",
         "template": "home",
+        "indextcontent": "raw_--",
         "name": "Index"
     }
 ]

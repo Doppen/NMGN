@@ -438,7 +438,7 @@ nav {
     grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(280px, 429px) [gutter] 3rem [c2] minmax(561px, 858px) [cEnd] minmax(3rem, auto) [right1];
     grid-template-rows: [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListEnd] auto [contendEnd] auto;
     z-index: 100;
-    pointer-events: none; }
+    pointer-events: all; }
   .mgSiteFixed {
     position: fixed;
     display: grid;

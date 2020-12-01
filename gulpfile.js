@@ -9,6 +9,9 @@
 // gulp convHtml
 // node img
 
+// gulp BuildIndexFromHTML      update the search index
+// gulp buildSearchIndex
+
 // gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data.json -b
 
 var gulp = require('gulp');
@@ -175,6 +178,8 @@ gulp.task('nav', function(done) {
 gulp.task('BuildIndexFromHTML', function(done) {
   var indexItems = {"items" : siteJson}
 
+  console.log(indexItems );
+
   gulp.src('./src/templates/createIndexJson.html')
       .pipe(plumber())
       .pipe(handlebars(indexItems, options))
@@ -304,7 +309,7 @@ gulp.task('copyJs', function(){
 });
 
 gulp.task('copyJson', function(){
-  return gulp.src('search_index.js')
+  return gulp.src('src/js/search_index.js')
       .pipe(plumber())
       .pipe(gulp.dest(dst+'js'))
 });
@@ -334,6 +339,7 @@ gulp.task('buildSearchIndex', function (done) {
     if (err) throw err;
 
     var raw = JSON.parse(data);
+    //console.log(raw);
 
     var siteContent = raw.siteContent.map(function (q) {
       return {
@@ -345,11 +351,11 @@ gulp.task('buildSearchIndex', function (done) {
       };
     });
 
-    siteContent.forEach(function (siteConten) {
-      idx.addDoc(siteConten);
+    siteContent.forEach(function (siteContent) {
+      idx.addDoc(siteContent);
     });
 
-    fs.writeFile('./search_index.js', "var indexDump = "+JSON.stringify(idx), function (err) {
+    fs.writeFile('./src/js/search_index.js', "var indexDump = "+JSON.stringify(idx), function (err) {
       if (err) throw err;
       console.log('done');
     });

@@ -1,6 +1,6 @@
 {{>html-head}}
 
-<div class="mgSite">
+<div class="mgSite mgSearch">
 
 
   <div class="mgContentPage">
@@ -24,19 +24,6 @@
 </div>
 
 {{> popNavigation}}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -69,10 +56,10 @@ function getResultsData() {
   var part = 0;
   for (var i = 0; i < arrayLength; i++) {
     if (results[i].doc.part != part) {
-      resultList+= '<div><strong>Deel '+results[i].doc.part+'</strong></div>'
+      //resultList+= '<div><strong>Deel '+results[i].doc.part+'</strong></div>'
 
     }
-    resultList += '<div class="resultItem"><a href="'+results[i].doc.ref+'?s='+searchField+'">'+results[i].doc.title+'</a></div>';
+    resultList += '<div class="resultItem"><a href="'+results[i].doc.ref+'?s='+searchField+'">'+results[i].doc.title+'</a><br>Deel '+results[i].doc.part+'</div>';
     part = results[i].doc.part ;
   }
   return resultList;
