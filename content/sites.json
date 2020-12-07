@@ -1099,9 +1099,9 @@ https://theoephraim.github.io/node-google-spreadsheet
     },
     {
         "title": "Over de NMGN",
-        "template": "basic",
+        "template": "overnmgn",
         "name": "over-de-nmgn",
-        "content": "--",
+        "content": "over_nmgn",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
         "id": "about",
         "indextcontent": "raw_--",
