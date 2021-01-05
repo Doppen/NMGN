@@ -566,7 +566,7 @@
         "content": "over_nmgn",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
         "id": "about",
-        "indextcontent": "raw_--",
+        "indextcontent": "raw_over_nmgn",
         "image": "chapterImageTest.png",
         "in_navigatie": false,
         "homelist": false
@@ -586,7 +586,7 @@
     {
         "title": "homepage",
         "template": "home",
-        "indextcontent": "raw_--",
-        "name": "Index"
+        "name": "Index",
+        "content": "--"
     }
 ]
