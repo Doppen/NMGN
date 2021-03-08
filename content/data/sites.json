@@ -1,3 +1,4 @@
+
 [
     {
         "title": "Inleiding",
@@ -367,26 +368,27 @@
         "redactie": "Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
-        "title": "Binnenvaart",
+        "title": "Aarzelende modernisering:± Binnenvaart in de negentiende eeuw",
+        "author": "Ruud Filarski",
         "part": 3,
         "chapter": 6,
-        "template": "basic",
-        "name": 6,
-        "content": "--",
+        "template": "chapter",
+        "name": "binnenvaart-negentiende-eeuw",
+        "content": "d3h6",
         "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
         "aera": "1780 - 1870",
         "parttitle": "Tijd van de grote zeilvaart",
         "partisbn": 9789052162027,
         "id": "d3h6",
         "doi": "doi:xxxxxx/xxxxxx.xxxxxx",
-        "indextcontent": "raw_--",
+        "indextcontent": "raw_d3h6",
         "image": "chapterImageTest.png",
         "in_navigatie": true,
-        "homelist": false,
+        "homelist": true,
         "redactie": "Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond"
     },
     {
-        "title": "Maritieme cultuur± in de negentiende eeuw",
+        "title": "Binnenvaart in de negentiende eeuw",
         "author": "Remmelt Daalder",
         "part": 3,
         "chapter": 7,

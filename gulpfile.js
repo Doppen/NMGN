@@ -230,6 +230,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(rename(fileName + ".html"))
           .pipe(replace('±', '<br>'))
           .pipe(replace('">[', '">'))
+          .pipe(replace('<a id="_Hlk61816812"></a>', ''))
           .pipe(replace(']</a>', '</a>'))
           .pipe(replace('<sup> <sup>', '<sup>'))
           .pipe(replace('<sup><sup>', '<sup>'))
@@ -242,6 +243,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('@q@', '<div class="quote">'))
           .pipe(replace('@/q@', '</div>'))
           .pipe(replace('<ol><li id="endnote-1">', '<div class="notesList"><h2>Noten</h2><ol><li id="endnote-1">'))
+
           .pipe(each(function(content, file, callback) {
             var newContent = content;
 

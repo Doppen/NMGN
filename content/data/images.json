@@ -1,3 +1,4 @@
+
 [
     {
         "filename": "0_Mappa_Mundi.jpg",
@@ -354,7 +355,7 @@
     },
     {
         "filename": "21_uitsDe_Haas_J._Nova_Zembla.jpg",
-        "title": "Deze kinderprent bevat een aantal gedenkwaardige scènes uit de overwintering van Barentsz en Heemskerck op Nova Zembla.",
+        "title": "Deze kinderprent bevat een aantal gedenkwaardige scènes uit de overwintering van Barentsz en Heemskerck op Nova Zembla",
         "description2": "Kleurenlitho door Jan de Haas, 1875-1903.",
         "location": "Rijksmuseum, Amsterdam.",
         "chapter": "d3h7"
@@ -789,7 +790,7 @@
     {
         "filename": "11_Darinkdelven.jpg",
         "title": "Darinkdelven",
-        "description": "Afgedekt door overstromingsklei lag er in de zuidelijke delta een enorme hoeveelheid  met zout doordrenkt veen, ‘darink’. Buitendijks werd bij Zierikzee darink gedolven en in schuiten werd geladen (midden). Vervolgens werd het op een schor te drogen gelegd om daarna te worden verbrand (links). Van de brandplek werden zakken met as (‘zel’) naar een iets groter vaartuig gedragen waarmee het naar de zoutketen (rechts) werd vervoerd om te worden gezuiverd, de zoutziederij. Het zelzout leverde veel geld op, maar het darinkdelven veroorzaakte enorme erosie.",
+        "description": "Afgedekt door overstromingsklei lag er in de zuidelijke delta een enorme hoeveelheid met zout doordrenkt veen, ‘darink’. Buitendijks werd bij Zierikzee darink gedolven en in schuiten geladen (midden). Vervolgens werd het op een schor te drogen gelegd om daarna te worden verbrand (links). Van de brandplek werden zakken met as (‘zel’) naar een iets groter vaartuig gedragen waarmee het naar de zoutketen (rechts) werd vervoerd om te worden gezuiverd, de zoutziederij. Het zelzout leverde veel geld op, maar het darinkdelven veroorzaakte enorme erosie.",
         "description2": "Anoniem schilderij, ca. 1540.",
         "location": "Stadhuismuseum, Zierikzee.",
         "chapter": "d1h2"
@@ -850,7 +851,7 @@
     {
         "filename": "19_Rotterdam2.jpg",
         "title": "Rotterdam schip 2",
-        "description": "Bij de aanleg van de Willemspoortunnel werd een aantal schepen opgegraven. Schip 2 werd aangetroffen in de dam in de Rotte en dateert van omstreeks 1270. Het lijkt sterk op het bootje van Hellendoorn, maar heeft twee boordgangen in plaats van één. Opmerkelijk genoeg is het vlak van elzenhout gemaakt.",
+        "description": "Bij de aanleg van de Willemsspoortunnel werd een aantal schepen opgegraven. Schip 2 werd aangetroffen in de dam in de Rotte en dateert van omstreeks 1270. Het lijkt sterk op het bootje van Hellendoorn, maar heeft twee boordgangen in plaats van één. Opmerkelijk genoeg is het vlak van elzenhout gemaakt.",
         "location": "Archeologie Rotterdam (BOOR).",
         "chapter": "d1h2"
     },
@@ -907,7 +908,7 @@
     {
         "filename": "27_Rotterdam1.jpg",
         "title": "Rotterdam schip 1",
-        "description": "Bij de aanleg van de Willemspoortunnel werd in de dam van Rotterdam een geheel overnaads gebouwd schip gevonden, geladen met baksteen. Net als de andere daar gevonden schepen dateert het uit de dertiende eeuw.",
+        "description": "Bij de aanleg van de Willemsspoortunnel werd in de dam van Rotterdam een geheel overnaads gebouwd schip gevonden, geladen met baksteen. Net als de andere daar gevonden schepen dateert het uit de dertiende eeuw.",
         "location": "Archeologie Rotterdam (BOOR).",
         "chapter": "d1h2"
     },
@@ -1232,15 +1233,407 @@
         "chapter": "d1h2"
     },
     {
+        "filename": "1_scanLeickert.jpg",
+        "title": "De Trekvliet bij Den Haag in het midden van de negentiende eeuw ",
+        "description": "Een tafereel zoals men dat op veel plaatsen in ons land kon aantreffen. In het midden op de achtergrond een middelgroot, zeilend binnenvaartschip van circa 35 ton. Links op de voorgrond een trekschuit. Rechts op de voorgrond het scheepje van een riviervisser, kenbaar aan de mand achter het vaartuig waarin de gevangen vis levend kon worden bewaard. ",
+        "description2": "Schilderij door Charles Leickert, ongedateerd. Particuliere collectie.",
+        "description3": "Uit: J. Sillevis e.a., <em> Licht, lucht en water. De verloren idylle van het riviergezicht</em> (Zwolle 1993) nr. 20.",
+        "location": "Foto RKD - Nederlands Instituut voor Kunstgeschiedenis, Den Haag.   ",
         "chapter": "d3h6"
     },
     {
+        "filename": "2_KAART-Filarski-def-01.pdf",
+        "title": "Trekvaarten, zeilvaartpassagiersdiensten en postwagenverbindingen omstreeks 1800",
+        "description2": "Cartografie Olav Odé, 2021.",
         "chapter": "d3h6"
     },
     {
+        "filename": "3_TrekschuitLeidsche.jpg",
+        "title": "Het Leidsche Veerhuis",
+        "description": "Gezicht op de trekschuit van Utrecht naar Leiden, kort voor het vertrek bij het Leidse Veerhuis aan het begin van de Vleutenseweg te Utrecht. Dagelijks voeren er van Utrecht naar Leiden drie trekschuiten, die ook de verbinding vormden naar Den Haag, Rotterdam en Gouda.",
+        "description2": "Reproductie van een prent van Jan Jacob Zuidema Broos in de <em>Katholieke Illustratie</em> van 1870.",
+        "location": "Utrechts Archief, Utrecht.",
         "chapter": "d3h6"
     },
     {
+        "filename": "4_Lemmer.jpg",
+        "title": "De haven van Lemmer",
+        "description": "Op de voorgrond de veerboot naar Amsterdam. Het veer tussen Amsterdam en Lemmer vormde in deze periode de belangrijke verbinding voor het reizigersverkeer van Friesland en Groningen naar Holland. Rechts bij de ingang van deze belangrijke haven een lantaarnbaken, waardoor de schippers de haven ook bij nacht konden gebruiken.",
+        "description2": "Prent door Carel Frederik Bendorp (I), naar Jan Bulthuis, 1824.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "5_Vergierdeweg.jpg",
+        "title": "De Vergierdeweg bij Haarlem na een stevige regenbui",
+        "description": "Deze weg maakte deel uit van de belangrijke wegverbinding van Haarlem naar Alkmaar. De voornaamste wegen waren omstreeks 1800 nog niet voorzien van een verharding. Veel wegen waren daarom na een periode van regen bijna onbegaanbaar. Door de slechte toestand van de wegen was vervoer over water veel goedkoper en vaak ook sneller dan vervoer over land.",
+        "description2": "Tekening door Cornelis van Noorde, 1769.",
+        "location": "Noord-Hollands Archief, Haarlem.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "6_Passagiersroef.jpg",
+        "title": "Passagiers in de roef van een trekschuit",
+        "description": "De meeste trekschuiten hadden twee klassen voor het personenvervoer: de roef (eerste klas) en het ruim (tweede klas). In de roef zaten de chique passagiers, op zachte met fluwelen kussens bedekte banken. ’s Winters was er een stoof, waarop de dames hun voeten konden warmen. In het midden was er een tafel, waaraan men kon lezen, schrijven of handwerken. ",
+        "description2": "Gravure door Henry Brown, 1841.",
+        "description3": "Uit: H. Brown, <em>De Nederlanden. Karakterschetsen, kleederdragten, houding en voorkomen van verschillende standen</em> (’s-Gravenhage 1841). ",
+        "location": "Maritiem Museum, Rotterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "7_Passagiersruim.jpg",
+        "title": "Passagiers in het ruim van de nachtelijke trekschuit van Amsterdam naar Utrecht",
+        "description": "Reizigers konden op een groot aantal verbindingen gebruikmaken van een zogenaamde ‘nachtschuit’: een trekschuit die ’s nachts voer. Gedurende de nacht konden de passagiers een dutje doen. Soms werden de harde houten banken in het ruim omgeklapt en vervangen door stro, terwijl in de roef matrassen werden neergelegd. De vaartocht van Amsterdam naar Utrecht duurde zeven uur.  ",
+        "description2": "Tekening door John Inigo Greenwood, 1769.",
+        "location": "Stadsarchief, Amsterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "8_Moerdijk.jpg",
+        "title": "Het stoombootveer bij Moerdijk",
+        "description": "Het veer over het Hollands Diep bij Moerdijk vormde een onderdeel van de nieuwe straatwegverbinding tussen Den Haag en Brussel, de beide regeringszetels van het Nederlands-Belgische koninkrijk. Voor de regering was het van groot belang dat deze route vlot en veilig kon worden gebruikt. Aanvankelijk werd de veerverbinding onderhouden met zeilboten, wat vooral bij windstilte en storm voor veel vertraging zorgde. De eerste stoomboot, de <em>Wilhelmina</em> kwam in 1822 in bedrijf en was daarmee in Nederland het eerste stoomvaartuig dat een regelmatige verbinding verzorgde. De ontwerper was de marineofficier Gerhard Moritz Roentgen, maar het schip en de stoommachine waren gebouwd in Engeland.",
+        "description2": "Schilderij door Johannes Christiaan Schotel, 1823.",
+        "location": "Museum Boijmans Van Beuningen, Rotterdam.",
+        "owner": "Foto Studio Tromp.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "9_stoombootspel.jpg",
+        "title": "Het stoombootspel",
+        "description": "Onderwerp van het spel is de stoombootdienst Amsterdam-Zaandam, uitgevoerd door de <em>Mercurius</em> van de Amsterdamse Stoomboot Maatschappij (ASM, 1825). Paul van Vlissingen was met zijn ASM in het Zuiderzeegebied de tegenpool van de Rotterdamse NSBM. De ASM onderhield lijndiensten van Amsterdam op Zaandam, Harlingen en Kampen en een sleepdienst door het Noord-Hollands Kanaal. De meeste van deze diensten konden het slechts een korte tijd bolwerken.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "10_Mercurius.jpg",
+        "title": "Haven van Amsterdam",
+        "description": "Gezicht op de haven van Amsterdam met links op de voorgrond de raderstoomboot <em>Mercurius</em> van de Amsterdamse Stoomboot Maatschappij.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "11_KAART-Filarski-def-02.pdf",
+        "title": "Stoomvaartpassagiersdiensten binnenvaart in 1858",
+        "description2": "Cartografie Olav Odé, 2021.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "12_KAART-Filarski-def-03.pdf",
+        "title": "Stoomvaartpassagiersdiensten in Friesland – 1880",
+        "description2": "Cartografie Olav Odé, 2021.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "13_passagiersstoomboten_Dordrecht.jpg",
+        "title": "Afgemeerde passagiersstoomboten op de Oude Maas bij Dordrecht",
+        "description": "Dordrecht was voor de stoomvaart een belangrijk knooppunt. Langs de kade zijn drie stoomboten afgemeerd om passagiers en stukgoederen te laden. Op de rivier verkeer met zeilschepen en een stoomboot.",
+        "description2": "Schilderij door Carl Skånberg, 1876-1880.",
+        "description3": "Particuliere collectie.",
+        "location": "Foto RKD - Nederlands Instituut voor Kunstgeschiedenis, Den Haag.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "14a_Tolregister_a.jpg",
+        "title": "Tolregister van de Willemsvaart bij Zwolle",
+        "description": "Opgave van de ontvangen tolgelden op de sluis in de Willemsvaart bij Zwolle, van 1 tot 5 juli 1820. De opgave geeft een goed beeld van de bonte verzameling van scheepstypen in deze periode.",
+        "description2": "Archief Waterstaat 1813-1830.",
+        "location": "Nationaal Archief, Den Haag.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "14b_Tolregister_b.jpg",
+        "title": "Tolregister van de Willemsvaart bij Zwolle",
+        "description2": "Archief Waterstaat 1813-1830.",
+        "location": "Nationaal Archief, Den Haag.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "15_Zeeuwsbeurtschip.jpg",
+        "title": "Zeeuws beurtschip",
+        "description": "Beurtschepen waren vrachtschepen die een geregelde lijnverbinding tussen twee of meerdere plaatsen onderhielden en die soms ook reizigers meenamen. Het afgebeelde vaartuig was een stevig schip, dat zeker geschikt was voor de ruwe omstandigheden op de Zeeuwse en Zuid-Hollandse stromen. Aan boord bevonden zich minstens elf passagiers, waaronder enige vrouwen en kinderen. Omdat het schip niet over een kajuit beschikte zal de vaartocht van Holland naar Zeeland bij ongunstige omstandigheden geen pretje zijn geweest. ",
+        "description2": "Ets door Gerrit Groenewegen, 1789.",
+        "location": "Maritiem Museum, Rotterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "16_SchepenDamrak.jpg",
+        "title": "Binnenschepen langs de steigers op het Damrak en bij de Oudebrug in Amsterdam",
+        "description": "Op de voorgrond ligt een van de eerste beurtstoomschepen. Links op de voorgrond staat een zogenaamde toeslede, een slee waarmee goederen naar de pakhuizen werden gesleept. Verder liggen langs de steigers verschillende beurtschepen. ",
+        "description2": "Tekening door J.A. van der Drift, 1870.",
+        "location": "Stadsarchief Amsterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "17_KAART-Filarski-def-04.pdf",
+        "title": "De Nederlandse vaarwegen in 1815",
+        "description2": "Cartografie Olav Odé, 2021.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "18_Weerdsluis_Utrecht.jpg",
+        "title": "Gezicht vanaf de Weerdsluis op de rivier de Vecht en de stad Utrecht",
+        "description": "De Vecht (Keulse Vaart) vormde een onderdeel van de hoofdverbinding van Amsterdam naar Duitsland. Op de voorgrond een leeg vrachtschip dat zijn mast alvast heeft gestreken voor het passeren van de lage bruggen in de stad. Op de kade rechts een hijskraan voor de overslag van zware goederen.",
+        "description2": "Tekening door W.J. Cooke, 1850.",
+        "location": "Utrechts Archief, Utrecht.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "19_Overslag.jpg",
+        "title": "Overslag van goederen langs de Waal bij Nijmegen",
+        "description": "Op de voorgrond ligt een groot Rijnschip. Rechts enige wachtende karren met paarden. De goederen moesten door sjouwers of door de schipper via de loopplank van boord worden gehaald of gebracht. Het laden en lossen van schepen was daarom een tijdrovend en kostbaar karwei. Op de achtergrond: de havenkraan, voor het laden en lossen van zware goederen, zoals grote wijnvaten. ",
+        "description2": "Aquarel door J. van Leeuwen, 1824.",
+        "location": "Museum Het Valkhof, Nijmegen.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "20_Haven_Maastricht.jpg",
+        "title": "De haven van Maastricht",
+        "description": "Met de aanleg van de Zuid-Willemsvaart kreeg Maastricht een nieuwe binnenhaven, die mede diende om de nieuwe vaarweg met de Maas en later met het Kanaal Luik-Maastricht te verbinden. Deze haven, het zogenaamde Bassin, werd al spoedig een belangrijke vestigingsplaats voor grootschalige nijverheid. Langs de haven zijn op verschillende plaatsen goederen opgeslagen.  ",
+        "description2": "Tekening door Philippe van Gulpen, 1848.",
+        "location": "Historisch Centrum Limburg, Maastricht.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "21_ Drielsche_Veer.jpg",
+        "title": "Sleepvaart op de Neder-Rijn bij het Drielse Veer ",
+        "description": "In het midden trekt een sleepboot drie rivierschepen tegen de stroom op. Het achterste zeilschip vervoert hooi. De schipper van dat schip heeft zijn roer verlengd en heeft plaatsgenomen op de deklading om een beter uitzicht te hebben. Op de voorgrond het Drielse Veer, een gierpont die de verbinding tussen de Veluwe en de Betuwe onderhield. ",
+        "description2": "Litho door onbekende maker uit de serie: <em>Schoolplaten voor het Aanschouwelijk Onderwijs</em>, uitgave J.B. Wolters (Groningen 1886).",
+        "location": "Nationaal Onderwijsmuseum, Dordrecht.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "22_StoomsleepvaartWaal.jpg",
+        "title": "Stoomsleepvaart op de Waal bij Nijmegen",
+        "description": "Een stoomsleepboot met enige zeilschepen op sleep op de Waal bij Nijmegen, circa 1849. De stoomsleepvaart op de grote rivieren naar Duitsland begon in 1832. In de beginfase trokken de sleepboten zeilschepen. Later werden speciale vrachtschepen zonder zeilen, de zogenaamde sleepschepen, gebruikt. Hier is goed te zien dat de eerste sleepboten door schepraderen werden aangedreven.",
+        "description2": "Litho door Pieter Caspar Christ, 1840-1850.",
+        "location": "Museum Het Valkhof, Nijmegen.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "23_Poon.jpg",
+        "title": "Een poon, een middelgroot zeilschip ",
+        "description": "De omstandigheden op de Nederlandse binnenvaarwegen liepen sterk uiteen. Ieder traject stelde aan de schepen andere eisen. De binnenvloot bestond daarom uit een bonte verzameling van scheepstypen, die qua afmetingen en vormgeving sterk van elkaar verschilden. Ponen waren bestand tegen ruwe weersomstandigheden en hoge golfslag en konden 30 à 60 ton goederen vervoeren. Ze werden vaak gebruikt voor het vervoer van landbouwproducten over de Zuid-Hollandse en Zeeuwse stromen. ",
+        "description2": "Ets door Gerrit Groenewegen, 1789.",
+        "location": "Maritiem Museum, Rotterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "24_Samoreus.jpg",
+        "title": "Een samoreus",
+        "description": "Samoreuzen verzorgden het vervoer van Amsterdam en Rotterdam naar het Duitse achterland. Met hun lengte van ongeveer 40 meter en hun bemanning van 7 à 10 man waren het de grootste vaartuigen op de Nederlandse binnenvaartwegen.",
+        "description2": "Ets door Gerrit Groenewegen, 1789.",
+        "location": "Maritiem Museum, Rotterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "25_Ladenhooischip.jpg",
+        "title": "Hooi wordt vanaf een kar in een schip geladen",
+        "description": "Landbouwproducten, zoals hooi, werden vanaf de oogstplaats over onverharde wegen tegen hoge kosten naar een vaarweg vervoerd, op een schip geladen, en vervolgens tegen veel lagere kosten per schip naar hun eindbestemming gebracht. Het overladen gebeurde meestal met menskracht en was een tijdrovende en kostbare zaak. Uit de afbeelding blijkt dat vier mensen en twee paarden hiermee geruime tijd bezig waren.",
+        "description2": "Schilderij door J.J. Destrée, 1860. Particuliere collectie.",
+        "description3": "Uit: J. Sillevis e.a., <em> Licht, lucht en water. De verloren idylle van het riviergezicht</em> (Zwolle 1993) nr. 34.",
+        "location": "Foto RKD - Nederlands Instituut voor Kunstgeschiedenis, Den Haag.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "26_StoombootDeZeeuw.jpg",
+        "title": "Stoomboot <em>De Zeeuw</em>",
+        "description": "De stoomboot De Zeeuw, die in 1824 in bedrijf kwam, werd ontworpen door directeur Gerhard Moritz Roentgen van de Nederlandsche Stoomboot Maatschappij, terwijl de stoommachine werd vervaardigd door de Belgische onderneming van John Cockerill bij Luik. Het vaartuig was de eerste stoomboot, die het moeilijke Rijntraject met zijn hoge stroomsnelheden tussen Koblenz en Bingen wist te bevaren.",
+        "location": "Rhein-Museum, Koblenz.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "27_Fijenoord.jpg",
+        "title": "Etablissement Fijenoord bij Rotterdam",
+        "description": "In 1825 besloot de eerste stoomvaartonderneming in ons land, de Nederlandsche Stoomboot Maatschappij, in Rotterdam een eigen scheepsreparatiewerf en machinefabriek op te richten: het Etablissement Fijenoord. Een jaar later werd hier begonnen met de vervaardiging van stoomketels en scheepsmachines en uiteindelijk werden hier een groot aantal stoomboten gebouwd. Omstreeks 1850 werkten hier ongeveer 650 mensen.",
+        "description2": "Prent door W. Maers, 1850.",
+        "location": "Stadsarchief Rotterdam, Rotterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "28_Aanlegplaats_DenBosch.jpg",
+        "title": "Aanlegplaats van de stoomvaartdienst op de Zuid-Willemsvaart in Den Bosch",
+        "description": "Stoomboten speelden gedurende de negentiende eeuw bij het vervoer in ons waterrijke land een belangrijke rol. Voordat de meeste spoorwegen tot stand kwamen (1860-1875), was ons land door een uitgebreid netwerk van stoomvaartdiensten ontsloten. Daarna onderhielden stoomboten de verbindingen met afgelegen plaatsen. De afgebeelde stoomboot verzorgde het vervoer van passagiers en expresgoederen over de Zuid-Willemsvaart van ’s-Hertogenbosch naar Maastricht. De stoomboot ligt al onder stoom, gereed voor het vertrek. Rechts een vaartuig dat op sleeptouw kon worden genomen, wanneer veel goederen moesten worden vervoerd.",
+        "description2": "Kleurenlitho door Emrik & Binger naar G.J. Bos, ca. 1860.",
+        "location": "Erfgoed ’s-Hertogenbosch, ’s-Hertogenbosch.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "29-Scheepswerf_Utrecht.jpg",
+        "title": "Scheepswerf bij het bastion Manenburg aan de Singel in Utrecht",
+        "description": "De bouw en reparatie van binnenschepen in het begin van de negentiende eeuw was een kleinschalig bedrijf. Op de werf zal niet meer dan 5 à 10 man hebben gewerkt. Op de wal is een vrachtschip in aanbouw, langs de wal liggen enige trekschuiten en roeischuiten, wachtend op reparatie.",
+        "description2": "Tekening door J.W. Bilders, 1836.",
+        "location": "Utrechts Archief, Utrecht.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "30_Fabriek_Vlissingen.jpg",
+        "title": "De Koninklijke Fabriek van Stoom- en andere Werktuigen ",
+        "description": "In 1828 startten Paul van Vlissingen met zijn partner Abraham Dudok van Heel een stoommachinefabriek op Oostenburg, Amsterdam, in 1843 uitgebreid met een scheepswerf. Het was rond 1850 met 1200 werknemers een van de grootste fabriekscomplexen in Nederland. Op de werf werden stoomschepen gebouwd zowel voor de zeevaart als voor de binnenvaart.",
+        "description2": "Aquarel door W.A. van Deventer, 1850.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "31_Kaag.jpg",
+        "title": "Een kaag bij windstilte",
+        "description": "Kaagschepen waren stoere vaartuigen met een laadvermogen van 80 à 100 ton. Ze werden onder meer gebruikt voor het vervoer van hoogwaardige goederen van zwaarbeladen Oost-Indiëvaarders, vanaf de rede bij Den Helder over de Waddenzee en de Zuiderzee naar Amsterdam.",
+        "description2": "Litho door Pieter le Comte, 1831.",
+        "location": "Maritiem Museum, Rotterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "32_defMerwede_Gorinchem.jpg",
+        "title": "Stoomboot en riviervaart op de Merwede bij Woudrichem",
+        "description": "De Merwede voor Woudrichem met een raderstoomboot en een veerpont.",
+        "description2": "Schilderij door Salomon Verveer, 1851.",
+        "location": "Foto Kunsthandel Simonis & Buunk, Ede.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "33_NRCDienstregeling.jpg",
+        "title": "Dienstregeling van de stoomboot",
+        "description": "Krantenadvertentie met de dienstregeling van de stoomvaartdienst in 1859 van Amsterdam via Zaandam en Alkmaar naar Den Helder. Dergelijke advertenties stonden vaak in de kranten.",
+        "description2": "Advertentie in <em>Nieuwe Rotterdamsche Courant</em>, 22 mei 1859.",
+        "location": "KB | Nationale Bibliotheek, Den Haag.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "34_Vecht_Jagen.jpg",
+        "title": "Gezicht op de Utrechtse Vecht (Keulse Vaart) bij Maarssen",
+        "description": "De Vecht vormde een onderdeel van de belangrijke vaarverbinding van Amsterdam naar Duitsland. Op de achtergrond een groot Rijnschip, een samoreus, met twee masten, dat door twee paarden werd voortgejaagd.",
+        "description2": "Aquarel door Hermanus Numan, 1804.",
+        "location": "Utrechts Archief, Utrecht.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "35_Arnhem.jpg",
+        "title": "Gezicht op Arnhem, Neder-Rijn en schipbrug",
+        "description": "De Neder-Rijn vormde een onderdeel van de belangrijke vaarroute van Amsterdam naar Duitsland. De schipbrug is geopend om enige zeilschepen door te laten. Links van de rivier is het jaagpad goed herkenbaar. De aanwezige begroeiing en de gebouwtjes vormden bij het stroomopwaarts trekken van grote Rijnschepen echter een geduchte belemmering.",
+        "description2": "Schilderij door Derk Jan van Elten, 1782.",
+        "location": "Museum Arnhem, Arnhem.",
+        "owner": "Foto door Peter Cox.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "36_Riviergezicht_Dordrecht.jpg",
+        "title": "Dordrecht vanaf de Beneden Merwede bij windstil weer ",
+        "description": "Het grote vrachtschip op de voorgrond is mogelijk een beurtvaartuig. Het kwam vaker voor dat dergelijke vaartuigen aan de voorzijde in plaats van een fok dwarsscheepse voorzeilen hadden, terwijl ze achter de mast over een spriettuig beschikten.",
+        "description2": "Schilderij door Martinus Schouman, ca. 1800.",
+        "location": "Dordrechts Museum, Dordrecht.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "37_Riviergezicht_Nijmegen.jpg",
+        "title": "Riviergezicht op de Waal bij Nijmegen ",
+        "description": "Rechts een samoreus, het grootste type zeilschip dat de Nederlandse vaarwegen bevoer (200-500 ton). Links een gierpont voor het landverkeer.",
+        "description2": "Aquarel door J. van Leeuwen, 1826.",
+        "location": "Museum Het Valkhof, Nijmegen.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "38_nw_Gejaagdschip.jpg",
+        "title": "Gejaagd schip bij ijsgang",
+        "description": "Dit is een afbeelding van een kleinere vaarweg en geeft duidelijk aan hoe moeizaam het vervoer destijds bij vorst en ijsgang verliep.",
+        "description2": "Prent door Izaak Jansz. de Wit, naar tekening van Jacob Cats (1741-1799), 1807.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "39_KAART-Filarski-def-05.pdf",
+        "title": "Jaagpaden in Nederland omstreeks 1830",
+        "description2": "Cartografie Olav Odé, 2021.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "40_Jan_Blanken.jpg",
+        "title": "Jan Blanken Jansz. (1755-1838)",
+        "description": "Jan Blanken Jansz. was inspecteur-generaal van waterstaat. Hij was de ontwerper en bouwer van een groot aantal grote kanalen, zoals het Noord-Hollands Kanaal, het Zederikkanaal en het Kanaal van Steenenhoek.",
+        "description2": "Schilderij door Jean Augustin Daiwaille, ca. 1823.",
+        "location": "Rijksmuseum, Amsterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "41_KAART-Filarski-def-06.pdf",
+        "title": "Vaarwegverbeteringen in Nederland tijdens de regering van Willem I",
+        "description2": "Cartografie Olav Odé, 2021.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "42_KAART-Filarski-def-07.pdf",
+        "title": "Vaarwegverbeteringen in België tijdens de regering van Willem I",
+        "description2": "Cartografie Olav Odé, 2021.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "43_Zederikkanaal.jpg",
+        "title": "Plantekening van het Zederikkanaal",
+        "description": "Het Zederikkanaal was de voorloper van het tegenwoordige Merwedekanaal en verbond de Lek bij Vianen met de Boven Merwede bij Gorinchem. Het kanaal bood de Amsterdamse Rijnvaart bij laagwater de mogelijkheid om de bestaande ondiepten op de Lek en de Neder-Rijn te vermijden en via de Waal te varen, die meer vaardiepte bood. Daarnaast vormde het kanaal een nieuwe vaarverbinding tussen het noordelijke en het zuidelijke deel van het nieuwe Nederlands-Belgische koninkrijk. Het kanaal werd ontworpen door inspecteur-generaal van waterstaat Jan Blanken Jansz en werd in 1824 en 1825 aangelegd. In 1824 waren bij de kanaalbouw 3300 mensen en 94 paarden werkzaam.",
+        "description2": "Archief Waterstaat 1813-1830.",
+        "location": "Nationaal Archief, Den Haag.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "44_scanuitgesnBouw.jpg",
+        "title": "Bouw van de Willemssluis in het Noord-Hollands Kanaal bij Amsterdam",
+        "description": "Afgebeeld is de bouwput met de heipalen die als fundering voor de sluiswanden dienen. Op de voorgrond enige ronde houten huisjes. Dit zijn de zogenaamde kettingmolens, waterpompen voor het droogmalen van de bouwput, die door paarden werden aangedreven. De huisjes aan de rechterzijde van de sluis dienden vermoedelijk als tijdelijk onderkomen voor de bouwarbeiders.",
+        "description2": "Tekening door Gerrit Lamberts, 1820.",
+        "location": "Rijksmuseum, Amsterdam | collectie Koninklijk Oudheidkundig Genootschap.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "45_Vreeswijk.jpg",
+        "title": "Maquette van de schutsluizen bij Vreeswijk",
+        "description": "Houten constructiemodel van de nieuwe schutsluizen tussen de Lek en de Vaartse Rijn bij Vreeswijk, gezien vanaf de Vaartse Rijn. Van gecompliceerde constructies werden niet alleen tekeningen, maar vaak ook constructiemodellen gemaakt. De schutsluizen bij Vreeswijk vormde een onderdeel van de vaarweg van Amsterdam naar Duitsland, die tussen 1821 en 1824 ingrijpend werd verbeterd. Bij hoogwater op de Lek ontstond tussen deze rivier en de Vaartse Rijn een groot waterstandsverschil. Dit waterstandsverschil maakte het – gegeven de toenmalige stand van de techniek – nodig om twee sluizen achter elkaar te bouwen, teneinde te voorkomen dat een sterke grondwaterstroming de ondergrond onder de constructie zou wegspoelen. Op de foto is duidelijk te zien dat de sluis aan de Lekzijde hoger lag dan die aan de kant van de Vaartse Rijn. Het middenhoofd en het benedenhoofd van het sluizencomplex waren beide voorzien van een dubbele ophaalbrug.",
+        "description2": "Maquette in mahoniehout door F.C.E. van Embden, 1823.",
+        "location": "Centraal Museum, Utrecht.",
+        "owner": "Foto door Rik Klein Gotink.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "46_uitsnWillemssluis.jpg",
+        "title": "De Willemssluis bij Amsterdam",
+        "description": "De Willemssluis gaf sinds 1824 vanaf het IJ toegang tot het Noord-Hollands Kanaal, de grote zeevaartweg van Amsterdam naar de Noordzee bij Den Helder. Rechts op de achtergrond is een zeeschip, een grote Oost-Indiëvaarder, de sluis zojuist bij zwakke zeewind gepasseerd. Links daarvan wordt een groot oorlogsschip onder vol tuig bij zwakke tegenwind de sluis ingetrokken. Op de voorgrond druk verkeer met vissersschepen en binnenvaartuigen.",
+        "description2": "Schilderij door Petrus Johannes Schotel, 1834.",
+        "location": "Amsterdam Museum, Amsterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "47_Kraneschipbrug.jpg",
+        "title": "De Kraneschipbrug over het Merwedekanaal bij Meerkerk",
+        "description": "Vroeger kwamen op de Nederlandse rivieren en grote kanalen een groot aantal schipbruggen voor. Veel van deze bruggen dateerden uit de tijd toen het technisch nog niet mogelijk was om een grote overspanning te maken. Om de scheepvaart dan toch te laten passeren waren er drie mogelijkheden: de schipbrug werd voorzien van een ophaalbrug, de schipbrug werd voorzien van een brugdeel dat kon worden weggevaren, of de schipbrug werd zodanig uitgevoerd dat de hele brug kon draaien. De Kraneschipbrug behoorde tot de laatste categorie. De brug werd in 1989 vervangen door een normale brug en ligt nu in de Leuvehaven in Rotterdam.",
+        "location": "www.vaartips.nl/extra/brugtypen.htm.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "48_Tjalkmethooi.jpg",
+        "title": "Tjalk met hooi",
+        "description": "Een forse tjalk geladen met hooi omstreeks 1800. Landbouwproducten vormden in deze periode lading. Hooi heeft weinig gewicht. Om een flinke hoeveelheid hooi te vervoeren, moest de lading dus hoog worden opgetast. Daardoor ontstonden twee problemen. De schipper aan het roer had weinig uitzicht en een dergelijke hoog opgetaste lading leverde bij sterke zijwind veel gevaar voor de stabiliteit. Het eerste probleem losten de schippers op door aan het roer een verlengstok met een twee roer te bevestigen, waardoor ze het vaartuig staande op het hooi konden besturen. Het tweede probleem was onoplosbaar.",
+        "description2": "Aquarel door Gerrit Groenewegen, ca. 1800.",
+        "location": "Maritiem Museum, Rotterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "49_Harlingen.jpg",
+        "title": "Ingang van de haven van Harlingen",
+        "description": "De haven van Harlingen was één van de belangrijkste Zuiderzeehavens, zowel voor de zee- als de binnenvaart, en vormde voor het goederenvervoer de toegangspoort naar Friesland. Opvallend is dat de havenmond zeer smal was. Dit maakte het vooral bij sterke westenwind moeilijk om de haven binnen te lopen.",
+        "description2": "Uit: C. van der Aa, D. de Jong, M. de Sallieth, <em>Atlas van de Zeehavens der Bataafsche Republiek</em> (Amsterdam 1805).",
+        "location": "Maritiem Museum, Rotterdam.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "50_zwarebui.jpg",
+        "title": "Riviergezicht bij een onverwachte zware bui",
+        "description": "Het scheepje rechts op de voorgrond verkeert kennelijk in grote moeilijkheden. Er lijkt gevaar dat het omslaat. De schipper kan niet tegen de wind in opdraaien om het zeil te strijken, want dan blaast de stormachtige wind hem naar lagerwal, waar zijn schip aan de grond zou lopen. De schippersknecht lijkt bezig om het zeil half te strijken om zodoende de winddruk te verminderen. Dat is onder deze omstandigheden heel lastig. Aan boord bevinden zich verder twee passagiers, een man en een vrouw, de laatste kenbaar aan haar brede hoed. Beiden zijn niet op de onverwachte omstandigheden gekleed. Links een groot vrachtschip, dat tegen de wind is opgedraaid om de zeilen te kunnen reven of overstag te gaan.",
+        "description2": "Tekening door Martinus Schouman, 1810.",
+        "location": "Dordrechts Museum, Dordrecht.",
+        "chapter": "d3h6"
+    },
+    {
+        "filename": "51_Marianne.jpg",
+        "title": "De stoomboot <em>Prinses Marianne</em> op de Oosterschelde bij Zierikzee",
+        "description": "In 1825 werd een geregelde stoomvaartdienst van Rotterdam naar Middelburg geopend. Deze dienst verkortte de reisduur tussen Holland en de Zeeuwse eilanden aanzienlijk. Bovendien was de stoomboot niet meer afhankelijk van wind en stroming, waardoor een veel nauwkeuriger dienstregeling kon worden aangehouden dan bij de vroegere zeilvaart.",
+        "description2": "Schilderij door Jan van Ouwerkerk, 1839.",
+        "location": "Stadhuismuseum, Zierikzee.",
         "chapter": "d3h6"
     }
 ]

@@ -1,3 +1,4 @@
+
 [
     {
         "chapter": "d1h6",
@@ -2556,5 +2557,982 @@
         "worldcatTitel3": "https://www.worldcat.org/oclc/8087015520",
         "worldcatTitel4": "https://www.worldcat.org/oclc/989569582",
         "worldcatTitel5": "https://www.worldcat.org/oclc/36582550"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 1,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 77-79. Deze studie vormt het enige overzichtswerk dat een volledig beeld van de ontwikkeling van de binnenvaart in de negentiende eeuw geeft. Verder bieden R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) een uitgebreid overzicht over de concurrentie tussen de verschillende vervoerwijzen en de totstandkoming van de infrastructuur, zowel bij het personen- als het goederenvervoer. Het standaardwerk J. de Vries, <em>Barges and Capitalism: Passenger Transportation in the Dutch Economy (1632-1839)</em> (Utrecht 1981) bevat veel informatie over reizigersaantallen, vervoerskosten en de concurrentie met andere vervoerwijzen van het trekschuitensysteem. H.P.H. Nusteling, <em>De Rijnvaart in het tijdperk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) is het standaardwerk dat de Rijnvaart in al zijn facetten grondig analyseert. Verder biedt de website www.historisch.cbs.nl van het Centraal Bureau voor de Statistiek (CBS) toegang tot de provinciale jaarverslagen van verschillende provincies, die vanaf 1850 informatie over het scheepvaartverkeer op verschillende vaarwegen geven. Dezelfde website geeft ook toegang tot de statistieken van in-, uit- en doorvoer, die vanaf 1846 gedetailleerde cijfers over de ontwikkeling van het internationale binnenvaartvervoer verschaffen. Belangrijke kennislacunes zijn er over de leefomstandigheden van de schippers in de negentiende eeuw en de exploitatie van de stoomvaartondernemingen aan het eind van de eeuw.         ",
+        "url": "www.historisch.cbs.nl",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/8086873700",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/310581284",
+        "worldcatTitel4": "https://www.worldcat.org/oclc/995486546"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 2,
+        "longNote": "Marktschuiten waren kleine zeilschepen of jaagschuiten, bestemd voor personen- en goederenvervoer, die op marktdagen een regelmatige verbinding tussen een dorp en een nabijgelegen stad onderhielden."
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 3,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 28, 29.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 4,
+        "longNote": "M. Clement, <em>Transport en economische ontwikkeling. Analyse van de modernisering van het transportsysteem in de provincie Groningen (1800-1914)</em> (Groningen 1994) 137; R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) 24, 25.",
+        "worldcat": "https://www.worldcat.org/oclc/902448449",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/8086873700"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 5,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 41-44; J. de Vries, <em>Barges and Capitalism: Passenger Transporta­tion in the Dutch Economy (1632-1839)</em> (Utrecht 1981) 70-74.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/310581284"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 6,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 12, 20, 27-29, 41-43, 105-107.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 7,
+        "longNote": "Om de haalbare reisafstand per etmaal te bepalen is aangenomen dat de gemiddelde reiziger dagelijks – exclusief oponthoud bij overstappen – ongeveer tien uur reisde. Sommige reizigers maakten veel langere reisdagen. Bron: R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> 367; J. de Vries, <em>Barges and Capitalism: Passenger Transporta­tion in the Dutch Economy (1632-1839)</em> (Utrecht 1981) 78; J.L. van Zanden en A. van Riel, <em>Nederland 1780-1914. Staat, instituties en economische ontwikkeling</em> (Amsterdam 2000) 84.",
+        "worldcat": "https://www.worldcat.org/oclc/8086873700",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/310581284",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/237387818"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 8,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 46, 79; R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) 33-37, 91-95; J. de Vries, <em>Barges and Capitalism: Passenger Transporta­tion in the Dutch Economy (1632-1839)</em> (Utrecht 1981) 181-183, 199.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/8086873700",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/310581284"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 9,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 79, 80; R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) 219-225; J. de Vries, <em>Barges and Capitalism: Passenger Transporta­tion in the Dutch Economy (1632-1839)</em> (Utrecht 1981) 205.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/8086873700",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/310581284"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 10,
+        "longNote": "R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) 73-76; R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 81-87.",
+        "worldcat": "https://www.worldcat.org/oclc/8086873700",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 11,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 80.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 12,
+        "longNote": "Het ging hierbij om goederen die snel op hun eindbestemming moesten komen, bijvoorbeeld omdat de afnemer ze dringend nodig had of bij langdurig vervoer kwaliteit verloren, of om goederen waarvan de waarde veel hoger was dan de transportkosten. Voorbeelden zijn bijvoorbeeld koffie, suiker, tabak en specerijen. Zie voor het belang van snelheid bijvoorbeeld: R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) 242, 243, 285, 286.",
+        "worldcat": "https://www.worldcat.org/oclc/8086873700"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 13,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) passim.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 14,
+        "longNote": "R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) passim.",
+        "worldcat": "https://www.worldcat.org/oclc/8086873700"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 15,
+        "longNote": "Barge is het Engelse woord voor schuit."
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 16,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 78, 79, 88; J. de Vries, <em>Barges and Capitalism: Passenger Transporta­tion in the Dutch Economy (1632-1839)</em> (Utrecht 1981) 181-183.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/310581284"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 17,
+        "longNote": "M. Clement, <em>Transport en economische ontwikkeling. Analyse van de modernisering van het transportsysteem in de provincie Groningen (1800-1914)</em> (Groningen 1994) 146-148; <em>Groninger\nCourant</em>, 3 januari 1845, 14 maart 1845.",
+        "worldcat": "https://www.worldcat.org/oclc/902448449",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/1194624140/"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 18,
+        "longNote": "<em>Algemeen Handelsblad</em>, 5 augustus 1844; M. Clement, <em>Transport en economische ontwikkeling. Analyse van de modernisering van het transportsysteem in de provincie Groningen (1800-1914)</em> (Groningen 1994) 147; <em>Groninger Courant,</em> 12 mei 1843; <em>Leeuwarder Courant</em>, 8 juli 1842, 6 september 1842.",
+        "worldcat": "https://www.worldcat.org/oclc/902448449",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/1194624140",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/5844258696",
+        "worldcatTitel4": "https://www.worldcat.org/oclc/5843920884"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 19,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 79, 80.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 20,
+        "longNote": "M. Clement, <em>Transport en economische ontwikkeling. Analyse van de modernisering van het transportsysteem in de provincie Groningen (1800-1914)</em> (Groningen 1994) 134, 146-150, 164; R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 80.",
+        "worldcat": "https://www.worldcat.org/oclc/902448449",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 21,
+        "longNote": "Heen- en terugreis zijn als één dienst geteld. Bron: M. Clement, <em>Transport en economische ontwikkeling. Analyse van de modernisering van het transportsysteem in de provincie Groningen (1800-1914)</em> (Groningen 1994) 134.",
+        "worldcat": "https://www.worldcat.org/oclc/902448449"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 22,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 62, 81-87.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 23,
+        "longNote": "P. Brouwer, G. van Kesteren en A. Wiersma, <em>Berigt aan de heeren reizigers. 400 jaar openbaar vervoer in Nederland</em> (Den Haag 2008) 375; R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 143-146, 149; R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) 288, 289.",
+        "worldcat": "https://www.worldcat.org/oclc/262262574",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/8086873700"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 24,
+        "longNote": "Bron: P. Brouwer, G. van Kesteren en A. Wiersma, <em>Berigt aan de heeren reizigers. 400 jaar openbaar vervoer in Nederland</em> (Den Haag 2008) 376. Veel stoombootdiensten liepen door meerdere provincies. Vandaar dat het totale aantal stoombootdiensten in Nederland kleiner was dan het provinciale totaal.",
+        "worldcat": "https://www.worldcat.org/oclc/262262574"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 25,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 145, 146, 149.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 26,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 88-90.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 27,
+        "longNote": "Bron: R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 89.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 28,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 90.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 29,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 216, 217; R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) 277-280; ‘Journaal der reize van den agent van nationale oeconomie der Bataafsche Republiek (A° 1800)’, <em>Tijdschrift voor Staathuishoudkunde en Statistiek</em> 18 (1859) 194-217, 241-254, 313-337, 377-392, 441-459; <em>Tijdschrift voor Staathuishoudkunde en Statistiek</em> 19 (1860) 1-18, 57-74, 123-141, 185-199, 249-263. De overheersende positie van de vrije vaart blijkt eveneens uit het reisjournaal van de agent van de nationale economie Johannes Goldberg in 1800, uit belastingstatistieken uit 1850-1851 en uit een regeringsenquête in 1857.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/8086873700",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/1058880970"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 30,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 48, 49; J.M. Fuchs, <em>Beurt- en wagenveren</em> (Rotterdam 1946) 256-260, passim.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/610357623"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 31,
+        "longNote": "J.M. Fuchs, <em>Beurt- en wagenveren</em> (Rotterdam 1946) 306-335.",
+        "worldcat": "https://www.worldcat.org/oclc/610357623"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 32,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 158.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 33,
+        "longNote": "R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) 24, 28; J.H. Scha­wacht, <em>Schiffahrt und Güter­verkehr zwischen den Häfen des Deut­schen Nie­der­rheins (ins besondere Köln) und Rotterdam (1794-1850/51)</em> (Keulen 1973) 32.",
+        "worldcat": "https://www.worldcat.org/oclc/8086873700",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/630228285"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 34,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 152-155; R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) 146, 147.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/630228285"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 35,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 122, 123; R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) (Zutphen 2008) 274; J.P.H. Smits, <em>Economische groei en structuurveranderingen in de Nederlandse dienstensector 1850-1913</em> (Amsterdam 1995) 180.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/630228285",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/500183562"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 36,
+        "longNote": "Bron: R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) 403.",
+        "worldcat": "https://www.worldcat.org/oclc/630228285"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 37,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 386, 387; E. Horlings, <em>The Economic Development of the Dutch Service Sector, 1800-1850: Trade and Transport in a Premodern Economy</em> (Amsterdam 1995) 417, 418; J.C. Ramaer, ‘Het goederenverkeer in Nederland in de laatste jaren’, <em>Tijdschrift van het Koninklijk Nederlandsch Aardrijkskundig Genootschap</em> 43 (1926) 331-392, passim; J.P.H. Smits, <em>Economische groei en structuurveranderingen in de Nederlandse dienstensector 1850-1913</em> (Amsterdam 1995) 302. Zie voor de provinciale verslagen (1830-1913), www.historisch.cbs.nl en <em>Staatkundig en staathuishoudkundig jaarboekje voor 1859</em> (Amsterdam 1859).",
+        "url": "www.historisch.cbs.nl",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/863491248",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/67359613",
+        "worldcatTitel4": "https://www.worldcat.org/oclc/500183562"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 38,
+        "longNote": "Tonkilometer: De verplaatsing van één ton goederen over een afstand van één kilometer."
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 39,
+        "longNote": "Bron: E. Horlings, <em>The Economic Development of the Dutch Service Sector, 1800-1850: Trade and Transport in a Premodern Econo­my</em> (Amsterdam 1995) 419; J.C. Ramaer, ‘Het goederenverkeer in Nederland in de laatste jaren’, <em>Tijdschrift van het Koninklijk Nederlandsch Aardrijkskundig Genootschap</em> 43 (1926) 331-392, 388; J.P.H. Smits, <em>Economische groei en structuurveranderingen in de Nederlandse dienstensector 1850-1913</em> (Amsterdam 1995) 293, 301.",
+        "worldcat": "https://www.worldcat.org/oclc/863491248",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/67359613",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/500183562"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 40,
+        "longNote": "Groeicijfers ontleend aan tabel 6."
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 41,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 99-102.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 42,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 187-189; <em>Statistisch jaarboek voor het Koningrijk der Nederlanden, 1859</em> (’s-Gravenhage 1859) 259.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/5280130"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 43,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 101, 102; <em>Statistisch jaarboek voor het Koningrijk der Nederlanden, 1859</em> (’s-Gravenhage 1859) 277-279, 343, 344.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/5280130"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 44,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 183-186.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 45,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 101; <em>Verslag provincie Zuid-Holland 1860</em>, 241, https://www.historisch.cbs.nl.",
+        "url": "https://www.historisch.cbs.nl",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 46,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 101; <em>Verslag provincie Noord-Holland 1858</em>, 390, 391, https://www.historisch.cbs.nl.",
+        "url": "https://www.historisch.cbs.nl",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/72818075"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 47,
+        "longNote": "<em>Verslag provincie Noord-Holland 1858</em>, 517, 520, https://www.historisch.cbs.nl.",
+        "url": "https://www.historisch.cbs.nl",
+        "worldcat": "https://www.worldcat.org/oclc/72818075"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 48,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 101, 102.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 49,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 152.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 50,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 152-155.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 51,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 146-150.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 52,
+        "longNote": "C.G. Davies, <em>De ontdekking van Nederland. De tocht van de SS Atalanta over de rivieren en kanalen van Nederland en Vlaanderen</em> (Amsterdam 2001) 154; H.M. Doughty, <em>Friesland Meres and through the Netherlands: The Voyage of a Family in a Norfolk Wherry</em> (Londen 1889) 201-221, 275-277; R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 153-156.",
+        "worldcat": "https://www.worldcat.org/oclc/67216034",
+        "worldcatTitel2": "https://www.worldcat.org/55575826",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 53,
+        "longNote": "P.J. Bouman, <em>Rotterdam en het Duitsche achterland (1831-1851)</em> (Amsterdam 1931) 4-16; H.A.M. Klemann, ‘The Central Commission for the Navigation on the Rhine, 1815-1914: Nineteenth Century European Integration’, <em>Erasmus Centre for the History of the Rhine, ECHR Working Paper: ECHR-2013-1</em> (Rotterdam 2013) 3-15; H.A.M. Klemann en J. Schenk, ‘Competition in the Rhine Delta: Waterways, Railways and Ports, 1870-1913’, <em>Economic History Review</em> 66:3 (2013) 826-847, 826, 827; H.A.M. Klemann en J. Schenk, ‘The Rhine in the Long 19th Century: Creating the Lower Rhine Region’ (ongepubliceerd artikel) 4-11, 15, 16; H.P.H. Nusteling, <em>De Rijnvaart in het tijd­perk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 3-12.",
+        "worldcat": "https://www.worldcat.org/oclc/942927012",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/8162556753",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/855059076",
+        "worldcatTitel4": "https://www.worldcat.org/oclc/995486546"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 54,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 124, 125; H.P.H. Nusteling, <em>De Rijnvaart in het tijd­perk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 12-47; H.A.M. Klemann, ‘The Central Commission for the Navigation on the Rhine, 1815-1914: Nineteenth Century European Integration’, <em>Erasmus Centre for the History of the Rhine, ECHR Working Paper: ECHR-2013-1</em> (Rotterdam 2013) 16-23; H.A.M. Klemann en J. Schenk, ‘The Rhine in the Long 19th Century: Creating the Lower Rhine Region’ (ongepubliceerd artikel) 15-22.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/995486546",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/8162556753"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 55,
+        "longNote": "H.P.H. Nusteling, <em>De Rijnvaart in het tijd­perk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 48-84; H.A.M. Klemann, ‘The Central Commission for the Navigation on the Rhine, 1815-1914: Nineteenth Century European Integration’, <em>Erasmus Centre for the History of the Rhine, ECHR Working Paper: ECHR-2013-1</em> (Rotterdam 2013) 19-25; H.A.M. Klemann en J. Schenk, ‘The Rhine in the Long 19th Century: Creating the Lower Rhine Region’ (nog ongepubliceerd artikel) 21-26.",
+        "worldcat": "https://www.worldcat.org/oclc/995486546",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/855059076"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 56,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 206-211; R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 21-24, 26, 40, 41; H.P.H. Nusteling, <em>De Rijnvaart in het tijd­perk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 464, 465; E. Horlings, <em>The Economic Development of the Dutch Service Sector, 1800-1850: Trade and Transport in a Premodern Econo­my</em> (Amsterdam 1995) 408, 410, 414.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/995486546",
+        "worldcatTitel4": "https://www.worldcat.org/oclc/863491248"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 57,
+        "longNote": "E. Horlings, <em>The Economic Development of the Dutch Service Sector, 1800-1850: Trade and Transport in a Premodern Econo­my</em> (Amsterdam 1995) 375, 376.",
+        "worldcat": "https://www.worldcat.org/oclc/863491248"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 58,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 118, 119; E. Horlings, <em>The Economic Development of the Dutch Service Sector, 1800-1850: Trade and Transport in a Premodern Economy</em> (Amsterdam 1995) 415; H.P.H. Nusteling, <em>De Rijnvaart in het tijdperk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 174, 464, 465, 482, 483; J.P.H. Smits, <em>Economische groei en structuurveranderingen in de Nederlandse dienstensector 1850-1913</em> (Amsterdam 1995) 297; J.L. van Zanden en A. van Riel, <em>Nederland 1780-1914. Staat, instituties en economische ontwikkeling</em> (Amsterdam 2000) 263-265.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/863491248",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/995486546",
+        "worldcatTitel4": "https://www.worldcat.org/oclc/500183562",
+        "worldcatTitel5": "https://www.worldcat.org/oclc/237387818"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 59,
+        "longNote": "H.P.H. Nusteling, <em>De Rijnvaart in het tijd­perk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 182-201.",
+        "worldcat": "https://www.worldcat.org/oclc/995486546"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 60,
+        "longNote": "Bron: R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 117.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 61,
+        "longNote": "Bron: E. Horlings, <em>The Economic Development of the Dutch Service Sector, 1800-1850: Trade and Transport in a Premodern Econo­my</em> (Amsterdam 1995) 415; J.P.H. Smits, <em>Economische groei en structuurveranderingen in de Nederlandse dienstensector 1850-1913</em> (Amsterdam 1995) 297.",
+        "worldcat": "https://www.worldcat.org/oclc/863491248",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/995486546"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 62,
+        "longNote": "R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) 241-246; H.P.H. Nusteling, <em>De Rijnvaart in het tijd­perk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 174, 465, 483.",
+        "worldcat": "https://www.worldcat.org/oclc/8086873700"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 63,
+        "longNote": "R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) 244-246, 277, 403; H.A.M. Klemann en J. Schenk, ‘Competition in the Rhine Delta: Waterways, Railways and Ports, 1870-1913’, <em>Economic History Review</em> 66:3 (2013) 826-847, passim; H.P.H. Nusteling, <em>De Rijnvaart in het tijd­perk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 176-179; J. Schenk, <em>Havenbaronnen en Ruhrbonzen. Oorsprong van een wederzijdse afhankelijkheidsrelatie tussen Rotterdam en het Ruhrgebied, 1870-1914</em> (Rotterdam 2015) passim.",
+        "worldcat": "https://www.worldcat.org/oclc/8086873700",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/855059076",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/995486546",
+        "worldcatTitel4": "https://www.worldcat.org/6899670945"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 64,
+        "longNote": "Bron: <em>Statistiek van den in-, uit- en doorvoer over het jaar 1880</em> (’s-Gravenhage 1881) 551, 552.",
+        "worldcat": "https://www.worldcat.org/oclc/647931210"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 65,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 85, 94, 95.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 66,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 95, 96.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 67,
+        "longNote": "Bron: P.J. Bouman, <em>Rotterdam en het Duitsche achterland (1831-1851)</em> (Amsterdam 1931) 140; H.P.H. Nusteling, <em>De Rijnvaart in het tijd­perk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 121.",
+        "worldcat": "https://www.worldcat.org/oclc/942927012",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/995486546"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 68,
+        "longNote": "E. Horlings, <em>The Economic Development of the Dutch Service Sector, 1800-1850: Trade and Transport in a Premodern Econo­my</em> (Amsterdam 1995) 203, 409-411; <em>Statistiek van den in-, uit- en doorvoer over het jaar 1880</em> (’s-Gravenhage 1881) 684-689.",
+        "worldcat": "https://www.worldcat.org/oclc/863491248",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/647931210"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 69,
+        "longNote": "Bron: <em>Statistiek van den handel en de scheepvaart van het Koningrijk der Nederlanden, 1850, 1860, 1870</em> (’s-Gravenhage 1851, 1861, 1871) passim; <em>Statistiek van den in-, uit- en doorvoer over het jaar 1880</em> (’s-Gravenhage 1881) 684-689.",
+        "worldcat": "https://www.worldcat.org/oclc/72791479",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/647931210"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 70,
+        "longNote": "<em>Statistiek van den handel en de scheepvaart van het Koningrijk der Nederlanden, 1850, 1860, 1870</em> (’s-Gravenhage 1851, 1861, 1871) passim; <em>Statistiek van den in-, uit- en doorvoer over het jaar 1880</em> (’s-Gravenhage 1881) passim.",
+        "worldcat": "https://www.worldcat.org/oclc/72791479",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/647931210"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 71,
+        "longNote": "<em>Statistiek van den in-, uit- en doorvoer over het jaar 1880</em> (’s-Gravenhage 1881) passim.",
+        "worldcat": "https://www.worldcat.org/oclc/647931210"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 72,
+        "longNote": "<em>Statistiek van den in-, uit- en doorvoer over het jaar 1880</em> (’s-Gravenhage 1881) passim.",
+        "worldcat": "https://www.worldcat.org/oclc/647931210"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 73,
+        "longNote": "Bron: <em>Statistiek van den handel en de scheepvaart van het Koningrijk der Nederlanden, 1850, 1860, 1870</em> (’s-Gravenhage 1851, 1861, 1871) passim; <em>Statistiek van den in-, uit- en doorvoer over het jaar 1880</em> (’s-Gravenhage 1881) passim.",
+        "worldcat": "https://www.worldcat.org/oclc/72791479",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/647931210"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 74,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 17-27.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 75,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 26, 27, 140; R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) 282.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/8086873700"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 76,
+        "longNote": "H.P.H. Nusteling, <em>De Rijnvaart in het tijd­perk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 242.",
+        "worldcat": "https://www.worldcat.org/oclc/995486546"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 77,
+        "longNote": "Bron: R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 140-142.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 78,
+        "longNote": "Bron: R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 142. De omvang van de vloot in de verschillende provincies liep sterk uiteen. Bij de bepaling van het landelijke gemiddelde speelden provincies met veel vaartuigen, zoals Zuid-Holland, Noord-Holland en Friesland, dus een veel grotere rol dan provincies met weinig vaartuigen, zoals Limburg en Gelderland. ",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 79,
+        "longNote": "M.G. de Boer, <em>Leven en bedrijf van Gerard Moritz Roentgen, grondvester van de Nederlandsche Stoomboot-Maatschappij, 1823-1923</em> (Rotterdam 1923) 1-57, 69-72; R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 81-87.",
+        "worldcat": "https://www.worldcat.org/oclc/162990162",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 80,
+        "longNote": "M.G. de Boer, <em>Leven en bedrijf van Gerard Moritz Roentgen, grondvester van de Nederlandsche Stoomboot-Maatschappij, 1823-1923</em> (Rotterdam 1923) passim; P.J. Bouman, <em>Rotterdam en het Duitsche achterland (1831-1851)</em> (Amsterdam 1931) 92, 96, 97; M. Schwann, <em>Ludolf Camphausen als Wirtschaftpolitiker</em> (Essen 1915) 337, 338; R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 95, 96; H.P.H. Nusteling, <em>De Rijnvaart in het tijd­perk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 87-89, 120-122.",
+        "worldcat": "https://www.worldcat.org/oclc/162990162",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/942927012",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/604115688",
+        "worldcatTitel4": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel5": "https://www.worldcat.org/oclc/995486546"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 81,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 96, 150.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 82,
+        "longNote": "Bron: R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 142.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 83,
+        "longNote": "R. Filarski en G.P.A. Mom, <em>Van transport naar mobiliteit. De transportrevolutie (1800-1900), deel 1</em> (Zutphen 2008) 418.",
+        "worldcat": "https://www.worldcat.org/oclc/8086873700"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 84,
+        "longNote": "Bron: R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 145.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 85,
+        "longNote": "M. Jansen, <em>De industriële ontwikkeling in Nederland, 1800-1850</em> (Amsterdam 1899) 104-106; <em>Statistisch jaarboek voor het Koningrijk der Nederlanden, 1852 </em> (’s-Gravenhage 1852) 324-326; <em>Statistisch jaarboek voor het Koningrijk der Nederlanden, 1860</em> (’s-Gravenhage 1860) 295-298; I. Wormgoor, <em>Turfschuiten en kustvaarders. Een geschiedenis van de Groninger scheepsbouw</em> (Hilversum 2016) 88-111.",
+        "worldcat": "https://www.worldcat.org/oclc/46936431",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/5280130",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/1027475118"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 86,
+        "longNote": "<em>Algemeen Handelsblad</em>, 31 december 1841; M.G. de Boer, <em>Leven en bedrijf van Gerard Moritz Roentgen, grondvester van de Nederlandsche Stoomboot-Maatschappij, 1823-1923</em> (Rotterdam 1923) 130; <em>Leeuwarder Courant</em>, 21 juni 1842; <em>Nederlandsche Staatscourant</em>, 15 juni 1842; H.P.H. Nusteling, <em>De Rijnvaart in het tijd­perk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 88; M. Schwann, <em>Ludolf Camphausen als Wirtschaftpolitiker</em> (Essen 1915) 337, 338.",
+        "worldcat": "https://www.worldcat.org/oclc/162990162",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/5843912684",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/995486546",
+        "worldcatTitel4": "https://www.worldcat.org/oclc/604115688"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 87,
+        "longNote": "P. le Comte, <em>Vijftig afbeeldingen van schepen en vaartuigen</em> (Amsterdam 1831) 44-46; H. Dessens, <em>Nederlandse zeilende binnenvaart, 1880-1950</em> (Alkmaar 2007) 8, 9; <em>Groninger Courant</em>, 3 januari 1845, 14 maart 1845; ; G.P.J. Mossel, <em>Handleiding tot de kennis van het schip</em> (Amsterdam 1859) 10; H.P.H. Nusteling, <em>De Rijnvaart in het tijdperk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 88, 89, 120; J.H. Schawacht, <em>Schiffahrt und Güter¬verkehr zwischen den Häfen des Deutschen Niederrheins (ins besondere Köln) und Rotterdam (1794-1850/51)</em> (Keulen 1973) 30; I. Wormgoor, <em>Turfschuiten en kustvaarders. Een geschiedenis van de Groninger scheepsbouw</em> (Hilversum 2016) 76-80.",
+        "worldcat": "https://www.worldcat.org/oclc/1075780240",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/1194624140",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/995486546",
+        "worldcatTitel4": "https://www.worldcat.org/oclc/630228285",
+        "worldcatTitel5": "https://www.worldcat.org/oclc/1027475118"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 88,
+        "longNote": "H. Dessens, <em>Nederlandse zeilende binnenvaart, 1880-1950</em> (Alkmaar 2007) 8; R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) passim; R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) 165; H.A. Hachmer, <em>Voor en tegen de wind. Kanalen, schepen, schippers en scheepsjagers in de Veenkoloniën</em> (Scheemda 1994) 68, 69; ; G.P.J. Mossel, <em>Handleiding tot de kennis van het schip</em> (Amsterdam 1859) 10; H.P.H. Nusteling, <em>De Rijnvaart in het tijd­perk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 88, 242; G.J. Schutten, <em>Verdwenen schepen. De houten kleine beroepsvaartuigen, vrachtvaarders en vissersschepen van de lage landen</em> (Zutphen 2007) 60; J.T. Wilke en S. Halfweeg, <em>Neerlands scheepsbouw en scheepvaart, deel I</em> (Rotterdam 1943/1944) 13; I. Wormgoor, <em>Turfschuiten en kustvaarders. Een geschiedenis van de Groninger scheepsbouw</em> (Hilversum 2016) 78, 79, 85-87, 89.",
+        "worldcat": "https://www.worldcat.org/oclc/1075780240",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/8086873700",
+        "worldcatTitel4": "https://www.worldcat.org/oclc/943784711",
+        "worldcatTitel5": "https://www.worldcat.org/oclc/82561768",
+        "worldcatTitel6": "https://www.worldcat.org/oclc/995486546",
+        "worldcatTitel7": "https://www.worldcat.org/ocle/244453352",
+        "worldcatTitel8": "https://www.worldcat.org/oclc/224438500",
+        "worldcatTitel9": "https://www.worldcat.org/oclc/1027475118"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 89,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 26, 27, 29; E. Horlings, <em>The Economic Development of the Dutch Service Sector, 1800-1850: Trade and Transport in a Premodern Econo­my</em> (Amsterdam 1995) 333.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/863491248"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 90,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 54, 57, 100, 105.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 91,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 53, 160-162; J. Verrips, <em>Als het tij verloopt. Over binnenschippers en hun bonden, 1895-1975</em> (Amsterdam 1991) 27-33, passim.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/28508852"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 92,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 162, 163; <em>Verslag der Staatscommissie, ingesteld bij Koninklijk Besluit van 4 mei 1905, nr.51, tot het nagaan van den toestand waarin het binnenschipperijbedrijf verkeert</em> (’s-Gravenhage 1911) 168, 169.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/65752468"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 93,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 164-167; A. Pol en G. van Hezel, <em>Kraggenburg en de vaarweg van Zwolle naar zee</em> (Kampen 2000) passim; J. Verrips, <em>Als het tij verloopt. Over binnenschippers en hun bonden, 1895-1975</em> (Amsterdam 1991) 1-3.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/66884513",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/28508852"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 94,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 48, 49.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 95,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 163, 164; J. Verrips, <em>Als het tij verloopt. Over binnenschippers en hun bonden, 1895-1975</em> (Amsterdam 1991) 19-22.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/28508852"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 96,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 51, 52; C. Verhagen, <em>De geschiedenis van de Zuid-Willemsvaart. Het kanaal van eenheid en scheiding</em> (Someren 2000) 83-90.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/842818230"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 97,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 95, 218.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 98,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 52.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 99,
+        "longNote": "J.C. Westermann, <em>Kagen, clippers, werven en motoren. Geschiedenis van een geslacht van schippers, reeders, scheepsbouwmeesters en motorfabrikanten te Amsterdam</em> (Amsterdam 1942) 29-38.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 100,
+        "longNote": "J.C. Westermann, <em>Kagen, clippers, werven en motoren. Geschiedenis van een geslacht van schippers, reeders, scheepsbouwmeesters en motorfabrikanten te Amsterdam</em> (Amsterdam 1942) 38-46, 53.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 101,
+        "longNote": "J.C. Westermann, <em>Kagen, clippers, werven en motoren. Geschiedenis van een geslacht van schippers, reeders, scheepsbouwmeesters en motorfabrikanten te Amsterdam</em> (Amsterdam 1942) 43, 44.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 102,
+        "longNote": "J.C. Westermann, <em>Kagen, clippers, werven en motoren. Geschiedenis van een geslacht van schippers, reeders, scheepsbouwmeesters en motorfabrikanten te Amsterdam</em> (Amsterdam 1942) passim",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 103,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 102-104.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 104,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 95, 102-104.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 105,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 103, 104.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 106,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 146-150.",
+        "worldcat": "https://www.worldcat.org/oclc/905841369"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 107,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 89-111, 228-231.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 108,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 95, 96; R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 21-23; J.H. Scha­wacht, <em>Schiffahrt und Güter­verkehr zwischen den Häfen des Deut­schen Nie­der­rheins (ins besondere Köln) und Rotterdam (1794-1850/51)</em> (Keulen 1973) 30-32; B.C.E. Zwart, <em>De Kamer van Koophandel en Fabrie­ken te Amster­dam. Overzicht van hare handelingen gedurende het tijd­vak 1811-1911</em> (Am­sterdam 1911) 74-76.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/630228285",
+        "worldcatTitel4": "https://www.worldcat.org/oclc/250117251"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 109,
+        "longNote": "P. le Com­te, <em>Vijftig afbeeldingen van schepen en vaartuigen</em> (Amsterdam 1831) 44-46; R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 35, 36, 96, 97, 142; R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 21, 24; K. Touw,  ‘De samoreus en de bunder’,  <em>Binnenvaart</em> 1 (2017) 21-26 en <em>Binnenvaart</em> 2 (2017) 14-20 , 19; B.C.E. Zwart, <em>De Kamer van Koophandel en Fabrie­ken te Amster­dam. Overzicht van hare handelingen gedurende het tijd­vak 1811-1911</em> (Am­sterdam 1911) 74-76. Zie voor een discussie over het laadvermogen van de samoreuzen: P. le Com­te, <em>Vijftig afbeeldingen van schepen en vaartuigen</em> (Amsterdam 1831); J.H. Scha­wacht, <em>Schiffahrt und Güter­verkehr zwischen den Häfen des Deut­schen Nie­der­rheins (ins besondere Köln) und Rotterdam (1794-1850/51)</em> (Keulen 1973); K. Touw,  ‘De samoreus en de bunder’, <em>Binnenvaart</em> 1 (2017) 21-26 en <em>Binnenvaart </em>2 (2017) 14-20 en B.C.E. Zwart, <em>De Kamer van Koophandel en Fabrie­ken te Amster­dam. Overzicht van hare handelingen gedurende het tijd­vak 1811-1911</em> (Am­sterdam 1911).",
+        "worldcat": "https://www.worldcat.org/oclc/468261084",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/905841369",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/250117251",
+        "worldcatTitel4": "https://www.worldcat.org/oclc/630228285"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 110,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 89-111.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 111,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 97, 98; ‘Journaal der reize van den agent van nationale oeconomie der Bataafsche Republiek (A° 1800)’,  <em>Tijdschrift voor Staathuishoudkunde en Statistiek</em> 18 (1859) 388, 450; ‘Journaal der reize van den agent van nationale oeconomie der Bataafsche Republiek (A° 1800)’, <em>Tijdschrift voor Staathuishoudkunde en Statistiek</em> 19 (1860) 71; <em>Staatkundig en staathuishoudkundig jaarboekje voor 1859</em> (Amsterdam 1859) 342, 343.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/1058880970"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 112,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 89-111; R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 24, 25; E.J. Fischer, <em>Fabriqueurs en fabrikanten. Twente, Borne en de katoennijverheid, 1800-1930</em> (Utrecht 1983) 43-52, 102-106, 143-148; ‘Journaal der reize van den agent van nationale oeconomie der Bataafsche Republiek (A° 1800)’, <em>Tijdschrift voor Staathuishoudkunde en Statistiek</em> 18 (1859) 194-217, 241-254, 313-337, 377-392, 441-459; <em>Tijdschrift voor Staathuishoudkunde en Statistiek</em> 19 (1860) 1-18, 57-74, 123-141, 185-199, 249-263.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/468261084",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/925662919",
+        "worldcatTitel4": "https://www.worldcat.org/oclc/1058880970"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 113,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 96; R. Filarski,, <em> Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 34; A. van Heezik, <em>Strijd om de rivieren. 200 jaar rivierenbeleid in Nederland of de opkomst en ondergang van het streven naar de normale rivier</em> (Haarlem/Den Haag 2008) 44-48.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/468261084",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/291143844"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 114,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 36, 110, 111.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 115,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) passim.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 116,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 289-294.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 117,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 117, 294, 295.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 118,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 295-299; A. van der Woud, <em>Het lege land. De ruimtelijke ordening van Nederland, 1798-1848</em> (Amsterdam 1988) 219-231.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/851798080"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 119,
+        "longNote": "R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 347-352, 359.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 120,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 127.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 121,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 129.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 122,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 129, 130.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 123,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 130.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 124,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 130, 131.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 125,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 131, 132.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 126,
+        "longNote": "P.J. Bouman, <em>Rotterdam en het Duitsche achterland (1831-1851)</em> (Amsterdam 1931) 92; W.J.M. van Eysinga en H. Walther, <em>Geschichte der Zentralkommission für die Rheinschiffahrt 1816 bis 1969</em> (Straatsburg 1994) 76-80, 94; A. van Heezik, <em>Strijd om de rivieren. 200 jaar rivierenbeleid in Nederland of de opkomst en ondergang van het streven naar de normale rivier</em> (Haarlem/Den Haag 2008) 80, 94; H.P.H. Nusteling, <em>De Rijnvaart in het tijd­perk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 221, 222, 243, 244.",
+        "worldcat": "https://www.worldcat.org/oclc/942927012",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/80939494",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/291143844",
+        "worldcatTitel4": "https://www.worldcat.org/oclc/995486546"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 127,
+        "longNote": "<em>Algemeen Handelsblad</em>, 30 november 1877; A. van Heezik, <em>Strijd om de rivieren. 200 jaar rivierenbeleid in Nederland of de opkomst en ondergang van het streven naar de normale rivier</em> (Haarlem/Den Haag 2008) 104-106; <em>Nederlandsche Staatscourant</em>, 16 oktober 1877; H.P.H. Nusteling, <em>De Rijnvaart in het tijd­perk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 234-244; <em>De Standaard</em>, 6 oktober 1877, 13 oktober 1877, 16 oktober 1877.",
+        "worldcat": "https://www.worldcat.org/oclc/145395327",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/291143844",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/28250855",
+        "worldcatTitel4": "https://www.worldcat.org/oclc/995486546",
+        "worldcatTitel5": "https://www.worldcat.org/oclc/905443716"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 128,
+        "longNote": "C.M. Greup, <em>De Rijnverbinding van Amsterdam en haar geschie­denis<em> (Amsterdam 1952) 49-51.",
+        "worldcat": "https://www.worldcat.org/oclc/64109617"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 129,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 134; C. Gerretson, <em>De Tusschenwateren, 1839-1867</em> (Haarlem 1943) passim; H.P.H. Nusteling, <em>De Rijnvaart in het tijd­perk van stoom en steenkool, 1831-1914</em> (Amsterdam 1974) 244-259.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/561851911",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/995486546"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 130,
+        "longNote": "R. Filarski en G. Mom, <em>Van transport naar mobiliteit. Deel 1: De transportrevolutie (1800-1900)</em> (Zutphen 2008) 300, 301; C.M. Greup, <em>De Rijnverbinding van Amsterdam en haar geschie­denis</em> (Amsterdam 1952) 55-68.",
+        "worldcat": "https://www.worldcat.org/oclc/8086873700",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/64109617"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 131,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 136-140; H.A. Kamphuis, ‘Tussen plaatselijk en algemeen belang. De verwerping van Tak van Poortvliets ontwerp-Kanalenwet in 1879’, <em>Tijdschrift voor Waterstaatsgeschiedenis</em> 9 (2000) 34-47, passim.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 132,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 139, passim.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 133,
+        "longNote": "J. Dehé, <em>‘Een slaafsch en ongezond bedrijf’. De geschiedenis van het openbaar vervoer in Waterland, 1630-1880</em> (Hilversum 2005) 155-166, 195-206; W.J.M. van Eysinga en H. Walther, <em>Geschichte der Zentralkommission für die Rheinschiffahrt 1816 bis 1969</em> (Straatsburg 1994) 96-99; R. Filarski, <em>Kanalen van de Koning-Koopman. Goederenvervoer, binnenscheepvaart en kanalenbouw in Nederland en België in de eerste helft van de negentiende eeuw</em> (Amsterdam 1995) 214, 221-224; R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 97, 108.",
+        "worldcat": "https://www.worldcat.org/oclc/318099217",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/80939494",
+        "worldcatTitel3": "https://www.worldcat.org/oclc/468261084",
+        "worldcatTitel4": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 134,
+        "longNote": "H.A. Hachmer, <em>Voor en tegen de wind. Kanalen, schepen, schippers en scheepsjagers in de Veenkoloniën</em> (Scheemda 1994) 88-90; F.R. Loomeijer, <em>Het water dun. Compact ‘De Onderlinge Vriendschap’, 1835-1985. 150 jaar</em> (Groningen 1985) passim.",
+        "worldcat": "https://www.worldcat.org/oclc/943784711",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/71447598"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 135,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 107.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 136,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 105, 106; C. Jeurgens, <em>De Haarlemmermeer. Een studie in planning en beleid 1836-1858</em> (Amsterdam 1991) 25, 26.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/468260855"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 137,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 106, 107.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 138,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 108.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 139,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 108.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 140,
+        "longNote": "R. Filarski,  <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 108.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 141,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 108.",
+        "worldcat": "https://www.worldcat.org/oclc/468261084"
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 142,
+        "longNote": "R. Filarski werkt aan een boek over de geschiedenis van de verkeersveiligheid van het wegverkeer (verwacht 2022)."
+    },
+    {
+        "chapter": "d3h6",
+        "note_number": 143,
+        "longNote": "R. Filarski, <em>Tegen de stroom in. Binnenvaart en vaarwegen vanaf 1800</em> (Utrecht 2014) 99-102; <em>Provinciaal Verslag Noord-Holland 1857</em>, 388-394; <em>Provinciaal Verslag Zuid-Holland 1857</em>, 260-264; <em>Provinciaal Verslag Gelderland 1857</em>, 473-475; <em>Statistisch jaarboek voor het Koningrijk der Nederlanden 1859</em> (’s-Gravenhage 1859) 333-345.",
+        "url": "https://www.historisch.cbs.nl,",
+        "worldcat": "https://www.worldcat.org/oclc/468261084",
+        "worldcatTitel2": "https://www.worldcat.org/oclc/5280130"
     }
 ]
