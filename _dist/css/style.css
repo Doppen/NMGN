@@ -888,6 +888,31 @@ a {
   .notesList li {
     margin: 1rem 0; }
 
+table {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 150%;
+  margin-top: 1rem;
+  padding: 0;
+  min-width: 100%; }
+
+td, th {
+  vertical-align: middle;
+  text-align: left;
+  padding: .3rem; }
+  td p, th p {
+    margin-bottom: 0rem; }
+
+th {
+  vertical-align: top; }
+
+tr:nth-child(2n+3) {
+  background-color: #e6e6e6; }
+
+tr:first-child td {
+  vertical-align: top; }
+
 .popNavigation {
   background-color: #2BF6D7;
   color: #053A51;
