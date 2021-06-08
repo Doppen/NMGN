@@ -99,6 +99,7 @@ $layOutRowsSmall: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto;
     left: 0;
     width: 100vw;
     pointer-events: all;
+    z-index: 0;
   }
 
   .mgIllustration {
@@ -107,6 +108,7 @@ $layOutRowsSmall: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto;
     grid-row-start: t;
     grid-row-end: b;
   }
+
 
   .mgHeaderBg{
     grid-column-start: left1;

@@ -456,7 +456,8 @@ nav {
     top: 0;
     left: 0;
     width: 100vw;
-    pointer-events: all; }
+    pointer-events: all;
+    z-index: 0; }
   .mgIllustration {
     grid-column-start: c1;
     grid-column-end: gutter;
@@ -533,13 +534,21 @@ nav {
   background-color: #053A51;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding: 5rem 0 3rem 0; }
+
+@media (min-width: 800px) {
+  .mgHero {
+    padding: 0rem 0; } }
 
 .mgHeroInfo {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  color: #ffffff; }
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #053A51;
+  width: 100%; }
   .mgHeroInfo > * {
     flex: 1;
     display: flex;
@@ -551,7 +560,18 @@ nav {
 .mgHeroImg {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; }
+  justify-content: center;
+  background-color: #053A51; }
+
+@media (min-width: 800px) {
+  .mgHeroInfo {
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch; }
+  .mgHeroImg {
+    background-color: transparent;
+    justify-content: flex-end; } }
 
 .mgHeroImgContent {
   height: 25%; }
@@ -599,11 +619,15 @@ nav {
 
 h1 {
   text-align: center;
-  font-size: 5rem;
+  font-size: 3rem;
   line-height: 100%;
   color: #2BF6D7;
   font-family: 'Roboto', sans-serif;
   font-weight: 700; }
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 5rem; } }
 
 .mgFigure {
   display: flex;
@@ -801,6 +825,18 @@ a {
     .footerContent > * {
       flex: 1;
       margin-right: 1rem; } }
+
+.mgAccess {
+  display: none; }
+
+.mgOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(7, 181, 102, 0.26);
+  width: 40.5%;
+  z-index: 1000; }
 
 .noot {
   display: inline-block;

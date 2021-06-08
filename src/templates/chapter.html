@@ -1,5 +1,7 @@
 {{> html-head}}
 
+{{> access}}
+
 <script type="text/javascript">
   var imgArr = [******];
 </script>
@@ -17,7 +19,7 @@
 
 
 
-<div class="mgSiteFixed">
+<div class="mgSiteFixed" id="mgSiteFixed">
   <div class="mgIllustration">
     {{> page-illustration-new}}
   </div>
@@ -27,7 +29,8 @@
 
 
 
-<main class="mgSite">
+
+<main class="mgSite" id="content">
 
   <div class="mgHero">
     <h1>{{title}}</h1>
@@ -55,6 +58,7 @@
   <div class="mgContentList">
     <em>Inhoud</em>
     <nav id="subNavigation"></nav>
+
   </div>
   <div class="mgContent">
     <div class="mgContentTxt" id="theContent">
@@ -73,4 +77,5 @@
 
 {{> page-footer}}
 {{> popNavigation}}
+
 {{> html-foot}}

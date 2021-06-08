@@ -31,18 +31,27 @@
 
 .mgHero{
   background-color: $secunColor;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5rem 0 3rem 0;
+}
+
+
+@media (min-width: 800px) {
+  .mgHero{
+    padding: 0rem 0;
+  }
 }
 
 .mgHeroInfo{
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
-
+  justify-content:center;
+  align-items: center;
   color: #ffffff;
+  background-color: $secunColor;
+  width: 100%;
 
   > * {
     flex: 1;
@@ -59,8 +68,26 @@
 .mgHeroImg{
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
+  background-color: $secunColor;
 }
+
+@media (min-width: 800px) {
+  .mgHeroInfo{
+    background-color: transparent;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: stretch;
+  }
+  .mgHeroImg{
+    background-color: transparent;
+    justify-content: flex-end;
+  }
+
+
+
+}
+
 
 .mgHeroImgContent {
   height: 25%;
@@ -125,11 +152,20 @@
 
 h1 {
   text-align: center;
-  font-size: 5rem;
+  font-size: 3rem;
   line-height: 100%;
   color: $primColor;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+}
+
+@media (min-width: 1000px) {
+
+  h1 {
+
+    font-size: 5rem;
+
+  }
 }
 
 

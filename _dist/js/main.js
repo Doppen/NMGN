@@ -220,6 +220,9 @@ var imgAndPos = [];
 
 // if being scrollt set the right images
 window.addEventListener("scroll", function (event) {
+  console.log(this.scrollY,getOffsetBottom(document.getElementById('subNavigation')).bottom);
+
+
     var scroll = this.scrollY;
     var msg;
     var loopAmount =imgAndPos.length-1
@@ -232,15 +235,25 @@ window.addEventListener("scroll", function (event) {
 
       }
     }
+
+    if (scroll > getOffsetBottom(document.getElementById('subNavigation')).bottom) {
+      console.log('yoyo2');
+      document.getElementById('mgSiteFixed').style.zIndex = 200;
+
+    } else {
+      console.log('no');
+      document.getElementById('mgSiteFixed').style.zIndex = 0;
+    }
+
+
 });
 
 
 
 
 
-
-
 window.onload = function(){
+
   var tempStoreVal = 0;
   var yPosImage;
 
@@ -264,10 +277,20 @@ window.onload = function(){
 
 // get top value of element
 function getOffset(el) {
-  console.log(el);
+  //console.log(el);
   const rect = el.getBoundingClientRect();
   return {
     top: rect.top + window.scrollY
+  };
+}
+
+
+// get top value of element
+function getOffsetBottom(el) {
+  //console.log(el);
+  const rect = el.getBoundingClientRect();
+  return {
+    bottom: rect.bottom + window.scrollY
   };
 }
 
