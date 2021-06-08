@@ -22,7 +22,7 @@
   width: 100%;
   //flex-basis: 33%;
   padding: 1rem 0;
-  font-size: .85rem;
+  font-size: .95rem;
 }
 
 .captionTitle {
@@ -170,6 +170,7 @@
   margin-top: -1rem;
   z-index: 5600;
   position: relative;
+  pointer-events: all;
 
   img {
     width: 2rem;

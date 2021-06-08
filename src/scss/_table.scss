@@ -32,3 +32,18 @@ tr:nth-child(2n+3) {
 tr:first-child td{
 	vertical-align:top;
 }
+
+.tabelKop {
+
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-weight: 700;
+}
+
+.tabelNummers{
+
+	display: block;
+	width: 100%;
+	text-align: right;
+}

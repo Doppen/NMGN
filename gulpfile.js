@@ -38,6 +38,14 @@ var options = {
     }
 
 
+var optionsWord = {
+    styleMap: [
+        "p[style-name='tabelKop'] => span.tabelKop",
+        "p[style-name='tabelNummers'] => span.tabelNummers"
+    ]
+};
+
+
 var dst =       '_dist/';
 var prebuild =  'prebuild';
 var fScss=      'src/scss/**/*.scss';
@@ -61,7 +69,7 @@ var stopwords = require('./content/data/stopwoorden.json');
 
 // Create HTML
 function createHtml(fileName) {
-  mammoth.convertToHtml({path: copyPath.copyDestination+fileName+".docx", outputDir: "content/html/"})
+  mammoth.convertToHtml({path: copyPath.copyDestination+fileName+".docx", outputDir: "content/html/"}, optionsWord)
       .then(function(result){
           htmlOut = result.value; // The generated HTML
           messages = result.messages; // Any messages, such as warnings during conversion
@@ -231,11 +239,13 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('±', '<br>'))
           .pipe(replace('">[', '">'))
           .pipe(replace('<a id="_Hlk61816812"></a>', ''))
+          .pipe(replace('<h3><a id="_Hlk496267545"></a></h3>', ''))
           .pipe(replace(']</a>', '</a>'))
           .pipe(replace('<sup>*</sup>', '<span class="astrixNote">*</span>'))
           .pipe(replace('<sup>* </sup>', '<span class="astrixNote">*</span>'))
           .pipe(replace('m<sup>3</sup>', 'm&#179;'))
           .pipe(replace('m<sup>2 </sup>', 'm&#178;'))
+          .pipe(replace('m<sup>2  </sup>', 'm&#178;'))
           .pipe(replace('<sup> <sup>', '<sup>'))
           .pipe(replace('<sup><sup>', '<sup>'))
           .pipe(replace('</sup></sup>', '</sup>'))
@@ -246,6 +256,10 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('@/i@', '</div>'))
           .pipe(replace('@q@', '<div class="quote">'))
           .pipe(replace('@/q@', '</div>'))
+          .pipe(replace('@H@&lt;', ''))
+          .pipe(replace('&gt;@/h@', ''))
+          .pipe(replace('@/h@', ''))
+          .pipe(replace('33_NRCDienstregeling', '33_NRCDienstverlening'))
           .pipe(replace('<ol><li id="endnote-1">', '<div class="notesList"><h2>Noten</h2><ol><li id="endnote-1">'))
 
           .pipe(each(function(content, file, callback) {

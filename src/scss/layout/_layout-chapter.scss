@@ -86,7 +86,7 @@ $layOutRowsSmall: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto;
     grid-template-columns: $layOutColsBig;
     grid-template-rows: $layOutRowsBig;
     z-index: 100;
-    pointer-events: all;
+    //pointer-events: all;
   }
 
   .mgSiteFixed{
@@ -98,6 +98,7 @@ $layOutRowsSmall: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto;
     top: 0;
     left: 0;
     width: 100vw;
+    pointer-events: all;
   }
 
   .mgIllustration {

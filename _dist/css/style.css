@@ -185,7 +185,7 @@ strong {
   align-items: flex-start;
   width: 100%;
   padding: 1rem 0;
-  font-size: .85rem; }
+  font-size: .95rem; }
 
 .captionTitle {
   font-weight: 700; }
@@ -276,7 +276,8 @@ strong {
 .zoomIcon {
   margin-top: -1rem;
   z-index: 5600;
-  position: relative; }
+  position: relative;
+  pointer-events: all; }
   .zoomIcon img {
     width: 2rem;
     height: auto; }
@@ -445,8 +446,7 @@ nav {
     display: grid;
     grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(280px, 429px) [gutter] 3rem [c2] minmax(561px, 858px) [cEnd] minmax(3rem, auto) [right1];
     grid-template-rows: [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListEnd] auto [contendEnd] auto;
-    z-index: 100;
-    pointer-events: all; }
+    z-index: 100; }
   .mgSiteFixed {
     position: fixed;
     display: grid;
@@ -455,7 +455,8 @@ nav {
     z-index: 0;
     top: 0;
     left: 0;
-    width: 100vw; }
+    width: 100vw;
+    pointer-events: all; }
   .mgIllustration {
     grid-column-start: c1;
     grid-column-end: gutter;
@@ -517,7 +518,8 @@ nav {
   color: #fff; }
 
 .mgSite .headerItems a, .mgSite2 .headerItems a {
-  color: #fff; }
+  color: #fff;
+  pointer-events: all; }
 
 .mgSite .mgContentList a {
   color: #3e3e3e; }
@@ -912,6 +914,17 @@ tr:nth-child(2n+3) {
 
 tr:first-child td {
   vertical-align: top; }
+
+.tabelKop {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: 700; }
+
+.tabelNummers {
+  display: block;
+  width: 100%;
+  text-align: right; }
 
 .popNavigation {
   background-color: #2BF6D7;
