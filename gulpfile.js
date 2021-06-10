@@ -182,7 +182,7 @@ gulp.task('nav', function(done) {
 });
 
 
-// create index jeson root file
+// create index json root file
 gulp.task('BuildIndexFromHTML', function(done) {
   var indexItems = {"items" : siteJson}
 
@@ -354,6 +354,7 @@ gulp.task('buildSearchIndex', function (done) {
   elasticlunr.clearStopWords();
   var customized_stop_words = stopwords;
   elasticlunr.addStopWords(customized_stop_words);
+  console.log('sw',customized_stop_words);
 
   fs.readFile('./example_data.json', function (err, data) {
     if (err) throw err;
@@ -367,6 +368,7 @@ gulp.task('buildSearchIndex', function (done) {
         title: q.title,
         body: q.body,
         part: q.part,
+        chapter: q.chapter,
         ref: q.ref
       };
     });

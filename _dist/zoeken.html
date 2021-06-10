@@ -157,42 +157,7 @@
 <script type="text/javascript">
   // load the index
   var index = elasticlunr.Index.load(indexDump);
-  var searchField = document.getElementById("searchTerm").value;
-
-
-function ShowResults() {
-
-  searchField = document.getElementById("searchTerm").value;
-  var output = 'Gezocht op "<em>' + searchField+'</em>"';
-
-  output = output+'<br><br>'+getResultsData()
-
-  document.getElementById('results').innerHTML = output;
-}
-
-function getResultsData() {
-
-
-  let results = index.search(searchField);
-
-  var resultList='';
-  var arrayLength = results.length;
-
-  var part = 0;
-  for (var i = 0; i < arrayLength; i++) {
-    if (results[i].doc.part != part) {
-      //resultList+= '<div><strong>Deel '+results[i].doc.part+'</strong></div>'
-
-    }
-    resultList += '<div class="resultItem"><a href="'+results[i].doc.ref+'?s='+searchField+'">'+results[i].doc.title+'</a><br>Deel '+results[i].doc.part+'</div>';
-    part = results[i].doc.part ;
-  }
-  return resultList;
-
-}
-
-
-
+  
 </script>
 
     <script src="js/main.js"></script>
