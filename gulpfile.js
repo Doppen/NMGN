@@ -354,7 +354,7 @@ gulp.task('buildSearchIndex', function (done) {
   elasticlunr.clearStopWords();
   var customized_stop_words = stopwords;
   elasticlunr.addStopWords(customized_stop_words);
-  console.log('sw',customized_stop_words);
+
 
   fs.readFile('./example_data.json', function (err, data) {
     if (err) throw err;

@@ -450,12 +450,12 @@ nav {
   .mgSiteFixed {
     position: fixed;
     display: grid;
-    grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(280px, 429px) [gutter] 3rem [c2] minmax(561px, 858px) [cEnd] minmax(3rem, auto) [right1];
+    grid-template-columns: [left1] minmax(3rem, auto) [c1] minmax(280px, 429px) [gutter] auto [right1];
     grid-template-rows: [t] 100vh [b];
     z-index: 0;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 47vw;
     pointer-events: all;
     z-index: 0; }
   .mgIllustration {

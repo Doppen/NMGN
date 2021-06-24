@@ -3,7 +3,7 @@ $negativeTop: 3rem;
 
 $layOutColsBig: [left1] minmax(#{$margin}, auto) [c1] minmax(280px, 429px) [gutter] #{$margin} [c2] minmax(561px, 858px) [cEnd] minmax(#{$margin}, auto) [right1];
 $layOutRowsBig:  [top1] 3rem [hero] 75vh [content] minmax(25vh, auto) [contentListEnd] auto [contendEnd] auto;
-
+$layOutColsBigFix: [left1] minmax(#{$margin}, auto) [c1] minmax(280px, 429px) [gutter] auto [right1];
 
 $layOutColsSmall: [left1] #{$margin} [c1] auto [cEnd] #{$margin} [right1];
 $layOutRowsSmall: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto;
@@ -92,12 +92,12 @@ $layOutRowsSmall: [top1] 3rem [hero] 50vh [contentNav] auto [content] auto;
   .mgSiteFixed{
     position: fixed;
     display: grid;
-    grid-template-columns: $layOutColsBig;
+    grid-template-columns: $layOutColsBigFix;
     grid-template-rows: [t] 100vh [b];
     z-index: 0;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 47vw;
     pointer-events: all;
     z-index: 0;
   }
