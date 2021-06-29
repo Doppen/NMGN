@@ -261,6 +261,8 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('@/h@', ''))
           .pipe(replace('33_NRCDienstregeling', '33_NRCDienstverlening'))
           .pipe(replace('<ol><li id="endnote-1">', '<div class="notesList"><h2>Noten</h2><ol><li id="endnote-1">'))
+          .pipe(replace('<td colspan="2"><p><strong>Sleepboten</strong></p></td>', '<td colspan="2" style="text-align: center;"><p><strong>Sleepboten</strong></p></td>'))
+
 
           .pipe(each(function(content, file, callback) {
             var newContent = content;

@@ -61,6 +61,8 @@ $basicMargin: 1.5rem;
 
 	display: flex;
 	justify-content: center;
+	z-index: 2000;
+	position: relative;
 }
 
 .footerContent {

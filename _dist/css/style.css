@@ -811,7 +811,9 @@ a {
   background-color: #053A51;
   color: #fff;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  z-index: 2000;
+  position: relative; }
 
 .footerContent {
   max-width: 1000px;
