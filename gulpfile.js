@@ -15,7 +15,8 @@
 // gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data.json -b
 
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+//var sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('node-sass'))
 var plumber = require('gulp-plumber');
 var clean = require('gulp-clean');
 var rename = require('gulp-rename');
@@ -264,6 +265,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<td colspan="2"><p><strong>Sleepboten</strong></p></td>', '<td colspan="2" style="text-align: center;"><p><strong>Sleepboten</strong></p></td>'))
           .pipe(replace('<td><p>NoordHollands Kanaal</p></td>', '<td><p>Noord-Hollands Kanaal</p></td>'))
           .pipe(replace('<strong>Aandeel spoorwegvervoer(%)</strong>', '<strong>Aandeel spoorwegvervoer<br>(%)</strong>'))
+          .pipe(replace('<strong>3b_Kaart_maritiem_01.jpg</strong>]]]', '3b_Kaart_maritiem_01.jpg]]]'))
 
 
           .pipe(each(function(content, file, callback) {
