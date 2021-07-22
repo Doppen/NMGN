@@ -3,8 +3,12 @@ body {
 	//font-family: 'Andada', serif;
 	font-weight: 300;
 	font-size: 17px;
-	line-height: 150%;
+	line-height: 130%;
 	font-style: normal;
+
+	padding: 0 5rem;
+
+
 }
 
 
@@ -17,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   //width: 600px;
-  padding: 0 5rem;
+
 
 
 
@@ -34,8 +38,12 @@ body {
 
 }
 
+.mgAccess {
+	display: none;
+}
+
 #subNavigation{
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
 }
 
@@ -112,4 +120,9 @@ body {
       height: auto;
     }
   }
+}
+
+footer {
+	display: block;
+
 }
