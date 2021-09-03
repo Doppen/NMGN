@@ -14,6 +14,7 @@
   "dependencies": {
     "browser-sync": "^2.27.4",
     "dom-parser": "^0.1.6",
+    "google-spreadsheet-to-json": "^1.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-compile-handlebars": "^0.6.1",
     "gulp-docx-to-html": "^1.0.2",

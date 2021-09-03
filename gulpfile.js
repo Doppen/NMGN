@@ -3,7 +3,7 @@
 
 // npm install -g google-spreadsheet-to-json
 
-// gulp getj                    update all json files
+// node.getj.js                    update all json files
 // gulp nav                     update page navigation (new titles)
 // gulp BuildIndexFromHTML      update the search index
 // gulp convHtml
@@ -421,11 +421,14 @@ gulp.task('default',
 
 
 function ifEmp(input, pre, post) {
-  if(input != undefined) {
-    return pre+input+post;
-  }else {
-    return '';
+  let out = ''
+  if( (input != undefined) ) {
+    if (input != '') {
+      out = pre+input+post;
+    }
   }
+  return out;
+
 }
 
 
@@ -474,7 +477,7 @@ function handleNotes(domContent, chapterId) {
           var noteContent;
 
           // notes to long notes
-          noteContent =  ifEmp(notesJson[l].longNote, '', '');
+          noteContent =  ifEmp(notesJson[l].long_note, '', '');
           noteContent  += ifEmp(notesJson[l].auteur1, '', ', ');
           noteContent  += ifEmp(notesJson[l].publicatie1, '<em>', '</em> ');
           noteContent  += ifEmp(notesJson[l].publicatie1extra, '<br>', '');
@@ -483,16 +486,16 @@ function handleNotes(domContent, chapterId) {
           noteContent  += ifEmp(notesJson[l].publicatie2extra, '<br>', '');
           noteContent  += ifEmp(notesJson[l].extra, '<br>', '');
           noteContent  += ifEmp(notesJson[l].url, '<br><div class="ellipsis"><a target="_blank" href="'+notesJson[l].url+'">', '</a></div>');
-          noteContent  += ifEmp(notesJson[l].viewDatumUrl, '', '');
+          noteContent  += ifEmp(notesJson[l].viewdatumurl, '', '');
           noteContent  += ifEmp(notesJson[l].worldcat, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-          noteContent  += ifEmp(notesJson[l].worldcatTitel2, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-          noteContent  += ifEmp(notesJson[l].worldcatTitel3, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-          noteContent  += ifEmp(notesJson[l].worldcatTitel4, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-          noteContent  += ifEmp(notesJson[l].worldcatTitel5, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-          noteContent  += ifEmp(notesJson[l].worldcatTitel6, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-          noteContent  += ifEmp(notesJson[l].worldcatTitel7, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-          noteContent  += ifEmp(notesJson[l].worldcatTitel8, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
-          noteContent  += ifEmp(notesJson[l].worldcatTitel9, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel2, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel3, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel4, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel5, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel6, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel7, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel8, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel9, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
           //console.log(chapterId, 'endnote-'+notesJson[l].note_number);
 
           domContent.getElementById('endnote-'+notesJson[l].note_number).innerHTML = noteContent;
