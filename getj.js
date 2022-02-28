@@ -108,5 +108,4 @@ function createFile(fileName, content) {
     if (err) throw err;
     console.log('File is created successfully.');
   });
-
 }

@@ -7,7 +7,17 @@ var copyPath = require('./content/data/copyPath.json');
 //NMGNdocx oldstr.replace("Microsoft", "W3Schools");
 // images
 
-var imgPath = copyPath.copyDestination.replace("NMGNdocx", "NMGNimages");
+
+
+sharp('Slag.jpg')
+  .resize( { width: 100 } )
+  .toFile('Slag2.jpg', function(err) {});
+
+
+
+
+//var imgPath = copyPath.copyDestination.replace("NMGNdocx", "NMGNimages");
+var imgPath = '/Volumes/GoogleDrive/My Drive/NMGN-docs/NMGNimages/'
 // images
 const inputFolder  = imgPath;
 const outputFolder = './src/images/';
@@ -21,10 +31,14 @@ const outputFolder = './src/images/';
 
       // go throught content
       files.forEach(function (file) {
-        //console.log(file);
+
          fs.stat(inputFolder+file, function(err, stats) {
+           console.log(stats);
           if(typeof stats !== "undefined") {
+
+
             var ifIsDir = stats.isDirectory();
+
             //if file is folder
             if (ifIsDir) {
               var folderPath = inputFolder+file+'/';
@@ -39,6 +53,7 @@ const outputFolder = './src/images/';
 
 
 function resizeFiles(folderPath, size, foldername) {
+  console.log('resizeFile');
   var folderExt = size;
   var action = { width: size };
   if (size == 2000) {

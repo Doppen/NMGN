@@ -3,7 +3,7 @@
 
 // npm install -g google-spreadsheet-to-json
 
-// node.getj.js                    update all json files
+// node getj.js                    update all json files
 // gulp nav                     update page navigation (new titles)
 // gulp BuildIndexFromHTML      update the search index
 // gulp convHtml
@@ -15,7 +15,7 @@
 // gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data.json -b
 
 var gulp = require('gulp');
-//var sass = require('gulp-sass');
+var sass = require('gulp-sass');
 var sass = require('gulp-sass')(require('node-sass'))
 var plumber = require('gulp-plumber');
 var clean = require('gulp-clean');
@@ -23,7 +23,7 @@ var rename = require('gulp-rename');
 var handlebars = require('gulp-compile-handlebars');
 var useref = require('gulp-useref');
 var replace = require('gulp-replace');
-var exec = require('child_process').exec;
+//var exec = require('child_process').exec;
 var each = require('gulp-each');
 var dom  = require('gulp-dom');
 var mammoth = require("mammoth");
@@ -134,25 +134,25 @@ gulp.task('cleanJson', function () {
         .pipe(clean())
 });
 
-gulp.task('getJSite', function (cb) {
-  exec('gsjson 1YAFTCWGrWyPjclnV16mR-S0-H2531DpOTfjCdESFSRk >> content/data/sites.json -b', function (err, stdout, stderr) { cb(err); });
-})
-
-gulp.task('getJLinks', function (cb) {
-  exec('gsjson 1tzMeyKmoFMGbehWd1Q0hWbTceVf6IajMGX4r3NUqLA8 >> content/data/links.json -b', function (err, stdout, stderr) { cb(err); });
-})
-
-gulp.task('getJNotes', function (cb) {
-  exec('gsjson 1Rh6CIMnB9Vs4ot21nZqFSQDMraWf4RLaoXpAM4JvFI4 >> content/data/notes.json -b', function (err, stdout, stderr) { cb(err); });
-})
-
-gulp.task('getJImages', function (cb) {
-exec('gsjson 15B_aMTtiGuokP1KP6Iu09RNr4X3ZZQyO-Qp1dq8eg7I >> content/data/images.json -b', function (err, stdout, stderr) { cb(err); });
-})
-
-gulp.task('getj', gulp.series('cleanJson', 'getJSite', 'getJLinks', 'getJNotes', 'getJImages',  function (done) {
-  done();
-}))
+// gulp.task('getJSite', function (cb) {
+//   exec('gsjson 1YAFTCWGrWyPjclnV16mR-S0-H2531DpOTfjCdESFSRk >> content/data/sites.json -b', function (err, stdout, stderr) { cb(err); });
+// })
+//
+// gulp.task('getJLinks', function (cb) {
+//   exec('gsjson 1tzMeyKmoFMGbehWd1Q0hWbTceVf6IajMGX4r3NUqLA8 >> content/data/links.json -b', function (err, stdout, stderr) { cb(err); });
+// })
+//
+// gulp.task('getJNotes', function (cb) {
+//   exec('gsjson 1Rh6CIMnB9Vs4ot21nZqFSQDMraWf4RLaoXpAM4JvFI4 >> content/data/notes.json -b', function (err, stdout, stderr) { cb(err); });
+// })
+//
+// gulp.task('getJImages', function (cb) {
+// exec('gsjson 15B_aMTtiGuokP1KP6Iu09RNr4X3ZZQyO-Qp1dq8eg7I >> content/data/images.json -b', function (err, stdout, stderr) { cb(err); });
+// })
+//
+// gulp.task('getj', gulp.series('cleanJson', 'getJSite', 'getJLinks', 'getJNotes', 'getJImages',  function (done) {
+//   done();
+// }))
 
 // gulp getj
 // links  1tzMeyKmoFMGbehWd1Q0hWbTceVf6IajMGX4r3NUqLA8
@@ -266,6 +266,27 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<td><p>NoordHollands Kanaal</p></td>', '<td><p>Noord-Hollands Kanaal</p></td>'))
           .pipe(replace('<strong>Aandeel spoorwegvervoer(%)</strong>', '<strong>Aandeel spoorwegvervoer<br>(%)</strong>'))
           .pipe(replace('<strong>3b_Kaart_maritiem_01.jpg</strong>]]]', '3b_Kaart_maritiem_01.jpg]]]'))
+          .pipe(replace('[[[20_tjalk1]]]', '[[[20_tjalk1.jpg]]]'))
+          .pipe(replace('[[[26_werfGips]]]', '[[[26_werfGips.jpg]]]'))
+          .pipe(replace('[[[33_Zeemanshuis. jpg]]]', '[[[33_Zeemanshuis.jpg]]]'))
+          //.pipe(replace('[[[18_Zwanette.jpg​', '@i@[[[18_Zwanette.jpg'))
+          .pipe(replace('[[[<a id="_Hlk88569018"></a>23_uitsnede_VanBeeck]]] [[[<a id="_Hlk88569036"></a>24_KBSpeck.jpg]]]', '[[[23_uitsnede_VanBeeck.jpg]]] [[[24_KBSpeck.jpg]]]'))
+          .pipe(replace('[[[<a id="_Hlk83826445"></a>45_modelboei.jpg]]]', '[[[45_modelboei.jpg]]]'))
+          .pipe(replace('[[[<a id="_Hlk83826610"></a>49_houtenmodel.jpg]]]', '[[[49_houtenmodel.jpg]]]'))
+          .pipe(replace('[[[<a id="_Hlk83826638"></a>50_Zeemanshoop.jpg]]]', '[[[50_Zeemanshoop.jpg]]]'))
+          .pipe(replace('[[[<a id="_Hlk83826714"></a>53_reddingboot.jpg]]]', '[[[53_reddingboot.jpg]]]'))
+          .pipe(replace('[[[<a id="_Hlk83826545"></a>46_uitsnRaderstoomschip.jpg]]]', '[[[46_uitsnRaderstoomschip.jpg]]]'))
+          .pipe(replace('[[[<a id="_Hlk83826574"></a>47_Argandslampen.jpg]]]', '[[[47_Argandslampen.jpg]]]'))
+
+
+
+
+
+
+
+
+
+
 
 
           .pipe(each(function(content, file, callback) {
@@ -498,7 +519,13 @@ function handleNotes(domContent, chapterId) {
           noteContent  += ifEmp(notesJson[l].worldcattitel9, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
           //console.log(chapterId, 'endnote-'+notesJson[l].note_number);
 
-          domContent.getElementById('endnote-'+notesJson[l].note_number).innerHTML = noteContent;
+
+          var element = domContent.getElementById('endnote-'+notesJson[l].note_number)
+          if (typeof(element) != 'undefined' && element != null) {
+              domContent.getElementById('endnote-'+notesJson[l].note_number).innerHTML = noteContent;
+            }
+
+
         }
       }
   return domContent;
