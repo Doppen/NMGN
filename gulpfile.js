@@ -529,6 +529,16 @@ function handleNotes(domContent, chapterId) {
           noteContent  += ifEmp(notesJson[l].worldcattitel7, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
           noteContent  += ifEmp(notesJson[l].worldcattitel8, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
           noteContent  += ifEmp(notesJson[l].worldcattitel9, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel10, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel11, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel12, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel13, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel14, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel15, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel16, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel17, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel18, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
+          noteContent  += ifEmp(notesJson[l].worldcattitel19, '<br><a href="', '" target="_blank">Zie worldcat.org</a>');
           //console.log(chapterId, 'endnote-'+notesJson[l].note_number);
 
 
