@@ -269,14 +269,26 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('[[[20_tjalk1]]]', '[[[20_tjalk1.jpg]]]'))
           .pipe(replace('[[[26_werfGips]]]', '[[[26_werfGips.jpg]]]'))
           .pipe(replace('[[[33_Zeemanshuis. jpg]]]', '[[[33_Zeemanshuis.jpg]]]'))
-          //.pipe(replace('[[[18_Zwanette.jpg​', '@i@[[[18_Zwanette.jpg'))
-          .pipe(replace('[[[<a id="_Hlk88569018"></a>23_uitsnede_VanBeeck]]] [[[<a id="_Hlk88569036"></a>24_KBSpeck.jpg]]]', '[[[23_uitsnede_VanBeeck.jpg]]] [[[24_KBSpeck.jpg]]]'))
+          //.pipe(replace('[[[18_Zwanette​', '@i@[[[18_Zwanette'))
+          .pipe(replace('<a id="_Hlk88569018"></a>', ''))
+          .pipe(replace('<a id="_Hlk88569036"></a>', ''))
           .pipe(replace('[[[<a id="_Hlk83826445"></a>45_modelboei.jpg]]]', '[[[45_modelboei.jpg]]]'))
           .pipe(replace('[[[<a id="_Hlk83826610"></a>49_houtenmodel.jpg]]]', '[[[49_houtenmodel.jpg]]]'))
           .pipe(replace('[[[<a id="_Hlk83826638"></a>50_Zeemanshoop.jpg]]]', '[[[50_Zeemanshoop.jpg]]]'))
           .pipe(replace('[[[<a id="_Hlk83826714"></a>53_reddingboot.jpg]]]', '[[[53_reddingboot.jpg]]]'))
           .pipe(replace('[[[<a id="_Hlk83826545"></a>46_uitsnRaderstoomschip.jpg]]]', '[[[46_uitsnRaderstoomschip.jpg]]]'))
           .pipe(replace('[[[<a id="_Hlk83826574"></a>47_Argandslampen.jpg]]]', '[[[47_Argandslampen.jpg]]]'))
+
+          // .pipe(replace('', ''))
+          // .pipe(replace('', ''))
+          // .pipe(replace('', ''))
+          // .pipe(replace('', ''))
+          // .pipe(replace('', ''))
+          // .pipe(replace('', ''))
+          // .pipe(replace('', ''))
+          // .pipe(replace('', ''))
+          // .pipe(replace('', ''))
+          // .pipe(replace('', ''))
 
 
 
