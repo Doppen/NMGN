@@ -964,6 +964,11 @@ tr:first-child td {
   width: 100%;
   text-align: right; }
 
+.tableWrap {
+  border: 1px solid #ebebeb;
+  width: 100%;
+  overflow-x: auto; }
+
 .popNavigation {
   background-color: #2BF6D7;
   color: #053A51;

@@ -279,10 +279,16 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('[[[<a id="_Hlk83826545"></a>46_uitsnRaderstoomschip.jpg]]]', '[[[46_uitsnRaderstoomschip.jpg]]]'))
           .pipe(replace('[[[<a id="_Hlk83826574"></a>47_Argandslampen.jpg]]]', '[[[47_Argandslampen.jpg]]]'))
 
-          // .pipe(replace('', ''))
-          // .pipe(replace('', ''))
-          // .pipe(replace('', ''))
-          // .pipe(replace('', ''))
+
+          .pipe(replace('<table>', '<div class="tableWrap"><table>'))
+          .pipe(replace('</table>', '</table></div>'))
+
+
+
+           .pipe(replace('<strong>stoomvaart</strong>', 'stoomvaart'))
+           .pipe(replace('<strong>Rotterdam</strong>', 'Rotterdam'))
+           .pipe(replace('<strong>De bebakening van de Zuiderzeekust', 'De bebakening van de Zuiderzeekust'))
+           .pipe(replace('firma’s kregen nu</strong>', 'firma’s kregen nu'))
           // .pipe(replace('', ''))
           // .pipe(replace('', ''))
           // .pipe(replace('', ''))
