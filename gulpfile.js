@@ -30,6 +30,7 @@ var mammoth = require("mammoth");
 var writeFile = require('write-file');
 var DomParser = require('dom-parser');
 
+
 var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
 const using = require('gulp-using');
@@ -77,6 +78,9 @@ function createHtml(fileName) {
           //console.log(htmlOut);
           fs.writeFileSync('content/html/'+fileName+'.html', htmlOut)
       })
+
+
+
 }
 
 function createRawtext(fileName) {
@@ -96,6 +100,8 @@ gulp.task('convHtml', function (done) {
   var htmlOut='qqq';
   var messages;
   fs = require('fs');
+
+
 
   for(var ii=0; ii<siteJson.length; ii++) {
       page = siteJson[ii];
@@ -289,11 +295,18 @@ gulp.task('buildFromTemplates', function(done) {
            .pipe(replace('<strong>Rotterdam</strong>', 'Rotterdam'))
            .pipe(replace('<strong>De bebakening van de Zuiderzeekust', 'De bebakening van de Zuiderzeekust'))
            .pipe(replace('firma’s kregen nu</strong>', 'firma’s kregen nu'))
-          // .pipe(replace('', ''))
-          // .pipe(replace('', ''))
-          // .pipe(replace('', ''))
-          // .pipe(replace('', ''))
-          // .pipe(replace('', ''))
+
+          .pipe(replace('Ondine', '<em>Ondine</em>'))
+          .pipe(replace('Koning Willem II', '<em>Koning Willem II</em>'))
+          .pipe(replace('IJssel de Nederlander bouwen', '<em>IJssel de Nederlander bouwen</em>'))
+          .pipe(replace('Gouverneur van Ewijck', '<em>Gouverneur van Ewijck</em>'))
+          .pipe(replace('Burgemeester Huydecoper', '<em>Burgemeester Huydecoper</em>'))
+          .pipe(replace('Wiskundige scheepsbouw en bestuur', '<em>Wiskundige scheepsbouw en bestuur</em>'))
+          .pipe(replace('Aanleiding tot de kennis van het beschouwende gedeelte der scheepsbouwkunde', '<em>Aanleiding tot de kennis van het beschouwende gedeelte der scheepsbouwkunde</em>'))
+          .pipe(replace('Chefs Militaires', '<em>Chefs Militaires</em>'))
+          .pipe(replace('De Hunze', '<em>De Hunze</em>'))
+          .pipe(replace('de Zuid ', '<em>de Zuid</em> '))
+          .pipe(replace('de Noord ', '<em>de Noord</em> '))
           // .pipe(replace('', ''))
 
 
