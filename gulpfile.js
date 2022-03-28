@@ -298,7 +298,7 @@ gulp.task('buildFromTemplates', function(done) {
 
           .pipe(replace('Ondine', '<em>Ondine</em>'))
           .pipe(replace('Koning Willem II', '<em>Koning Willem II</em>'))
-          .pipe(replace('IJssel de Nederlander bouwen', '<em>IJssel de Nederlander bouwen</em>'))
+          .pipe(replace('IJssel de Nederlander bouwen', 'IJssel de <em>Nederlander</em> bouwen'))
           .pipe(replace('Gouverneur van Ewijck', '<em>Gouverneur van Ewijck</em>'))
           .pipe(replace('Burgemeester Huydecoper', '<em>Burgemeester Huydecoper</em>'))
           .pipe(replace('Wiskundige scheepsbouw en bestuur', '<em>Wiskundige scheepsbouw en bestuur</em>'))
