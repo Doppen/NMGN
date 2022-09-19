@@ -28,7 +28,7 @@
     "gulp-using": "^0.1.1",
     "mammoth": "^1.4.17",
     "node-sass": "^7.0.3",
-    "sharp": "^0.29.2",
+    "sharp": "^0.30.5",
     "write-file": "^1.0.0"
   }
 }
