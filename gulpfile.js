@@ -308,6 +308,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<a id="_Hlk94627004"></a>', ''))
           .pipe(replace('<a id="_Hlk94627043"></a>', ''))
           .pipe(replace("[[38_Coenen's_Visboeck.jpg]]", '[[38_Coenens_Visboeck.jpg]]'))
+          .pipe(replace('https//www', 'https://www'))
 
 
 
@@ -417,6 +418,38 @@ gulp.task('copyJson', function(){
       .pipe(gulp.dest(dst+'js'))
 });
 
+gulp.task('copyRestoreFiles', function(){
+  return gulp.src('src/restore/*.html')
+      .pipe(plumber())
+      .pipe(gulp.dest(dst))
+
+});
+
+gulp.task('copyRestoreImages1', function(){
+
+  return gulp.src('src/restore/170/6_compleetpanoramaWalcheren.jpg')
+      .pipe(plumber())
+      .pipe(gulp.dest('./src/images/d1h4/d1h4-170'))
+
+});
+
+
+
+gulp.task('copyRestoreImages2', function(){
+
+  return gulp.src('src/restore/600/6_compleetpanoramaWalcheren.jpg')
+    .pipe(plumber())
+    .pipe(gulp.dest('./src/images/d1h4/d1h4-600'))
+});
+
+
+gulp.task('copyRestoreImages3', function(){
+
+  return gulp.src('src/restore/big/6_compleetpanoramaWalcheren.jpg')
+      .pipe(plumber())
+      .pipe(gulp.dest('./src/images/d1h4/d1h4-big'))
+});
+
 
 
 gulp.task('buildSearchIndex', function (done) {
@@ -475,7 +508,7 @@ done();
 
 
 gulp.task('build',
-  gulp.series('clean', 'nav', 'sass', 'buildFromTemplates', 'copyImg', 'copyJs', 'copyJson', //'buildSearchIndex',
+  gulp.series('clean', 'copyRestoreImages1', 'copyRestoreImages2', 'copyRestoreImages3', 'nav', 'sass', 'buildFromTemplates', 'copyImg', 'copyJs', 'copyJson', 'copyRestoreFiles', //'buildSearchIndex',
   function(done) {
       done();
   }
