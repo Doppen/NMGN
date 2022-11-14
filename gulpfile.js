@@ -248,6 +248,18 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<a id="_Hlk61816812"></a>', ''))
           .pipe(replace('<h3><a id="_Hlk496267545"></a></h3>', ''))
           .pipe(replace(']</a>', '</a>'))
+
+          .pipe(replace('<sup>a</sup>', '<sup clas="refNote">a</sup>'))
+          .pipe(replace('<sup>b</sup>', '<sup clas="refNote">b</sup>'))
+          .pipe(replace('<sup>c</sup>', '<sup clas="refNote">c</sup>'))
+          .pipe(replace('<sup>c </sup>', '<sup clas="refNote">c</sup>'))
+          .pipe(replace('<sup>d</sup>', '<sup clas="refNote">d</sup> '))
+          .pipe(replace('<sup>d </sup>', '<sup clas="refNote">d</sup> '))
+
+          .pipe(replace('<sup>6</sup>', '<sup clas="refNote">6</sup> '))
+          .pipe(replace('<sup>II</sup>', '<sup clas="refNote">II</sup> '))
+
+
           .pipe(replace('<sup>*</sup>', '<span class="astrixNote">*</span>'))
           .pipe(replace('<sup>* </sup>', '<span class="astrixNote">*</span>'))
           .pipe(replace('m<sup>3</sup>', 'm&#179;'))
@@ -284,7 +296,17 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('[[[<a id="_Hlk83826714"></a>53_reddingboot.jpg]]]', '[[[53_reddingboot.jpg]]]'))
           .pipe(replace('[[[<a id="_Hlk83826545"></a>46_uitsnRaderstoomschip.jpg]]]', '[[[46_uitsnRaderstoomschip.jpg]]]'))
           .pipe(replace('[[[<a id="_Hlk83826574"></a>47_Argandslampen.jpg]]]', '[[[47_Argandslampen.jpg]]]'))
+          .pipe(replace('23_fig.1.23a.jpg', '23a_fig.1.23a.jpg'))
+          .pipe(replace('30a_fig. 4.10.JPG', '30a_fig.4.10.jpg'))
+          .pipe(replace('35a_fig.2.7a.JPG', '35a_fig.2.7a.jpg'))
+          .pipe(replace('35b_fig.2.7b.JPG', '35b_fig.2.7b.jpg'))
+          .pipe(replace('56_fig.3.3.JPG', '56_fig.3.3.jpg'))
+          .pipe(replace('35b_fig.2.7b.JPG', '35b_fig.2.7b.jpg'))
 
+
+//           /^in[a-z]*ing$/i
+// .pipe(replace('<a id="_Hlk73021537"></a>', ''))
+          .pipe(replace(/^<a id=\"_[a-z]*"><\/a\>$/i, ''))
           .pipe(replace('<a id="_Hlk73021537"></a>', ''))
           .pipe(replace('<a id="_Hlk93063491"></a>', ''))
           .pipe(replace('<a id="_Hlk73021574"></a>', ''))
@@ -307,6 +329,20 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<a id="_Hlk94626986"></a>', ''))
           .pipe(replace('<a id="_Hlk94627004"></a>', ''))
           .pipe(replace('<a id="_Hlk94627043"></a>', ''))
+          .pipe(replace('<a id="_Hlk107089961"></a>', ''))
+          .pipe(replace('<a id="_Hlk107090037"></a>', ''))
+
+
+          .pipe(replace('<a id="_Hlk8380140"></a>', ''))
+          .pipe(replace('<a id="_Hlk107090143"></a>', ''))
+          .pipe(replace('<a id="_Hlk8380361"></a>', ''))
+          .pipe(replace('<a id="_Hlk107090616"></a>', ''))
+          .pipe(replace('<a id="_Hlk107090639"></a>', ''))
+          .pipe(replace('<a id="_Hlk107090783"></a>', ''))
+          .pipe(replace('<a id="_Hlk107090817"></a>', ''))
+          .pipe(replace('<a id="_Hlk107090953"></a>', ''))
+
+
           .pipe(replace("[[38_Coenen's_Visboeck.jpg]]", '[[38_Coenens_Visboeck.jpg]]'))
           .pipe(replace('https//www', 'https://www'))
 
@@ -540,6 +576,12 @@ function ifEmp(input, pre, post) {
   return out;
 
 }
+
+function handleEmptyWordLinks(newContent, id) {
+
+}
+
+
 
 
 // image function.
