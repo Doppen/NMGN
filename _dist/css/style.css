@@ -1049,6 +1049,6 @@ tr:first-child td {
 .d3h2 h4 {
   font-style: italic; }
 
-.d1h4 h4 {
+.d1h4 h4, .d2h6 h4 {
   font-style: italic;
   font-weight: 300; }

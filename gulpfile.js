@@ -249,15 +249,15 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<h3><a id="_Hlk496267545"></a></h3>', ''))
           .pipe(replace(']</a>', '</a>'))
 
-          .pipe(replace('<sup>a</sup>', '<sup clas="refNote">a</sup>'))
-          .pipe(replace('<sup>b</sup>', '<sup clas="refNote">b</sup>'))
-          .pipe(replace('<sup>c</sup>', '<sup clas="refNote">c</sup>'))
-          .pipe(replace('<sup>c </sup>', '<sup clas="refNote">c</sup>'))
-          .pipe(replace('<sup>d</sup>', '<sup clas="refNote">d</sup> '))
-          .pipe(replace('<sup>d </sup>', '<sup clas="refNote">d</sup> '))
+          .pipe(replace('<sup>a</sup>', '<sup class="refNote">a</ sup>'))
+          .pipe(replace('<sup>b</sup>', '<sup class="refNote">b</ sup>'))
+          .pipe(replace('<sup>c</sup>', '<sup class="refNote">c</ sup>'))
+          .pipe(replace('<sup>c </sup>', '<sup class="refNote">c</ sup>'))
+          .pipe(replace('<sup>d</sup>', '<sup class="refNote">d</ sup> '))
+          .pipe(replace('<sup>d </sup>', '<sup class="refNote">d</ sup> '))
 
-          .pipe(replace('<sup>6</sup>', '<sup clas="refNote">6</sup> '))
-          .pipe(replace('<sup>II</sup>', '<sup clas="refNote">II</sup> '))
+          .pipe(replace('<sup>6</sup>', '<sup class="refNote">6</ sup> '))
+          .pipe(replace('<sup>II</sup>', '<sup class="refNote">II</ sup> '))
 
 
           .pipe(replace('<sup>*</sup>', '<span class="astrixNote">*</span>'))
@@ -271,6 +271,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<sup> </sup>', ' '))
           .pipe(replace('<sup>', '&nbsp;<span class="noot">'))
           .pipe(replace('</sup>', '</span>'))
+          .pipe(replace('</ sup>', '</sup>'))
           .pipe(replace('@i@', '<div class="inlineImgRow">'))
           .pipe(replace('@/i@', '</div>'))
           .pipe(replace('@q@', '<div class="quote">'))
