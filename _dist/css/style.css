@@ -623,11 +623,13 @@ h1 {
   line-height: 100%;
   color: #2BF6D7;
   font-family: 'Roboto', sans-serif;
-  font-weight: 700; }
+  font-weight: 700;
+  width: 100%;
+  max-width: 1500px; }
 
 @media (min-width: 1000px) {
   h1 {
-    font-size: 5rem; } }
+    font-size: 4rem; } }
 
 .mgFigure {
   display: flex;

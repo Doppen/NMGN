@@ -46,7 +46,7 @@ for (var i = 0; i < elems.length; i++) {
     var hId = elems[i].innerHTML.replace(/ /g,"_");
     hId = hId.replace('<span_class="Bold">','');
     hId = hId.replace('</span>','');
-    console.log(hId);
+    //console.log(hId);
     document.body.innerHTML = document.body.innerHTML.replace('<h2>', '<a id="l'+hId+'"></a><h2 id="'+hId+'" >');
     //document.body.innerHTML = document.body.innerHTML.replace('<h3>', '<a id="l'+hId+'"></a><h3 id="'+hId+'" >');
 }
@@ -114,7 +114,7 @@ function closeNote() {
 
 // remove anchor click
 for (var i = 0; i < classname.length; i++) {
-    console.log(classname[i]); 
+    //console.log(classname[i]); 
     classname[i].querySelector("a").removeAttribute('href');
     classname[i].addEventListener('click', handleNote, false);
 }
@@ -151,7 +151,7 @@ function imageClickOrganiser() {
 
 
 function handleImage(imageId) {
-  console.log(imageId);
+  //console.log(imageId);
   activeImage=imageId;
   // get ID
   var elem = document.getElementById(imageId);
@@ -232,7 +232,7 @@ var imgAndPos = [];
 
 // if being scrollt set the right images
 window.addEventListener("scroll", function (event) {
-  console.log(this.scrollY,getOffsetBottom(document.getElementById('subNavigation')).bottom);
+  //console.log(this.scrollY,getOffsetBottom(document.getElementById('subNavigation')).bottom);
 
 
     var scroll = this.scrollY;
@@ -249,12 +249,12 @@ window.addEventListener("scroll", function (event) {
     }
 
     if (scroll > getOffsetBottom(document.getElementById('subNavigation')).bottom) {
-      console.log('yoyo2');
+
       document.getElementById('mgSiteFixed').style.zIndex = 200;
       document.getElementById('theContent').style.zIndex = '1220 !important';
 
     } else {
-      console.log('no');
+
       document.getElementById('mgSiteFixed').style.zIndex = 0;
       document.getElementById('theContent').style.zIndex = 10;
       theContent

@@ -8,7 +8,7 @@ for (var i = 0; i < elems.length; i++) {
     var hId = elems[i].innerHTML.replace(/ /g,"_");
     hId = hId.replace('<span_class="Bold">','');
     hId = hId.replace('</span>','');
-    console.log(hId);
+    //console.log(hId);
     document.body.innerHTML = document.body.innerHTML.replace('<h2>', '<a id="l'+hId+'"></a><h2 id="'+hId+'" >');
     //document.body.innerHTML = document.body.innerHTML.replace('<h3>', '<a id="l'+hId+'"></a><h3 id="'+hId+'" >');
 }

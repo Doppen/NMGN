@@ -488,6 +488,28 @@ gulp.task('copyRestoreImages3', function(){
 });
 
 
+gulp.task('copyRestoreImages4', function(){
+  return gulp.src('src/restore/170/78_fig.4.12.jpg')
+      .pipe(plumber())
+      .pipe(gulp.dest('./src/images/d2h6/d2h6-170'))
+});
+
+gulp.task('copyRestoreImages5', function(){
+  return gulp.src('src/restore/600/78_fig.4.12.jpg')
+      .pipe(plumber())
+      .pipe(gulp.dest('./src/images/d2h6/d2h6-600'))
+});
+
+gulp.task('copyRestoreImages6', function(){
+  return gulp.src('src/restore/big/78_fig.4.12.jpg')
+      .pipe(plumber())
+      .pipe(gulp.dest('./src/images/d2h6/d2h6-big'))
+});
+
+
+
+
+
 
 gulp.task('buildSearchIndex', function (done) {
   var elasticlunr = require('./src/js/elasticlunr.min.js'),
@@ -545,7 +567,7 @@ done();
 
 
 gulp.task('build',
-  gulp.series('clean', 'copyRestoreImages1', 'copyRestoreImages2', 'copyRestoreImages3', 'nav', 'sass', 'buildFromTemplates', 'copyImg', 'copyJs', 'copyJson', 'copyRestoreFiles', //'buildSearchIndex',
+  gulp.series('clean', 'copyRestoreImages1', 'copyRestoreImages2', 'copyRestoreImages3', 'copyRestoreImages4', 'copyRestoreImages5', 'copyRestoreImages6', 'nav', 'sass', 'buildFromTemplates', 'copyImg', 'copyJs', 'copyJson', 'copyRestoreFiles', //'buildSearchIndex',
   function(done) {
       done();
   }

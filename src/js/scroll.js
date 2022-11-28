@@ -12,7 +12,7 @@ var imgAndPos = [];
 
 // if being scrollt set the right images
 window.addEventListener("scroll", function (event) {
-  console.log(this.scrollY,getOffsetBottom(document.getElementById('subNavigation')).bottom);
+  //console.log(this.scrollY,getOffsetBottom(document.getElementById('subNavigation')).bottom);
 
 
     var scroll = this.scrollY;
@@ -29,12 +29,12 @@ window.addEventListener("scroll", function (event) {
     }
 
     if (scroll > getOffsetBottom(document.getElementById('subNavigation')).bottom) {
-      console.log('yoyo2');
+
       document.getElementById('mgSiteFixed').style.zIndex = 200;
       document.getElementById('theContent').style.zIndex = '1220 !important';
 
     } else {
-      console.log('no');
+
       document.getElementById('mgSiteFixed').style.zIndex = 0;
       document.getElementById('theContent').style.zIndex = 10;
       theContent

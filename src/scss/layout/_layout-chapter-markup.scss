@@ -157,13 +157,15 @@ h1 {
   color: $primColor;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  width: 100%;
+  max-width: 1500px;
 }
 
 @media (min-width: 1000px) {
 
   h1 {
 
-    font-size: 5rem;
+    font-size: 4rem;
 
   }
 }

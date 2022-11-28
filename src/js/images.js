@@ -26,7 +26,7 @@ function imageClickOrganiser() {
 
 
 function handleImage(imageId) {
-  console.log(imageId);
+  //console.log(imageId);
   activeImage=imageId;
   // get ID
   var elem = document.getElementById(imageId);
