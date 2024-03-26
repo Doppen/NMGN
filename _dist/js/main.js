@@ -90,8 +90,10 @@ var loca = document.getElementById("loca").getBoundingClientRect().left;
 var handleNote = function() {
 
     var attribute = this.querySelector("a").getAttribute("id");
+    //console.log(this);
     attribute = attribute.replace("-ref", "");
     var notenumber = attribute.replace("endnote-", "");
+    //console.log(attribute);
     noteContent = document.getElementById(attribute).innerHTML;
     noteContent = noteContent.replace("↑", "");
     document.getElementById("asideNoteNumber").innerHTML= notenumber;
@@ -101,8 +103,8 @@ var handleNote = function() {
     //alert(this.offsetTop);
 
     if (window.matchMedia("(min-width: 1200px)").matches) {
-      console.log(this.getBoundingClientRect().top+window.pageYOffset-20);
-      document.getElementById("showNote").style.top= this.getBoundingClientRect().top+window.pageYOffset-20+'px';
+      //console.log(this.getBoundingClientRect().top+window.scrollY-20);
+      document.getElementById("showNote").style.top= this.getBoundingClientRect().top+window.scrollY-20+'px';
       document.getElementById("showNote").style.left= loca+30+'px';
     }
 };
