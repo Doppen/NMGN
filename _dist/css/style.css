@@ -1054,3 +1054,12 @@ tr:first-child td {
 .d1h4 h4, .d2h6 h4 {
   font-style: italic;
   font-weight: 300; }
+
+
+
+@media (min-width: 1200px) {
+  #t11 {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+  }
