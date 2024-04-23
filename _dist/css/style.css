@@ -1063,3 +1063,23 @@ tr:first-child td {
     margin-right: -2rem;
   }
   }
+
+.tabelKopLinks {
+  text-align: left;
+  display: block;
+  width: 100%;
+  font-weight: 700;
+}
+
+.tabelKopRechts{
+  text-align: right;
+  display: block;
+  width: 100%;
+  font-weight: 700;
+}
+
+.tabelNummersCentreren{
+  text-align: center;
+  display: block;
+  width: 100%;
+}
