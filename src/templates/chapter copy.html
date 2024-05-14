@@ -1,0 +1,76 @@
+{{> html-head}}
+
+{{> access}}
+
+<script type="text/javascript">
+  var imgArr = [******];
+</script>
+
+<!-- notes -->
+<div class="noteAside" id="showNote">
+  <div class="noteHeader">
+    <div class="noteIndex" id="asideNoteNumber"></div>
+    <div class="noteClose"><img src="images/icons/close.svg" class="icon handleCloseNote"></div>
+  </div>
+  <div class="noteContent" id="asideNoteContent">content</div>
+</div>
+
+
+<div class="mgSiteFixed" id="mgSiteFixed">
+  <div class="mgIllustration">
+    {{> page-illustration-new}}
+  </div>
+</div>
+
+
+
+
+<main class="mgSite" id="content">
+
+  <div class="mgHero">
+    <h1>{{title}}</h1>
+  </div>
+  <div class="mgHeroInfo">
+    <div class="mgHeroInfoDeel">
+      <span><strong>Deel {{part}}</strong> <em>{{parttitle}}</em></span>
+      <span>{{aera}}</span>
+    </div>
+    <div class="mgHeroInfoMid"></div>
+    <div class="mgHeroInfoAuteur"><span>Door <strong>{{{author}}}</strong></span></div>
+
+  </div>
+  <div class="mgHeroImg">
+    <div class="mgHeroImgContent"><img src="images/chapterImages/{{image}}" alt="Maritieme cultuur in de middeleeuwen"></div>
+  </div>
+
+  <div class="mgHeaderBg"></div>
+  <div class="mgHeader">
+    {{> page-header-new}}
+  </div>
+
+
+  <div class="mgContentListBg"></div>
+  <div class="mgContentList">
+    <em>Inhoud</em>
+    <nav id="subNavigation"></nav>
+
+  </div>
+  <div class="mgContent">
+    <div class="mgContentTxt" id="theContent">
+      <div class="locaRight" id="loca"> </div>
+      {{> (lookup . 'content') }}
+    </div>
+  </div>
+
+</main>
+
+
+
+
+
+{{> page-zoom}}
+
+{{> page-footer}}
+{{> popNavigation}}
+
+{{> html-foot}}

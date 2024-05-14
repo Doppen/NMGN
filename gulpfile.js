@@ -15,8 +15,8 @@
 // gsjson 1k2EgdCT3iSo_8hGwt_dOQvKwEpBcTIFe4wefljkrb5Q >> content/data.json -b
 
 var gulp = require('gulp');
-var sass = require('gulp-sass');
-var sass = require('gulp-sass')(require('node-sass'))
+//var sass = require('gulp-sass');
+//var sass = require('gulp-sass')(require('node-sass'))
 var plumber = require('gulp-plumber');
 var clean = require('gulp-clean');
 var rename = require('gulp-rename');
@@ -43,7 +43,10 @@ var options = {
 var optionsWord = {
     styleMap: [
         "p[style-name='tabelKop'] => span.tabelKop",
-        "p[style-name='tabelNummers'] => span.tabelNummers"
+        "p[style-name='tabelNummers'] => span.tabelNummers",
+        "p[style-name='TabelKopLinks'] => span.tabelKopLinks",
+        "p[style-name='TabelKopRechts'] => span.tabelKopRechts",
+        "p[style-name='TabelNummersCentreren'] => span.tabelNummersCentreren"
     ]
 };
 
@@ -193,14 +196,14 @@ gulp.task('nav', function(done) {
 gulp.task('BuildIndexFromHTML', function(done) {
   var indexItems = {"items" : siteJson}
 
-  console.log(indexItems );
+  //console.log(indexItems );
 
   gulp.src('./src/templates/createIndexJson.html')
       .pipe(plumber())
       .pipe(handlebars(indexItems, options))
       //.pipe(rename('test.html'))
       .pipe(rename(function (path) {
-        path.basename = "example_data";
+        path.basename = "example_data2";
         path.extname = ".json";
         }))
         //.pipe(replace('"', '\\"'))
@@ -248,6 +251,10 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<a id="_Hlk61816812"></a>', ''))
           .pipe(replace('<h3><a id="_Hlk496267545"></a></h3>', ''))
           .pipe(replace(']</a>', '</a>'))
+
+          .pipe(replace('<sup>1</sup>/<sub>3</sub>', '&frac13;'))
+          .pipe(replace('<sup>1</sup>/<sub>8</sub>', '&frac18;'))
+          .pipe(replace('<strong>]]]</strong>', ']]]'))
 
           .pipe(replace('<sup>a</sup>', '<sup class="refNote">a</ sup>'))
           .pipe(replace('<sup>b</sup>', '<sup class="refNote">b</ sup>'))
@@ -370,6 +377,27 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('De Hunze', '<em>De Hunze</em>'))
           .pipe(replace('de Zuid ', '<em>de Zuid</em> '))
           .pipe(replace('de Noord ', '<em>de Noord</em> '))
+
+          .pipe(replace('<strong>~~<br>~~</strong>', ''))
+          .pipe(replace(']]]@/i@</p>\n<p>@i@[[[', ']]]  [[['))
+
+          .pipe(replace('<sup>1</sup>/<sub>3</sub>', '&frac13;'))
+          .pipe(replace('<sup>1</sup>/<sub>8</sub>', '&frac18;'))
+          .pipe(replace('<sup>3</sup>/<sub>8</sub>', '&frac38;'))
+
+          .pipe(replace('<h2>Voor Nederlandse krijgsgevangenen', '<p>Voor Nederlandse krijgsgevangenen'))
+          .pipe(replace('@i@[[[139-3.44_SchipbreukFokke.jpg]]]@/i@<strong><br /></strong></h2>', '@i@[[[139-3.44_SchipbreukFokke.jpg]]]@/i@<strong><br /></strong></p>'))
+
+
+          .pipe(replace('<h4>', '<h4 style="font-style: italic;">'))
+          .pipe(replace('2<sup class="refNote">a</sup> 2222', '2<sup>a</sup>'))
+          .pipe(replace('<strong><br /></strong>', ''))
+          
+          
+        
+
+
+          
           // .pipe(replace('', ''))
 
 
@@ -415,6 +443,24 @@ gulp.task('buildFromTemplates', function(done) {
               if(typeof firstA2 !== "undefined") {
                 firstA2.remove();
               }
+
+            }
+
+            // remove links in h2
+            var endnotesA = this.getElementsByTagName("a");
+
+            for (var i = 0; i < endnotesA.length; i++) {
+              let href  = endnotesA[i].getAttribute('href');
+              if ( !!href) {
+                if (href.includes("#endnote-")) {
+                  if (!href.includes("-ref")) {
+                    //console.log(href);
+                    endnotesA[i].setAttribute('id', 'endnote-ref-'+href.replace("#endnote-", ''));
+                  }
+                }
+              }
+
+              
 
             }
 
@@ -506,6 +552,18 @@ gulp.task('copyRestoreImages6', function(){
       .pipe(gulp.dest('./src/images/d2h6/d2h6-big'))
 });
 
+gulp.task('placeCss', function(){
+  return gulp.src(['src/css/print.css', 'src/css/style.css'])
+      .pipe(plumber())
+      .pipe(gulp.dest(dst+'css'))
+});
+
+gulp.task('staticPages', function(){
+  return gulp.src(['static/*'])
+      .pipe(plumber())
+      .pipe(gulp.dest(dst))
+});
+
 
 
 
@@ -531,7 +589,7 @@ gulp.task('buildSearchIndex', function (done) {
   elasticlunr.addStopWords(customized_stop_words);
 
 
-  fs.readFile('./example_data.json', function (err, data) {
+  fs.readFile('./example_data2.json', function (err, data) {
     if (err) throw err;
 
     var raw = JSON.parse(data);
@@ -567,7 +625,7 @@ done();
 
 
 gulp.task('build',
-  gulp.series('clean', 'copyRestoreImages1', 'copyRestoreImages2', 'copyRestoreImages3', 'copyRestoreImages4', 'copyRestoreImages5', 'copyRestoreImages6', 'nav', 'sass', 'buildFromTemplates', 'copyImg', 'copyJs', 'copyJson', 'copyRestoreFiles', //'buildSearchIndex',
+  gulp.series('clean', 'copyRestoreImages1', 'copyRestoreImages2', 'copyRestoreImages3', 'copyRestoreImages4', 'copyRestoreImages5', 'copyRestoreImages6', 'nav', 'buildFromTemplates', 'copyImg', 'copyJs', 'copyJson', 'copyRestoreFiles', 'placeCss', //'buildSearchIndex',
   function(done) {
       done();
   }
@@ -647,8 +705,9 @@ function handleImages(newContent, id) {
 function handleNotes(domContent, chapterId) {
 
       for(var l=0; l<notesJson.length; l++) {
-        //console.log(chapterId +' >> '+ notesJson[l].chapter);
+        
         if (chapterId == notesJson[l].chapter) {
+          //console.log(chapterId +' >> '+ notesJson[l].chapter);
           var noteContent;
 
           // notes to long notes

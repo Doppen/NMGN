@@ -4,7 +4,15 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "convHtml": "gulp convHtml",
+    "node img": "node img",
+    "nav": "gulp nav",
+    "get json": "node getj.js",
+    "Index 1": "gulp BuildIndexFromHTML",
+    "Index 2": "gulp buildSearchIndex"
+
+    
   },
   "author": "Bas Doppen",
   "license": "ISC",
@@ -26,6 +34,7 @@
     "gulp-useref": "^3.1.3",
     "gulp-using": "^0.1.1",
     "mammoth": "^1.4.17",
+    "sharp": "^0.33.2",
     "write-file": "^1.0.0"
   }
 }

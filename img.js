@@ -17,7 +17,7 @@ sharp('Slag.jpg')
 
 
 //var imgPath = copyPath.copyDestination.replace("NMGNdocx", "NMGNimages");
-var imgPath = '/Volumes/GoogleDrive/My Drive/NMGN-docs/NMGNimages/'
+var imgPath = '/Users/basdoppen/My Drive/NMGN-docs/NMGNimages/'
 // images
 const inputFolder  = imgPath;
 const outputFolder = './src/images/';

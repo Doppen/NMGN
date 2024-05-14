@@ -116,7 +116,7 @@ function closeNote() {
 
 // remove anchor click
 for (var i = 0; i < classname.length; i++) {
-    //console.log(classname[i]); 
+    console.log(classname[i]); 
     classname[i].querySelector("a").removeAttribute('href');
     classname[i].addEventListener('click', handleNote, false);
 }
