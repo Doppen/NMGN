@@ -22,6 +22,7 @@ for (var i = 0; i < elems.length; i++) {
     var hId = elems[i]//.innerHTML //.replace(/ /g,"_");
 
     var hIdSup = hId.querySelector('span');
+    //console.log(hId);
     if (hIdSup !== null) {
       hId.removeChild(hIdSup);
     }

@@ -251,6 +251,13 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<a id="_Hlk61816812"></a>', ''))
           .pipe(replace('<h3><a id="_Hlk496267545"></a></h3>', ''))
           .pipe(replace(']</a>', '</a>'))
+          .pipe(replace('<strong><sup><br /></sup></strong>', ''))
+          .pipe(replace('m<sup>2</sup>', 'm&#178;'))
+          .pipe(replace('<h2>Bijlage 1: Verbetering vaarwegen (1945-2020).<sup><sup>', '<h2>Bijlage 1: Verbetering vaarwegen (1945-2020).</h2><sup><sup>'))
+          .pipe(replace('[146]</a></sup></sup></h2>', '[146]</a></sup></sup>'))
+
+          .pipe(replace('<h2>Bijlage 2: Overzicht van de voornaamste vaarwegen die voor de binnenvaart werden gesloten.<sup><sup>', '<h2>Bijlage 2: Overzicht van de voornaamste vaarwegen die voor de binnenvaart werden gesloten.</h2><sup><sup>'))
+          .pipe(replace('[147]</a></sup></sup></h2>', '[147]</a></sup></sup>'))
 
           .pipe(replace('<sup>1</sup>/<sub>3</sub>', '&frac13;'))
           .pipe(replace('<sup>1</sup>/<sub>8</sub>', '&frac18;'))
@@ -262,6 +269,10 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<sup>c </sup>', '<sup class="refNote">c</ sup>'))
           .pipe(replace('<sup>d</sup>', '<sup class="refNote">d</ sup> '))
           .pipe(replace('<sup>d </sup>', '<sup class="refNote">d</ sup> '))
+          .pipe(replace('<sup>e</sup>', '&#7497'))
+          .pipe(replace('<sup>e </sup>', '&#7497'))
+
+          
 
           .pipe(replace('<sup>6</sup>', '<sup class="refNote">6</ sup> '))
           .pipe(replace('<sup>II</sup>', '<sup class="refNote">II</ sup> '))
@@ -392,6 +403,28 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<h4>', '<h4 style="font-style: italic;">'))
           .pipe(replace('2<sup class="refNote">a</sup> 2222', '2<sup>a</sup>'))
           .pipe(replace('<strong><br /></strong>', ''))
+          .pipe(replace('[[[14a-10_bevrachtingsboekje1025.jp]]]', '[[[14a-10_bevrachtingsboekje1025.jpg]]]'))
+          .pipe(replace('[[[46-35_hoopopwelvaart.jpeg]]]', '[[[46-35_hoopopwelvaart.jpg]]]'))
+
+          .pipe(replace('[[[30-25a_Maasbracht3118.JPG]]]', '[[[30-25a_Maasbracht3118.jpg]]]'))
+          .pipe(replace('[[[31-25b_Maasbracht3074.JPG]]]', '[[[31-25b_Maasbracht3074.jpg]]]'))
+          .pipe(replace('[[[41-60_BeweegbaarStuurhuis.JPG]]]', '[[[41-60_BeweegbaarStuurhuis.jpg]]]'))
+          .pipe(replace('[[[47b-40b_parlevinkerAlphen.png]]]', '[[[47b-40b_parlevinkerAlphen.jpg]]]'))
+          .pipe(replace('[[[68-27_Jagrie.JPG]]]', '[[[68-27_Jagrie.jpg]]]'))
+          .pipe(replace('[[[74-63_autoschip.JPG]]]', '[[[74-63_autoschip.jpg]]]'))
+          .pipe(replace('[[[75-02_IJsbreker.png]]]', '[[[75-02_IJsbreker.jpg]]]'))
+          .pipe(replace('[[[26-19_BruineVloot.png]]]', '[[[26-19_BruineVloot.jpg]]]'))
+          .pipe(replace('[[[22-40b2_Cornelia.jpg]]]', '[[[22-40b_Cornelia.jpg]]]'))
+          .pipe(replace('[[[57a_FriesemaatkastCatherina.jpg]]]', '[[[57a_FriesemaaatkastCatherina.jpg]]]'))
+          
+          
+          // .pipe(replace('[[[57a_FriesemaatkastCatherina.jpg]]]', '[[[57a_FriesemaaatkastCatherina.jpg]]]'))
+          // .pipe(replace('[[[57a_FriesemaatkastCatherina.jpg]]]', '[[[57a_FriesemaaatkastCatherina.jpg]]]'))
+          // .pipe(replace('[[[57a_FriesemaatkastCatherina.jpg]]]', '[[[57a_FriesemaaatkastCatherina.jpg]]]'))
+
+
+
+          
           
           
         
