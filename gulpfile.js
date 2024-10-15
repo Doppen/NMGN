@@ -256,7 +256,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<h2>Bijlage 1: Verbetering vaarwegen (1945-2020).<sup><sup>', '<h2>Bijlage 1: Verbetering vaarwegen (1945-2020).</h2><sup><sup>'))
           .pipe(replace('[146]</a></sup></sup></h2>', '[146]</a></sup></sup>'))
 
-          .pipe(replace('<h2>Bijlage 2: Overzicht van de voornaamste vaarwegen die voor de binnenvaart werden gesloten.<sup><sup>', '<h2>Bijlage 2: Overzicht van de voornaamste vaarwegen die voor de binnenvaart werden gesloten.</h2><sup><sup>'))
+          .pipe(replace('<h2>Bijlage 2: Overzicht van de voornaamste vaarwegen die voor de binnenvaart werden gesloten.<sup><sup>', '<br><br><h2>Bijlage 2: Overzicht van de voornaamste vaarwegen die voor de binnenvaart werden gesloten.</h2><sup><sup>'))
           .pipe(replace('[147]</a></sup></sup></h2>', '[147]</a></sup></sup>'))
 
           .pipe(replace('<sup>1</sup>/<sub>3</sub>', '&frac13;'))
@@ -416,19 +416,10 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('[[[26-19_BruineVloot.png]]]', '[[[26-19_BruineVloot.jpg]]]'))
           .pipe(replace('[[[22-40b2_Cornelia.jpg]]]', '[[[22-40b_Cornelia.jpg]]]'))
           .pipe(replace('[[[57a_FriesemaatkastCatherina.jpg]]]', '[[[57a_FriesemaaatkastCatherina.jpg]]]'))
-          
-          
-          // .pipe(replace('[[[57a_FriesemaatkastCatherina.jpg]]]', '[[[57a_FriesemaaatkastCatherina.jpg]]]'))
-          // .pipe(replace('[[[57a_FriesemaatkastCatherina.jpg]]]', '[[[57a_FriesemaaatkastCatherina.jpg]]]'))
-          // .pipe(replace('[[[57a_FriesemaatkastCatherina.jpg]]]', '[[[57a_FriesemaaatkastCatherina.jpg]]]'))
-
-
 
           
           
           
-        
-
 
           
           // .pipe(replace('', ''))
