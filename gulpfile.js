@@ -258,6 +258,8 @@ gulp.task('buildFromTemplates', function(done) {
 
           .pipe(replace('<h2>Bijlage 2: Overzicht van de voornaamste vaarwegen die voor de binnenvaart werden gesloten.<sup><sup>', '<br><br><h2>Bijlage 2: Overzicht van de voornaamste vaarwegen die voor de binnenvaart werden gesloten.</h2><sup><sup>'))
           .pipe(replace('[147]</a></sup></sup></h2>', '[147]</a></sup></sup>'))
+          .pipe(replace('gesloten.<sup><sup><a href="#endnote-148" id="endnote-ref-148">[148]</a></sup></sup></h2>', 'gesloten.</h2><sup><sup><a href="#endnote-148" id="endnote-ref-148">[148]</a></sup></sup>'))
+
 
           .pipe(replace('<sup>1</sup>/<sub>3</sub>', '&frac13;'))
           .pipe(replace('<sup>1</sup>/<sub>8</sub>', '&frac18;'))
@@ -271,6 +273,7 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<sup>d </sup>', '<sup class="refNote">d</ sup> '))
           .pipe(replace('<sup>e</sup>', '&#7497'))
           .pipe(replace('<sup>e </sup>', '&#7497'))
+          .pipe(replace('<sup>e  </sup>', '&#7497 '))
 
           
 
@@ -415,14 +418,30 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('[[[75-02_IJsbreker.png]]]', '[[[75-02_IJsbreker.jpg]]]'))
           .pipe(replace('[[[26-19_BruineVloot.png]]]', '[[[26-19_BruineVloot.jpg]]]'))
           .pipe(replace('[[[22-40b2_Cornelia.jpg]]]', '[[[22-40b_Cornelia.jpg]]]'))
-          .pipe(replace('[[[57a_FriesemaatkastCatherina.jpg]]]', '[[[57a_FriesemaaatkastCatherina.jpg]]]'))
 
-          
-          
+          //.pipe(replace('[[[57a_FriesemaatkastCatherina.jpg]]]', '[[[57a_FriesemaaatkastCatherina.jpg]]]'))
+
+          .pipe(replace('[[[45a_Westlanderonderbrug.png]]]', '[[[45a_Westlanderonderbrug.jpg]]]'))
+          .pipe(replace('[[[57-45_0A_kaart1.def.jpg]]]', '[[[57-45-0A-kaart1.def.jpg]]]'))
+          .pipe(replace('[[[57a_FriesemaatkastCatherina.png]]]', '[[[57a_FriesemaatkastCatherina.jpg]]]'))
+          .pipe(replace('<p>1960</p><p>1964</p><p>1964</p>', '<p>1960</p><p><br></p><p>1964</p><p>1964</p>'))
+
+          .pipe(replace('<p>1970</p><p>1970<br />1976</p><p>1979</p><p>1980</p><p>   -</p><p>1982</p><p>1983</p><p>1988</p><p>1990, 1996</p><p>1990/1999</p><p>ca. 1991</p>', '<p>1970</p><br><p>1970<br />1976</p><br><p>1979</p><p>1980</p><p>   -</p><br><p>1982</p><p>1983</p><p>1988</p><p>1990, 1996</p><p>1990/1999</p><br><p>ca. 1991</p>'))
+          .pipe(replace('<strong>Vaarroute</strong></p></td><td><p><strong>Project</strong></p></td><td><p><strong>Jaar</strong>', '<strong>Vaarroute</strong></p></td><td><p><strong>Project</strong></p></td><td style="width:100px;"><p><strong>Jaar</strong>'))
+          .pipe(replace('<p>Gereed 1967</p><p>1960-1968</p><p>Gereed 1975</p><p>Gereed 1977</p>', '<p>Gereed 1967</p><br><p>1960-1968</p><p>Gereed 1975</p><br><p>Gereed 1977</p>'))
+          .pipe(replace('<td><p>1956-1970</p><p>1959-1961</p><p>1964-1970</p><p>1970-1977</p>', '<td><br><p>1956-1970</p><p>1959-1961</p><br><br><p>1964-1970</p><p>1970-1977</p>'))
+          .pipe(replace('<td><p>ca.1957-</p><p>1976</p><p>Jaren 1970</p><p>1983</p><p>ca. 1978-1990</p><p>ca. 1981-1993</p><p>1982-1993</p><p>Gereed 1990</p><p>1986-1992</p><p>ca. 2000</p><p>2003-2010</p><p>2015</p>', '<td><p>ca.1957-</p><p>1976</p><br><p>Jaren 1970</p><p>1983</p><br><p>ca. 1978-1990</p><br><p>ca. 1981-1993</p><br><p>1982-1993</p><p>Gereed 1990</p><br><p>1986-1992</p><p>ca. 2000</p><br><p>2003-2010</p><br><p>2015</p>'))
+          .pipe(replace('Wilhelminakanaal bij Tilburg (klasse IV). </p><p>Vergroting Julianankanaal</p>', 'Wilhelminakanaal bij Tilburg (klasse IV). </p><p>Vergroting Julianankanaal</p><br><br>'))
+          .pipe(replace('<p>1956</p><p>1954-1957</p><p>ca. 1960</p><p>ca. 1960</p><p>1962</p><p>1954-1964</p><p>ca. 1960</p>', 
+                        '<p>1956</p><br><p>1954-1957</p><p>ca. 1960</p><p>ca. 1960</p><p>1962</p><p>1954-1964</p><p>ca. 1960</p>'))
+
+          .pipe(replace('<p>-</p><p>ca. 1984</p><p>1964-1988</p>', '<p>-</p><p>ca. 1984</p><br><p>1964-1988</p>'))
+          .pipe(replace('</td><td><p>1954</p><p>1956</p>', '</td><td style="vertical-align: top"><p>1954</p><p>1956</p>'))
+          .pipe(replace('<p>1951-ca. 1970</p>', '<br><p>1951-ca. 1970</p>'))
+          .pipe(replace('<p>ca. 2003</p><p>In uitvoering</p><p>In uitvoering</p><p>2013</p><p>2014</p><p>Vanaf  2015</p><p>ca. 2020</p>', '<p>ca. 2003</p><br><p>In uitvoering</p><br><p>In uitvoering</p><p>2013</p><br><p>2014</p><p>Vanaf  2015</p><p>ca. 2020</p>'))
+          .pipe(replace('<td><p>Voltooid</p><p>In uitvoering.</p></td>', '<td><br><p>Voltooid</p><br><p>In uitvoering.</p></td>'))
           
 
-          
-          // .pipe(replace('', ''))
 
 
 
