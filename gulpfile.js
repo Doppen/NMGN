@@ -440,11 +440,17 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(replace('<p>1951-ca. 1970</p>', '<br><p>1951-ca. 1970</p>'))
           .pipe(replace('<p>ca. 2003</p><p>In uitvoering</p><p>In uitvoering</p><p>2013</p><p>2014</p><p>Vanaf  2015</p><p>ca. 2020</p>', '<p>ca. 2003</p><br><p>In uitvoering</p><br><p>In uitvoering</p><p>2013</p><br><p>2014</p><p>Vanaf  2015</p><p>ca. 2020</p>'))
           .pipe(replace('<td><p>Voltooid</p><p>In uitvoering.</p></td>', '<td><br><p>Voltooid</p><br><p>In uitvoering.</p></td>'))
-          
+          .pipe(replace('14b-3b_IJsselkoggeA4.jpg', '14b-3b_IJsselkogge.jpg'))
+          .pipe(replace('14a-3a_IJsselkogge.JPG', '14a-3a_IJsselkogge.jpg'))
 
+          .pipe(replace('18a-4-17_scheepjeseenvoudigezeilvoering]]]', '18a-4-17_Scheepjeseenvoudigezeilvoering.jpg]]]'))
 
-
-
+          .pipe(replace('8_Mataró-model.jpg', '8_Mataro-model.jpg'))
+          .pipe(replace('29_Panorama_Köln.jpg', '29_Panorama_Koln.jpg'))
+          .pipe(replace('25_Adolf_van_Bourgondië.jpg', '25_Adolf_van_Bourgondie.jpg'))
+          .pipe(replace('34_Raniero_I_de_Mónaco.jpg', '34_Raniero_I_de_Monaco.jpg'))
+          .pipe(replace('80-2.52a_DekzichtOostIndië.jpg', '80-2.52a_DekzichtOostIndie.jpg'))
+          .pipe(replace('39-52_Wasserbüffel_Eerste.jpg', '39-52_Wasserbuffel_Eerste.jpg'))
 
 
 
@@ -595,6 +601,18 @@ gulp.task('copyRestoreImages6', function(){
       .pipe(gulp.dest('./src/images/d2h6/d2h6-big'))
 });
 
+gulp.task('copyRestoreImages7', function(){
+  return gulp.src('src/restore/170/10-9_Haringbuizen.jpg')
+      .pipe(plumber())
+      .pipe(gulp.dest('./src/images/d1h3/d1h3-170'))
+});
+
+gulp.task('copyRestoreImages8', function(){
+  return gulp.src('src/restore/170/9-18_WalcherseRede.jpg')
+      .pipe(plumber())
+      .pipe(gulp.dest('./src/images/d1h3/d1h3-170'))
+});
+
 gulp.task('placeCss', function(){
   return gulp.src(['src/css/print.css', 'src/css/style.css'])
       .pipe(plumber())
@@ -668,7 +686,7 @@ done();
 
 
 gulp.task('build',
-  gulp.series('clean', 'copyRestoreImages1', 'copyRestoreImages2', 'copyRestoreImages3', 'copyRestoreImages4', 'copyRestoreImages5', 'copyRestoreImages6', 'nav', 'buildFromTemplates', 'copyImg', 'copyJs', 'copyJson', 'copyRestoreFiles', 'placeCss', //'buildSearchIndex',
+  gulp.series('clean', 'copyRestoreImages1', 'copyRestoreImages2', 'copyRestoreImages3', 'copyRestoreImages4', 'copyRestoreImages5', 'copyRestoreImages6', 'copyRestoreImages7', 'copyRestoreImages8', 'nav', 'buildFromTemplates', 'copyImg', 'copyJs', 'copyJson', 'copyRestoreFiles', 'placeCss', //'buildSearchIndex',
   function(done) {
       done();
   }

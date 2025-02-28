@@ -9,6 +9,12 @@ const files = [
   {id:'1Rh6CIMnB9Vs4ot21nZqFSQDMraWf4RLaoXpAM4JvFI4', name:'notes'},
   {id:'1YAFTCWGrWyPjclnV16mR-S0-H2531DpOTfjCdESFSRk', name:'sites'}
 ]
+// https://docs.google.com/spreadsheets/d/15B_aMTtiGuokP1KP6Iu09RNr4X3ZZQyO-Qp1dq8eg7I/gviz/tq?tqx=out:json
+// https://docs.google.com/spreadsheets/d/1Rh6CIMnB9Vs4ot21nZqFSQDMraWf4RLaoXpAM4JvFI4/gviz/tq?tqx=out:json
+// https://docs.google.com/spreadsheets/d/1YAFTCWGrWyPjclnV16mR-S0-H2531DpOTfjCdESFSRk/gviz/tq?tqx=out:json
+
+
+
 
 files.forEach((item) => {
   generateAllFiles(item.id, item.name)
